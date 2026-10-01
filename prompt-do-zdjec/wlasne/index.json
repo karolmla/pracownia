@@ -1,0 +1,121 @@
+{
+ "app": "prompt-do-zdjec",
+ "kind": "own",
+ "version": 1,
+ "items": {
+  "W_muplbbu443a": {
+   "title": "Para",
+   "who": [
+    "woman",
+    "man"
+   ],
+   "w": 864,
+   "h": 1920,
+   "created": "2026-10-01T13:48:55.091Z",
+   "file": "W_muplbbu443a.jpg",
+   "thumb": "mini/W_muplbbu443a.webp"
+  },
+  "W_muplbby3ddj": {
+   "title": "Jesień siedzi",
+   "who": [
+    "woman"
+   ],
+   "w": 1121,
+   "h": 1403,
+   "created": "2026-10-01T13:48:55.231Z",
+   "file": "W_muplbby3ddj.jpg",
+   "thumb": "mini/W_muplbby3ddj.webp"
+  },
+  "W_muplbc0tdq5": {
+   "title": "Urodziny cyfra",
+   "who": [
+    "woman"
+   ],
+   "w": 704,
+   "h": 1524,
+   "created": "2026-10-01T13:48:55.331Z",
+   "file": "W_muplbc0tdq5.jpg",
+   "thumb": "mini/W_muplbc0tdq5.webp"
+  },
+  "W_muplbc6v3kr": {
+   "title": "Jesień liście",
+   "who": [
+    "woman"
+   ],
+   "w": 1533,
+   "h": 2048,
+   "created": "2026-10-01T13:48:55.547Z",
+   "file": "W_muplbc6v3kr.jpg",
+   "thumb": "mini/W_muplbc6v3kr.webp"
+  },
+  "W_muplbcb4928": {
+   "title": "Jesień bele słomy",
+   "who": [
+    "woman"
+   ],
+   "w": 1344,
+   "h": 1808,
+   "created": "2026-10-01T13:48:55.699Z",
+   "file": "W_muplbcb4928.jpg",
+   "thumb": "mini/W_muplbcb4928.webp"
+  },
+  "W_muplbcexmqj": {
+   "title": "Zima twarz",
+   "who": [
+    "woman"
+   ],
+   "w": 1152,
+   "h": 2016,
+   "created": "2026-10-01T13:48:55.837Z",
+   "file": "W_muplbcexmqj.jpg",
+   "thumb": "mini/W_muplbcexmqj.webp"
+  },
+  "W_muplbcjfq8z": {
+   "title": "Jesień bukiet liście",
+   "who": [
+    "girl",
+    "woman"
+   ],
+   "w": 1533,
+   "h": 2048,
+   "created": "2026-10-01T13:48:55.999Z",
+   "file": "W_muplbcjfq8z.jpg",
+   "thumb": "mini/W_muplbcjfq8z.webp"
+  },
+  "W_muplbcma6b8": {
+   "title": "Twarz",
+   "who": [
+    "woman"
+   ],
+   "w": 940,
+   "h": 1672,
+   "created": "2026-10-01T13:48:56.101Z",
+   "file": "W_muplbcma6b8.jpg",
+   "thumb": "mini/W_muplbcma6b8.webp"
+  },
+  "W_muplbcqsxh1": {
+   "title": "Jesień liść",
+   "who": [
+    "woman",
+    "girl"
+   ],
+   "w": 1533,
+   "h": 2048,
+   "created": "2026-10-01T13:48:56.264Z",
+   "file": "W_muplbcqsxh1.jpg",
+   "thumb": "mini/W_muplbcqsxh1.webp"
+  },
+  "W_muplbcv9i6i": {
+   "title": "Twarz",
+   "who": [
+    "woman"
+   ],
+   "w": 1184,
+   "h": 2048,
+   "created": "2026-10-01T13:48:56.424Z",
+   "file": "W_muplbcv9i6i.jpg",
+   "thumb": "mini/W_muplbcv9i6i.webp"
+  }
+ },
+ "updated": "2026-10-01T13:55:56.823Z"
+}
