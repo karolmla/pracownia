@@ -1,0 +1,11 @@
+PRZYKŁADY DO „GENERATORA OBRAZÓW”
+
+Te pliki pokazują, co robi każdy prompt (fikcyjne osoby, wartości przykładowe).
+
+Jak udostępnić je na GitHubie (raz):
+1. Rozpakuj ten ZIP.
+2. W repozytorium otwórz folder prompt-do-zdjec/przyklady (albo inny — wtedy zmień adres w Ustawieniach aplikacji).
+3. Wgraj CAŁĄ zawartość: index.json, pliki .jpg, folder mini i folder zdjecia (GitHub: Add file → Upload files, przeciągnij pliki i foldery).
+4. Zatwierdź (Commit changes). Aplikacja wczyta przykłady przez jsDelivr; nowe pliki mogą pojawić się z opóźnieniem (pamięć CDN).
+
+Kolejny eksport zawiera wszystkie przykłady — wspólne z GitHuba i nowe z tego urządzenia — więc wystarczy podmienić całą zawartość folderu.

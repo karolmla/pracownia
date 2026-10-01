@@ -1,0 +1,7657 @@
+{
+ "app": "prompt-do-zdjec",
+ "kind": "examples",
+ "version": 2,
+ "created": "2026-10-01T11:10:13.493Z",
+ "examples": {
+  "P001:O": {
+   "id": "ex_mupckvl46u8f4",
+   "presetId": "P001",
+   "mode": "O",
+   "model": "gemini-3.1-flash-image",
+   "modelName": "Nano Banana 2",
+   "created": "2026-10-01T09:44:24.040Z",
+   "w": 1264,
+   "h": 848,
+   "samples": [],
+   "photos": [
+    "kid"
+   ],
+   "file": "P001_O.jpg",
+   "thumb": "mini/P001_O.webp"
+  },
+  "P002:O": {
+   "id": "ex_mupcl2rr5bl58",
+   "presetId": "P002",
+   "mode": "O",
+   "model": "gemini-3.1-flash-image",
+   "modelName": "Nano Banana 2",
+   "created": "2026-10-01T09:44:33.351Z",
+   "w": 1264,
+   "h": 848,
+   "samples": [],
+   "photos": [
+    "kid"
+   ],
+   "file": "P002_O.jpg",
+   "thumb": "mini/P002_O.webp"
+  },
+  "P003:O": {
+   "id": "ex_mupclb0fxwnj5",
+   "presetId": "P003",
+   "mode": "O",
+   "model": "gemini-3.1-flash-image",
+   "modelName": "Nano Banana 2",
+   "created": "2026-10-01T09:44:44.031Z",
+   "w": 1264,
+   "h": 848,
+   "samples": [
+    "Materiał: len"
+   ],
+   "photos": [
+    "kid"
+   ],
+   "file": "P003_O.jpg",
+   "thumb": "mini/P003_O.webp"
+  },
+  "P004:O": {
+   "id": "ex_mupclis6rh411",
+   "presetId": "P004",
+   "mode": "O",
+   "model": "gemini-3.1-flash-image",
+   "modelName": "Nano Banana 2",
+   "created": "2026-10-01T09:44:54.102Z",
+   "w": 1264,
+   "h": 848,
+   "samples": [
+    "Rekwizyty: książki"
+   ],
+   "photos": [
+    "kid"
+   ],
+   "file": "P004_O.jpg",
+   "thumb": "mini/P004_O.webp"
+  },
+  "P005:O": {
+   "id": "ex_mupclpx48wjsm",
+   "presetId": "P005",
+   "mode": "O",
+   "model": "gemini-3.1-flash-image",
+   "modelName": "Nano Banana 2",
+   "created": "2026-10-01T09:45:03.352Z",
+   "w": 1264,
+   "h": 848,
+   "samples": [
+    "Kolor akcentu: terakota"
+   ],
+   "photos": [
+    "kid"
+   ],
+   "file": "P005_O.jpg",
+   "thumb": "mini/P005_O.webp"
+  },
+  "P101:O": {
+   "id": "ex_mupclxg7ejfip",
+   "presetId": "P101",
+   "mode": "O",
+   "model": "gemini-3.1-flash-image",
+   "modelName": "Nano Banana 2",
+   "created": "2026-10-01T09:45:13.111Z",
+   "w": 1264,
+   "h": 848,
+   "samples": [],
+   "photos": [
+    "kid"
+   ],
+   "file": "P101_O.jpg",
+   "thumb": "mini/P101_O.webp"
+  },
+  "P102:O": {
+   "id": "ex_mupcm670zncmj",
+   "presetId": "P102",
+   "mode": "O",
+   "model": "gemini-3.1-flash-image",
+   "modelName": "Nano Banana 2",
+   "created": "2026-10-01T09:45:24.444Z",
+   "w": 1264,
+   "h": 848,
+   "samples": [],
+   "photos": [
+    "kid"
+   ],
+   "file": "P102_O.jpg",
+   "thumb": "mini/P102_O.webp"
+  },
+  "P103:O": {
+   "id": "ex_mupcmvvgc3ei8",
+   "presetId": "P103",
+   "mode": "O",
+   "model": "gemini-3.1-flash-image",
+   "modelName": "Nano Banana 2",
+   "created": "2026-10-01T09:45:57.724Z",
+   "w": 1264,
+   "h": 848,
+   "samples": [],
+   "photos": [
+    "kid",
+    "duo",
+    "baby"
+   ],
+   "file": "P103_O.jpg",
+   "thumb": "mini/P103_O.webp"
+  },
+  "P104:O": {
+   "id": "ex_mupcn5phao435",
+   "presetId": "P104",
+   "mode": "O",
+   "model": "gemini-3.1-flash-image",
+   "modelName": "Nano Banana 2",
+   "created": "2026-10-01T09:46:10.469Z",
+   "w": 1264,
+   "h": 848,
+   "samples": [],
+   "photos": [
+    "kid"
+   ],
+   "file": "P104_O.jpg",
+   "thumb": "mini/P104_O.webp"
+  },
+  "P105:O": {
+   "id": "ex_mupcndhryrx03",
+   "presetId": "P105",
+   "mode": "O",
+   "model": "gemini-3.1-flash-image",
+   "modelName": "Nano Banana 2",
+   "created": "2026-10-01T09:46:20.560Z",
+   "w": 1264,
+   "h": 848,
+   "samples": [],
+   "photos": [
+    "kid"
+   ],
+   "file": "P105_O.jpg",
+   "thumb": "mini/P105_O.webp"
+  },
+  "P006:O": {
+   "id": "ex_mupcnlir4m2wv",
+   "presetId": "P006",
+   "mode": "O",
+   "model": "gemini-3.1-flash-image",
+   "modelName": "Nano Banana 2",
+   "created": "2026-10-01T09:46:30.963Z",
+   "w": 1264,
+   "h": 848,
+   "samples": [],
+   "photos": [
+    "duo"
+   ],
+   "file": "P006_O.jpg",
+   "thumb": "mini/P006_O.webp"
+  },
+  "P007:O": {
+   "id": "ex_mupcntdp0p5m2",
+   "presetId": "P007",
+   "mode": "O",
+   "model": "gemini-3.1-flash-image",
+   "modelName": "Nano Banana 2",
+   "created": "2026-10-01T09:46:41.149Z",
+   "w": 1264,
+   "h": 848,
+   "samples": [
+    "Dodatki: kosz piknikowy"
+   ],
+   "photos": [
+    "duo"
+   ],
+   "file": "P007_O.jpg",
+   "thumb": "mini/P007_O.webp"
+  },
+  "P008:O": {
+   "id": "ex_mupcnzibc8wmw",
+   "presetId": "P008",
+   "mode": "O",
+   "model": "gemini-3.1-flash-image",
+   "modelName": "Nano Banana 2",
+   "created": "2026-10-01T09:46:49.091Z",
+   "w": 1264,
+   "h": 848,
+   "samples": [],
+   "photos": [
+    "duo"
+   ],
+   "file": "P008_O.jpg",
+   "thumb": "mini/P008_O.webp"
+  },
+  "P009:O": {
+   "id": "ex_mupco61rmaeud",
+   "presetId": "P009",
+   "mode": "O",
+   "model": "gemini-3.1-flash-image",
+   "modelName": "Nano Banana 2",
+   "created": "2026-10-01T09:46:57.567Z",
+   "w": 1264,
+   "h": 848,
+   "samples": [
+    "Wspólna pasja: muzyka"
+   ],
+   "photos": [
+    "duo"
+   ],
+   "file": "P009_O.jpg",
+   "thumb": "mini/P009_O.webp"
+  },
+  "P010:O": {
+   "id": "ex_mupcodnzgqwwb",
+   "presetId": "P010",
+   "mode": "O",
+   "model": "gemini-3.1-flash-image",
+   "modelName": "Nano Banana 2",
+   "created": "2026-10-01T09:47:07.439Z",
+   "w": 1264,
+   "h": 848,
+   "samples": [
+    "Aktywność: wspólne czytanie"
+   ],
+   "photos": [
+    "duo"
+   ],
+   "file": "P010_O.jpg",
+   "thumb": "mini/P010_O.webp"
+  },
+  "P106:O": {
+   "id": "ex_mupcom91lwx4f",
+   "presetId": "P106",
+   "mode": "O",
+   "model": "gemini-3.1-flash-image",
+   "modelName": "Nano Banana 2",
+   "created": "2026-10-01T09:47:18.565Z",
+   "w": 1264,
+   "h": 848,
+   "samples": [],
+   "photos": [
+    "duo"
+   ],
+   "file": "P106_O.jpg",
+   "thumb": "mini/P106_O.webp"
+  },
+  "P107:O": {
+   "id": "ex_mupcovf025i2h",
+   "presetId": "P107",
+   "mode": "O",
+   "model": "gemini-3.1-flash-image",
+   "modelName": "Nano Banana 2",
+   "created": "2026-10-01T09:47:30.444Z",
+   "w": 1264,
+   "h": 848,
+   "samples": [],
+   "photos": [
+    "duo"
+   ],
+   "file": "P107_O.jpg",
+   "thumb": "mini/P107_O.webp"
+  },
+  "P108:O": {
+   "id": "ex_mupcp2sv78jox",
+   "presetId": "P108",
+   "mode": "O",
+   "model": "gemini-3.1-flash-image",
+   "modelName": "Nano Banana 2",
+   "created": "2026-10-01T09:47:40.015Z",
+   "w": 1264,
+   "h": 848,
+   "samples": [],
+   "photos": [
+    "duo"
+   ],
+   "file": "P108_O.jpg",
+   "thumb": "mini/P108_O.webp"
+  },
+  "P109:O": {
+   "id": "ex_mupcpc0yfwq2a",
+   "presetId": "P109",
+   "mode": "O",
+   "model": "gemini-3.1-flash-image",
+   "modelName": "Nano Banana 2",
+   "created": "2026-10-01T09:47:51.970Z",
+   "w": 1264,
+   "h": 848,
+   "samples": [],
+   "photos": [
+    "duo"
+   ],
+   "file": "P109_O.jpg",
+   "thumb": "mini/P109_O.webp"
+  },
+  "P110:O": {
+   "id": "ex_mupcpj1kvhh4s",
+   "presetId": "P110",
+   "mode": "O",
+   "model": "gemini-3.1-flash-image",
+   "modelName": "Nano Banana 2",
+   "created": "2026-10-01T09:48:01.064Z",
+   "w": 1264,
+   "h": 848,
+   "samples": [],
+   "photos": [
+    "duo",
+    "kid"
+   ],
+   "file": "P110_O.jpg",
+   "thumb": "mini/P110_O.webp"
+  },
+  "P011:O": {
+   "id": "ex_mupcprz8v65d9",
+   "presetId": "P011",
+   "mode": "O",
+   "model": "gemini-3.1-flash-image",
+   "modelName": "Nano Banana 2",
+   "created": "2026-10-01T09:48:12.644Z",
+   "w": 1264,
+   "h": 848,
+   "samples": [
+    "Temat książek: bajki"
+   ],
+   "photos": [
+    "kid"
+   ],
+   "file": "P011_O.jpg",
+   "thumb": "mini/P011_O.webp"
+  },
+  "P012:O": {
+   "id": "ex_mupcq0d9nozg5",
+   "presetId": "P012",
+   "mode": "O",
+   "model": "gemini-3.1-flash-image",
+   "modelName": "Nano Banana 2",
+   "created": "2026-10-01T09:48:23.517Z",
+   "w": 1264,
+   "h": 848,
+   "samples": [
+    "Temat odkrywania: owady"
+   ],
+   "photos": [
+    "kid"
+   ],
+   "file": "P012_O.jpg",
+   "thumb": "mini/P012_O.webp"
+  },
+  "P013:O": {
+   "id": "ex_mupcq8f900guk",
+   "presetId": "P013",
+   "mode": "O",
+   "model": "gemini-3.1-flash-image",
+   "modelName": "Nano Banana 2",
+   "created": "2026-10-01T09:48:33.957Z",
+   "w": 1264,
+   "h": 848,
+   "samples": [
+    "Kwiaty: polne kwiaty",
+    "Kolory doniczek: terakota"
+   ],
+   "photos": [
+    "kid"
+   ],
+   "file": "P013_O.jpg",
+   "thumb": "mini/P013_O.webp"
+  },
+  "P014:O": {
+   "id": "ex_mupcqfexrddn9",
+   "presetId": "P014",
+   "mode": "O",
+   "model": "gemini-3.1-flash-image",
+   "modelName": "Nano Banana 2",
+   "created": "2026-10-01T09:48:43.017Z",
+   "w": 1264,
+   "h": 848,
+   "samples": [
+    "Paleta tkanin: kremowa"
+   ],
+   "photos": [
+    "kid"
+   ],
+   "file": "P014_O.jpg",
+   "thumb": "mini/P014_O.webp"
+  },
+  "P015:O": {
+   "id": "ex_mupcqluut3ean",
+   "presetId": "P015",
+   "mode": "O",
+   "model": "gemini-3.1-flash-image",
+   "modelName": "Nano Banana 2",
+   "created": "2026-10-01T09:48:51.366Z",
+   "w": 1264,
+   "h": 848,
+   "samples": [
+    "Temat budowli: zamek"
+   ],
+   "photos": [
+    "kid"
+   ],
+   "file": "P015_O.jpg",
+   "thumb": "mini/P015_O.webp"
+  },
+  "P111:O": {
+   "id": "ex_mupcqtx4kmc2i",
+   "presetId": "P111",
+   "mode": "O",
+   "model": "gemini-3.1-flash-image",
+   "modelName": "Nano Banana 2",
+   "created": "2026-10-01T09:49:01.816Z",
+   "w": 1264,
+   "h": 848,
+   "samples": [],
+   "photos": [
+    "kid"
+   ],
+   "file": "P111_O.jpg",
+   "thumb": "mini/P111_O.webp"
+  },
+  "P112:O": {
+   "id": "ex_mupcr2490wjfj",
+   "presetId": "P112",
+   "mode": "O",
+   "model": "gemini-3.1-flash-image",
+   "modelName": "Nano Banana 2",
+   "created": "2026-10-01T09:49:12.441Z",
+   "w": 1264,
+   "h": 848,
+   "samples": [],
+   "photos": [
+    "kid"
+   ],
+   "file": "P112_O.jpg",
+   "thumb": "mini/P112_O.webp"
+  },
+  "P113:O": {
+   "id": "ex_mupcr9l8aspts",
+   "presetId": "P113",
+   "mode": "O",
+   "model": "gemini-3.1-flash-image",
+   "modelName": "Nano Banana 2",
+   "created": "2026-10-01T09:49:22.124Z",
+   "w": 1264,
+   "h": 848,
+   "samples": [],
+   "photos": [
+    "kid"
+   ],
+   "file": "P113_O.jpg",
+   "thumb": "mini/P113_O.webp"
+  },
+  "P114:O": {
+   "id": "ex_mupcrulpl13ht",
+   "presetId": "P114",
+   "mode": "O",
+   "model": "gemini-3.1-flash-image",
+   "modelName": "Nano Banana 2",
+   "created": "2026-10-01T09:49:49.357Z",
+   "w": 1264,
+   "h": 848,
+   "samples": [],
+   "photos": [
+    "kid",
+    "obj_P114"
+   ],
+   "file": "P114_O.jpg",
+   "thumb": "mini/P114_O.webp"
+  },
+  "P115:O": {
+   "id": "ex_mupcscpaefj37",
+   "presetId": "P115",
+   "mode": "O",
+   "model": "gemini-3.1-flash-image",
+   "modelName": "Nano Banana 2",
+   "created": "2026-10-01T09:50:12.814Z",
+   "w": 1264,
+   "h": 848,
+   "samples": [],
+   "photos": [
+    "kid",
+    "obj_P115"
+   ],
+   "file": "P115_O.jpg",
+   "thumb": "mini/P115_O.webp"
+  },
+  "P016:O": {
+   "id": "ex_mupcskxl8sew7",
+   "presetId": "P016",
+   "mode": "O",
+   "model": "gemini-3.1-flash-image",
+   "modelName": "Nano Banana 2",
+   "created": "2026-10-01T09:50:23.481Z",
+   "w": 1264,
+   "h": 848,
+   "samples": [],
+   "photos": [
+    "kid"
+   ],
+   "file": "P016_O.jpg",
+   "thumb": "mini/P016_O.webp"
+  },
+  "P017:O": {
+   "id": "ex_mupcssxut8mz8",
+   "presetId": "P017",
+   "mode": "O",
+   "model": "gemini-3.1-flash-image",
+   "modelName": "Nano Banana 2",
+   "created": "2026-10-01T09:50:33.858Z",
+   "w": 1264,
+   "h": 848,
+   "samples": [],
+   "photos": [
+    "kid"
+   ],
+   "file": "P017_O.jpg",
+   "thumb": "mini/P017_O.webp"
+  },
+  "P018:O": {
+   "id": "ex_mupct0l5yh2o4",
+   "presetId": "P018",
+   "mode": "O",
+   "model": "gemini-3.1-flash-image",
+   "modelName": "Nano Banana 2",
+   "created": "2026-10-01T09:50:43.769Z",
+   "w": 1264,
+   "h": 848,
+   "samples": [
+    "Dinozaury: tyranozaur i triceratops"
+   ],
+   "photos": [
+    "kid"
+   ],
+   "file": "P018_O.jpg",
+   "thumb": "mini/P018_O.webp"
+  },
+  "P019:O": {
+   "id": "ex_mupct7m7dcndf",
+   "presetId": "P019",
+   "mode": "O",
+   "model": "gemini-3.1-flash-image",
+   "modelName": "Nano Banana 2",
+   "created": "2026-10-01T09:50:52.879Z",
+   "w": 1264,
+   "h": 848,
+   "samples": [],
+   "photos": [
+    "kid"
+   ],
+   "file": "P019_O.jpg",
+   "thumb": "mini/P019_O.webp"
+  },
+  "P020:O": {
+   "id": "ex_mupctfncdmqlq",
+   "presetId": "P020",
+   "mode": "O",
+   "model": "gemini-3.1-flash-image",
+   "modelName": "Nano Banana 2",
+   "created": "2026-10-01T09:51:03.288Z",
+   "w": 1264,
+   "h": 848,
+   "samples": [
+    "Rodzaj tortu: piętrowy biały"
+   ],
+   "photos": [
+    "kid"
+   ],
+   "file": "P020_O.jpg",
+   "thumb": "mini/P020_O.webp"
+  },
+  "P116:O": {
+   "id": "ex_mupctmxmigglr",
+   "presetId": "P116",
+   "mode": "O",
+   "model": "gemini-3.1-flash-image",
+   "modelName": "Nano Banana 2",
+   "created": "2026-10-01T09:51:12.730Z",
+   "w": 1264,
+   "h": 848,
+   "samples": [],
+   "photos": [
+    "kid"
+   ],
+   "file": "P116_O.jpg",
+   "thumb": "mini/P116_O.webp"
+  },
+  "P117:O": {
+   "id": "ex_mupctui05bage",
+   "presetId": "P117",
+   "mode": "O",
+   "model": "gemini-3.1-flash-image",
+   "modelName": "Nano Banana 2",
+   "created": "2026-10-01T09:51:22.536Z",
+   "w": 1264,
+   "h": 848,
+   "samples": [],
+   "photos": [
+    "kid"
+   ],
+   "file": "P117_O.jpg",
+   "thumb": "mini/P117_O.webp"
+  },
+  "P118:O": {
+   "id": "ex_mupcu2lt3m88b",
+   "presetId": "P118",
+   "mode": "O",
+   "model": "gemini-3.1-flash-image",
+   "modelName": "Nano Banana 2",
+   "created": "2026-10-01T09:51:33.041Z",
+   "w": 1264,
+   "h": 848,
+   "samples": [],
+   "photos": [
+    "kid"
+   ],
+   "file": "P118_O.jpg",
+   "thumb": "mini/P118_O.webp"
+  },
+  "P119:O": {
+   "id": "ex_mupcu9tvy9qbb",
+   "presetId": "P119",
+   "mode": "O",
+   "model": "gemini-3.1-flash-image",
+   "modelName": "Nano Banana 2",
+   "created": "2026-10-01T09:51:42.403Z",
+   "w": 1264,
+   "h": 848,
+   "samples": [],
+   "photos": [
+    "kid"
+   ],
+   "file": "P119_O.jpg",
+   "thumb": "mini/P119_O.webp"
+  },
+  "P120:O": {
+   "id": "ex_mupcuhdymefeb",
+   "presetId": "P120",
+   "mode": "O",
+   "model": "gemini-3.1-flash-image",
+   "modelName": "Nano Banana 2",
+   "created": "2026-10-01T09:51:52.198Z",
+   "w": 1264,
+   "h": 848,
+   "samples": [],
+   "photos": [
+    "kid"
+   ],
+   "file": "P120_O.jpg",
+   "thumb": "mini/P120_O.webp"
+  },
+  "P021:O": {
+   "id": "ex_mupcuoc9xvrsr",
+   "presetId": "P021",
+   "mode": "O",
+   "model": "gemini-3.1-flash-image",
+   "modelName": "Nano Banana 2",
+   "created": "2026-10-01T09:52:01.209Z",
+   "w": 1264,
+   "h": 848,
+   "samples": [
+    "Kolor kocyka: kremowy"
+   ],
+   "photos": [
+    "baby"
+   ],
+   "file": "P021_O.jpg",
+   "thumb": "mini/P021_O.webp"
+  },
+  "P022:O": {
+   "id": "ex_mupcuvkqkwwtt",
+   "presetId": "P022",
+   "mode": "O",
+   "model": "gemini-3.1-flash-image",
+   "modelName": "Nano Banana 2",
+   "created": "2026-10-01T09:52:10.586Z",
+   "w": 1264,
+   "h": 848,
+   "samples": [],
+   "photos": [
+    "baby"
+   ],
+   "file": "P022_O.jpg",
+   "thumb": "mini/P022_O.webp"
+  },
+  "P023:O": {
+   "id": "ex_mupcv3dai1e20",
+   "presetId": "P023",
+   "mode": "O",
+   "model": "gemini-3.1-flash-image",
+   "modelName": "Nano Banana 2",
+   "created": "2026-10-01T09:52:20.686Z",
+   "w": 1264,
+   "h": 848,
+   "samples": [
+    "Dodatkowe dekoracje: księżyc"
+   ],
+   "photos": [
+    "baby"
+   ],
+   "file": "P023_O.jpg",
+   "thumb": "mini/P023_O.webp"
+  },
+  "P024:O": {
+   "id": "ex_mupcvbbxkf47s",
+   "presetId": "P024",
+   "mode": "O",
+   "model": "gemini-3.1-flash-image",
+   "modelName": "Nano Banana 2",
+   "created": "2026-10-01T09:52:31.005Z",
+   "w": 1264,
+   "h": 848,
+   "samples": [],
+   "photos": [
+    "baby"
+   ],
+   "file": "P024_O.jpg",
+   "thumb": "mini/P024_O.webp"
+  },
+  "P025:O": {
+   "id": "ex_mupcviis3tg1w",
+   "presetId": "P025",
+   "mode": "O",
+   "model": "gemini-3.1-flash-image",
+   "modelName": "Nano Banana 2",
+   "created": "2026-10-01T09:52:40.324Z",
+   "w": 1264,
+   "h": 848,
+   "samples": [
+    "Motyw przyjęcia: balony"
+   ],
+   "photos": [
+    "baby"
+   ],
+   "file": "P025_O.jpg",
+   "thumb": "mini/P025_O.webp"
+  },
+  "P121:O": {
+   "id": "ex_mupcvr28ssc6m",
+   "presetId": "P121",
+   "mode": "O",
+   "model": "gemini-3.1-flash-image",
+   "modelName": "Nano Banana 2",
+   "created": "2026-10-01T09:52:51.392Z",
+   "w": 1264,
+   "h": 848,
+   "samples": [],
+   "photos": [
+    "baby"
+   ],
+   "file": "P121_O.jpg",
+   "thumb": "mini/P121_O.webp"
+  },
+  "P122:O": {
+   "id": "ex_mupcvy3iop6d4",
+   "presetId": "P122",
+   "mode": "O",
+   "model": "gemini-3.1-flash-image",
+   "modelName": "Nano Banana 2",
+   "created": "2026-10-01T09:53:00.510Z",
+   "w": 1264,
+   "h": 848,
+   "samples": [],
+   "photos": [
+    "baby"
+   ],
+   "file": "P122_O.jpg",
+   "thumb": "mini/P122_O.webp"
+  },
+  "P123:O": {
+   "id": "ex_mupcw5vdhs9q5",
+   "presetId": "P123",
+   "mode": "O",
+   "model": "gemini-3.1-flash-image",
+   "modelName": "Nano Banana 2",
+   "created": "2026-10-01T09:53:10.585Z",
+   "w": 1264,
+   "h": 848,
+   "samples": [],
+   "photos": [
+    "baby"
+   ],
+   "file": "P123_O.jpg",
+   "thumb": "mini/P123_O.webp"
+  },
+  "P124:O": {
+   "id": "ex_mupcwe2wvoseh",
+   "presetId": "P124",
+   "mode": "O",
+   "model": "gemini-3.1-flash-image",
+   "modelName": "Nano Banana 2",
+   "created": "2026-10-01T09:53:21.224Z",
+   "w": 1264,
+   "h": 848,
+   "samples": [],
+   "photos": [
+    "baby"
+   ],
+   "file": "P124_O.jpg",
+   "thumb": "mini/P124_O.webp"
+  },
+  "P125:O": {
+   "id": "ex_mupcwlvg2evpu",
+   "presetId": "P125",
+   "mode": "O",
+   "model": "gemini-3.1-flash-image",
+   "modelName": "Nano Banana 2",
+   "created": "2026-10-01T09:53:31.324Z",
+   "w": 848,
+   "h": 1264,
+   "samples": [],
+   "photos": [
+    "baby",
+    "kid",
+    "duo"
+   ],
+   "file": "P125_O.jpg",
+   "thumb": "mini/P125_O.webp"
+  },
+  "P026:O": {
+   "id": "ex_mupcwtkgx5da3",
+   "presetId": "P026",
+   "mode": "O",
+   "model": "gemini-3.1-flash-image",
+   "modelName": "Nano Banana 2",
+   "created": "2026-10-01T09:53:41.296Z",
+   "w": 1264,
+   "h": 848,
+   "samples": [
+    "Kolor poświaty: złota"
+   ],
+   "photos": [
+    "kid"
+   ],
+   "file": "P026_O.jpg",
+   "thumb": "mini/P026_O.webp"
+  },
+  "P027:O": {
+   "id": "ex_mupcx1yierjf4",
+   "presetId": "P027",
+   "mode": "O",
+   "model": "gemini-3.1-flash-image",
+   "modelName": "Nano Banana 2",
+   "created": "2026-10-01T09:53:52.170Z",
+   "w": 1264,
+   "h": 848,
+   "samples": [],
+   "photos": [
+    "kid"
+   ],
+   "file": "P027_O.jpg",
+   "thumb": "mini/P027_O.webp"
+  },
+  "P028:O": {
+   "id": "ex_mupcx9kpnjqny",
+   "presetId": "P028",
+   "mode": "O",
+   "model": "gemini-3.1-flash-image",
+   "modelName": "Nano Banana 2",
+   "created": "2026-10-01T09:54:02.041Z",
+   "w": 1264,
+   "h": 848,
+   "samples": [
+    "Kolor smoka: zielony",
+    "Krajobraz: góry"
+   ],
+   "photos": [
+    "kid"
+   ],
+   "file": "P028_O.jpg",
+   "thumb": "mini/P028_O.webp"
+  },
+  "P029:O": {
+   "id": "ex_mupcxhskbwmru",
+   "presetId": "P029",
+   "mode": "O",
+   "model": "gemini-3.1-flash-image",
+   "modelName": "Nano Banana 2",
+   "created": "2026-10-01T09:54:12.692Z",
+   "w": 1264,
+   "h": 848,
+   "samples": [
+    "Rośliny: paprocie",
+    "Stworzenia: rybki"
+   ],
+   "photos": [
+    "kid"
+   ],
+   "file": "P029_O.jpg",
+   "thumb": "mini/P029_O.webp"
+  },
+  "P030:O": {
+   "id": "ex_mupcxpd9mrydj",
+   "presetId": "P030",
+   "mode": "O",
+   "model": "gemini-3.1-flash-image",
+   "modelName": "Nano Banana 2",
+   "created": "2026-10-01T09:54:22.509Z",
+   "w": 1264,
+   "h": 848,
+   "samples": [],
+   "photos": [
+    "kid"
+   ],
+   "file": "P030_O.jpg",
+   "thumb": "mini/P030_O.webp"
+  },
+  "P126:O": {
+   "id": "ex_mupcxw8zrfkxp",
+   "presetId": "P126",
+   "mode": "O",
+   "model": "gemini-3.1-flash-image",
+   "modelName": "Nano Banana 2",
+   "created": "2026-10-01T09:54:31.427Z",
+   "w": 1264,
+   "h": 848,
+   "samples": [],
+   "photos": [
+    "kid"
+   ],
+   "file": "P126_O.jpg",
+   "thumb": "mini/P126_O.webp"
+  },
+  "P127:O": {
+   "id": "ex_mupcy4h19ptrk",
+   "presetId": "P127",
+   "mode": "O",
+   "model": "gemini-3.1-flash-image",
+   "modelName": "Nano Banana 2",
+   "created": "2026-10-01T09:54:42.085Z",
+   "w": 1264,
+   "h": 848,
+   "samples": [],
+   "photos": [
+    "kid"
+   ],
+   "file": "P127_O.jpg",
+   "thumb": "mini/P127_O.webp"
+  },
+  "P128:O": {
+   "id": "ex_mupcybz1cuukj",
+   "presetId": "P128",
+   "mode": "O",
+   "model": "gemini-3.1-flash-image",
+   "modelName": "Nano Banana 2",
+   "created": "2026-10-01T09:54:51.805Z",
+   "w": 1264,
+   "h": 848,
+   "samples": [],
+   "photos": [
+    "kid"
+   ],
+   "file": "P128_O.jpg",
+   "thumb": "mini/P128_O.webp"
+  },
+  "P129:O": {
+   "id": "ex_mupcykap6he87",
+   "presetId": "P129",
+   "mode": "O",
+   "model": "gemini-3.1-flash-image",
+   "modelName": "Nano Banana 2",
+   "created": "2026-10-01T09:55:02.593Z",
+   "w": 1264,
+   "h": 848,
+   "samples": [],
+   "photos": [
+    "kid"
+   ],
+   "file": "P129_O.jpg",
+   "thumb": "mini/P129_O.webp"
+  },
+  "P130:O": {
+   "id": "ex_mupcyrb8s17c6",
+   "presetId": "P130",
+   "mode": "O",
+   "model": "gemini-3.1-flash-image",
+   "modelName": "Nano Banana 2",
+   "created": "2026-10-01T09:55:11.684Z",
+   "w": 1264,
+   "h": 848,
+   "samples": [],
+   "photos": [
+    "kid"
+   ],
+   "file": "P130_O.jpg",
+   "thumb": "mini/P130_O.webp"
+  },
+  "P031:O": {
+   "id": "ex_mupcyz91cpxai",
+   "presetId": "P031",
+   "mode": "O",
+   "model": "gemini-3.1-flash-image",
+   "modelName": "Nano Banana 2",
+   "created": "2026-10-01T09:55:21.973Z",
+   "w": 1264,
+   "h": 848,
+   "samples": [
+    "Kwiaty: polne kwiaty",
+    "Pora dnia: świt"
+   ],
+   "photos": [
+    "kid"
+   ],
+   "file": "P031_O.jpg",
+   "thumb": "mini/P031_O.webp"
+  },
+  "P032:O": {
+   "id": "ex_mupcz788kdxvt",
+   "presetId": "P032",
+   "mode": "O",
+   "model": "gemini-3.1-flash-image",
+   "modelName": "Nano Banana 2",
+   "created": "2026-10-01T09:55:32.312Z",
+   "w": 1264,
+   "h": 848,
+   "samples": [
+    "Nastrój: spokojny"
+   ],
+   "photos": [
+    "kid"
+   ],
+   "file": "P032_O.jpg",
+   "thumb": "mini/P032_O.webp"
+  },
+  "P033:O": {
+   "id": "ex_mupcze0uc7f9g",
+   "presetId": "P033",
+   "mode": "O",
+   "model": "gemini-3.1-flash-image",
+   "modelName": "Nano Banana 2",
+   "created": "2026-10-01T09:55:41.118Z",
+   "w": 1264,
+   "h": 848,
+   "samples": [
+    "Pora dnia: świt"
+   ],
+   "photos": [
+    "kid"
+   ],
+   "file": "P033_O.jpg",
+   "thumb": "mini/P033_O.webp"
+  },
+  "P034:O": {
+   "id": "ex_mupczlt7ss7xm",
+   "presetId": "P034",
+   "mode": "O",
+   "model": "gemini-3.1-flash-image",
+   "modelName": "Nano Banana 2",
+   "created": "2026-10-01T09:55:51.211Z",
+   "w": 1264,
+   "h": 848,
+   "samples": [
+    "Kolor światła: ciepłe złote"
+   ],
+   "photos": [
+    "kid"
+   ],
+   "file": "P034_O.jpg",
+   "thumb": "mini/P034_O.webp"
+  },
+  "P035:O": {
+   "id": "ex_mupczu872jqf5",
+   "presetId": "P035",
+   "mode": "O",
+   "model": "gemini-3.1-flash-image",
+   "modelName": "Nano Banana 2",
+   "created": "2026-10-01T09:56:02.119Z",
+   "w": 1264,
+   "h": 848,
+   "samples": [
+    "Paleta liści: złoto i rdza"
+   ],
+   "photos": [
+    "kid"
+   ],
+   "file": "P035_O.jpg",
+   "thumb": "mini/P035_O.webp"
+  },
+  "P131:O": {
+   "id": "ex_mupd02sdkhj8k",
+   "presetId": "P131",
+   "mode": "O",
+   "model": "gemini-3.1-flash-image",
+   "modelName": "Nano Banana 2",
+   "created": "2026-10-01T09:56:13.213Z",
+   "w": 1264,
+   "h": 848,
+   "samples": [],
+   "photos": [
+    "kid"
+   ],
+   "file": "P131_O.jpg",
+   "thumb": "mini/P131_O.webp"
+  },
+  "P132:O": {
+   "id": "ex_mupd0ajabzl3b",
+   "presetId": "P132",
+   "mode": "O",
+   "model": "gemini-3.1-flash-image",
+   "modelName": "Nano Banana 2",
+   "created": "2026-10-01T09:56:23.254Z",
+   "w": 1264,
+   "h": 848,
+   "samples": [],
+   "photos": [
+    "kid"
+   ],
+   "file": "P132_O.jpg",
+   "thumb": "mini/P132_O.webp"
+  },
+  "P133:O": {
+   "id": "ex_mupd0hpr9c609",
+   "presetId": "P133",
+   "mode": "O",
+   "model": "gemini-3.1-flash-image",
+   "modelName": "Nano Banana 2",
+   "created": "2026-10-01T09:56:32.559Z",
+   "w": 1264,
+   "h": 848,
+   "samples": [],
+   "photos": [
+    "kid"
+   ],
+   "file": "P133_O.jpg",
+   "thumb": "mini/P133_O.webp"
+  },
+  "P134:O": {
+   "id": "ex_mupd0phn61uny",
+   "presetId": "P134",
+   "mode": "O",
+   "model": "gemini-3.1-flash-image",
+   "modelName": "Nano Banana 2",
+   "created": "2026-10-01T09:56:42.635Z",
+   "w": 1264,
+   "h": 848,
+   "samples": [],
+   "photos": [
+    "kid"
+   ],
+   "file": "P134_O.jpg",
+   "thumb": "mini/P134_O.webp"
+  },
+  "P135:O": {
+   "id": "ex_mupd0xc1bjkhv",
+   "presetId": "P135",
+   "mode": "O",
+   "model": "gemini-3.1-flash-image",
+   "modelName": "Nano Banana 2",
+   "created": "2026-10-01T09:56:52.801Z",
+   "w": 1264,
+   "h": 848,
+   "samples": [],
+   "photos": [
+    "kid"
+   ],
+   "file": "P135_O.jpg",
+   "thumb": "mini/P135_O.webp"
+  },
+  "P036:O": {
+   "id": "ex_mupd14cva4g9e",
+   "presetId": "P036",
+   "mode": "O",
+   "model": "gemini-3.1-flash-image",
+   "modelName": "Nano Banana 2",
+   "created": "2026-10-01T09:57:01.903Z",
+   "w": 1264,
+   "h": 848,
+   "samples": [
+    "Zwierzęta: żyrafy"
+   ],
+   "photos": [
+    "kid"
+   ],
+   "file": "P036_O.jpg",
+   "thumb": "mini/P036_O.webp"
+  },
+  "P037:O": {
+   "id": "ex_mupd1bgxli2pq",
+   "presetId": "P037",
+   "mode": "O",
+   "model": "gemini-3.1-flash-image",
+   "modelName": "Nano Banana 2",
+   "created": "2026-10-01T09:57:11.121Z",
+   "w": 1264,
+   "h": 848,
+   "samples": [
+    "Rośliny: paprocie",
+    "Ptaki: papugi"
+   ],
+   "photos": [
+    "kid"
+   ],
+   "file": "P037_O.jpg",
+   "thumb": "mini/P037_O.webp"
+  },
+  "P038:O": {
+   "id": "ex_mupd1jbvmt4l7",
+   "presetId": "P038",
+   "mode": "O",
+   "model": "gemini-3.1-flash-image",
+   "modelName": "Nano Banana 2",
+   "created": "2026-10-01T09:57:21.307Z",
+   "w": 1264,
+   "h": 848,
+   "samples": [
+    "Gatunek: pies"
+   ],
+   "photos": [
+    "kid"
+   ],
+   "file": "P038_O.jpg",
+   "thumb": "mini/P038_O.webp"
+  },
+  "P039:O": {
+   "id": "ex_mupd1qyfce7sw",
+   "presetId": "P039",
+   "mode": "O",
+   "model": "gemini-3.1-flash-image",
+   "modelName": "Nano Banana 2",
+   "created": "2026-10-01T09:57:31.191Z",
+   "w": 1264,
+   "h": 848,
+   "samples": [
+    "Ryby: kolorowe rybki rafowe",
+    "Paleta wody: turkus"
+   ],
+   "photos": [
+    "kid"
+   ],
+   "file": "P039_O.jpg",
+   "thumb": "mini/P039_O.webp"
+  },
+  "P040:O": {
+   "id": "ex_mupd1weq0tyeo",
+   "presetId": "P040",
+   "mode": "O",
+   "model": "gemini-3.1-flash-image",
+   "modelName": "Nano Banana 2",
+   "created": "2026-10-01T09:57:38.258Z",
+   "w": 1264,
+   "h": 848,
+   "samples": [
+    "Owad: biedronka",
+    "Kwiaty: polne kwiaty"
+   ],
+   "photos": [
+    "kid"
+   ],
+   "file": "P040_O.jpg",
+   "thumb": "mini/P040_O.webp"
+  },
+  "P136:O": {
+   "id": "ex_mupd24bjdydld",
+   "presetId": "P136",
+   "mode": "O",
+   "model": "gemini-3.1-flash-image",
+   "modelName": "Nano Banana 2",
+   "created": "2026-10-01T09:57:48.511Z",
+   "w": 1264,
+   "h": 848,
+   "samples": [],
+   "photos": [
+    "kid"
+   ],
+   "file": "P136_O.jpg",
+   "thumb": "mini/P136_O.webp"
+  },
+  "P137:O": {
+   "id": "ex_mupd2ac2vg9cg",
+   "presetId": "P137",
+   "mode": "O",
+   "model": "gemini-3.1-flash-image",
+   "modelName": "Nano Banana 2",
+   "created": "2026-10-01T09:57:56.306Z",
+   "w": 1264,
+   "h": 848,
+   "samples": [],
+   "photos": [
+    "kid"
+   ],
+   "file": "P137_O.jpg",
+   "thumb": "mini/P137_O.webp"
+  },
+  "P138:O": {
+   "id": "ex_mupd2s6f9971i",
+   "presetId": "P138",
+   "mode": "O",
+   "model": "gemini-3.1-flash-image",
+   "modelName": "Nano Banana 2",
+   "created": "2026-10-01T09:58:19.431Z",
+   "w": 1264,
+   "h": 848,
+   "samples": [],
+   "photos": [
+    "kid",
+    "obj_P138"
+   ],
+   "file": "P138_O.jpg",
+   "thumb": "mini/P138_O.webp"
+  },
+  "P139:O": {
+   "id": "ex_mupd30d5b7q9z",
+   "presetId": "P139",
+   "mode": "O",
+   "model": "gemini-3.1-flash-image",
+   "modelName": "Nano Banana 2",
+   "created": "2026-10-01T09:58:30.041Z",
+   "w": 1264,
+   "h": 848,
+   "samples": [],
+   "photos": [
+    "kid",
+    "duo"
+   ],
+   "file": "P139_O.jpg",
+   "thumb": "mini/P139_O.webp"
+  },
+  "P140:O": {
+   "id": "ex_mupd38bvdqr6f",
+   "presetId": "P140",
+   "mode": "O",
+   "model": "gemini-3.1-flash-image",
+   "modelName": "Nano Banana 2",
+   "created": "2026-10-01T09:58:40.363Z",
+   "w": 1264,
+   "h": 848,
+   "samples": [],
+   "photos": [
+    "kid"
+   ],
+   "file": "P140_O.jpg",
+   "thumb": "mini/P140_O.webp"
+  },
+  "P041:O": {
+   "id": "ex_mupd3fyrbwhyu",
+   "presetId": "P041",
+   "mode": "O",
+   "model": "gemini-3.1-flash-image",
+   "modelName": "Nano Banana 2",
+   "created": "2026-10-01T09:58:50.259Z",
+   "w": 1264,
+   "h": 848,
+   "samples": [
+    "Dodatki plażowe: muszle"
+   ],
+   "photos": [
+    "kid"
+   ],
+   "file": "P041_O.jpg",
+   "thumb": "mini/P041_O.webp"
+  },
+  "P042:O": {
+   "id": "ex_mupd3nge4p355",
+   "presetId": "P042",
+   "mode": "O",
+   "model": "gemini-3.1-flash-image",
+   "modelName": "Nano Banana 2",
+   "created": "2026-10-01T09:58:59.966Z",
+   "w": 1264,
+   "h": 848,
+   "samples": [
+    "Typ gór: ostre skaliste szczyty",
+    "Rośliny: paprocie"
+   ],
+   "photos": [
+    "kid"
+   ],
+   "file": "P042_O.jpg",
+   "thumb": "mini/P042_O.webp"
+  },
+  "P043:O": {
+   "id": "ex_mupd3ux2d4hws",
+   "presetId": "P043",
+   "mode": "O",
+   "model": "gemini-3.1-flash-image",
+   "modelName": "Nano Banana 2",
+   "created": "2026-10-01T09:59:09.638Z",
+   "w": 1264,
+   "h": 848,
+   "samples": [
+    "Miasto: Kraków",
+    "Nastrój: spokojny"
+   ],
+   "photos": [
+    "kid"
+   ],
+   "file": "P043_O.jpg",
+   "thumb": "mini/P043_O.webp"
+  },
+  "P044:O": {
+   "id": "ex_mupd427w8ilfa",
+   "presetId": "P044",
+   "mode": "O",
+   "model": "gemini-3.1-flash-image",
+   "modelName": "Nano Banana 2",
+   "created": "2026-10-01T09:59:19.100Z",
+   "w": 1264,
+   "h": 848,
+   "samples": [
+    "Dodatki: kosz piknikowy"
+   ],
+   "photos": [
+    "kid"
+   ],
+   "file": "P044_O.jpg",
+   "thumb": "mini/P044_O.webp"
+  },
+  "P045:O": {
+   "id": "ex_mupd497h8zdxo",
+   "presetId": "P045",
+   "mode": "O",
+   "model": "gemini-3.1-flash-image",
+   "modelName": "Nano Banana 2",
+   "created": "2026-10-01T09:59:28.157Z",
+   "w": 1264,
+   "h": 848,
+   "samples": [
+    "Elementy wakacji: basen"
+   ],
+   "photos": [
+    "kid"
+   ],
+   "file": "P045_O.jpg",
+   "thumb": "mini/P045_O.webp"
+  },
+  "P141:O": {
+   "id": "ex_mupd4gp9ujhvo",
+   "presetId": "P141",
+   "mode": "O",
+   "model": "gemini-3.1-flash-image",
+   "modelName": "Nano Banana 2",
+   "created": "2026-10-01T09:59:37.869Z",
+   "w": 1264,
+   "h": 848,
+   "samples": [],
+   "photos": [
+    "kid"
+   ],
+   "file": "P141_O.jpg",
+   "thumb": "mini/P141_O.webp"
+  },
+  "P142:O": {
+   "id": "ex_mupd4o2ri4vix",
+   "presetId": "P142",
+   "mode": "O",
+   "model": "gemini-3.1-flash-image",
+   "modelName": "Nano Banana 2",
+   "created": "2026-10-01T09:59:47.427Z",
+   "w": 1264,
+   "h": 848,
+   "samples": [],
+   "photos": [
+    "kid"
+   ],
+   "file": "P142_O.jpg",
+   "thumb": "mini/P142_O.webp"
+  },
+  "P143:O": {
+   "id": "ex_mupd4wn548r7s",
+   "presetId": "P143",
+   "mode": "O",
+   "model": "gemini-3.1-flash-image",
+   "modelName": "Nano Banana 2",
+   "created": "2026-10-01T09:59:58.529Z",
+   "w": 1264,
+   "h": 848,
+   "samples": [],
+   "photos": [
+    "kid"
+   ],
+   "file": "P143_O.jpg",
+   "thumb": "mini/P143_O.webp"
+  },
+  "P144:O": {
+   "id": "ex_mupd53zsrflv9",
+   "presetId": "P144",
+   "mode": "O",
+   "model": "gemini-3.1-flash-image",
+   "modelName": "Nano Banana 2",
+   "created": "2026-10-01T10:00:08.056Z",
+   "w": 1264,
+   "h": 848,
+   "samples": [],
+   "photos": [
+    "kid"
+   ],
+   "file": "P144_O.jpg",
+   "thumb": "mini/P144_O.webp"
+  },
+  "P145:O": {
+   "id": "ex_mupd5m3t5n8o0",
+   "presetId": "P145",
+   "mode": "O",
+   "model": "gemini-3.1-flash-image",
+   "modelName": "Nano Banana 2",
+   "created": "2026-10-01T10:00:31.529Z",
+   "w": 1264,
+   "h": 848,
+   "samples": [],
+   "photos": [
+    "kid",
+    "obj_P145"
+   ],
+   "file": "P145_O.jpg",
+   "thumb": "mini/P145_O.webp"
+  },
+  "P046:O": {
+   "id": "ex_mupd5vj2ou9jo",
+   "presetId": "P046",
+   "mode": "O",
+   "model": "gemini-3.1-flash-image",
+   "modelName": "Nano Banana 2",
+   "created": "2026-10-01T10:00:43.742Z",
+   "w": 1264,
+   "h": 848,
+   "samples": [
+    "Drzewa: jabłonie"
+   ],
+   "photos": [
+    "kid"
+   ],
+   "file": "P046_O.jpg",
+   "thumb": "mini/P046_O.webp"
+  },
+  "P047:O": {
+   "id": "ex_mupd62ygignsg",
+   "presetId": "P047",
+   "mode": "O",
+   "model": "gemini-3.1-flash-image",
+   "modelName": "Nano Banana 2",
+   "created": "2026-10-01T10:00:53.368Z",
+   "w": 1264,
+   "h": 848,
+   "samples": [
+    "Kolory pisanek: pastelowe",
+    "Rośliny: paprocie",
+    "Dekoracje: kwiaty"
+   ],
+   "photos": [
+    "kid"
+   ],
+   "file": "P047_O.jpg",
+   "thumb": "mini/P047_O.webp"
+  },
+  "P048:O": {
+   "id": "ex_mupd6b258y2og",
+   "presetId": "P048",
+   "mode": "O",
+   "model": "gemini-3.1-flash-image",
+   "modelName": "Nano Banana 2",
+   "created": "2026-10-01T10:01:03.869Z",
+   "w": 1264,
+   "h": 848,
+   "samples": [
+    "Owoce: cytryny"
+   ],
+   "photos": [
+    "kid"
+   ],
+   "file": "P048_O.jpg",
+   "thumb": "mini/P048_O.webp"
+  },
+  "P049:O": {
+   "id": "ex_mupd6jl75pztx",
+   "presetId": "P049",
+   "mode": "O",
+   "model": "gemini-3.1-flash-image",
+   "modelName": "Nano Banana 2",
+   "created": "2026-10-01T10:01:14.923Z",
+   "w": 1264,
+   "h": 848,
+   "samples": [
+    "Kolor dyń: pomarańczowe"
+   ],
+   "photos": [
+    "kid"
+   ],
+   "file": "P049_O.jpg",
+   "thumb": "mini/P049_O.webp"
+  },
+  "P050:O": {
+   "id": "ex_mupd6r7ijxv9b",
+   "presetId": "P050",
+   "mode": "O",
+   "model": "gemini-3.1-flash-image",
+   "modelName": "Nano Banana 2",
+   "created": "2026-10-01T10:01:24.798Z",
+   "w": 1264,
+   "h": 848,
+   "samples": [
+    "Krajobraz: góry",
+    "Motyw zabawy: bałwan"
+   ],
+   "photos": [
+    "kid"
+   ],
+   "file": "P050_O.jpg",
+   "thumb": "mini/P050_O.webp"
+  },
+  "P146:O": {
+   "id": "ex_mupd6yla0k2f7",
+   "presetId": "P146",
+   "mode": "O",
+   "model": "gemini-3.1-flash-image",
+   "modelName": "Nano Banana 2",
+   "created": "2026-10-01T10:01:34.366Z",
+   "w": 1264,
+   "h": 848,
+   "samples": [],
+   "photos": [
+    "kid"
+   ],
+   "file": "P146_O.jpg",
+   "thumb": "mini/P146_O.webp"
+  },
+  "P147:O": {
+   "id": "ex_mupd75tri2qsj",
+   "presetId": "P147",
+   "mode": "O",
+   "model": "gemini-3.1-flash-image",
+   "modelName": "Nano Banana 2",
+   "created": "2026-10-01T10:01:43.743Z",
+   "w": 1264,
+   "h": 848,
+   "samples": [],
+   "photos": [
+    "kid"
+   ],
+   "file": "P147_O.jpg",
+   "thumb": "mini/P147_O.webp"
+  },
+  "P148:O": {
+   "id": "ex_mupd7dur1xj80",
+   "presetId": "P148",
+   "mode": "O",
+   "model": "gemini-3.1-flash-image",
+   "modelName": "Nano Banana 2",
+   "created": "2026-10-01T10:01:54.147Z",
+   "w": 1264,
+   "h": 848,
+   "samples": [],
+   "photos": [
+    "kid"
+   ],
+   "file": "P148_O.jpg",
+   "thumb": "mini/P148_O.webp"
+  },
+  "P149:O": {
+   "id": "ex_mupd7liiquabz",
+   "presetId": "P149",
+   "mode": "O",
+   "model": "gemini-3.1-flash-image",
+   "modelName": "Nano Banana 2",
+   "created": "2026-10-01T10:02:04.075Z",
+   "w": 1264,
+   "h": 848,
+   "samples": [],
+   "photos": [
+    "kid"
+   ],
+   "file": "P149_O.jpg",
+   "thumb": "mini/P149_O.webp"
+  },
+  "P150:O": {
+   "id": "ex_mupd7vvbrpi2y",
+   "presetId": "P150",
+   "mode": "O",
+   "model": "gemini-3.1-flash-image",
+   "modelName": "Nano Banana 2",
+   "created": "2026-10-01T10:02:17.495Z",
+   "w": 1264,
+   "h": 848,
+   "samples": [],
+   "photos": [
+    "kid"
+   ],
+   "file": "P150_O.jpg",
+   "thumb": "mini/P150_O.webp"
+  },
+  "P051:O": {
+   "id": "ex_mupd833ssp185",
+   "presetId": "P051",
+   "mode": "O",
+   "model": "gemini-3.1-flash-image",
+   "modelName": "Nano Banana 2",
+   "created": "2026-10-01T10:02:26.872Z",
+   "w": 1264,
+   "h": 848,
+   "samples": [
+    "Kolory ozdób: czerwień i złoto"
+   ],
+   "photos": [
+    "duo"
+   ],
+   "file": "P051_O.jpg",
+   "thumb": "mini/P051_O.webp"
+  },
+  "P052:O": {
+   "id": "ex_mupd8aql4drf2",
+   "presetId": "P052",
+   "mode": "O",
+   "model": "gemini-3.1-flash-image",
+   "modelName": "Nano Banana 2",
+   "created": "2026-10-01T10:02:36.765Z",
+   "w": 1264,
+   "h": 848,
+   "samples": [],
+   "photos": [
+    "duo"
+   ],
+   "file": "P052_O.jpg",
+   "thumb": "mini/P052_O.webp"
+  },
+  "P053:O": {
+   "id": "ex_mupd8ifqxr3o0",
+   "presetId": "P053",
+   "mode": "O",
+   "model": "gemini-3.1-flash-image",
+   "modelName": "Nano Banana 2",
+   "created": "2026-10-01T10:02:46.742Z",
+   "w": 1264,
+   "h": 848,
+   "samples": [
+    "Kwiaty: polne kwiaty"
+   ],
+   "photos": [
+    "duo"
+   ],
+   "file": "P053_O.jpg",
+   "thumb": "mini/P053_O.webp"
+  },
+  "P054:O": {
+   "id": "ex_mupd8pvnnnzk3",
+   "presetId": "P054",
+   "mode": "O",
+   "model": "gemini-3.1-flash-image",
+   "modelName": "Nano Banana 2",
+   "created": "2026-10-01T10:02:56.387Z",
+   "w": 1264,
+   "h": 848,
+   "samples": [
+    "Wspólna pasja: muzyka",
+    "Kolor akcentu: terakota"
+   ],
+   "photos": [
+    "duo"
+   ],
+   "file": "P054_O.jpg",
+   "thumb": "mini/P054_O.webp"
+  },
+  "P055:O": {
+   "id": "ex_mupd8xqmcp70w",
+   "presetId": "P055",
+   "mode": "O",
+   "model": "gemini-3.1-flash-image",
+   "modelName": "Nano Banana 2",
+   "created": "2026-10-01T10:03:06.574Z",
+   "w": 1264,
+   "h": 848,
+   "samples": [
+    "Domowy motyw: filiżanki herbaty"
+   ],
+   "photos": [
+    "duo"
+   ],
+   "file": "P055_O.jpg",
+   "thumb": "mini/P055_O.webp"
+  },
+  "P056:O": {
+   "id": "ex_mupd957na74pf",
+   "presetId": "P056",
+   "mode": "O",
+   "model": "gemini-3.1-flash-image",
+   "modelName": "Nano Banana 2",
+   "created": "2026-10-01T10:03:16.259Z",
+   "w": 1264,
+   "h": 848,
+   "samples": [
+    "Symbole: biała gołębica"
+   ],
+   "photos": [
+    "duo"
+   ],
+   "file": "P056_O.jpg",
+   "thumb": "mini/P056_O.webp"
+  },
+  "P057:O": {
+   "id": "ex_mupd9cgp2n3oo",
+   "presetId": "P057",
+   "mode": "O",
+   "model": "gemini-3.1-flash-image",
+   "modelName": "Nano Banana 2",
+   "created": "2026-10-01T10:03:25.657Z",
+   "w": 1264,
+   "h": 848,
+   "samples": [
+    "Dekoracje: kwiaty"
+   ],
+   "photos": [
+    "duo"
+   ],
+   "file": "P057_O.jpg",
+   "thumb": "mini/P057_O.webp"
+  },
+  "P058:O": {
+   "id": "ex_mupd9ksmrmvfn",
+   "presetId": "P058",
+   "mode": "O",
+   "model": "gemini-3.1-flash-image",
+   "modelName": "Nano Banana 2",
+   "created": "2026-10-01T10:03:36.454Z",
+   "w": 1264,
+   "h": 848,
+   "samples": [
+    "Dekoracje: kwiaty"
+   ],
+   "photos": [
+    "duo"
+   ],
+   "file": "P058_O.jpg",
+   "thumb": "mini/P058_O.webp"
+  },
+  "P059:O": {
+   "id": "ex_mupd9tayyl125",
+   "presetId": "P059",
+   "mode": "O",
+   "model": "gemini-3.1-flash-image",
+   "modelName": "Nano Banana 2",
+   "created": "2026-10-01T10:03:47.482Z",
+   "w": 1264,
+   "h": 848,
+   "samples": [
+    "Kwiaty: polne kwiaty",
+    "Styl: klasyczny"
+   ],
+   "photos": [
+    "duo"
+   ],
+   "file": "P059_O.jpg",
+   "thumb": "mini/P059_O.webp"
+  },
+  "P060:O": {
+   "id": "ex_mupda0c79csl5",
+   "presetId": "P060",
+   "mode": "O",
+   "model": "gemini-3.1-flash-image",
+   "modelName": "Nano Banana 2",
+   "created": "2026-10-01T10:03:56.599Z",
+   "w": 1264,
+   "h": 848,
+   "samples": [
+    "Okazja: urodziny",
+    "Rekwizyty: książki"
+   ],
+   "photos": [
+    "duo"
+   ],
+   "file": "P060_O.jpg",
+   "thumb": "mini/P060_O.webp"
+  },
+  "P061:O": {
+   "id": "ex_mupda907hzlio",
+   "presetId": "P061",
+   "mode": "O",
+   "model": "gemini-3.1-flash-image",
+   "modelName": "Nano Banana 2",
+   "created": "2026-10-01T10:04:07.831Z",
+   "w": 1264,
+   "h": 848,
+   "samples": [
+    "Przybory: kredki"
+   ],
+   "photos": [
+    "kid"
+   ],
+   "file": "P061_O.jpg",
+   "thumb": "mini/P061_O.webp"
+  },
+  "P062:O": {
+   "id": "ex_mupdago5xh293",
+   "presetId": "P062",
+   "mode": "O",
+   "model": "gemini-3.1-flash-image",
+   "modelName": "Nano Banana 2",
+   "created": "2026-10-01T10:04:17.765Z",
+   "w": 1264,
+   "h": 848,
+   "samples": [
+    "Technika plastyczna: farby akwarelowe"
+   ],
+   "photos": [
+    "kid"
+   ],
+   "file": "P062_O.jpg",
+   "thumb": "mini/P062_O.webp"
+  },
+  "P063:O": {
+   "id": "ex_mupdanr9954qa",
+   "presetId": "P063",
+   "mode": "O",
+   "model": "gemini-3.1-flash-image",
+   "modelName": "Nano Banana 2",
+   "created": "2026-10-01T10:04:26.949Z",
+   "w": 1264,
+   "h": 848,
+   "samples": [
+    "Kolor sceny: fioletowy"
+   ],
+   "photos": [
+    "kid"
+   ],
+   "file": "P063_O.jpg",
+   "thumb": "mini/P063_O.webp"
+  },
+  "P064:O": {
+   "id": "ex_mupdaurgngjuk",
+   "presetId": "P064",
+   "mode": "O",
+   "model": "gemini-3.1-flash-image",
+   "modelName": "Nano Banana 2",
+   "created": "2026-10-01T10:04:36.028Z",
+   "w": 1264,
+   "h": 848,
+   "samples": [
+    "Barwy: biało-czerwone"
+   ],
+   "photos": [
+    "kid"
+   ],
+   "file": "P064_O.jpg",
+   "thumb": "mini/P064_O.webp"
+  },
+  "P065:O": {
+   "id": "ex_mupdb1aqd9vie",
+   "presetId": "P065",
+   "mode": "O",
+   "model": "gemini-3.1-flash-image",
+   "modelName": "Nano Banana 2",
+   "created": "2026-10-01T10:04:44.498Z",
+   "w": 1264,
+   "h": 848,
+   "samples": [],
+   "photos": [
+    "kid"
+   ],
+   "file": "P065_O.jpg",
+   "thumb": "mini/P065_O.webp"
+  },
+  "P066:O": {
+   "id": "ex_mupdb8po4b8hq",
+   "presetId": "P066",
+   "mode": "O",
+   "model": "gemini-3.1-flash-image",
+   "modelName": "Nano Banana 2",
+   "created": "2026-10-01T10:04:54.108Z",
+   "w": 1264,
+   "h": 848,
+   "samples": [
+    "Kolor tła: kremowy"
+   ],
+   "photos": [
+    "kid"
+   ],
+   "file": "P066_O.jpg",
+   "thumb": "mini/P066_O.webp"
+  },
+  "P067:O": {
+   "id": "ex_mupdbg52n7a9e",
+   "presetId": "P067",
+   "mode": "O",
+   "model": "gemini-3.1-flash-image",
+   "modelName": "Nano Banana 2",
+   "created": "2026-10-01T10:05:03.734Z",
+   "w": 1264,
+   "h": 848,
+   "samples": [
+    "Plener: łąka"
+   ],
+   "photos": [
+    "kid"
+   ],
+   "file": "P067_O.jpg",
+   "thumb": "mini/P067_O.webp"
+  },
+  "P068:O": {
+   "id": "ex_mupdbn57n3caf",
+   "presetId": "P068",
+   "mode": "O",
+   "model": "gemini-3.1-flash-image",
+   "modelName": "Nano Banana 2",
+   "created": "2026-10-01T10:05:12.811Z",
+   "w": 1264,
+   "h": 848,
+   "samples": [
+    "Kontrast: miękki"
+   ],
+   "photos": [
+    "kid"
+   ],
+   "file": "P068_O.jpg",
+   "thumb": "mini/P068_O.webp"
+  },
+  "P069:O": {
+   "id": "ex_mupdby3a5udym",
+   "presetId": "P069",
+   "mode": "O",
+   "model": "gemini-3.1-flash-image",
+   "modelName": "Nano Banana 2",
+   "created": "2026-10-01T10:05:26.998Z",
+   "w": 1264,
+   "h": 848,
+   "samples": [
+    "Kwiaty: polne kwiaty",
+    "Kolor tła: kremowy"
+   ],
+   "photos": [
+    "kid"
+   ],
+   "file": "P069_O.jpg",
+   "thumb": "mini/P069_O.webp"
+  },
+  "P070:O": {
+   "id": "ex_mupdc65go37tl",
+   "presetId": "P070",
+   "mode": "O",
+   "model": "gemini-3.1-flash-image",
+   "modelName": "Nano Banana 2",
+   "created": "2026-10-01T10:05:37.444Z",
+   "w": 1264,
+   "h": 848,
+   "samples": [
+    "Kolory świateł: ciepłe złote"
+   ],
+   "photos": [
+    "kid"
+   ],
+   "file": "P070_O.jpg",
+   "thumb": "mini/P070_O.webp"
+  },
+  "P071:O": {
+   "id": "ex_mupdcd8a0l02m",
+   "presetId": "P071",
+   "mode": "O",
+   "model": "gemini-3.1-flash-image",
+   "modelName": "Nano Banana 2",
+   "created": "2026-10-01T10:05:46.618Z",
+   "w": 1264,
+   "h": 848,
+   "samples": [],
+   "photos": [
+    "kid"
+   ],
+   "file": "P071_O.jpg",
+   "thumb": "mini/P071_O.webp"
+  },
+  "P072:O": {
+   "id": "ex_mupdck68l28np",
+   "presetId": "P072",
+   "mode": "O",
+   "model": "gemini-3.1-flash-image",
+   "modelName": "Nano Banana 2",
+   "created": "2026-10-01T10:05:55.616Z",
+   "w": 1264,
+   "h": 848,
+   "samples": [
+    "Barwa lnu: naturalny len"
+   ],
+   "photos": [
+    "kid"
+   ],
+   "file": "P072_O.jpg",
+   "thumb": "mini/P072_O.webp"
+  },
+  "P073:O": {
+   "id": "ex_mupdcql66m8fx",
+   "presetId": "P073",
+   "mode": "O",
+   "model": "gemini-3.1-flash-image",
+   "modelName": "Nano Banana 2",
+   "created": "2026-10-01T10:06:03.930Z",
+   "w": 1264,
+   "h": 848,
+   "samples": [
+    "Paleta filmowa: ciepła pomarańcz i turkus"
+   ],
+   "photos": [
+    "kid"
+   ],
+   "file": "P073_O.jpg",
+   "thumb": "mini/P073_O.webp"
+  },
+  "P074:O": {
+   "id": "ex_mupdcwy27jgci",
+   "presetId": "P074",
+   "mode": "O",
+   "model": "gemini-3.1-flash-image",
+   "modelName": "Nano Banana 2",
+   "created": "2026-10-01T10:06:12.170Z",
+   "w": 1264,
+   "h": 848,
+   "samples": [
+    "Kolor akcentu: terakota"
+   ],
+   "photos": [
+    "kid"
+   ],
+   "file": "P074_O.jpg",
+   "thumb": "mini/P074_O.webp"
+  },
+  "P075:O": {
+   "id": "ex_mupdd4re50swo",
+   "presetId": "P075",
+   "mode": "O",
+   "model": "gemini-3.1-flash-image",
+   "modelName": "Nano Banana 2",
+   "created": "2026-10-01T10:06:22.298Z",
+   "w": 1264,
+   "h": 848,
+   "samples": [
+    "Kolor dominujący: butelkowa zieleń",
+    "Materiał tła: aksamit"
+   ],
+   "photos": [
+    "kid"
+   ],
+   "file": "P075_O.jpg",
+   "thumb": "mini/P075_O.webp"
+  },
+  "P076:O": {
+   "id": "ex_mupddbomcspnt",
+   "presetId": "P076",
+   "mode": "O",
+   "model": "gemini-3.1-flash-image",
+   "modelName": "Nano Banana 2",
+   "created": "2026-10-01T10:06:31.270Z",
+   "w": 1264,
+   "h": 848,
+   "samples": [],
+   "photos": [
+    "kid",
+    "duo"
+   ],
+   "file": "P076_O.jpg",
+   "thumb": "mini/P076_O.webp"
+  },
+  "P077:O": {
+   "id": "ex_mupddk7r54ku4",
+   "presetId": "P077",
+   "mode": "O",
+   "model": "gemini-3.1-flash-image",
+   "modelName": "Nano Banana 2",
+   "created": "2026-10-01T10:06:42.327Z",
+   "w": 1264,
+   "h": 848,
+   "samples": [],
+   "photos": [
+    "kid",
+    "duo",
+    "baby"
+   ],
+   "file": "P077_O.jpg",
+   "thumb": "mini/P077_O.webp"
+  },
+  "P078:O": {
+   "id": "ex_mupddsnrq1ajg",
+   "presetId": "P078",
+   "mode": "O",
+   "model": "gemini-3.1-flash-image",
+   "modelName": "Nano Banana 2",
+   "created": "2026-10-01T10:06:53.271Z",
+   "w": 1264,
+   "h": 848,
+   "samples": [],
+   "photos": [
+    "kid",
+    "duo",
+    "baby"
+   ],
+   "file": "P078_O.jpg",
+   "thumb": "mini/P078_O.webp"
+  },
+  "P079:O": {
+   "id": "ex_mupddzvo6shu9",
+   "presetId": "P079",
+   "mode": "O",
+   "model": "gemini-3.1-flash-image",
+   "modelName": "Nano Banana 2",
+   "created": "2026-10-01T10:07:02.628Z",
+   "w": 1264,
+   "h": 848,
+   "samples": [],
+   "photos": [
+    "kid",
+    "duo",
+    "baby"
+   ],
+   "file": "P079_O.jpg",
+   "thumb": "mini/P079_O.webp"
+  },
+  "P080:O": {
+   "id": "ex_mupde6d3eyewr",
+   "presetId": "P080",
+   "mode": "O",
+   "model": "gemini-3.1-flash-image",
+   "modelName": "Nano Banana 2",
+   "created": "2026-10-01T10:07:11.031Z",
+   "w": 1264,
+   "h": 848,
+   "samples": [
+    "Kolor papieru: kremowy"
+   ],
+   "photos": [
+    "kid",
+    "duo"
+   ],
+   "file": "P080_O.jpg",
+   "thumb": "mini/P080_O.webp"
+  },
+  "P151:O": {
+   "id": "ex_mupdee98mazjz",
+   "presetId": "P151",
+   "mode": "O",
+   "model": "gemini-3.1-flash-image",
+   "modelName": "Nano Banana 2",
+   "created": "2026-10-01T10:07:21.260Z",
+   "w": 1264,
+   "h": 848,
+   "samples": [],
+   "photos": [
+    "kid",
+    "duo",
+    "baby"
+   ],
+   "file": "P151_O.jpg",
+   "thumb": "mini/P151_O.webp"
+  },
+  "P152:O": {
+   "id": "ex_mupdelzpwfane",
+   "presetId": "P152",
+   "mode": "O",
+   "model": "gemini-3.1-flash-image",
+   "modelName": "Nano Banana 2",
+   "created": "2026-10-01T10:07:31.285Z",
+   "w": 1264,
+   "h": 848,
+   "samples": [],
+   "photos": [
+    "kid",
+    "duo"
+   ],
+   "file": "P152_O.jpg",
+   "thumb": "mini/P152_O.webp"
+  },
+  "P153:O": {
+   "id": "ex_mupdev667ujj6",
+   "presetId": "P153",
+   "mode": "O",
+   "model": "gemini-3.1-flash-image",
+   "modelName": "Nano Banana 2",
+   "created": "2026-10-01T10:07:43.182Z",
+   "w": 1264,
+   "h": 848,
+   "samples": [],
+   "photos": [
+    "kid",
+    "duo",
+    "baby"
+   ],
+   "file": "P153_O.jpg",
+   "thumb": "mini/P153_O.webp"
+  },
+  "P154:O": {
+   "id": "ex_mupdf352ohz2a",
+   "presetId": "P154",
+   "mode": "O",
+   "model": "gemini-3.1-flash-image",
+   "modelName": "Nano Banana 2",
+   "created": "2026-10-01T10:07:53.510Z",
+   "w": 1264,
+   "h": 848,
+   "samples": [],
+   "photos": [
+    "kid",
+    "duo",
+    "baby"
+   ],
+   "file": "P154_O.jpg",
+   "thumb": "mini/P154_O.webp"
+  },
+  "P155:O": {
+   "id": "ex_mupdfavwdud82",
+   "presetId": "P155",
+   "mode": "O",
+   "model": "gemini-3.1-flash-image",
+   "modelName": "Nano Banana 2",
+   "created": "2026-10-01T10:08:03.548Z",
+   "w": 1264,
+   "h": 848,
+   "samples": [],
+   "photos": [
+    "kid",
+    "duo",
+    "baby"
+   ],
+   "file": "P155_O.jpg",
+   "thumb": "mini/P155_O.webp"
+  },
+  "P081:O": {
+   "id": "ex_mupdfhgj8uenh",
+   "presetId": "P081",
+   "mode": "O",
+   "model": "gemini-3.1-flash-image",
+   "modelName": "Nano Banana 2",
+   "created": "2026-10-01T10:08:12.067Z",
+   "w": 768,
+   "h": 1376,
+   "samples": [
+    "Kolor paska: biały"
+   ],
+   "photos": [
+    "kid",
+    "duo",
+    "baby"
+   ],
+   "file": "P081_O.jpg",
+   "thumb": "mini/P081_O.webp"
+  },
+  "P082:O": {
+   "id": "ex_mupdfowox82ob",
+   "presetId": "P082",
+   "mode": "O",
+   "model": "gemini-3.1-flash-image",
+   "modelName": "Nano Banana 2",
+   "created": "2026-10-01T10:08:21.720Z",
+   "w": 768,
+   "h": 1376,
+   "samples": [],
+   "photos": [
+    "kid",
+    "duo",
+    "baby"
+   ],
+   "file": "P082_O.jpg",
+   "thumb": "mini/P082_O.webp"
+  },
+  "P083:O": {
+   "id": "ex_mupdfwqw1j9qw",
+   "presetId": "P083",
+   "mode": "O",
+   "model": "gemini-3.1-flash-image",
+   "modelName": "Nano Banana 2",
+   "created": "2026-10-01T10:08:31.880Z",
+   "w": 928,
+   "h": 1152,
+   "samples": [],
+   "photos": [
+    "kid",
+    "duo",
+    "baby"
+   ],
+   "file": "P083_O.jpg",
+   "thumb": "mini/P083_O.webp"
+  },
+  "P084:O": {
+   "id": "ex_mupdg5gz3531r",
+   "presetId": "P084",
+   "mode": "O",
+   "model": "gemini-3.1-flash-image",
+   "modelName": "Nano Banana 2",
+   "created": "2026-10-01T10:08:43.187Z",
+   "w": 896,
+   "h": 1200,
+   "samples": [
+    "Kolor obramowania: biały"
+   ],
+   "photos": [
+    "kid",
+    "duo",
+    "baby"
+   ],
+   "file": "P084_O.jpg",
+   "thumb": "mini/P084_O.webp"
+  },
+  "P085:O": {
+   "id": "ex_mupdgfyjqqkll",
+   "presetId": "P085",
+   "mode": "O",
+   "model": "gemini-3.1-flash-image",
+   "modelName": "Nano Banana 2",
+   "created": "2026-10-01T10:08:56.779Z",
+   "w": 848,
+   "h": 1264,
+   "samples": [
+    "Kolory pasków: róż i mięta"
+   ],
+   "photos": [
+    "kid",
+    "duo",
+    "baby"
+   ],
+   "file": "P085_O.jpg",
+   "thumb": "mini/P085_O.webp"
+  },
+  "P156:O": {
+   "id": "ex_mupdgo4puqu3j",
+   "presetId": "P156",
+   "mode": "O",
+   "model": "gemini-3.1-flash-image",
+   "modelName": "Nano Banana 2",
+   "created": "2026-10-01T10:09:07.369Z",
+   "w": 928,
+   "h": 1152,
+   "samples": [],
+   "photos": [
+    "kid",
+    "duo",
+    "baby"
+   ],
+   "file": "P156_O.jpg",
+   "thumb": "mini/P156_O.webp"
+  },
+  "P157:O": {
+   "id": "ex_mupdgy5x1ouhv",
+   "presetId": "P157",
+   "mode": "O",
+   "model": "gemini-3.1-flash-image",
+   "modelName": "Nano Banana 2",
+   "created": "2026-10-01T10:09:20.373Z",
+   "w": 768,
+   "h": 1376,
+   "samples": [],
+   "photos": [
+    "kid",
+    "duo",
+    "baby"
+   ],
+   "file": "P157_O.jpg",
+   "thumb": "mini/P157_O.webp"
+  },
+  "P158:O": {
+   "id": "ex_mupdh5l5yqfae",
+   "presetId": "P158",
+   "mode": "O",
+   "model": "gemini-3.1-flash-image",
+   "modelName": "Nano Banana 2",
+   "created": "2026-10-01T10:09:29.993Z",
+   "w": 848,
+   "h": 1264,
+   "samples": [],
+   "photos": [
+    "kid",
+    "duo",
+    "baby"
+   ],
+   "file": "P158_O.jpg",
+   "thumb": "mini/P158_O.webp"
+  },
+  "P159:O": {
+   "id": "ex_mupdhcxye0mw6",
+   "presetId": "P159",
+   "mode": "O",
+   "model": "gemini-3.1-flash-image",
+   "modelName": "Nano Banana 2",
+   "created": "2026-10-01T10:09:39.526Z",
+   "w": 768,
+   "h": 1376,
+   "samples": [],
+   "photos": [
+    "kid",
+    "duo",
+    "baby"
+   ],
+   "file": "P159_O.jpg",
+   "thumb": "mini/P159_O.webp"
+  },
+  "P160:O": {
+   "id": "ex_mupdhkdyeh6o8",
+   "presetId": "P160",
+   "mode": "O",
+   "model": "gemini-3.1-flash-image",
+   "modelName": "Nano Banana 2",
+   "created": "2026-10-01T10:09:49.174Z",
+   "w": 848,
+   "h": 1264,
+   "samples": [],
+   "photos": [
+    "kid",
+    "duo",
+    "baby"
+   ],
+   "file": "P160_O.jpg",
+   "thumb": "mini/P160_O.webp"
+  },
+  "P086:O": {
+   "id": "ex_mupdhqry8ycu7",
+   "presetId": "P086",
+   "mode": "O",
+   "model": "gemini-3.1-flash-image",
+   "modelName": "Nano Banana 2",
+   "created": "2026-10-01T10:09:57.454Z",
+   "w": 1264,
+   "h": 848,
+   "samples": [],
+   "photos": [
+    "kid"
+   ],
+   "file": "P086_O.jpg",
+   "thumb": "mini/P086_O.webp"
+  },
+  "P087:O": {
+   "id": "ex_mupdhxj8t8tej",
+   "presetId": "P087",
+   "mode": "O",
+   "model": "gemini-3.1-flash-image",
+   "modelName": "Nano Banana 2",
+   "created": "2026-10-01T10:10:06.212Z",
+   "w": 1264,
+   "h": 848,
+   "samples": [
+    "Motyw botaniczny: polne kwiaty"
+   ],
+   "photos": [
+    "kid"
+   ],
+   "file": "P087_O.jpg",
+   "thumb": "mini/P087_O.webp"
+  },
+  "P088:O": {
+   "id": "ex_mupdi449kd6fk",
+   "presetId": "P088",
+   "mode": "O",
+   "model": "gemini-3.1-flash-image",
+   "modelName": "Nano Banana 2",
+   "created": "2026-10-01T10:10:14.745Z",
+   "w": 1264,
+   "h": 848,
+   "samples": [
+    "Krajobraz: góry"
+   ],
+   "photos": [
+    "kid"
+   ],
+   "file": "P088_O.jpg",
+   "thumb": "mini/P088_O.webp"
+  },
+  "P089:O": {
+   "id": "ex_mupdib60sztqp",
+   "presetId": "P089",
+   "mode": "O",
+   "model": "gemini-3.1-flash-image",
+   "modelName": "Nano Banana 2",
+   "created": "2026-10-01T10:10:23.880Z",
+   "w": 1264,
+   "h": 848,
+   "samples": [],
+   "photos": [
+    "kid"
+   ],
+   "file": "P089_O.jpg",
+   "thumb": "mini/P089_O.webp"
+  },
+  "P090:O": {
+   "id": "ex_mupdiix5jwlzt",
+   "presetId": "P090",
+   "mode": "O",
+   "model": "gemini-3.1-flash-image",
+   "modelName": "Nano Banana 2",
+   "created": "2026-10-01T10:10:33.930Z",
+   "w": 1264,
+   "h": 848,
+   "samples": [],
+   "photos": [
+    "kid"
+   ],
+   "file": "P090_O.jpg",
+   "thumb": "mini/P090_O.webp"
+  },
+  "P091:O": {
+   "id": "ex_mupdiqyiao48u",
+   "presetId": "P091",
+   "mode": "O",
+   "model": "gemini-3.1-flash-image",
+   "modelName": "Nano Banana 2",
+   "created": "2026-10-01T10:10:44.346Z",
+   "w": 1264,
+   "h": 848,
+   "samples": [
+    "Motyw otoczenia: zimowy las"
+   ],
+   "photos": [
+    "kid"
+   ],
+   "file": "P091_O.jpg",
+   "thumb": "mini/P091_O.webp"
+  },
+  "P092:O": {
+   "id": "ex_mupdiz814j32z",
+   "presetId": "P092",
+   "mode": "O",
+   "model": "gemini-3.1-flash-image",
+   "modelName": "Nano Banana 2",
+   "created": "2026-10-01T10:10:55.057Z",
+   "w": 1264,
+   "h": 848,
+   "samples": [
+    "Temat krajobrazu: góry i lasy"
+   ],
+   "photos": [
+    "kid"
+   ],
+   "file": "P092_O.jpg",
+   "thumb": "mini/P092_O.webp"
+  },
+  "P093:O": {
+   "id": "ex_mupdj7tiptsj3",
+   "presetId": "P093",
+   "mode": "O",
+   "model": "gemini-3.1-flash-image",
+   "modelName": "Nano Banana 2",
+   "created": "2026-10-01T10:11:06.198Z",
+   "w": 1264,
+   "h": 848,
+   "samples": [
+    "Elementy miniatury: domki",
+    "Materiał: len"
+   ],
+   "photos": [
+    "kid"
+   ],
+   "file": "P093_O.jpg",
+   "thumb": "mini/P093_O.webp"
+  },
+  "P094:O": {
+   "id": "ex_mupdjfhbmky78",
+   "presetId": "P094",
+   "mode": "O",
+   "model": "gemini-3.1-flash-image",
+   "modelName": "Nano Banana 2",
+   "created": "2026-10-01T10:11:16.127Z",
+   "w": 1264,
+   "h": 848,
+   "samples": [
+    "Kolor pudełka: kremowy",
+    "Pamiątki: bilety"
+   ],
+   "photos": [
+    "kid"
+   ],
+   "file": "P094_O.jpg",
+   "thumb": "mini/P094_O.webp"
+  },
+  "P095:O": {
+   "id": "ex_mupdjmu4q8gi2",
+   "presetId": "P095",
+   "mode": "O",
+   "model": "gemini-3.1-flash-image",
+   "modelName": "Nano Banana 2",
+   "created": "2026-10-01T10:11:25.660Z",
+   "w": 1264,
+   "h": 848,
+   "samples": [
+    "Motyw 1: las",
+    "Motyw 2: las"
+   ],
+   "photos": [
+    "kid"
+   ],
+   "file": "P095_O.jpg",
+   "thumb": "mini/P095_O.webp"
+  },
+  "P096:O": {
+   "id": "ex_mupdjsbh02rqo",
+   "presetId": "P096",
+   "mode": "O",
+   "model": "gemini-3.1-flash-image",
+   "modelName": "Nano Banana 2",
+   "created": "2026-10-01T10:11:32.765Z",
+   "w": 928,
+   "h": 1152,
+   "samples": [],
+   "photos": [
+    "kid"
+   ],
+   "file": "P096_O.jpg",
+   "thumb": "mini/P096_O.webp"
+  },
+  "P097:O": {
+   "id": "ex_mupdk0eymcv21",
+   "presetId": "P097",
+   "mode": "O",
+   "model": "gemini-3.1-flash-image",
+   "modelName": "Nano Banana 2",
+   "created": "2026-10-01T10:11:43.258Z",
+   "w": 768,
+   "h": 1376,
+   "samples": [],
+   "photos": [
+    "kid"
+   ],
+   "file": "P097_O.jpg",
+   "thumb": "mini/P097_O.webp"
+  },
+  "P098:O": {
+   "id": "ex_mupdk7umaar7s",
+   "presetId": "P098",
+   "mode": "O",
+   "model": "gemini-3.1-flash-image",
+   "modelName": "Nano Banana 2",
+   "created": "2026-10-01T10:11:52.894Z",
+   "w": 1264,
+   "h": 848,
+   "samples": [
+    "Miejsce: park (umowny)"
+   ],
+   "photos": [
+    "kid"
+   ],
+   "file": "P098_O.jpg",
+   "thumb": "mini/P098_O.webp"
+  },
+  "P099:O": {
+   "id": "ex_mupdkfoyemy03",
+   "presetId": "P099",
+   "mode": "O",
+   "model": "gemini-3.1-flash-image",
+   "modelName": "Nano Banana 2",
+   "created": "2026-10-01T10:12:03.058Z",
+   "w": 848,
+   "h": 1264,
+   "samples": [],
+   "photos": [
+    "kid"
+   ],
+   "file": "P099_O.jpg",
+   "thumb": "mini/P099_O.webp"
+  },
+  "P100:O": {
+   "id": "ex_mupdknmj6rtrn",
+   "presetId": "P100",
+   "mode": "O",
+   "model": "gemini-3.1-flash-image",
+   "modelName": "Nano Banana 2",
+   "created": "2026-10-01T10:12:13.339Z",
+   "w": 1264,
+   "h": 848,
+   "samples": [
+    "Okazja: urodziny"
+   ],
+   "photos": [
+    "kid"
+   ],
+   "file": "P100_O.jpg",
+   "thumb": "mini/P100_O.webp"
+  },
+  "P161:O": {
+   "id": "ex_mupdl68cfaby0",
+   "presetId": "P161",
+   "mode": "O",
+   "model": "gemini-3.1-flash-image",
+   "modelName": "Nano Banana 2",
+   "created": "2026-10-01T10:12:37.452Z",
+   "w": 1264,
+   "h": 848,
+   "samples": [],
+   "photos": [
+    "duo",
+    "obj_P161"
+   ],
+   "file": "P161_O.jpg",
+   "thumb": "mini/P161_O.webp"
+  },
+  "P162:O": {
+   "id": "ex_mupdlminj6z3o",
+   "presetId": "P162",
+   "mode": "O",
+   "model": "gemini-3.1-flash-image",
+   "modelName": "Nano Banana 2",
+   "created": "2026-10-01T10:12:58.559Z",
+   "w": 1264,
+   "h": 848,
+   "samples": [],
+   "photos": [
+    "duo",
+    "obj_P162"
+   ],
+   "file": "P162_O.jpg",
+   "thumb": "mini/P162_O.webp"
+  },
+  "P163:O": {
+   "id": "ex_mupdltec7n5b5",
+   "presetId": "P163",
+   "mode": "O",
+   "model": "gemini-3.1-flash-image",
+   "modelName": "Nano Banana 2",
+   "created": "2026-10-01T10:13:07.476Z",
+   "w": 1264,
+   "h": 848,
+   "samples": [],
+   "photos": [
+    "duo"
+   ],
+   "file": "P163_O.jpg",
+   "thumb": "mini/P163_O.webp"
+  },
+  "P164:O": {
+   "id": "ex_mupdm196wjjk9",
+   "presetId": "P164",
+   "mode": "O",
+   "model": "gemini-3.1-flash-image",
+   "modelName": "Nano Banana 2",
+   "created": "2026-10-01T10:13:17.659Z",
+   "w": 1264,
+   "h": 848,
+   "samples": [],
+   "photos": [
+    "duo",
+    "kid"
+   ],
+   "file": "P164_O.jpg",
+   "thumb": "mini/P164_O.webp"
+  },
+  "P165:O": {
+   "id": "ex_mupdm7zace121",
+   "presetId": "P165",
+   "mode": "O",
+   "model": "gemini-3.1-flash-image",
+   "modelName": "Nano Banana 2",
+   "created": "2026-10-01T10:13:26.374Z",
+   "w": 1264,
+   "h": 848,
+   "samples": [],
+   "photos": [
+    "duo"
+   ],
+   "file": "P165_O.jpg",
+   "thumb": "mini/P165_O.webp"
+  },
+  "P166:O": {
+   "id": "ex_mupdmfnibbqyp",
+   "presetId": "P166",
+   "mode": "O",
+   "model": "gemini-3.1-flash-image",
+   "modelName": "Nano Banana 2",
+   "created": "2026-10-01T10:13:36.318Z",
+   "w": 1264,
+   "h": 848,
+   "samples": [],
+   "photos": [
+    "kid"
+   ],
+   "file": "P166_O.jpg",
+   "thumb": "mini/P166_O.webp"
+  },
+  "P167:O": {
+   "id": "ex_mupdmnnkbjsyn",
+   "presetId": "P167",
+   "mode": "O",
+   "model": "gemini-3.1-flash-image",
+   "modelName": "Nano Banana 2",
+   "created": "2026-10-01T10:13:46.688Z",
+   "w": 1264,
+   "h": 848,
+   "samples": [],
+   "photos": [
+    "kid"
+   ],
+   "file": "P167_O.jpg",
+   "thumb": "mini/P167_O.webp"
+  },
+  "P168:O": {
+   "id": "ex_mupdmuvrgyozd",
+   "presetId": "P168",
+   "mode": "O",
+   "model": "gemini-3.1-flash-image",
+   "modelName": "Nano Banana 2",
+   "created": "2026-10-01T10:13:56.055Z",
+   "w": 1264,
+   "h": 848,
+   "samples": [],
+   "photos": [
+    "kid"
+   ],
+   "file": "P168_O.jpg",
+   "thumb": "mini/P168_O.webp"
+  },
+  "P169:O": {
+   "id": "ex_mupdn1w8uif23",
+   "presetId": "P169",
+   "mode": "O",
+   "model": "gemini-3.1-flash-image",
+   "modelName": "Nano Banana 2",
+   "created": "2026-10-01T10:14:05.144Z",
+   "w": 1264,
+   "h": 848,
+   "samples": [],
+   "photos": [
+    "kid"
+   ],
+   "file": "P169_O.jpg",
+   "thumb": "mini/P169_O.webp"
+  },
+  "P170:O": {
+   "id": "ex_mupdn92vuylyw",
+   "presetId": "P170",
+   "mode": "O",
+   "model": "gemini-3.1-flash-image",
+   "modelName": "Nano Banana 2",
+   "created": "2026-10-01T10:14:14.455Z",
+   "w": 1264,
+   "h": 848,
+   "samples": [],
+   "photos": [
+    "kid"
+   ],
+   "file": "P170_O.jpg",
+   "thumb": "mini/P170_O.webp"
+  },
+  "P171:O": {
+   "id": "ex_mupdnhitil2cg",
+   "presetId": "P171",
+   "mode": "O",
+   "model": "gemini-3.1-flash-image",
+   "modelName": "Nano Banana 2",
+   "created": "2026-10-01T10:14:25.397Z",
+   "w": 848,
+   "h": 1264,
+   "samples": [],
+   "photos": [
+    "kid"
+   ],
+   "file": "P171_O.jpg",
+   "thumb": "mini/P171_O.webp"
+  },
+  "P172:O": {
+   "id": "ex_mupdnph1d3owd",
+   "presetId": "P172",
+   "mode": "O",
+   "model": "gemini-3.1-flash-image",
+   "modelName": "Nano Banana 2",
+   "created": "2026-10-01T10:14:35.701Z",
+   "w": 1264,
+   "h": 848,
+   "samples": [],
+   "photos": [
+    "kid"
+   ],
+   "file": "P172_O.jpg",
+   "thumb": "mini/P172_O.webp"
+  },
+  "P173:O": {
+   "id": "ex_mupdo6kmfkvca",
+   "presetId": "P173",
+   "mode": "O",
+   "model": "gemini-3.1-flash-image-preview",
+   "modelName": "Nano Banana 2 (preview)",
+   "created": "2026-10-01T10:14:57.862Z",
+   "w": 1264,
+   "h": 848,
+   "samples": [],
+   "photos": [],
+   "file": "P173_O.jpg",
+   "thumb": "mini/P173_O.webp"
+  },
+  "P174:O": {
+   "id": "ex_mupdoelvg19s0",
+   "presetId": "P174",
+   "mode": "O",
+   "model": "gemini-3.1-flash-image",
+   "modelName": "Nano Banana 2",
+   "created": "2026-10-01T10:15:08.275Z",
+   "w": 848,
+   "h": 1264,
+   "samples": [],
+   "photos": [],
+   "file": "P174_O.jpg",
+   "thumb": "mini/P174_O.webp"
+  },
+  "P175:O": {
+   "id": "ex_mupdomoo5hkzt",
+   "presetId": "P175",
+   "mode": "O",
+   "model": "gemini-3.1-flash-image",
+   "modelName": "Nano Banana 2",
+   "created": "2026-10-01T10:15:18.744Z",
+   "w": 1264,
+   "h": 848,
+   "samples": [],
+   "photos": [
+    "kid"
+   ],
+   "file": "P175_O.jpg",
+   "thumb": "mini/P175_O.webp"
+  },
+  "P176:O": {
+   "id": "ex_mupdosjo5xicp",
+   "presetId": "P176",
+   "mode": "O",
+   "model": "gemini-3.1-flash-image",
+   "modelName": "Nano Banana 2",
+   "created": "2026-10-01T10:15:26.340Z",
+   "w": 1264,
+   "h": 848,
+   "samples": [],
+   "photos": [
+    "kid"
+   ],
+   "file": "P176_O.jpg",
+   "thumb": "mini/P176_O.webp"
+  },
+  "P177:O": {
+   "id": "ex_mupdozw03i9ms",
+   "presetId": "P177",
+   "mode": "O",
+   "model": "gemini-3.1-flash-image",
+   "modelName": "Nano Banana 2",
+   "created": "2026-10-01T10:15:35.856Z",
+   "w": 1264,
+   "h": 848,
+   "samples": [],
+   "photos": [
+    "kid"
+   ],
+   "file": "P177_O.jpg",
+   "thumb": "mini/P177_O.webp"
+  },
+  "P178:O": {
+   "id": "ex_mupdp7pysupj4",
+   "presetId": "P178",
+   "mode": "O",
+   "model": "gemini-3.1-flash-image",
+   "modelName": "Nano Banana 2",
+   "created": "2026-10-01T10:15:46.006Z",
+   "w": 1264,
+   "h": 848,
+   "samples": [],
+   "photos": [
+    "kid"
+   ],
+   "file": "P178_O.jpg",
+   "thumb": "mini/P178_O.webp"
+  },
+  "P179:O": {
+   "id": "ex_mupdpgij5tg56",
+   "presetId": "P179",
+   "mode": "O",
+   "model": "gemini-3.1-flash-image",
+   "modelName": "Nano Banana 2",
+   "created": "2026-10-01T10:15:57.403Z",
+   "w": 1264,
+   "h": 848,
+   "samples": [],
+   "photos": [
+    "kid"
+   ],
+   "file": "P179_O.jpg",
+   "thumb": "mini/P179_O.webp"
+  },
+  "P180:O": {
+   "id": "ex_mupdpo1ud5lbz",
+   "presetId": "P180",
+   "mode": "O",
+   "model": "gemini-3.1-flash-image",
+   "modelName": "Nano Banana 2",
+   "created": "2026-10-01T10:16:07.170Z",
+   "w": 1264,
+   "h": 848,
+   "samples": [],
+   "photos": [
+    "kid"
+   ],
+   "file": "P180_O.jpg",
+   "thumb": "mini/P180_O.webp"
+  },
+  "P001:K": {
+   "id": "ex_mupdt79f5pwru",
+   "presetId": "P001",
+   "mode": "K",
+   "model": "gemini-3.1-flash-image",
+   "modelName": "Nano Banana 2",
+   "created": "2026-10-01T10:18:52.035Z",
+   "w": 1264,
+   "h": 848,
+   "samples": [
+    "Temat: pamiątki z wakacji"
+   ],
+   "photos": [
+    "kid"
+   ],
+   "file": "P001_K.jpg",
+   "thumb": "mini/P001_K.webp"
+  },
+  "P001:T": {
+   "id": "ex_mupdtezwo7des",
+   "presetId": "P001",
+   "mode": "T",
+   "model": "gemini-3.1-flash-image",
+   "modelName": "Nano Banana 2",
+   "created": "2026-10-01T10:19:02.060Z",
+   "w": 1264,
+   "h": 848,
+   "samples": [
+    "Temat: pamiątki z wakacji"
+   ],
+   "photos": [],
+   "file": "P001_T.jpg",
+   "thumb": "mini/P001_T.webp"
+  },
+  "P002:K": {
+   "id": "ex_mupdtlg3rduej",
+   "presetId": "P002",
+   "mode": "K",
+   "model": "gemini-3.1-flash-image",
+   "modelName": "Nano Banana 2",
+   "created": "2026-10-01T10:19:10.419Z",
+   "w": 1264,
+   "h": 848,
+   "samples": [],
+   "photos": [
+    "kid"
+   ],
+   "file": "P002_K.jpg",
+   "thumb": "mini/P002_K.webp"
+  },
+  "P002:T": {
+   "id": "ex_mupdttdd9itoi",
+   "presetId": "P002",
+   "mode": "T",
+   "model": "gemini-3.1-flash-image",
+   "modelName": "Nano Banana 2",
+   "created": "2026-10-01T10:19:20.689Z",
+   "w": 1264,
+   "h": 848,
+   "samples": [],
+   "photos": [],
+   "file": "P002_T.jpg",
+   "thumb": "mini/P002_T.webp"
+  },
+  "P003:K": {
+   "id": "ex_mupdu1bg19mko",
+   "presetId": "P003",
+   "mode": "K",
+   "model": "gemini-3.1-flash-image",
+   "modelName": "Nano Banana 2",
+   "created": "2026-10-01T10:19:30.988Z",
+   "w": 1264,
+   "h": 848,
+   "samples": [
+    "Materiał: len"
+   ],
+   "photos": [
+    "kid"
+   ],
+   "file": "P003_K.jpg",
+   "thumb": "mini/P003_K.webp"
+  },
+  "P003:T": {
+   "id": "ex_mupdua3pt98q7",
+   "presetId": "P003",
+   "mode": "T",
+   "model": "gemini-3.1-flash-image",
+   "modelName": "Nano Banana 2",
+   "created": "2026-10-01T10:19:42.373Z",
+   "w": 1264,
+   "h": 848,
+   "samples": [
+    "Materiał: len"
+   ],
+   "photos": [],
+   "file": "P003_T.jpg",
+   "thumb": "mini/P003_T.webp"
+  },
+  "P004:K": {
+   "id": "ex_mupduip9s18en",
+   "presetId": "P004",
+   "mode": "K",
+   "model": "gemini-3.1-flash-image",
+   "modelName": "Nano Banana 2",
+   "created": "2026-10-01T10:19:53.517Z",
+   "w": 1264,
+   "h": 848,
+   "samples": [
+    "Rekwizyty: książki",
+    "Tło: jasne studio"
+   ],
+   "photos": [
+    "kid"
+   ],
+   "file": "P004_K.jpg",
+   "thumb": "mini/P004_K.webp"
+  },
+  "P004:T": {
+   "id": "ex_mupduqln5xpdb",
+   "presetId": "P004",
+   "mode": "T",
+   "model": "gemini-3.1-flash-image",
+   "modelName": "Nano Banana 2",
+   "created": "2026-10-01T10:20:03.755Z",
+   "w": 1264,
+   "h": 848,
+   "samples": [
+    "Rekwizyty: książki",
+    "Tło: jasne studio"
+   ],
+   "photos": [],
+   "file": "P004_T.jpg",
+   "thumb": "mini/P004_T.webp"
+  },
+  "P005:K": {
+   "id": "ex_mupduxmqjfz6a",
+   "presetId": "P005",
+   "mode": "K",
+   "model": "gemini-3.1-flash-image",
+   "modelName": "Nano Banana 2",
+   "created": "2026-10-01T10:20:12.866Z",
+   "w": 1264,
+   "h": 848,
+   "samples": [
+    "Kolor akcentu: terakota"
+   ],
+   "photos": [
+    "kid"
+   ],
+   "file": "P005_K.jpg",
+   "thumb": "mini/P005_K.webp"
+  },
+  "P005:T": {
+   "id": "ex_mupdv6s6n17q8",
+   "presetId": "P005",
+   "mode": "T",
+   "model": "gemini-3.1-flash-image",
+   "modelName": "Nano Banana 2",
+   "created": "2026-10-01T10:20:24.726Z",
+   "w": 1264,
+   "h": 848,
+   "samples": [
+    "Kolor akcentu: terakota"
+   ],
+   "photos": [],
+   "file": "P005_T.jpg",
+   "thumb": "mini/P005_T.webp"
+  },
+  "P101:K": {
+   "id": "ex_mupdvfll8glwt",
+   "presetId": "P101",
+   "mode": "K",
+   "model": "gemini-3.1-flash-image",
+   "modelName": "Nano Banana 2",
+   "created": "2026-10-01T10:20:36.153Z",
+   "w": 1264,
+   "h": 848,
+   "samples": [],
+   "photos": [
+    "kid"
+   ],
+   "file": "P101_K.jpg",
+   "thumb": "mini/P101_K.webp"
+  },
+  "P101:T": {
+   "id": "ex_mupdw0f1c6bnt",
+   "presetId": "P101",
+   "mode": "T",
+   "model": "gemini-3.1-flash-image",
+   "modelName": "Nano Banana 2",
+   "created": "2026-10-01T10:21:03.133Z",
+   "w": 1264,
+   "h": 848,
+   "samples": [],
+   "photos": [],
+   "file": "P101_T.jpg",
+   "thumb": "mini/P101_T.webp"
+  },
+  "P102:K": {
+   "id": "ex_mupdw7noh86ej",
+   "presetId": "P102",
+   "mode": "K",
+   "model": "gemini-3.1-flash-image",
+   "modelName": "Nano Banana 2",
+   "created": "2026-10-01T10:21:12.516Z",
+   "w": 1264,
+   "h": 848,
+   "samples": [],
+   "photos": [
+    "kid"
+   ],
+   "file": "P102_K.jpg",
+   "thumb": "mini/P102_K.webp"
+  },
+  "P102:T": {
+   "id": "ex_mupdwe9vkndmw",
+   "presetId": "P102",
+   "mode": "T",
+   "model": "gemini-3.1-flash-image",
+   "modelName": "Nano Banana 2",
+   "created": "2026-10-01T10:21:21.091Z",
+   "w": 1264,
+   "h": 848,
+   "samples": [],
+   "photos": [],
+   "file": "P102_T.jpg",
+   "thumb": "mini/P102_T.webp"
+  },
+  "P104:K": {
+   "id": "ex_mupdwqugv94lb",
+   "presetId": "P104",
+   "mode": "K",
+   "model": "gemini-3.1-flash-image",
+   "modelName": "Nano Banana 2",
+   "created": "2026-10-01T10:21:37.384Z",
+   "w": 1264,
+   "h": 848,
+   "samples": [],
+   "photos": [
+    "kid"
+   ],
+   "file": "P104_K.jpg",
+   "thumb": "mini/P104_K.webp"
+  },
+  "P104:T": {
+   "id": "ex_mupdwz8fv62ou",
+   "presetId": "P104",
+   "mode": "T",
+   "model": "gemini-3.1-flash-image",
+   "modelName": "Nano Banana 2",
+   "created": "2026-10-01T10:21:48.255Z",
+   "w": 1264,
+   "h": 848,
+   "samples": [],
+   "photos": [],
+   "file": "P104_T.jpg",
+   "thumb": "mini/P104_T.webp"
+  },
+  "P006:K": {
+   "id": "ex_mupdx7rriwhhc",
+   "presetId": "P006",
+   "mode": "K",
+   "model": "gemini-3.1-flash-image",
+   "modelName": "Nano Banana 2",
+   "created": "2026-10-01T10:21:59.319Z",
+   "w": 1264,
+   "h": 848,
+   "samples": [
+    "Wnętrze: salon",
+    "Pora dnia: świt"
+   ],
+   "photos": [
+    "duo"
+   ],
+   "file": "P006_K.jpg",
+   "thumb": "mini/P006_K.webp"
+  },
+  "P006:T": {
+   "id": "ex_mupdxejx7an1o",
+   "presetId": "P006",
+   "mode": "T",
+   "model": "gemini-3.1-flash-image",
+   "modelName": "Nano Banana 2",
+   "created": "2026-10-01T10:22:08.109Z",
+   "w": 1264,
+   "h": 848,
+   "samples": [
+    "Wnętrze: salon",
+    "Pora dnia: świt"
+   ],
+   "photos": [],
+   "file": "P006_T.jpg",
+   "thumb": "mini/P006_T.webp"
+  },
+  "P007:K": {
+   "id": "ex_mupdxnzq097i8",
+   "presetId": "P007",
+   "mode": "K",
+   "model": "gemini-3.1-flash-image",
+   "modelName": "Nano Banana 2",
+   "created": "2026-10-01T10:22:20.342Z",
+   "w": 1264,
+   "h": 848,
+   "samples": [
+    "Miejsce: park (umowny)",
+    "Kolory koca: czerwono-biała krata",
+    "Dodatki: kosz piknikowy"
+   ],
+   "photos": [
+    "duo"
+   ],
+   "file": "P007_K.jpg",
+   "thumb": "mini/P007_K.webp"
+  },
+  "P007:T": {
+   "id": "ex_mupdxx0p06yy0",
+   "presetId": "P007",
+   "mode": "T",
+   "model": "gemini-3.1-flash-image",
+   "modelName": "Nano Banana 2",
+   "created": "2026-10-01T10:22:32.041Z",
+   "w": 1264,
+   "h": 848,
+   "samples": [
+    "Miejsce: park (umowny)",
+    "Kolory koca: czerwono-biała krata",
+    "Dodatki: kosz piknikowy"
+   ],
+   "photos": [],
+   "file": "P007_T.jpg",
+   "thumb": "mini/P007_T.webp"
+  },
+  "P008:K": {
+   "id": "ex_mupdy8367y5ra",
+   "presetId": "P008",
+   "mode": "K",
+   "model": "gemini-3.1-flash-image",
+   "modelName": "Nano Banana 2",
+   "created": "2026-10-01T10:22:46.386Z",
+   "w": 1264,
+   "h": 848,
+   "samples": [
+    "Tło: jasne studio"
+   ],
+   "photos": [
+    "duo"
+   ],
+   "file": "P008_K.jpg",
+   "thumb": "mini/P008_K.webp"
+  },
+  "P008:T": {
+   "id": "ex_mupdyfr5njvtp",
+   "presetId": "P008",
+   "mode": "T",
+   "model": "gemini-3.1-flash-image",
+   "modelName": "Nano Banana 2",
+   "created": "2026-10-01T10:22:56.321Z",
+   "w": 1264,
+   "h": 848,
+   "samples": [
+    "Tło: jasne studio"
+   ],
+   "photos": [],
+   "file": "P008_T.jpg",
+   "thumb": "mini/P008_T.webp"
+  },
+  "P009:K": {
+   "id": "ex_mupdypl2dvvzu",
+   "presetId": "P009",
+   "mode": "K",
+   "model": "gemini-3.1-flash-image",
+   "modelName": "Nano Banana 2",
+   "created": "2026-10-01T10:23:09.062Z",
+   "w": 1264,
+   "h": 848,
+   "samples": [
+    "Wspólna pasja: muzyka"
+   ],
+   "photos": [
+    "duo"
+   ],
+   "file": "P009_K.jpg",
+   "thumb": "mini/P009_K.webp"
+  },
+  "P009:T": {
+   "id": "ex_mupdyxebcswxs",
+   "presetId": "P009",
+   "mode": "T",
+   "model": "gemini-3.1-flash-image",
+   "modelName": "Nano Banana 2",
+   "created": "2026-10-01T10:23:19.187Z",
+   "w": 1264,
+   "h": 848,
+   "samples": [
+    "Wspólna pasja: muzyka"
+   ],
+   "photos": [],
+   "file": "P009_T.jpg",
+   "thumb": "mini/P009_T.webp"
+  },
+  "P010:K": {
+   "id": "ex_mupdz3z4r4oza",
+   "presetId": "P010",
+   "mode": "K",
+   "model": "gemini-3.1-flash-image",
+   "modelName": "Nano Banana 2",
+   "created": "2026-10-01T10:23:27.712Z",
+   "w": 1264,
+   "h": 848,
+   "samples": [
+    "Pokój: salon",
+    "Aktywność: wspólne czytanie"
+   ],
+   "photos": [
+    "duo"
+   ],
+   "file": "P010_K.jpg",
+   "thumb": "mini/P010_K.webp"
+  },
+  "P010:T": {
+   "id": "ex_mupdze24o3klt",
+   "presetId": "P010",
+   "mode": "T",
+   "model": "gemini-3.1-flash-image",
+   "modelName": "Nano Banana 2",
+   "created": "2026-10-01T10:23:40.780Z",
+   "w": 1264,
+   "h": 848,
+   "samples": [
+    "Pokój: salon",
+    "Aktywność: wspólne czytanie"
+   ],
+   "photos": [],
+   "file": "P010_T.jpg",
+   "thumb": "mini/P010_T.webp"
+  },
+  "P106:K": {
+   "id": "ex_mupdznaj3m8a4",
+   "presetId": "P106",
+   "mode": "K",
+   "model": "gemini-3.1-flash-image",
+   "modelName": "Nano Banana 2",
+   "created": "2026-10-01T10:23:52.747Z",
+   "w": 1264,
+   "h": 848,
+   "samples": [],
+   "photos": [
+    "duo"
+   ],
+   "file": "P106_K.jpg",
+   "thumb": "mini/P106_K.webp"
+  },
+  "P106:T": {
+   "id": "ex_mupdzy5f1nj7v",
+   "presetId": "P106",
+   "mode": "T",
+   "model": "gemini-3.1-flash-image",
+   "modelName": "Nano Banana 2",
+   "created": "2026-10-01T10:24:06.819Z",
+   "w": 1264,
+   "h": 848,
+   "samples": [],
+   "photos": [],
+   "file": "P106_T.jpg",
+   "thumb": "mini/P106_T.webp"
+  },
+  "P107:K": {
+   "id": "ex_mupe06gy83ya5",
+   "presetId": "P107",
+   "mode": "K",
+   "model": "gemini-3.1-flash-image",
+   "modelName": "Nano Banana 2",
+   "created": "2026-10-01T10:24:17.602Z",
+   "w": 1264,
+   "h": 848,
+   "samples": [],
+   "photos": [
+    "duo"
+   ],
+   "file": "P107_K.jpg",
+   "thumb": "mini/P107_K.webp"
+  },
+  "P107:T": {
+   "id": "ex_mupe0esficqyz",
+   "presetId": "P107",
+   "mode": "T",
+   "model": "gemini-3.1-flash-image",
+   "modelName": "Nano Banana 2",
+   "created": "2026-10-01T10:24:28.383Z",
+   "w": 1264,
+   "h": 848,
+   "samples": [],
+   "photos": [],
+   "file": "P107_T.jpg",
+   "thumb": "mini/P107_T.webp"
+  },
+  "P108:K": {
+   "id": "ex_mupe0mx27o44n",
+   "presetId": "P108",
+   "mode": "K",
+   "model": "gemini-3.1-flash-image",
+   "modelName": "Nano Banana 2",
+   "created": "2026-10-01T10:24:38.918Z",
+   "w": 1264,
+   "h": 848,
+   "samples": [],
+   "photos": [
+    "duo"
+   ],
+   "file": "P108_K.jpg",
+   "thumb": "mini/P108_K.webp"
+  },
+  "P108:T": {
+   "id": "ex_mupe0tofe5evc",
+   "presetId": "P108",
+   "mode": "T",
+   "model": "gemini-3.1-flash-image",
+   "modelName": "Nano Banana 2",
+   "created": "2026-10-01T10:24:47.679Z",
+   "w": 1264,
+   "h": 848,
+   "samples": [],
+   "photos": [],
+   "file": "P108_T.jpg",
+   "thumb": "mini/P108_T.webp"
+  },
+  "P109:K": {
+   "id": "ex_mupe15vmwhbds",
+   "presetId": "P109",
+   "mode": "K",
+   "model": "gemini-3.1-flash-image",
+   "modelName": "Nano Banana 2",
+   "created": "2026-10-01T10:25:03.490Z",
+   "w": 1264,
+   "h": 848,
+   "samples": [],
+   "photos": [
+    "duo"
+   ],
+   "file": "P109_K.jpg",
+   "thumb": "mini/P109_K.webp"
+  },
+  "P109:T": {
+   "id": "ex_mupe1dqrnc9n8",
+   "presetId": "P109",
+   "mode": "T",
+   "model": "gemini-3.1-flash-image",
+   "modelName": "Nano Banana 2",
+   "created": "2026-10-01T10:25:13.683Z",
+   "w": 1264,
+   "h": 848,
+   "samples": [],
+   "photos": [],
+   "file": "P109_T.jpg",
+   "thumb": "mini/P109_T.webp"
+  },
+  "P011:K": {
+   "id": "ex_mupe1lqhbz6e0",
+   "presetId": "P011",
+   "mode": "K",
+   "model": "gemini-3.1-flash-image",
+   "modelName": "Nano Banana 2",
+   "created": "2026-10-01T10:25:24.041Z",
+   "w": 1264,
+   "h": 848,
+   "samples": [
+    "Temat książek: bajki"
+   ],
+   "photos": [
+    "kid"
+   ],
+   "file": "P011_K.jpg",
+   "thumb": "mini/P011_K.webp"
+  },
+  "P011:T": {
+   "id": "ex_mupe1t7pn4f0g",
+   "presetId": "P011",
+   "mode": "T",
+   "model": "gemini-3.1-flash-image",
+   "modelName": "Nano Banana 2",
+   "created": "2026-10-01T10:25:33.733Z",
+   "w": 1264,
+   "h": 848,
+   "samples": [
+    "Temat książek: bajki"
+   ],
+   "photos": [],
+   "file": "P011_T.jpg",
+   "thumb": "mini/P011_T.webp"
+  },
+  "P012:K": {
+   "id": "ex_mupe1zsb08mck",
+   "presetId": "P012",
+   "mode": "K",
+   "model": "gemini-3.1-flash-image",
+   "modelName": "Nano Banana 2",
+   "created": "2026-10-01T10:25:42.251Z",
+   "w": 1264,
+   "h": 848,
+   "samples": [
+    "Otoczenie: park",
+    "Temat odkrywania: owady"
+   ],
+   "photos": [
+    "kid"
+   ],
+   "file": "P012_K.jpg",
+   "thumb": "mini/P012_K.webp"
+  },
+  "P012:T": {
+   "id": "ex_mupe25di1z9sb",
+   "presetId": "P012",
+   "mode": "T",
+   "model": "gemini-3.1-flash-image",
+   "modelName": "Nano Banana 2",
+   "created": "2026-10-01T10:25:49.494Z",
+   "w": 1264,
+   "h": 848,
+   "samples": [
+    "Otoczenie: park",
+    "Temat odkrywania: owady"
+   ],
+   "photos": [],
+   "file": "P012_T.jpg",
+   "thumb": "mini/P012_T.webp"
+  },
+  "P013:K": {
+   "id": "ex_mupe2des5xyog",
+   "presetId": "P013",
+   "mode": "K",
+   "model": "gemini-3.1-flash-image",
+   "modelName": "Nano Banana 2",
+   "created": "2026-10-01T10:25:59.908Z",
+   "w": 1264,
+   "h": 848,
+   "samples": [
+    "Kwiaty: polne kwiaty"
+   ],
+   "photos": [
+    "kid"
+   ],
+   "file": "P013_K.jpg",
+   "thumb": "mini/P013_K.webp"
+  },
+  "P013:T": {
+   "id": "ex_mupe2lettxjst",
+   "presetId": "P013",
+   "mode": "T",
+   "model": "gemini-3.1-flash-image",
+   "modelName": "Nano Banana 2",
+   "created": "2026-10-01T10:26:10.277Z",
+   "w": 1264,
+   "h": 848,
+   "samples": [
+    "Kwiaty: polne kwiaty"
+   ],
+   "photos": [],
+   "file": "P013_T.jpg",
+   "thumb": "mini/P013_T.webp"
+  },
+  "P014:K": {
+   "id": "ex_mupe2t7u66pfk",
+   "presetId": "P014",
+   "mode": "K",
+   "model": "gemini-3.1-flash-image",
+   "modelName": "Nano Banana 2",
+   "created": "2026-10-01T10:26:20.394Z",
+   "w": 1264,
+   "h": 848,
+   "samples": [
+    "Paleta tkanin: kremowa"
+   ],
+   "photos": [
+    "kid"
+   ],
+   "file": "P014_K.jpg",
+   "thumb": "mini/P014_K.webp"
+  },
+  "P014:T": {
+   "id": "ex_mupe31m9q97m7",
+   "presetId": "P014",
+   "mode": "T",
+   "model": "gemini-3.1-flash-image",
+   "modelName": "Nano Banana 2",
+   "created": "2026-10-01T10:26:31.281Z",
+   "w": 1264,
+   "h": 848,
+   "samples": [
+    "Paleta tkanin: kremowa"
+   ],
+   "photos": [],
+   "file": "P014_T.jpg",
+   "thumb": "mini/P014_T.webp"
+  },
+  "P015:K": {
+   "id": "ex_mupe3a20fb5p7",
+   "presetId": "P015",
+   "mode": "K",
+   "model": "gemini-3.1-flash-image",
+   "modelName": "Nano Banana 2",
+   "created": "2026-10-01T10:26:42.216Z",
+   "w": 1264,
+   "h": 848,
+   "samples": [
+    "Temat budowli: zamek"
+   ],
+   "photos": [
+    "kid"
+   ],
+   "file": "P015_K.jpg",
+   "thumb": "mini/P015_K.webp"
+  },
+  "P015:T": {
+   "id": "ex_mupe3i6o05ufd",
+   "presetId": "P015",
+   "mode": "T",
+   "model": "gemini-3.1-flash-image",
+   "modelName": "Nano Banana 2",
+   "created": "2026-10-01T10:26:52.752Z",
+   "w": 1264,
+   "h": 848,
+   "samples": [
+    "Temat budowli: zamek"
+   ],
+   "photos": [],
+   "file": "P015_T.jpg",
+   "thumb": "mini/P015_T.webp"
+  },
+  "P111:K": {
+   "id": "ex_mupe3qo7rxt87",
+   "presetId": "P111",
+   "mode": "K",
+   "model": "gemini-3.1-flash-image",
+   "modelName": "Nano Banana 2",
+   "created": "2026-10-01T10:27:03.751Z",
+   "w": 1264,
+   "h": 848,
+   "samples": [],
+   "photos": [
+    "kid"
+   ],
+   "file": "P111_K.jpg",
+   "thumb": "mini/P111_K.webp"
+  },
+  "P111:T": {
+   "id": "ex_mupe3y2v37sfw",
+   "presetId": "P111",
+   "mode": "T",
+   "model": "gemini-3.1-flash-image",
+   "modelName": "Nano Banana 2",
+   "created": "2026-10-01T10:27:13.351Z",
+   "w": 1264,
+   "h": 848,
+   "samples": [],
+   "photos": [],
+   "file": "P111_T.jpg",
+   "thumb": "mini/P111_T.webp"
+  },
+  "P112:K": {
+   "id": "ex_mupe46hjf670i",
+   "presetId": "P112",
+   "mode": "K",
+   "model": "gemini-3.1-flash-image",
+   "modelName": "Nano Banana 2",
+   "created": "2026-10-01T10:27:24.247Z",
+   "w": 1264,
+   "h": 848,
+   "samples": [],
+   "photos": [
+    "kid"
+   ],
+   "file": "P112_K.jpg",
+   "thumb": "mini/P112_K.webp"
+  },
+  "P112:T": {
+   "id": "ex_mupe4ehvilimn",
+   "presetId": "P112",
+   "mode": "T",
+   "model": "gemini-3.1-flash-image",
+   "modelName": "Nano Banana 2",
+   "created": "2026-10-01T10:27:34.627Z",
+   "w": 1264,
+   "h": 848,
+   "samples": [],
+   "photos": [],
+   "file": "P112_T.jpg",
+   "thumb": "mini/P112_T.webp"
+  },
+  "P113:K": {
+   "id": "ex_mupe4mlso75cb",
+   "presetId": "P113",
+   "mode": "K",
+   "model": "gemini-3.1-flash-image",
+   "modelName": "Nano Banana 2",
+   "created": "2026-10-01T10:27:45.136Z",
+   "w": 1264,
+   "h": 848,
+   "samples": [],
+   "photos": [
+    "kid"
+   ],
+   "file": "P113_K.jpg",
+   "thumb": "mini/P113_K.webp"
+  },
+  "P113:T": {
+   "id": "ex_mupe4v5950yb0",
+   "presetId": "P113",
+   "mode": "T",
+   "model": "gemini-3.1-flash-image",
+   "modelName": "Nano Banana 2",
+   "created": "2026-10-01T10:27:56.205Z",
+   "w": 1264,
+   "h": 848,
+   "samples": [],
+   "photos": [],
+   "file": "P113_T.jpg",
+   "thumb": "mini/P113_T.webp"
+  },
+  "P114:K": {
+   "id": "ex_mupe53uu9nyaf",
+   "presetId": "P114",
+   "mode": "K",
+   "model": "gemini-3.1-flash-image",
+   "modelName": "Nano Banana 2",
+   "created": "2026-10-01T10:28:07.494Z",
+   "w": 1264,
+   "h": 848,
+   "samples": [],
+   "photos": [
+    "kid",
+    "obj_P114"
+   ],
+   "file": "P114_K.jpg",
+   "thumb": "mini/P114_K.webp"
+  },
+  "P114:T": {
+   "id": "ex_mupe5cbokn9u1",
+   "presetId": "P114",
+   "mode": "T",
+   "model": "gemini-3.1-flash-image",
+   "modelName": "Nano Banana 2",
+   "created": "2026-10-01T10:28:18.468Z",
+   "w": 1264,
+   "h": 848,
+   "samples": [],
+   "photos": [],
+   "file": "P114_T.jpg",
+   "thumb": "mini/P114_T.webp"
+  },
+  "P115:K": {
+   "id": "ex_mupe5jog5ozbq",
+   "presetId": "P115",
+   "mode": "K",
+   "model": "gemini-3.1-flash-image",
+   "modelName": "Nano Banana 2",
+   "created": "2026-10-01T10:28:28.000Z",
+   "w": 1264,
+   "h": 848,
+   "samples": [],
+   "photos": [
+    "kid",
+    "obj_P115"
+   ],
+   "file": "P115_K.jpg",
+   "thumb": "mini/P115_K.webp"
+  },
+  "P115:T": {
+   "id": "ex_mupe5r0vh3upu",
+   "presetId": "P115",
+   "mode": "T",
+   "model": "gemini-3.1-flash-image",
+   "modelName": "Nano Banana 2",
+   "created": "2026-10-01T10:28:37.519Z",
+   "w": 1264,
+   "h": 848,
+   "samples": [],
+   "photos": [],
+   "file": "P115_T.jpg",
+   "thumb": "mini/P115_T.webp"
+  },
+  "P016:K": {
+   "id": "ex_mupe60qgtdwv7",
+   "presetId": "P016",
+   "mode": "K",
+   "model": "gemini-3.1-flash-image",
+   "modelName": "Nano Banana 2",
+   "created": "2026-10-01T10:28:50.104Z",
+   "w": 1264,
+   "h": 848,
+   "samples": [],
+   "photos": [
+    "kid"
+   ],
+   "file": "P016_K.jpg",
+   "thumb": "mini/P016_K.webp"
+  },
+  "P016:T": {
+   "id": "ex_mupe6960jwh7f",
+   "presetId": "P016",
+   "mode": "T",
+   "model": "gemini-3.1-flash-image",
+   "modelName": "Nano Banana 2",
+   "created": "2026-10-01T10:29:01.032Z",
+   "w": 1264,
+   "h": 848,
+   "samples": [],
+   "photos": [],
+   "file": "P016_T.jpg",
+   "thumb": "mini/P016_T.webp"
+  },
+  "P017:K": {
+   "id": "ex_mupe6gn3sx1gp",
+   "presetId": "P017",
+   "mode": "K",
+   "model": "gemini-3.1-flash-image",
+   "modelName": "Nano Banana 2",
+   "created": "2026-10-01T10:29:10.719Z",
+   "w": 1264,
+   "h": 848,
+   "samples": [],
+   "photos": [
+    "kid"
+   ],
+   "file": "P017_K.jpg",
+   "thumb": "mini/P017_K.webp"
+  },
+  "P017:T": {
+   "id": "ex_mupe6pk5uouxm",
+   "presetId": "P017",
+   "mode": "T",
+   "model": "gemini-3.1-flash-image",
+   "modelName": "Nano Banana 2",
+   "created": "2026-10-01T10:29:22.277Z",
+   "w": 1264,
+   "h": 848,
+   "samples": [],
+   "photos": [],
+   "file": "P017_T.jpg",
+   "thumb": "mini/P017_T.webp"
+  },
+  "P018:K": {
+   "id": "ex_mupe6wkkxiy09",
+   "presetId": "P018",
+   "mode": "K",
+   "model": "gemini-3.1-flash-image",
+   "modelName": "Nano Banana 2",
+   "created": "2026-10-01T10:29:31.364Z",
+   "w": 1264,
+   "h": 848,
+   "samples": [
+    "Dinozaury: tyranozaur i triceratops"
+   ],
+   "photos": [
+    "kid"
+   ],
+   "file": "P018_K.jpg",
+   "thumb": "mini/P018_K.webp"
+  },
+  "P018:T": {
+   "id": "ex_mupe74oa5ua7t",
+   "presetId": "P018",
+   "mode": "T",
+   "model": "gemini-3.1-flash-image",
+   "modelName": "Nano Banana 2",
+   "created": "2026-10-01T10:29:41.866Z",
+   "w": 1264,
+   "h": 848,
+   "samples": [
+    "Dinozaury: tyranozaur i triceratops"
+   ],
+   "photos": [],
+   "file": "P018_T.jpg",
+   "thumb": "mini/P018_T.webp"
+  },
+  "P019:K": {
+   "id": "ex_mupe7ct4zbf55",
+   "presetId": "P019",
+   "mode": "K",
+   "model": "gemini-3.1-flash-image",
+   "modelName": "Nano Banana 2",
+   "created": "2026-10-01T10:29:52.408Z",
+   "w": 1264,
+   "h": 848,
+   "samples": [],
+   "photos": [
+    "kid"
+   ],
+   "file": "P019_K.jpg",
+   "thumb": "mini/P019_K.webp"
+  },
+  "P019:T": {
+   "id": "ex_mupe7ju2scrqk",
+   "presetId": "P019",
+   "mode": "T",
+   "model": "gemini-3.1-flash-image",
+   "modelName": "Nano Banana 2",
+   "created": "2026-10-01T10:30:01.514Z",
+   "w": 1264,
+   "h": 848,
+   "samples": [],
+   "photos": [],
+   "file": "P019_T.jpg",
+   "thumb": "mini/P019_T.webp"
+  },
+  "P020:K": {
+   "id": "ex_mupe7rouewbkt",
+   "presetId": "P020",
+   "mode": "K",
+   "model": "gemini-3.1-flash-image",
+   "modelName": "Nano Banana 2",
+   "created": "2026-10-01T10:30:11.694Z",
+   "w": 1264,
+   "h": 848,
+   "samples": [
+    "Rodzaj tortu: piętrowy biały"
+   ],
+   "photos": [
+    "kid"
+   ],
+   "file": "P020_K.jpg",
+   "thumb": "mini/P020_K.webp"
+  },
+  "P020:T": {
+   "id": "ex_mupe7zc3y97jv",
+   "presetId": "P020",
+   "mode": "T",
+   "model": "gemini-3.1-flash-image",
+   "modelName": "Nano Banana 2",
+   "created": "2026-10-01T10:30:21.603Z",
+   "w": 1264,
+   "h": 848,
+   "samples": [
+    "Rodzaj tortu: piętrowy biały"
+   ],
+   "photos": [],
+   "file": "P020_T.jpg",
+   "thumb": "mini/P020_T.webp"
+  },
+  "P116:K": {
+   "id": "ex_mupe86nmacohd",
+   "presetId": "P116",
+   "mode": "K",
+   "model": "gemini-3.1-flash-image",
+   "modelName": "Nano Banana 2",
+   "created": "2026-10-01T10:30:31.090Z",
+   "w": 1264,
+   "h": 848,
+   "samples": [],
+   "photos": [
+    "kid"
+   ],
+   "file": "P116_K.jpg",
+   "thumb": "mini/P116_K.webp"
+  },
+  "P116:T": {
+   "id": "ex_mupe8dyc2vc7f",
+   "presetId": "P116",
+   "mode": "T",
+   "model": "gemini-3.1-flash-image",
+   "modelName": "Nano Banana 2",
+   "created": "2026-10-01T10:30:40.548Z",
+   "w": 1264,
+   "h": 848,
+   "samples": [],
+   "photos": [],
+   "file": "P116_T.jpg",
+   "thumb": "mini/P116_T.webp"
+  },
+  "P117:K": {
+   "id": "ex_mupe8l50q7sqz",
+   "presetId": "P117",
+   "mode": "K",
+   "model": "gemini-3.1-flash-image",
+   "modelName": "Nano Banana 2",
+   "created": "2026-10-01T10:30:49.860Z",
+   "w": 1264,
+   "h": 848,
+   "samples": [],
+   "photos": [
+    "kid"
+   ],
+   "file": "P117_K.jpg",
+   "thumb": "mini/P117_K.webp"
+  },
+  "P117:T": {
+   "id": "ex_mupe8swl9uifd",
+   "presetId": "P117",
+   "mode": "T",
+   "model": "gemini-3.1-flash-image",
+   "modelName": "Nano Banana 2",
+   "created": "2026-10-01T10:30:59.925Z",
+   "w": 1264,
+   "h": 848,
+   "samples": [],
+   "photos": [],
+   "file": "P117_T.jpg",
+   "thumb": "mini/P117_T.webp"
+  },
+  "P118:K": {
+   "id": "ex_mupe909givrh1",
+   "presetId": "P118",
+   "mode": "K",
+   "model": "gemini-3.1-flash-image",
+   "modelName": "Nano Banana 2",
+   "created": "2026-10-01T10:31:09.460Z",
+   "w": 1264,
+   "h": 848,
+   "samples": [],
+   "photos": [
+    "kid"
+   ],
+   "file": "P118_K.jpg",
+   "thumb": "mini/P118_K.webp"
+  },
+  "P118:T": {
+   "id": "ex_mupe985ebafod",
+   "presetId": "P118",
+   "mode": "T",
+   "model": "gemini-3.1-flash-image",
+   "modelName": "Nano Banana 2",
+   "created": "2026-10-01T10:31:19.683Z",
+   "w": 1264,
+   "h": 848,
+   "samples": [],
+   "photos": [],
+   "file": "P118_T.jpg",
+   "thumb": "mini/P118_T.webp"
+  },
+  "P119:K": {
+   "id": "ex_mupe9fsfsmxrb",
+   "presetId": "P119",
+   "mode": "K",
+   "model": "gemini-3.1-flash-image",
+   "modelName": "Nano Banana 2",
+   "created": "2026-10-01T10:31:29.583Z",
+   "w": 1264,
+   "h": 848,
+   "samples": [],
+   "photos": [
+    "kid"
+   ],
+   "file": "P119_K.jpg",
+   "thumb": "mini/P119_K.webp"
+  },
+  "P119:T": {
+   "id": "ex_mupe9nrcvqtlb",
+   "presetId": "P119",
+   "mode": "T",
+   "model": "gemini-3.1-flash-image",
+   "modelName": "Nano Banana 2",
+   "created": "2026-10-01T10:31:39.912Z",
+   "w": 1264,
+   "h": 848,
+   "samples": [],
+   "photos": [],
+   "file": "P119_T.jpg",
+   "thumb": "mini/P119_T.webp"
+  },
+  "P120:K": {
+   "id": "ex_mupe9uzyyvvhv",
+   "presetId": "P120",
+   "mode": "K",
+   "model": "gemini-3.1-flash-image",
+   "modelName": "Nano Banana 2",
+   "created": "2026-10-01T10:31:49.294Z",
+   "w": 1264,
+   "h": 848,
+   "samples": [],
+   "photos": [
+    "kid"
+   ],
+   "file": "P120_K.jpg",
+   "thumb": "mini/P120_K.webp"
+  },
+  "P120:T": {
+   "id": "ex_mupea42i7cta9",
+   "presetId": "P120",
+   "mode": "T",
+   "model": "gemini-3.1-flash-image",
+   "modelName": "Nano Banana 2",
+   "created": "2026-10-01T10:32:01.050Z",
+   "w": 1264,
+   "h": 848,
+   "samples": [],
+   "photos": [],
+   "file": "P120_T.jpg",
+   "thumb": "mini/P120_T.webp"
+  },
+  "P021:K": {
+   "id": "ex_mupeabhyuw486",
+   "presetId": "P021",
+   "mode": "K",
+   "model": "gemini-3.1-flash-image",
+   "modelName": "Nano Banana 2",
+   "created": "2026-10-01T10:32:10.678Z",
+   "w": 1264,
+   "h": 848,
+   "samples": [
+    "Kolor kocyka: kremowy"
+   ],
+   "photos": [
+    "baby"
+   ],
+   "file": "P021_K.jpg",
+   "thumb": "mini/P021_K.webp"
+  },
+  "P021:T": {
+   "id": "ex_mupeamrupf6wv",
+   "presetId": "P021",
+   "mode": "T",
+   "model": "gemini-3.1-flash-image",
+   "modelName": "Nano Banana 2",
+   "created": "2026-10-01T10:32:25.290Z",
+   "w": 1264,
+   "h": 848,
+   "samples": [
+    "Kolor kocyka: kremowy"
+   ],
+   "photos": [],
+   "file": "P021_T.jpg",
+   "thumb": "mini/P021_T.webp"
+  },
+  "P022:K": {
+   "id": "ex_mupeaskpzo7ch",
+   "presetId": "P022",
+   "mode": "K",
+   "model": "gemini-3.1-flash-image",
+   "modelName": "Nano Banana 2",
+   "created": "2026-10-01T10:32:32.809Z",
+   "w": 1264,
+   "h": 848,
+   "samples": [
+    "Rodzaj detalu: dłonie"
+   ],
+   "photos": [
+    "baby"
+   ],
+   "file": "P022_K.jpg",
+   "thumb": "mini/P022_K.webp"
+  },
+  "P022:T": {
+   "id": "ex_mupeb05qr1esg",
+   "presetId": "P022",
+   "mode": "T",
+   "model": "gemini-3.1-flash-image",
+   "modelName": "Nano Banana 2",
+   "created": "2026-10-01T10:32:42.638Z",
+   "w": 1264,
+   "h": 848,
+   "samples": [
+    "Rodzaj detalu: dłonie"
+   ],
+   "photos": [],
+   "file": "P022_T.jpg",
+   "thumb": "mini/P022_T.webp"
+  },
+  "P023:K": {
+   "id": "ex_mupeb7fn6biru",
+   "presetId": "P023",
+   "mode": "K",
+   "model": "gemini-3.1-flash-image",
+   "modelName": "Nano Banana 2",
+   "created": "2026-10-01T10:32:52.067Z",
+   "w": 1264,
+   "h": 848,
+   "samples": [],
+   "photos": [
+    "baby"
+   ],
+   "file": "P023_K.jpg",
+   "thumb": "mini/P023_K.webp"
+  },
+  "P023:T": {
+   "id": "ex_mupebfuge5rq1",
+   "presetId": "P023",
+   "mode": "T",
+   "model": "gemini-3.1-flash-image",
+   "modelName": "Nano Banana 2",
+   "created": "2026-10-01T10:33:02.968Z",
+   "w": 1264,
+   "h": 848,
+   "samples": [],
+   "photos": [],
+   "file": "P023_T.jpg",
+   "thumb": "mini/P023_T.webp"
+  },
+  "P024:K": {
+   "id": "ex_mupebnp8me05l",
+   "presetId": "P024",
+   "mode": "K",
+   "model": "gemini-3.1-flash-image",
+   "modelName": "Nano Banana 2",
+   "created": "2026-10-01T10:33:13.148Z",
+   "w": 1264,
+   "h": 848,
+   "samples": [
+    "Kolory wnętrza: kremowe"
+   ],
+   "photos": [
+    "baby"
+   ],
+   "file": "P024_K.jpg",
+   "thumb": "mini/P024_K.webp"
+  },
+  "P024:T": {
+   "id": "ex_mupec0uapzv3s",
+   "presetId": "P024",
+   "mode": "T",
+   "model": "gemini-3.1-flash-image",
+   "modelName": "Nano Banana 2",
+   "created": "2026-10-01T10:33:30.178Z",
+   "w": 1264,
+   "h": 848,
+   "samples": [
+    "Kolory wnętrza: kremowe"
+   ],
+   "photos": [],
+   "file": "P024_T.jpg",
+   "thumb": "mini/P024_T.webp"
+  },
+  "P025:K": {
+   "id": "ex_mupec8c8d3naz",
+   "presetId": "P025",
+   "mode": "K",
+   "model": "gemini-3.1-flash-image",
+   "modelName": "Nano Banana 2",
+   "created": "2026-10-01T10:33:39.896Z",
+   "w": 1264,
+   "h": 848,
+   "samples": [
+    "Motyw przyjęcia: balony"
+   ],
+   "photos": [
+    "baby"
+   ],
+   "file": "P025_K.jpg",
+   "thumb": "mini/P025_K.webp"
+  },
+  "P025:T": {
+   "id": "ex_mupecg6pmxa8g",
+   "presetId": "P025",
+   "mode": "T",
+   "model": "gemini-3.1-flash-image",
+   "modelName": "Nano Banana 2",
+   "created": "2026-10-01T10:33:50.065Z",
+   "w": 1264,
+   "h": 848,
+   "samples": [
+    "Motyw przyjęcia: balony"
+   ],
+   "photos": [],
+   "file": "P025_T.jpg",
+   "thumb": "mini/P025_T.webp"
+  },
+  "P026:K": {
+   "id": "ex_mupecofbg0xdg",
+   "presetId": "P026",
+   "mode": "K",
+   "model": "gemini-3.1-flash-image",
+   "modelName": "Nano Banana 2",
+   "created": "2026-10-01T10:34:00.743Z",
+   "w": 1264,
+   "h": 848,
+   "samples": [
+    "Stopień realizmu: realistycznie",
+    "Kolor poświaty: złota"
+   ],
+   "photos": [
+    "kid"
+   ],
+   "file": "P026_K.jpg",
+   "thumb": "mini/P026_K.webp"
+  },
+  "P026:T": {
+   "id": "ex_mupecxnbcej94",
+   "presetId": "P026",
+   "mode": "T",
+   "model": "gemini-3.1-flash-image",
+   "modelName": "Nano Banana 2",
+   "created": "2026-10-01T10:34:12.695Z",
+   "w": 1264,
+   "h": 848,
+   "samples": [
+    "Stopień realizmu: realistycznie",
+    "Kolor poświaty: złota"
+   ],
+   "photos": [],
+   "file": "P026_T.jpg",
+   "thumb": "mini/P026_T.webp"
+  },
+  "P027:T": {
+   "id": "ex_mupedd6zhggw3",
+   "presetId": "P027",
+   "mode": "T",
+   "model": "gemini-3.1-flash-image",
+   "modelName": "Nano Banana 2",
+   "created": "2026-10-01T10:34:32.843Z",
+   "w": 1264,
+   "h": 848,
+   "samples": [
+    "Planety: planeta z pierścieniami",
+    "Kolor światła: ciepłe złote"
+   ],
+   "photos": [],
+   "file": "P027_T.jpg",
+   "thumb": "mini/P027_T.webp"
+  },
+  "P028:K": {
+   "id": "ex_mupedjw940wgn",
+   "presetId": "P028",
+   "mode": "K",
+   "model": "gemini-3.1-flash-image",
+   "modelName": "Nano Banana 2",
+   "created": "2026-10-01T10:34:41.529Z",
+   "w": 1264,
+   "h": 848,
+   "samples": [
+    "Kolor smoka: zielony",
+    "Krajobraz: góry"
+   ],
+   "photos": [
+    "kid"
+   ],
+   "file": "P028_K.jpg",
+   "thumb": "mini/P028_K.webp"
+  },
+  "P028:T": {
+   "id": "ex_mupedvk5c7yj7",
+   "presetId": "P028",
+   "mode": "T",
+   "model": "gemini-3.1-flash-image",
+   "modelName": "Nano Banana 2",
+   "created": "2026-10-01T10:34:56.645Z",
+   "w": 1264,
+   "h": 848,
+   "samples": [
+    "Kolor smoka: zielony",
+    "Krajobraz: góry"
+   ],
+   "photos": [],
+   "file": "P028_T.jpg",
+   "thumb": "mini/P028_T.webp"
+  },
+  "P029:K": {
+   "id": "ex_mupee3hddp5ni",
+   "presetId": "P029",
+   "mode": "K",
+   "model": "gemini-3.1-flash-image",
+   "modelName": "Nano Banana 2",
+   "created": "2026-10-01T10:35:06.914Z",
+   "w": 1264,
+   "h": 848,
+   "samples": [
+    "Rośliny: paprocie",
+    "Stworzenia: rybki"
+   ],
+   "photos": [
+    "kid"
+   ],
+   "file": "P029_K.jpg",
+   "thumb": "mini/P029_K.webp"
+  },
+  "P029:T": {
+   "id": "ex_mupeec8ol3ntl",
+   "presetId": "P029",
+   "mode": "T",
+   "model": "gemini-3.1-flash-image",
+   "modelName": "Nano Banana 2",
+   "created": "2026-10-01T10:35:18.264Z",
+   "w": 1264,
+   "h": 848,
+   "samples": [
+    "Rośliny: paprocie",
+    "Stworzenia: rybki"
+   ],
+   "photos": [],
+   "file": "P029_T.jpg",
+   "thumb": "mini/P029_T.webp"
+  },
+  "P030:K": {
+   "id": "ex_mupeek5nr1969",
+   "presetId": "P030",
+   "mode": "K",
+   "model": "gemini-3.1-flash-image",
+   "modelName": "Nano Banana 2",
+   "created": "2026-10-01T10:35:28.523Z",
+   "w": 1264,
+   "h": 848,
+   "samples": [
+    "Kolor zamku: biały",
+    "Pora dnia: świt"
+   ],
+   "photos": [
+    "kid"
+   ],
+   "file": "P030_K.jpg",
+   "thumb": "mini/P030_K.webp"
+  },
+  "P030:T": {
+   "id": "ex_mupeer0t8kdqx",
+   "presetId": "P030",
+   "mode": "T",
+   "model": "gemini-3.1-flash-image",
+   "modelName": "Nano Banana 2",
+   "created": "2026-10-01T10:35:37.421Z",
+   "w": 1264,
+   "h": 848,
+   "samples": [
+    "Kolor zamku: biały",
+    "Pora dnia: świt"
+   ],
+   "photos": [],
+   "file": "P030_T.jpg",
+   "thumb": "mini/P030_T.webp"
+  },
+  "P126:K": {
+   "id": "ex_mupeexcwc3269",
+   "presetId": "P126",
+   "mode": "K",
+   "model": "gemini-3.1-flash-image",
+   "modelName": "Nano Banana 2",
+   "created": "2026-10-01T10:35:45.632Z",
+   "w": 1264,
+   "h": 848,
+   "samples": [],
+   "photos": [
+    "kid"
+   ],
+   "file": "P126_K.jpg",
+   "thumb": "mini/P126_K.webp"
+  },
+  "P126:T": {
+   "id": "ex_mupefcvubwa3c",
+   "presetId": "P126",
+   "mode": "T",
+   "model": "gemini-3.1-flash-image",
+   "modelName": "Nano Banana 2",
+   "created": "2026-10-01T10:36:05.754Z",
+   "w": 1264,
+   "h": 848,
+   "samples": [],
+   "photos": [],
+   "file": "P126_T.jpg",
+   "thumb": "mini/P126_T.webp"
+  },
+  "P127:K": {
+   "id": "ex_mupefjqz9jmfp",
+   "presetId": "P127",
+   "mode": "K",
+   "model": "gemini-3.1-flash-image",
+   "modelName": "Nano Banana 2",
+   "created": "2026-10-01T10:36:14.651Z",
+   "w": 1264,
+   "h": 848,
+   "samples": [],
+   "photos": [
+    "kid"
+   ],
+   "file": "P127_K.jpg",
+   "thumb": "mini/P127_K.webp"
+  },
+  "P127:T": {
+   "id": "ex_mupefsgg9dbhz",
+   "presetId": "P127",
+   "mode": "T",
+   "model": "gemini-3.1-flash-image",
+   "modelName": "Nano Banana 2",
+   "created": "2026-10-01T10:36:25.936Z",
+   "w": 1264,
+   "h": 848,
+   "samples": [],
+   "photos": [],
+   "file": "P127_T.jpg",
+   "thumb": "mini/P127_T.webp"
+  },
+  "P128:K": {
+   "id": "ex_mupefz4iu9ex5",
+   "presetId": "P128",
+   "mode": "K",
+   "model": "gemini-3.1-flash-image",
+   "modelName": "Nano Banana 2",
+   "created": "2026-10-01T10:36:34.578Z",
+   "w": 1264,
+   "h": 848,
+   "samples": [],
+   "photos": [
+    "kid"
+   ],
+   "file": "P128_K.jpg",
+   "thumb": "mini/P128_K.webp"
+  },
+  "P128:T": {
+   "id": "ex_mupeg6oj5vp5k",
+   "presetId": "P128",
+   "mode": "T",
+   "model": "gemini-3.1-flash-image",
+   "modelName": "Nano Banana 2",
+   "created": "2026-10-01T10:36:44.371Z",
+   "w": 1264,
+   "h": 848,
+   "samples": [],
+   "photos": [],
+   "file": "P128_T.jpg",
+   "thumb": "mini/P128_T.webp"
+  },
+  "P129:K": {
+   "id": "ex_mupege50ojm2e",
+   "presetId": "P129",
+   "mode": "K",
+   "model": "gemini-3.1-flash-image",
+   "modelName": "Nano Banana 2",
+   "created": "2026-10-01T10:36:54.036Z",
+   "w": 1264,
+   "h": 848,
+   "samples": [],
+   "photos": [
+    "kid"
+   ],
+   "file": "P129_K.jpg",
+   "thumb": "mini/P129_K.webp"
+  },
+  "P129:T": {
+   "id": "ex_mupegmyp7s6v0",
+   "presetId": "P129",
+   "mode": "T",
+   "model": "gemini-3.1-flash-image",
+   "modelName": "Nano Banana 2",
+   "created": "2026-10-01T10:37:05.473Z",
+   "w": 1264,
+   "h": 848,
+   "samples": [],
+   "photos": [],
+   "file": "P129_T.jpg",
+   "thumb": "mini/P129_T.webp"
+  },
+  "P130:K": {
+   "id": "ex_mupegu1ttchmo",
+   "presetId": "P130",
+   "mode": "K",
+   "model": "gemini-3.1-flash-image",
+   "modelName": "Nano Banana 2",
+   "created": "2026-10-01T10:37:14.657Z",
+   "w": 1264,
+   "h": 848,
+   "samples": [],
+   "photos": [
+    "kid"
+   ],
+   "file": "P130_K.jpg",
+   "thumb": "mini/P130_K.webp"
+  },
+  "P130:T": {
+   "id": "ex_mupeh1i2v088a",
+   "presetId": "P130",
+   "mode": "T",
+   "model": "gemini-3.1-flash-image",
+   "modelName": "Nano Banana 2",
+   "created": "2026-10-01T10:37:24.314Z",
+   "w": 1264,
+   "h": 848,
+   "samples": [],
+   "photos": [],
+   "file": "P130_T.jpg",
+   "thumb": "mini/P130_T.webp"
+  },
+  "P031:K": {
+   "id": "ex_mupeh9aswpfis",
+   "presetId": "P031",
+   "mode": "K",
+   "model": "gemini-3.1-flash-image",
+   "modelName": "Nano Banana 2",
+   "created": "2026-10-01T10:37:34.420Z",
+   "w": 1264,
+   "h": 848,
+   "samples": [
+    "Kwiaty: polne kwiaty",
+    "Pora dnia: świt"
+   ],
+   "photos": [
+    "kid"
+   ],
+   "file": "P031_K.jpg",
+   "thumb": "mini/P031_K.webp"
+  },
+  "P031:T": {
+   "id": "ex_mupehf5p6r3io",
+   "presetId": "P031",
+   "mode": "T",
+   "model": "gemini-3.1-flash-image",
+   "modelName": "Nano Banana 2",
+   "created": "2026-10-01T10:37:42.013Z",
+   "w": 1264,
+   "h": 848,
+   "samples": [
+    "Kwiaty: polne kwiaty",
+    "Pora dnia: świt"
+   ],
+   "photos": [],
+   "file": "P031_T.jpg",
+   "thumb": "mini/P031_T.webp"
+  },
+  "P032:K": {
+   "id": "ex_mupehmcjr80ye",
+   "presetId": "P032",
+   "mode": "K",
+   "model": "gemini-3.1-flash-image",
+   "modelName": "Nano Banana 2",
+   "created": "2026-10-01T10:37:51.331Z",
+   "w": 1264,
+   "h": 848,
+   "samples": [
+    "Rodzaj lasu: sosnowy"
+   ],
+   "photos": [
+    "kid"
+   ],
+   "file": "P032_K.jpg",
+   "thumb": "mini/P032_K.webp"
+  },
+  "P032:T": {
+   "id": "ex_mupehtvq86v5a",
+   "presetId": "P032",
+   "mode": "T",
+   "model": "gemini-3.1-flash-image",
+   "modelName": "Nano Banana 2",
+   "created": "2026-10-01T10:38:01.094Z",
+   "w": 1264,
+   "h": 848,
+   "samples": [
+    "Rodzaj lasu: sosnowy"
+   ],
+   "photos": [],
+   "file": "P032_T.jpg",
+   "thumb": "mini/P032_T.webp"
+  },
+  "P033:K": {
+   "id": "ex_mupei24gorg8k",
+   "presetId": "P033",
+   "mode": "K",
+   "model": "gemini-3.1-flash-image",
+   "modelName": "Nano Banana 2",
+   "created": "2026-10-01T10:38:11.776Z",
+   "w": 1264,
+   "h": 848,
+   "samples": [
+    "Pora dnia: świt"
+   ],
+   "photos": [
+    "kid"
+   ],
+   "file": "P033_K.jpg",
+   "thumb": "mini/P033_K.webp"
+  },
+  "P033:T": {
+   "id": "ex_mupei8pcs5ba9",
+   "presetId": "P033",
+   "mode": "T",
+   "model": "gemini-3.1-flash-image",
+   "modelName": "Nano Banana 2",
+   "created": "2026-10-01T10:38:20.304Z",
+   "w": 1264,
+   "h": 848,
+   "samples": [
+    "Pora dnia: świt"
+   ],
+   "photos": [],
+   "file": "P033_T.jpg",
+   "thumb": "mini/P033_T.webp"
+  },
+  "P034:K": {
+   "id": "ex_mupeifp0srb54",
+   "presetId": "P034",
+   "mode": "K",
+   "model": "gemini-3.1-flash-image",
+   "modelName": "Nano Banana 2",
+   "created": "2026-10-01T10:38:29.364Z",
+   "w": 1264,
+   "h": 848,
+   "samples": [
+    "Drzewa: jabłonie",
+    "Ilość śniegu: lekki puch",
+    "Kolor światła: ciepłe złote"
+   ],
+   "photos": [
+    "kid"
+   ],
+   "file": "P034_K.jpg",
+   "thumb": "mini/P034_K.webp"
+  },
+  "P034:T": {
+   "id": "ex_mupeim3znsxyo",
+   "presetId": "P034",
+   "mode": "T",
+   "model": "gemini-3.1-flash-image",
+   "modelName": "Nano Banana 2",
+   "created": "2026-10-01T10:38:37.679Z",
+   "w": 1264,
+   "h": 848,
+   "samples": [
+    "Drzewa: jabłonie",
+    "Ilość śniegu: lekki puch",
+    "Kolor światła: ciepłe złote"
+   ],
+   "photos": [],
+   "file": "P034_T.jpg",
+   "thumb": "mini/P034_T.webp"
+  },
+  "P035:K": {
+   "id": "ex_mupeithzpv2mj",
+   "presetId": "P035",
+   "mode": "K",
+   "model": "gemini-3.1-flash-image",
+   "modelName": "Nano Banana 2",
+   "created": "2026-10-01T10:38:47.255Z",
+   "w": 1264,
+   "h": 848,
+   "samples": [
+    "Otoczenie: park",
+    "Paleta liści: złoto i rdza"
+   ],
+   "photos": [
+    "kid"
+   ],
+   "file": "P035_K.jpg",
+   "thumb": "mini/P035_K.webp"
+  },
+  "P035:T": {
+   "id": "ex_mupej1n0bvcbp",
+   "presetId": "P035",
+   "mode": "T",
+   "model": "gemini-3.1-flash-image",
+   "modelName": "Nano Banana 2",
+   "created": "2026-10-01T10:38:57.804Z",
+   "w": 1264,
+   "h": 848,
+   "samples": [
+    "Otoczenie: park",
+    "Paleta liści: złoto i rdza"
+   ],
+   "photos": [],
+   "file": "P035_T.jpg",
+   "thumb": "mini/P035_T.webp"
+  },
+  "P131:K": {
+   "id": "ex_mupej90cwq2ww",
+   "presetId": "P131",
+   "mode": "K",
+   "model": "gemini-3.1-flash-image",
+   "modelName": "Nano Banana 2",
+   "created": "2026-10-01T10:39:07.356Z",
+   "w": 1264,
+   "h": 848,
+   "samples": [],
+   "photos": [
+    "kid"
+   ],
+   "file": "P131_K.jpg",
+   "thumb": "mini/P131_K.webp"
+  },
+  "P131:T": {
+   "id": "ex_mupejgkocndz4",
+   "presetId": "P131",
+   "mode": "T",
+   "model": "gemini-3.1-flash-image",
+   "modelName": "Nano Banana 2",
+   "created": "2026-10-01T10:39:17.160Z",
+   "w": 1264,
+   "h": 848,
+   "samples": [],
+   "photos": [],
+   "file": "P131_T.jpg",
+   "thumb": "mini/P131_T.webp"
+  },
+  "P132:K": {
+   "id": "ex_mupejnbdpho8u",
+   "presetId": "P132",
+   "mode": "K",
+   "model": "gemini-3.1-flash-image",
+   "modelName": "Nano Banana 2",
+   "created": "2026-10-01T10:39:25.897Z",
+   "w": 1264,
+   "h": 848,
+   "samples": [],
+   "photos": [
+    "kid"
+   ],
+   "file": "P132_K.jpg",
+   "thumb": "mini/P132_K.webp"
+  },
+  "P132:T": {
+   "id": "ex_mupejv2xrb2br",
+   "presetId": "P132",
+   "mode": "T",
+   "model": "gemini-3.1-flash-image",
+   "modelName": "Nano Banana 2",
+   "created": "2026-10-01T10:39:35.961Z",
+   "w": 1264,
+   "h": 848,
+   "samples": [],
+   "photos": [],
+   "file": "P132_T.jpg",
+   "thumb": "mini/P132_T.webp"
+  },
+  "P133:K": {
+   "id": "ex_mupek341bhqj6",
+   "presetId": "P133",
+   "mode": "K",
+   "model": "gemini-3.1-flash-image",
+   "modelName": "Nano Banana 2",
+   "created": "2026-10-01T10:39:46.369Z",
+   "w": 1264,
+   "h": 848,
+   "samples": [],
+   "photos": [
+    "kid"
+   ],
+   "file": "P133_K.jpg",
+   "thumb": "mini/P133_K.webp"
+  },
+  "P133:T": {
+   "id": "ex_mupekaunkp5bp",
+   "presetId": "P133",
+   "mode": "T",
+   "model": "gemini-3.1-flash-image",
+   "modelName": "Nano Banana 2",
+   "created": "2026-10-01T10:39:56.399Z",
+   "w": 1264,
+   "h": 848,
+   "samples": [],
+   "photos": [],
+   "file": "P133_T.jpg",
+   "thumb": "mini/P133_T.webp"
+  },
+  "P134:K": {
+   "id": "ex_mupekjcv8jnsq",
+   "presetId": "P134",
+   "mode": "K",
+   "model": "gemini-3.1-flash-image",
+   "modelName": "Nano Banana 2",
+   "created": "2026-10-01T10:40:07.423Z",
+   "w": 1264,
+   "h": 848,
+   "samples": [],
+   "photos": [
+    "kid"
+   ],
+   "file": "P134_K.jpg",
+   "thumb": "mini/P134_K.webp"
+  },
+  "P134:T": {
+   "id": "ex_mupekr2j5b305",
+   "presetId": "P134",
+   "mode": "T",
+   "model": "gemini-3.1-flash-image",
+   "modelName": "Nano Banana 2",
+   "created": "2026-10-01T10:40:17.419Z",
+   "w": 1264,
+   "h": 848,
+   "samples": [],
+   "photos": [],
+   "file": "P134_T.jpg",
+   "thumb": "mini/P134_T.webp"
+  },
+  "P135:K": {
+   "id": "ex_mupeky7xhje6t",
+   "presetId": "P135",
+   "mode": "K",
+   "model": "gemini-3.1-flash-image",
+   "modelName": "Nano Banana 2",
+   "created": "2026-10-01T10:40:26.685Z",
+   "w": 1264,
+   "h": 848,
+   "samples": [],
+   "photos": [
+    "kid"
+   ],
+   "file": "P135_K.jpg",
+   "thumb": "mini/P135_K.webp"
+  },
+  "P135:T": {
+   "id": "ex_mupel5rn62p4n",
+   "presetId": "P135",
+   "mode": "T",
+   "model": "gemini-3.1-flash-image",
+   "modelName": "Nano Banana 2",
+   "created": "2026-10-01T10:40:36.468Z",
+   "w": 1264,
+   "h": 848,
+   "samples": [],
+   "photos": [],
+   "file": "P135_T.jpg",
+   "thumb": "mini/P135_T.webp"
+  },
+  "P036:K": {
+   "id": "ex_mupeld4la1vmt",
+   "presetId": "P036",
+   "mode": "K",
+   "model": "gemini-3.1-flash-image",
+   "modelName": "Nano Banana 2",
+   "created": "2026-10-01T10:40:46.005Z",
+   "w": 1264,
+   "h": 848,
+   "samples": [
+    "Zwierzęta: żyrafy"
+   ],
+   "photos": [
+    "kid"
+   ],
+   "file": "P036_K.jpg",
+   "thumb": "mini/P036_K.webp"
+  },
+  "P036:T": {
+   "id": "ex_mupelladyeb26",
+   "presetId": "P036",
+   "mode": "T",
+   "model": "gemini-3.1-flash-image",
+   "modelName": "Nano Banana 2",
+   "created": "2026-10-01T10:40:56.581Z",
+   "w": 1264,
+   "h": 848,
+   "samples": [
+    "Zwierzęta: żyrafy"
+   ],
+   "photos": [],
+   "file": "P036_T.jpg",
+   "thumb": "mini/P036_T.webp"
+  },
+  "P037:K": {
+   "id": "ex_mupeltehd5lpk",
+   "presetId": "P037",
+   "mode": "K",
+   "model": "gemini-3.1-flash-image",
+   "modelName": "Nano Banana 2",
+   "created": "2026-10-01T10:41:07.097Z",
+   "w": 1264,
+   "h": 848,
+   "samples": [
+    "Rośliny: paprocie",
+    "Ptaki: papugi"
+   ],
+   "photos": [
+    "kid"
+   ],
+   "file": "P037_K.jpg",
+   "thumb": "mini/P037_K.webp"
+  },
+  "P037:T": {
+   "id": "ex_mupem0zp0hlo8",
+   "presetId": "P037",
+   "mode": "T",
+   "model": "gemini-3.1-flash-image",
+   "modelName": "Nano Banana 2",
+   "created": "2026-10-01T10:41:16.933Z",
+   "w": 1264,
+   "h": 848,
+   "samples": [
+    "Rośliny: paprocie",
+    "Ptaki: papugi"
+   ],
+   "photos": [],
+   "file": "P037_T.jpg",
+   "thumb": "mini/P037_T.webp"
+  },
+  "P038:K": {
+   "id": "ex_mupemh02r9chr",
+   "presetId": "P038",
+   "mode": "K",
+   "model": "gemini-3.1-flash-image",
+   "modelName": "Nano Banana 2",
+   "created": "2026-10-01T10:41:37.682Z",
+   "w": 1264,
+   "h": 848,
+   "samples": [
+    "Tło: jasne studio"
+   ],
+   "photos": [
+    "kid",
+    "obj_P038"
+   ],
+   "file": "P038_K.jpg",
+   "thumb": "mini/P038_K.webp"
+  },
+  "P038:T": {
+   "id": "ex_mupemoinw6vpx",
+   "presetId": "P038",
+   "mode": "T",
+   "model": "gemini-3.1-flash-image",
+   "modelName": "Nano Banana 2",
+   "created": "2026-10-01T10:41:47.423Z",
+   "w": 1264,
+   "h": 848,
+   "samples": [
+    "Tło: jasne studio"
+   ],
+   "photos": [],
+   "file": "P038_T.jpg",
+   "thumb": "mini/P038_T.webp"
+  },
+  "P039:K": {
+   "id": "ex_mupemwpoofvev",
+   "presetId": "P039",
+   "mode": "K",
+   "model": "gemini-3.1-flash-image",
+   "modelName": "Nano Banana 2",
+   "created": "2026-10-01T10:41:58.044Z",
+   "w": 1264,
+   "h": 848,
+   "samples": [
+    "Ryby: kolorowe rybki rafowe",
+    "Paleta wody: turkus"
+   ],
+   "photos": [
+    "kid"
+   ],
+   "file": "P039_K.jpg",
+   "thumb": "mini/P039_K.webp"
+  },
+  "P039:T": {
+   "id": "ex_mupenfkz2hkgv",
+   "presetId": "P039",
+   "mode": "T",
+   "model": "gemini-3.1-flash-image",
+   "modelName": "Nano Banana 2",
+   "created": "2026-10-01T10:42:22.499Z",
+   "w": 1264,
+   "h": 848,
+   "samples": [
+    "Ryby: kolorowe rybki rafowe",
+    "Paleta wody: turkus"
+   ],
+   "photos": [],
+   "file": "P039_T.jpg",
+   "thumb": "mini/P039_T.webp"
+  },
+  "P040:K": {
+   "id": "ex_mupennuss7znl",
+   "presetId": "P040",
+   "mode": "K",
+   "model": "gemini-3.1-flash-image",
+   "modelName": "Nano Banana 2",
+   "created": "2026-10-01T10:42:33.220Z",
+   "w": 1264,
+   "h": 848,
+   "samples": [
+    "Realizm lub baśń: realistyczna",
+    "Owad: biedronka",
+    "Kwiaty: polne kwiaty"
+   ],
+   "photos": [
+    "kid"
+   ],
+   "file": "P040_K.jpg",
+   "thumb": "mini/P040_K.webp"
+  },
+  "P040:T": {
+   "id": "ex_mupenw9aick7t",
+   "presetId": "P040",
+   "mode": "T",
+   "model": "gemini-3.1-flash-image",
+   "modelName": "Nano Banana 2",
+   "created": "2026-10-01T10:42:44.110Z",
+   "w": 1264,
+   "h": 848,
+   "samples": [
+    "Realizm lub baśń: realistyczna",
+    "Owad: biedronka",
+    "Kwiaty: polne kwiaty"
+   ],
+   "photos": [],
+   "file": "P040_T.jpg",
+   "thumb": "mini/P040_T.webp"
+  },
+  "P136:K": {
+   "id": "ex_mupeo28l93y87",
+   "presetId": "P136",
+   "mode": "K",
+   "model": "gemini-3.1-flash-image",
+   "modelName": "Nano Banana 2",
+   "created": "2026-10-01T10:42:51.861Z",
+   "w": 1264,
+   "h": 848,
+   "samples": [],
+   "photos": [
+    "kid"
+   ],
+   "file": "P136_K.jpg",
+   "thumb": "mini/P136_K.webp"
+  },
+  "P136:T": {
+   "id": "ex_mupeoammdrpr8",
+   "presetId": "P136",
+   "mode": "T",
+   "model": "gemini-3.1-flash-image",
+   "modelName": "Nano Banana 2",
+   "created": "2026-10-01T10:43:02.734Z",
+   "w": 1264,
+   "h": 848,
+   "samples": [],
+   "photos": [],
+   "file": "P136_T.jpg",
+   "thumb": "mini/P136_T.webp"
+  },
+  "P137:K": {
+   "id": "ex_mupeohw4evacx",
+   "presetId": "P137",
+   "mode": "K",
+   "model": "gemini-3.1-flash-image",
+   "modelName": "Nano Banana 2",
+   "created": "2026-10-01T10:43:12.148Z",
+   "w": 1264,
+   "h": 848,
+   "samples": [],
+   "photos": [
+    "kid"
+   ],
+   "file": "P137_K.jpg",
+   "thumb": "mini/P137_K.webp"
+  },
+  "P137:T": {
+   "id": "ex_mupeor3u501b3",
+   "presetId": "P137",
+   "mode": "T",
+   "model": "gemini-3.1-flash-image",
+   "modelName": "Nano Banana 2",
+   "created": "2026-10-01T10:43:24.090Z",
+   "w": 1264,
+   "h": 848,
+   "samples": [],
+   "photos": [],
+   "file": "P137_T.jpg",
+   "thumb": "mini/P137_T.webp"
+  },
+  "P138:K": {
+   "id": "ex_mupeozp2mazv5",
+   "presetId": "P138",
+   "mode": "K",
+   "model": "gemini-3.1-flash-image",
+   "modelName": "Nano Banana 2",
+   "created": "2026-10-01T10:43:35.222Z",
+   "w": 1264,
+   "h": 848,
+   "samples": [],
+   "photos": [
+    "kid",
+    "obj_P138"
+   ],
+   "file": "P138_K.jpg",
+   "thumb": "mini/P138_K.webp"
+  },
+  "P138:T": {
+   "id": "ex_mupep849s3tnf",
+   "presetId": "P138",
+   "mode": "T",
+   "model": "gemini-3.1-flash-image",
+   "modelName": "Nano Banana 2",
+   "created": "2026-10-01T10:43:46.137Z",
+   "w": 1264,
+   "h": 848,
+   "samples": [],
+   "photos": [],
+   "file": "P138_T.jpg",
+   "thumb": "mini/P138_T.webp"
+  },
+  "P140:K": {
+   "id": "ex_mupepfm7b20lz",
+   "presetId": "P140",
+   "mode": "K",
+   "model": "gemini-3.1-flash-image",
+   "modelName": "Nano Banana 2",
+   "created": "2026-10-01T10:43:55.855Z",
+   "w": 1264,
+   "h": 848,
+   "samples": [],
+   "photos": [
+    "kid"
+   ],
+   "file": "P140_K.jpg",
+   "thumb": "mini/P140_K.webp"
+  },
+  "P140:T": {
+   "id": "ex_mupeptrukawma",
+   "presetId": "P140",
+   "mode": "T",
+   "model": "gemini-3.1-flash-image",
+   "modelName": "Nano Banana 2",
+   "created": "2026-10-01T10:44:14.202Z",
+   "w": 1264,
+   "h": 848,
+   "samples": [],
+   "photos": [],
+   "file": "P140_T.jpg",
+   "thumb": "mini/P140_T.webp"
+  },
+  "P041:K": {
+   "id": "ex_mupeq1p7fu4vs",
+   "presetId": "P041",
+   "mode": "K",
+   "model": "gemini-3.1-flash-image",
+   "modelName": "Nano Banana 2",
+   "created": "2026-10-01T10:44:24.475Z",
+   "w": 1264,
+   "h": 848,
+   "samples": [
+    "Pora dnia: świt",
+    "Dodatki plażowe: muszle"
+   ],
+   "photos": [
+    "kid"
+   ],
+   "file": "P041_K.jpg",
+   "thumb": "mini/P041_K.webp"
+  },
+  "P041:T": {
+   "id": "ex_mupeqmkdfgcge",
+   "presetId": "P041",
+   "mode": "T",
+   "model": "gemini-3.1-flash-image",
+   "modelName": "Nano Banana 2",
+   "created": "2026-10-01T10:44:51.517Z",
+   "w": 1264,
+   "h": 848,
+   "samples": [
+    "Pora dnia: świt",
+    "Dodatki plażowe: muszle"
+   ],
+   "photos": [],
+   "file": "P041_T.jpg",
+   "thumb": "mini/P041_T.webp"
+  },
+  "P042:K": {
+   "id": "ex_mupeqtwv1p14g",
+   "presetId": "P042",
+   "mode": "K",
+   "model": "gemini-3.1-flash-image",
+   "modelName": "Nano Banana 2",
+   "created": "2026-10-01T10:45:01.039Z",
+   "w": 1264,
+   "h": 848,
+   "samples": [
+    "Typ gór: ostre skaliste szczyty",
+    "Rośliny: paprocie",
+    "Pora dnia: świt"
+   ],
+   "photos": [
+    "kid"
+   ],
+   "file": "P042_K.jpg",
+   "thumb": "mini/P042_K.webp"
+  },
+  "P042:T": {
+   "id": "ex_muper1bksbwnx",
+   "presetId": "P042",
+   "mode": "T",
+   "model": "gemini-3.1-flash-image",
+   "modelName": "Nano Banana 2",
+   "created": "2026-10-01T10:45:10.640Z",
+   "w": 1264,
+   "h": 848,
+   "samples": [
+    "Typ gór: ostre skaliste szczyty",
+    "Rośliny: paprocie",
+    "Pora dnia: świt"
+   ],
+   "photos": [],
+   "file": "P042_T.jpg",
+   "thumb": "mini/P042_T.webp"
+  },
+  "P043:K": {
+   "id": "ex_muper7wo030uk",
+   "presetId": "P043",
+   "mode": "K",
+   "model": "gemini-3.1-flash-image",
+   "modelName": "Nano Banana 2",
+   "created": "2026-10-01T10:45:19.176Z",
+   "w": 1264,
+   "h": 848,
+   "samples": [
+    "Miasto: Kraków"
+   ],
+   "photos": [
+    "kid"
+   ],
+   "file": "P043_K.jpg",
+   "thumb": "mini/P043_K.webp"
+  },
+  "P043:T": {
+   "id": "ex_mupergmdrbavw",
+   "presetId": "P043",
+   "mode": "T",
+   "model": "gemini-3.1-flash-image",
+   "modelName": "Nano Banana 2",
+   "created": "2026-10-01T10:45:30.469Z",
+   "w": 1264,
+   "h": 848,
+   "samples": [
+    "Miasto: Kraków"
+   ],
+   "photos": [],
+   "file": "P043_T.jpg",
+   "thumb": "mini/P043_T.webp"
+  },
+  "P044:K": {
+   "id": "ex_muperprqjr4li",
+   "presetId": "P044",
+   "mode": "K",
+   "model": "gemini-3.1-flash-image",
+   "modelName": "Nano Banana 2",
+   "created": "2026-10-01T10:45:42.326Z",
+   "w": 1264,
+   "h": 848,
+   "samples": [],
+   "photos": [
+    "kid"
+   ],
+   "file": "P044_K.jpg",
+   "thumb": "mini/P044_K.webp"
+  },
+  "P044:T": {
+   "id": "ex_mupery70xzsri",
+   "presetId": "P044",
+   "mode": "T",
+   "model": "gemini-3.1-flash-image",
+   "modelName": "Nano Banana 2",
+   "created": "2026-10-01T10:45:53.244Z",
+   "w": 1264,
+   "h": 848,
+   "samples": [],
+   "photos": [],
+   "file": "P044_T.jpg",
+   "thumb": "mini/P044_T.webp"
+  },
+  "P045:K": {
+   "id": "ex_mupes5mrn8of3",
+   "presetId": "P045",
+   "mode": "K",
+   "model": "gemini-3.1-flash-image",
+   "modelName": "Nano Banana 2",
+   "created": "2026-10-01T10:46:02.883Z",
+   "w": 1264,
+   "h": 848,
+   "samples": [
+    "Miejsce: park (umowny)",
+    "Elementy wakacji: basen"
+   ],
+   "photos": [
+    "kid"
+   ],
+   "file": "P045_K.jpg",
+   "thumb": "mini/P045_K.webp"
+  },
+  "P045:T": {
+   "id": "ex_mupeseskolvg7",
+   "presetId": "P045",
+   "mode": "T",
+   "model": "gemini-3.1-flash-image",
+   "modelName": "Nano Banana 2",
+   "created": "2026-10-01T10:46:14.756Z",
+   "w": 1264,
+   "h": 848,
+   "samples": [
+    "Miejsce: park (umowny)",
+    "Elementy wakacji: basen"
+   ],
+   "photos": [],
+   "file": "P045_T.jpg",
+   "thumb": "mini/P045_T.webp"
+  },
+  "P141:K": {
+   "id": "ex_mupeslu8k5y8s",
+   "presetId": "P141",
+   "mode": "K",
+   "model": "gemini-3.1-flash-image",
+   "modelName": "Nano Banana 2",
+   "created": "2026-10-01T10:46:23.888Z",
+   "w": 1264,
+   "h": 848,
+   "samples": [],
+   "photos": [
+    "kid"
+   ],
+   "file": "P141_K.jpg",
+   "thumb": "mini/P141_K.webp"
+  },
+  "P141:T": {
+   "id": "ex_mupesxfkemkuv",
+   "presetId": "P141",
+   "mode": "T",
+   "model": "gemini-3.1-flash-image",
+   "modelName": "Nano Banana 2",
+   "created": "2026-10-01T10:46:38.913Z",
+   "w": 1264,
+   "h": 848,
+   "samples": [],
+   "photos": [],
+   "file": "P141_T.jpg",
+   "thumb": "mini/P141_T.webp"
+  },
+  "P142:K": {
+   "id": "ex_mupet51bmz41a",
+   "presetId": "P142",
+   "mode": "K",
+   "model": "gemini-3.1-flash-image",
+   "modelName": "Nano Banana 2",
+   "created": "2026-10-01T10:46:48.767Z",
+   "w": 1264,
+   "h": 848,
+   "samples": [],
+   "photos": [
+    "kid"
+   ],
+   "file": "P142_K.jpg",
+   "thumb": "mini/P142_K.webp"
+  },
+  "P142:T": {
+   "id": "ex_mupetdevxvy3w",
+   "presetId": "P142",
+   "mode": "T",
+   "model": "gemini-3.1-flash-image",
+   "modelName": "Nano Banana 2",
+   "created": "2026-10-01T10:46:59.623Z",
+   "w": 1264,
+   "h": 848,
+   "samples": [],
+   "photos": [],
+   "file": "P142_T.jpg",
+   "thumb": "mini/P142_T.webp"
+  },
+  "P143:K": {
+   "id": "ex_mupetkgcwr2vy",
+   "presetId": "P143",
+   "mode": "K",
+   "model": "gemini-3.1-flash-image",
+   "modelName": "Nano Banana 2",
+   "created": "2026-10-01T10:47:08.748Z",
+   "w": 1264,
+   "h": 848,
+   "samples": [],
+   "photos": [
+    "kid"
+   ],
+   "file": "P143_K.jpg",
+   "thumb": "mini/P143_K.webp"
+  },
+  "P143:T": {
+   "id": "ex_mupetshlmb80e",
+   "presetId": "P143",
+   "mode": "T",
+   "model": "gemini-3.1-flash-image",
+   "modelName": "Nano Banana 2",
+   "created": "2026-10-01T10:47:19.161Z",
+   "w": 1264,
+   "h": 848,
+   "samples": [],
+   "photos": [],
+   "file": "P143_T.jpg",
+   "thumb": "mini/P143_T.webp"
+  },
+  "P144:K": {
+   "id": "ex_mupetzk5wwf83",
+   "presetId": "P144",
+   "mode": "K",
+   "model": "gemini-3.1-flash-image",
+   "modelName": "Nano Banana 2",
+   "created": "2026-10-01T10:47:28.325Z",
+   "w": 1264,
+   "h": 848,
+   "samples": [],
+   "photos": [
+    "kid"
+   ],
+   "file": "P144_K.jpg",
+   "thumb": "mini/P144_K.webp"
+  },
+  "P144:T": {
+   "id": "ex_mupeu6tgsl9zg",
+   "presetId": "P144",
+   "mode": "T",
+   "model": "gemini-3.1-flash-image",
+   "modelName": "Nano Banana 2",
+   "created": "2026-10-01T10:47:37.732Z",
+   "w": 1264,
+   "h": 848,
+   "samples": [],
+   "photos": [],
+   "file": "P144_T.jpg",
+   "thumb": "mini/P144_T.webp"
+  },
+  "P145:K": {
+   "id": "ex_mupeuei8y246b",
+   "presetId": "P145",
+   "mode": "K",
+   "model": "gemini-3.1-flash-image",
+   "modelName": "Nano Banana 2",
+   "created": "2026-10-01T10:47:47.696Z",
+   "w": 1264,
+   "h": 848,
+   "samples": [],
+   "photos": [
+    "kid",
+    "obj_P145"
+   ],
+   "file": "P145_K.jpg",
+   "thumb": "mini/P145_K.webp"
+  },
+  "P145:T": {
+   "id": "ex_mupeum11rzas6",
+   "presetId": "P145",
+   "mode": "T",
+   "model": "gemini-3.1-flash-image",
+   "modelName": "Nano Banana 2",
+   "created": "2026-10-01T10:47:57.445Z",
+   "w": 1264,
+   "h": 848,
+   "samples": [],
+   "photos": [],
+   "file": "P145_T.jpg",
+   "thumb": "mini/P145_T.webp"
+  },
+  "P046:K": {
+   "id": "ex_mupeuszf5scu6",
+   "presetId": "P046",
+   "mode": "K",
+   "model": "gemini-3.1-flash-image",
+   "modelName": "Nano Banana 2",
+   "created": "2026-10-01T10:48:06.459Z",
+   "w": 1264,
+   "h": 848,
+   "samples": [
+    "Drzewa: jabłonie"
+   ],
+   "photos": [
+    "kid"
+   ],
+   "file": "P046_K.jpg",
+   "thumb": "mini/P046_K.webp"
+  },
+  "P046:T": {
+   "id": "ex_mupev1phahomr",
+   "presetId": "P046",
+   "mode": "T",
+   "model": "gemini-3.1-flash-image",
+   "modelName": "Nano Banana 2",
+   "created": "2026-10-01T10:48:17.765Z",
+   "w": 1264,
+   "h": 848,
+   "samples": [
+    "Drzewa: jabłonie"
+   ],
+   "photos": [],
+   "file": "P046_T.jpg",
+   "thumb": "mini/P046_T.webp"
+  },
+  "P047:K": {
+   "id": "ex_mupev8p709liz",
+   "presetId": "P047",
+   "mode": "K",
+   "model": "gemini-3.1-flash-image",
+   "modelName": "Nano Banana 2",
+   "created": "2026-10-01T10:48:26.827Z",
+   "w": 1264,
+   "h": 848,
+   "samples": [
+    "Kolory pisanek: pastelowe",
+    "Rośliny: paprocie"
+   ],
+   "photos": [
+    "kid"
+   ],
+   "file": "P047_K.jpg",
+   "thumb": "mini/P047_K.webp"
+  },
+  "P047:T": {
+   "id": "ex_mupevgna9ep13",
+   "presetId": "P047",
+   "mode": "T",
+   "model": "gemini-3.1-flash-image",
+   "modelName": "Nano Banana 2",
+   "created": "2026-10-01T10:48:37.126Z",
+   "w": 1264,
+   "h": 848,
+   "samples": [
+    "Kolory pisanek: pastelowe",
+    "Rośliny: paprocie"
+   ],
+   "photos": [],
+   "file": "P047_T.jpg",
+   "thumb": "mini/P047_T.webp"
+  },
+  "P048:K": {
+   "id": "ex_mupevoc51ofgj",
+   "presetId": "P048",
+   "mode": "K",
+   "model": "gemini-3.1-flash-image",
+   "modelName": "Nano Banana 2",
+   "created": "2026-10-01T10:48:47.093Z",
+   "w": 1264,
+   "h": 848,
+   "samples": [
+    "Miejsce: park (umowny)",
+    "Owoce: cytryny"
+   ],
+   "photos": [
+    "kid"
+   ],
+   "file": "P048_K.jpg",
+   "thumb": "mini/P048_K.webp"
+  },
+  "P048:T": {
+   "id": "ex_mupew3psm6jjt",
+   "presetId": "P048",
+   "mode": "T",
+   "model": "gemini-3.1-flash-image",
+   "modelName": "Nano Banana 2",
+   "created": "2026-10-01T10:49:07.024Z",
+   "w": 1264,
+   "h": 848,
+   "samples": [
+    "Miejsce: park (umowny)",
+    "Owoce: cytryny"
+   ],
+   "photos": [],
+   "file": "P048_T.jpg",
+   "thumb": "mini/P048_T.webp"
+  },
+  "P049:K": {
+   "id": "ex_mupewb5kqzwd7",
+   "presetId": "P049",
+   "mode": "K",
+   "model": "gemini-3.1-flash-image",
+   "modelName": "Nano Banana 2",
+   "created": "2026-10-01T10:49:16.664Z",
+   "w": 1264,
+   "h": 848,
+   "samples": [
+    "Otoczenie: park",
+    "Kolor dyń: pomarańczowe"
+   ],
+   "photos": [
+    "kid"
+   ],
+   "file": "P049_K.jpg",
+   "thumb": "mini/P049_K.webp"
+  },
+  "P049:T": {
+   "id": "ex_mupewiolrml1q",
+   "presetId": "P049",
+   "mode": "T",
+   "model": "gemini-3.1-flash-image",
+   "modelName": "Nano Banana 2",
+   "created": "2026-10-01T10:49:26.421Z",
+   "w": 1264,
+   "h": 848,
+   "samples": [
+    "Otoczenie: park",
+    "Kolor dyń: pomarańczowe"
+   ],
+   "photos": [],
+   "file": "P049_T.jpg",
+   "thumb": "mini/P049_T.webp"
+  },
+  "P050:K": {
+   "id": "ex_mupewpitlqnmm",
+   "presetId": "P050",
+   "mode": "K",
+   "model": "gemini-3.1-flash-image",
+   "modelName": "Nano Banana 2",
+   "created": "2026-10-01T10:49:35.285Z",
+   "w": 1264,
+   "h": 848,
+   "samples": [
+    "Krajobraz: góry",
+    "Motyw zabawy: bałwan"
+   ],
+   "photos": [
+    "kid"
+   ],
+   "file": "P050_K.jpg",
+   "thumb": "mini/P050_K.webp"
+  },
+  "P050:T": {
+   "id": "ex_mupewxiwgpfbf",
+   "presetId": "P050",
+   "mode": "T",
+   "model": "gemini-3.1-flash-image",
+   "modelName": "Nano Banana 2",
+   "created": "2026-10-01T10:49:45.656Z",
+   "w": 1264,
+   "h": 848,
+   "samples": [
+    "Krajobraz: góry",
+    "Motyw zabawy: bałwan"
+   ],
+   "photos": [],
+   "file": "P050_T.jpg",
+   "thumb": "mini/P050_T.webp"
+  },
+  "P146:K": {
+   "id": "ex_mupex55r0n339",
+   "presetId": "P146",
+   "mode": "K",
+   "model": "gemini-3.1-flash-image",
+   "modelName": "Nano Banana 2",
+   "created": "2026-10-01T10:49:55.551Z",
+   "w": 1264,
+   "h": 848,
+   "samples": [],
+   "photos": [
+    "kid"
+   ],
+   "file": "P146_K.jpg",
+   "thumb": "mini/P146_K.webp"
+  },
+  "P146:T": {
+   "id": "ex_mupexcqrza1zb",
+   "presetId": "P146",
+   "mode": "T",
+   "model": "gemini-3.1-flash-image",
+   "modelName": "Nano Banana 2",
+   "created": "2026-10-01T10:50:05.379Z",
+   "w": 1264,
+   "h": 848,
+   "samples": [],
+   "photos": [],
+   "file": "P146_T.jpg",
+   "thumb": "mini/P146_T.webp"
+  },
+  "P147:K": {
+   "id": "ex_mupexjpok7jp4",
+   "presetId": "P147",
+   "mode": "K",
+   "model": "gemini-3.1-flash-image",
+   "modelName": "Nano Banana 2",
+   "created": "2026-10-01T10:50:14.412Z",
+   "w": 1264,
+   "h": 848,
+   "samples": [],
+   "photos": [
+    "kid"
+   ],
+   "file": "P147_K.jpg",
+   "thumb": "mini/P147_K.webp"
+  },
+  "P147:T": {
+   "id": "ex_mupexqofk0m42",
+   "presetId": "P147",
+   "mode": "T",
+   "model": "gemini-3.1-flash-image",
+   "modelName": "Nano Banana 2",
+   "created": "2026-10-01T10:50:23.439Z",
+   "w": 1264,
+   "h": 848,
+   "samples": [],
+   "photos": [],
+   "file": "P147_T.jpg",
+   "thumb": "mini/P147_T.webp"
+  },
+  "P148:K": {
+   "id": "ex_mupexy2drfyz3",
+   "presetId": "P148",
+   "mode": "K",
+   "model": "gemini-3.1-flash-image",
+   "modelName": "Nano Banana 2",
+   "created": "2026-10-01T10:50:33.013Z",
+   "w": 1264,
+   "h": 848,
+   "samples": [],
+   "photos": [
+    "kid"
+   ],
+   "file": "P148_K.jpg",
+   "thumb": "mini/P148_K.webp"
+  },
+  "P148:T": {
+   "id": "ex_mupey63szy9xm",
+   "presetId": "P148",
+   "mode": "T",
+   "model": "gemini-3.1-flash-image",
+   "modelName": "Nano Banana 2",
+   "created": "2026-10-01T10:50:43.432Z",
+   "w": 1264,
+   "h": 848,
+   "samples": [],
+   "photos": [],
+   "file": "P148_T.jpg",
+   "thumb": "mini/P148_T.webp"
+  },
+  "P149:K": {
+   "id": "ex_mupeyeaxhaoot",
+   "presetId": "P149",
+   "mode": "K",
+   "model": "gemini-3.1-flash-image",
+   "modelName": "Nano Banana 2",
+   "created": "2026-10-01T10:50:54.057Z",
+   "w": 1264,
+   "h": 848,
+   "samples": [],
+   "photos": [
+    "kid"
+   ],
+   "file": "P149_K.jpg",
+   "thumb": "mini/P149_K.webp"
+  },
+  "P149:T": {
+   "id": "ex_mupeym86rk4hl",
+   "presetId": "P149",
+   "mode": "T",
+   "model": "gemini-3.1-flash-image",
+   "modelName": "Nano Banana 2",
+   "created": "2026-10-01T10:51:04.326Z",
+   "w": 1264,
+   "h": 848,
+   "samples": [],
+   "photos": [],
+   "file": "P149_T.jpg",
+   "thumb": "mini/P149_T.webp"
+  },
+  "P150:K": {
+   "id": "ex_mupeyultblsbj",
+   "presetId": "P150",
+   "mode": "K",
+   "model": "gemini-3.1-flash-image",
+   "modelName": "Nano Banana 2",
+   "created": "2026-10-01T10:51:15.185Z",
+   "w": 1264,
+   "h": 848,
+   "samples": [],
+   "photos": [
+    "kid"
+   ],
+   "file": "P150_K.jpg",
+   "thumb": "mini/P150_K.webp"
+  },
+  "P150:T": {
+   "id": "ex_mupez2njfptv3",
+   "presetId": "P150",
+   "mode": "T",
+   "model": "gemini-3.1-flash-image",
+   "modelName": "Nano Banana 2",
+   "created": "2026-10-01T10:51:25.615Z",
+   "w": 1264,
+   "h": 848,
+   "samples": [],
+   "photos": [],
+   "file": "P150_T.jpg",
+   "thumb": "mini/P150_T.webp"
+  },
+  "P051:K": {
+   "id": "ex_mupezbrqchsi5",
+   "presetId": "P051",
+   "mode": "K",
+   "model": "gemini-3.1-flash-image",
+   "modelName": "Nano Banana 2",
+   "created": "2026-10-01T10:51:37.430Z",
+   "w": 1264,
+   "h": 848,
+   "samples": [
+    "Wnętrze: salon",
+    "Rodzaj choinki: klasyczny świerk",
+    "Kolory ozdób: czerwień i złoto"
+   ],
+   "photos": [
+    "duo"
+   ],
+   "file": "P051_K.jpg",
+   "thumb": "mini/P051_K.webp"
+  },
+  "P051:T": {
+   "id": "ex_mupezigjy0w1a",
+   "presetId": "P051",
+   "mode": "T",
+   "model": "gemini-3.1-flash-image",
+   "modelName": "Nano Banana 2",
+   "created": "2026-10-01T10:51:46.099Z",
+   "w": 1264,
+   "h": 848,
+   "samples": [
+    "Wnętrze: salon",
+    "Rodzaj choinki: klasyczny świerk",
+    "Kolory ozdób: czerwień i złoto"
+   ],
+   "photos": [],
+   "file": "P051_T.jpg",
+   "thumb": "mini/P051_T.webp"
+  },
+  "P052:K": {
+   "id": "ex_mupezp6ihd3wm",
+   "presetId": "P052",
+   "mode": "K",
+   "model": "gemini-3.1-flash-image",
+   "modelName": "Nano Banana 2",
+   "created": "2026-10-01T10:51:54.810Z",
+   "w": 1264,
+   "h": 848,
+   "samples": [],
+   "photos": [
+    "duo"
+   ],
+   "file": "P052_K.jpg",
+   "thumb": "mini/P052_K.webp"
+  },
+  "P052:T": {
+   "id": "ex_mupezxeaga80u",
+   "presetId": "P052",
+   "mode": "T",
+   "model": "gemini-3.1-flash-image",
+   "modelName": "Nano Banana 2",
+   "created": "2026-10-01T10:52:05.458Z",
+   "w": 1264,
+   "h": 848,
+   "samples": [],
+   "photos": [],
+   "file": "P052_T.jpg",
+   "thumb": "mini/P052_T.webp"
+  },
+  "P053:K": {
+   "id": "ex_mupf06p8h79kb",
+   "presetId": "P053",
+   "mode": "K",
+   "model": "gemini-3.1-flash-image",
+   "modelName": "Nano Banana 2",
+   "created": "2026-10-01T10:52:17.516Z",
+   "w": 1264,
+   "h": 848,
+   "samples": [
+    "Kwiaty: polne kwiaty"
+   ],
+   "photos": [
+    "duo"
+   ],
+   "file": "P053_K.jpg",
+   "thumb": "mini/P053_K.webp"
+  },
+  "P053:T": {
+   "id": "ex_mupf0dq61rprq",
+   "presetId": "P053",
+   "mode": "T",
+   "model": "gemini-3.1-flash-image",
+   "modelName": "Nano Banana 2",
+   "created": "2026-10-01T10:52:26.622Z",
+   "w": 1264,
+   "h": 848,
+   "samples": [
+    "Kwiaty: polne kwiaty"
+   ],
+   "photos": [],
+   "file": "P053_T.jpg",
+   "thumb": "mini/P053_T.webp"
+  },
+  "P054:K": {
+   "id": "ex_mupf0m6gopirt",
+   "presetId": "P054",
+   "mode": "K",
+   "model": "gemini-3.1-flash-image",
+   "modelName": "Nano Banana 2",
+   "created": "2026-10-01T10:52:37.576Z",
+   "w": 1264,
+   "h": 848,
+   "samples": [
+    "Wspólna pasja: muzyka"
+   ],
+   "photos": [
+    "duo"
+   ],
+   "file": "P054_K.jpg",
+   "thumb": "mini/P054_K.webp"
+  },
+  "P054:T": {
+   "id": "ex_mupf0tpgz0too",
+   "presetId": "P054",
+   "mode": "T",
+   "model": "gemini-3.1-flash-image",
+   "modelName": "Nano Banana 2",
+   "created": "2026-10-01T10:52:47.332Z",
+   "w": 1264,
+   "h": 848,
+   "samples": [
+    "Wspólna pasja: muzyka"
+   ],
+   "photos": [],
+   "file": "P054_T.jpg",
+   "thumb": "mini/P054_T.webp"
+  },
+  "P055:K": {
+   "id": "ex_mupf11lsd42iw",
+   "presetId": "P055",
+   "mode": "K",
+   "model": "gemini-3.1-flash-image",
+   "modelName": "Nano Banana 2",
+   "created": "2026-10-01T10:52:57.568Z",
+   "w": 1264,
+   "h": 848,
+   "samples": [
+    "Domowy motyw: filiżanki herbaty"
+   ],
+   "photos": [
+    "duo"
+   ],
+   "file": "P055_K.jpg",
+   "thumb": "mini/P055_K.webp"
+  },
+  "P055:T": {
+   "id": "ex_mupf1azowk62x",
+   "presetId": "P055",
+   "mode": "T",
+   "model": "gemini-3.1-flash-image",
+   "modelName": "Nano Banana 2",
+   "created": "2026-10-01T10:53:09.732Z",
+   "w": 1264,
+   "h": 848,
+   "samples": [
+    "Domowy motyw: filiżanki herbaty"
+   ],
+   "photos": [],
+   "file": "P055_T.jpg",
+   "thumb": "mini/P055_T.webp"
+  },
+  "P056:K": {
+   "id": "ex_mupf1njrryko0",
+   "presetId": "P056",
+   "mode": "K",
+   "model": "gemini-3.1-flash-image",
+   "modelName": "Nano Banana 2",
+   "created": "2026-10-01T10:53:26.007Z",
+   "w": 1264,
+   "h": 848,
+   "samples": [
+    "Symbole: biała gołębica"
+   ],
+   "photos": [
+    "duo"
+   ],
+   "file": "P056_K.jpg",
+   "thumb": "mini/P056_K.webp"
+  },
+  "P056:T": {
+   "id": "ex_mupf1xe9mdpzh",
+   "presetId": "P056",
+   "mode": "T",
+   "model": "gemini-3.1-flash-image",
+   "modelName": "Nano Banana 2",
+   "created": "2026-10-01T10:53:38.769Z",
+   "w": 1264,
+   "h": 848,
+   "samples": [
+    "Symbole: biała gołębica"
+   ],
+   "photos": [],
+   "file": "P056_T.jpg",
+   "thumb": "mini/P056_T.webp"
+  },
+  "P057:K": {
+   "id": "ex_mupf27wo8yj8s",
+   "presetId": "P057",
+   "mode": "K",
+   "model": "gemini-3.1-flash-image",
+   "modelName": "Nano Banana 2",
+   "created": "2026-10-01T10:53:52.392Z",
+   "w": 1264,
+   "h": 848,
+   "samples": [
+    "Miejsce: park (umowny)",
+    "Dekoracje: kwiaty"
+   ],
+   "photos": [
+    "duo"
+   ],
+   "file": "P057_K.jpg",
+   "thumb": "mini/P057_K.webp"
+  },
+  "P057:T": {
+   "id": "ex_mupf2f9tdbmf6",
+   "presetId": "P057",
+   "mode": "T",
+   "model": "gemini-3.1-flash-image",
+   "modelName": "Nano Banana 2",
+   "created": "2026-10-01T10:54:01.937Z",
+   "w": 1264,
+   "h": 848,
+   "samples": [
+    "Miejsce: park (umowny)",
+    "Dekoracje: kwiaty"
+   ],
+   "photos": [],
+   "file": "P057_T.jpg",
+   "thumb": "mini/P057_T.webp"
+  },
+  "P058:K": {
+   "id": "ex_mupf2pt3rhl3x",
+   "presetId": "P058",
+   "mode": "K",
+   "model": "gemini-3.1-flash-image",
+   "modelName": "Nano Banana 2",
+   "created": "2026-10-01T10:54:15.591Z",
+   "w": 1264,
+   "h": 848,
+   "samples": [
+    "Miejsce: park (umowny)",
+    "Dekoracje: kwiaty"
+   ],
+   "photos": [
+    "duo"
+   ],
+   "file": "P058_K.jpg",
+   "thumb": "mini/P058_K.webp"
+  },
+  "P058:T": {
+   "id": "ex_mupf2wqgylizh",
+   "presetId": "P058",
+   "mode": "T",
+   "model": "gemini-3.1-flash-image",
+   "modelName": "Nano Banana 2",
+   "created": "2026-10-01T10:54:24.568Z",
+   "w": 1264,
+   "h": 848,
+   "samples": [
+    "Miejsce: park (umowny)",
+    "Dekoracje: kwiaty"
+   ],
+   "photos": [],
+   "file": "P058_T.jpg",
+   "thumb": "mini/P058_T.webp"
+  },
+  "P059:K": {
+   "id": "ex_mupf35o1cypow",
+   "presetId": "P059",
+   "mode": "K",
+   "model": "gemini-3.1-flash-image",
+   "modelName": "Nano Banana 2",
+   "created": "2026-10-01T10:54:36.145Z",
+   "w": 1264,
+   "h": 848,
+   "samples": [
+    "Kwiaty: polne kwiaty",
+    "Styl: klasyczny"
+   ],
+   "photos": [
+    "duo"
+   ],
+   "file": "P059_K.jpg",
+   "thumb": "mini/P059_K.webp"
+  },
+  "P059:T": {
+   "id": "ex_mupf3bv3qgcpz",
+   "presetId": "P059",
+   "mode": "T",
+   "model": "gemini-3.1-flash-image",
+   "modelName": "Nano Banana 2",
+   "created": "2026-10-01T10:54:44.175Z",
+   "w": 1264,
+   "h": 848,
+   "samples": [
+    "Kwiaty: polne kwiaty",
+    "Styl: klasyczny"
+   ],
+   "photos": [],
+   "file": "P059_T.jpg",
+   "thumb": "mini/P059_T.webp"
+  },
+  "P060:K": {
+   "id": "ex_mupf3ipiu7uom",
+   "presetId": "P060",
+   "mode": "K",
+   "model": "gemini-3.1-flash-image",
+   "modelName": "Nano Banana 2",
+   "created": "2026-10-01T10:54:53.046Z",
+   "w": 1264,
+   "h": 848,
+   "samples": [
+    "Okazja: urodziny",
+    "Rekwizyty: książki"
+   ],
+   "photos": [
+    "duo"
+   ],
+   "file": "P060_K.jpg",
+   "thumb": "mini/P060_K.webp"
+  },
+  "P060:T": {
+   "id": "ex_mupf3qj9nn8f5",
+   "presetId": "P060",
+   "mode": "T",
+   "model": "gemini-3.1-flash-image",
+   "modelName": "Nano Banana 2",
+   "created": "2026-10-01T10:55:03.189Z",
+   "w": 1264,
+   "h": 848,
+   "samples": [
+    "Okazja: urodziny",
+    "Rekwizyty: książki"
+   ],
+   "photos": [],
+   "file": "P060_T.jpg",
+   "thumb": "mini/P060_T.webp"
+  },
+  "P061:K": {
+   "id": "ex_mupf3x31awf3c",
+   "presetId": "P061",
+   "mode": "K",
+   "model": "gemini-3.1-flash-image",
+   "modelName": "Nano Banana 2",
+   "created": "2026-10-01T10:55:11.677Z",
+   "w": 1264,
+   "h": 848,
+   "samples": [
+    "Przybory: kredki"
+   ],
+   "photos": [
+    "kid"
+   ],
+   "file": "P061_K.jpg",
+   "thumb": "mini/P061_K.webp"
+  },
+  "P061:T": {
+   "id": "ex_mupf45jdrqgzk",
+   "presetId": "P061",
+   "mode": "T",
+   "model": "gemini-3.1-flash-image",
+   "modelName": "Nano Banana 2",
+   "created": "2026-10-01T10:55:22.633Z",
+   "w": 1264,
+   "h": 848,
+   "samples": [
+    "Przybory: kredki"
+   ],
+   "photos": [],
+   "file": "P061_T.jpg",
+   "thumb": "mini/P061_T.webp"
+  },
+  "P062:K": {
+   "id": "ex_mupf4dob5sqnl",
+   "presetId": "P062",
+   "mode": "K",
+   "model": "gemini-3.1-flash-image",
+   "modelName": "Nano Banana 2",
+   "created": "2026-10-01T10:55:33.179Z",
+   "w": 1264,
+   "h": 848,
+   "samples": [
+    "Technika plastyczna: farby akwarelowe"
+   ],
+   "photos": [
+    "kid"
+   ],
+   "file": "P062_K.jpg",
+   "thumb": "mini/P062_K.webp"
+  },
+  "P062:T": {
+   "id": "ex_mupf4lgz0gytq",
+   "presetId": "P062",
+   "mode": "T",
+   "model": "gemini-3.1-flash-image",
+   "modelName": "Nano Banana 2",
+   "created": "2026-10-01T10:55:43.283Z",
+   "w": 1264,
+   "h": 848,
+   "samples": [
+    "Technika plastyczna: farby akwarelowe"
+   ],
+   "photos": [],
+   "file": "P062_T.jpg",
+   "thumb": "mini/P062_T.webp"
+  },
+  "P063:K": {
+   "id": "ex_mupf4sn07slda",
+   "presetId": "P063",
+   "mode": "K",
+   "model": "gemini-3.1-flash-image",
+   "modelName": "Nano Banana 2",
+   "created": "2026-10-01T10:55:52.572Z",
+   "w": 1264,
+   "h": 848,
+   "samples": [
+    "Rodzaj tańca: balet",
+    "Kolor sceny: fioletowy"
+   ],
+   "photos": [
+    "kid"
+   ],
+   "file": "P063_K.jpg",
+   "thumb": "mini/P063_K.webp"
+  },
+  "P063:T": {
+   "id": "ex_mupf50iawjc57",
+   "presetId": "P063",
+   "mode": "T",
+   "model": "gemini-3.1-flash-image",
+   "modelName": "Nano Banana 2",
+   "created": "2026-10-01T10:56:02.770Z",
+   "w": 1264,
+   "h": 848,
+   "samples": [
+    "Rodzaj tańca: balet",
+    "Kolor sceny: fioletowy"
+   ],
+   "photos": [],
+   "file": "P063_T.jpg",
+   "thumb": "mini/P063_T.webp"
+  },
+  "P064:K": {
+   "id": "ex_mupf57uvton4q",
+   "presetId": "P064",
+   "mode": "K",
+   "model": "gemini-3.1-flash-image",
+   "modelName": "Nano Banana 2",
+   "created": "2026-10-01T10:56:12.295Z",
+   "w": 1264,
+   "h": 848,
+   "samples": [
+    "Boisko: trawiaste boisko",
+    "Barwy: biało-czerwone",
+    "Rekwizyty: książki"
+   ],
+   "photos": [
+    "kid"
+   ],
+   "file": "P064_K.jpg",
+   "thumb": "mini/P064_K.webp"
+  },
+  "P064:T": {
+   "id": "ex_mupf5gu3mymxe",
+   "presetId": "P064",
+   "mode": "T",
+   "model": "gemini-3.1-flash-image",
+   "modelName": "Nano Banana 2",
+   "created": "2026-10-01T10:56:23.931Z",
+   "w": 1264,
+   "h": 848,
+   "samples": [
+    "Boisko: trawiaste boisko",
+    "Barwy: biało-czerwone",
+    "Rekwizyty: książki"
+   ],
+   "photos": [],
+   "file": "P064_T.jpg",
+   "thumb": "mini/P064_T.webp"
+  },
+  "P065:K": {
+   "id": "ex_mupf5pffxpg1y",
+   "presetId": "P065",
+   "mode": "K",
+   "model": "gemini-3.1-flash-image",
+   "modelName": "Nano Banana 2",
+   "created": "2026-10-01T10:56:35.067Z",
+   "w": 1264,
+   "h": 848,
+   "samples": [
+    "Miejsce: park (umowny)",
+    "Rodzaj roweru: rowerek biegowy"
+   ],
+   "photos": [
+    "kid"
+   ],
+   "file": "P065_K.jpg",
+   "thumb": "mini/P065_K.webp"
+  },
+  "P065:T": {
+   "id": "ex_mupf5xsytejgk",
+   "presetId": "P065",
+   "mode": "T",
+   "model": "gemini-3.1-flash-image",
+   "modelName": "Nano Banana 2",
+   "created": "2026-10-01T10:56:45.922Z",
+   "w": 1264,
+   "h": 848,
+   "samples": [
+    "Miejsce: park (umowny)",
+    "Rodzaj roweru: rowerek biegowy"
+   ],
+   "photos": [],
+   "file": "P065_T.jpg",
+   "thumb": "mini/P065_T.webp"
+  },
+  "P066:K": {
+   "id": "ex_mupf64qbzsykh",
+   "presetId": "P066",
+   "mode": "K",
+   "model": "gemini-3.1-flash-image",
+   "modelName": "Nano Banana 2",
+   "created": "2026-10-01T10:56:54.899Z",
+   "w": 1264,
+   "h": 848,
+   "samples": [
+    "Kolor tła: kremowy",
+    "Charakter światła: miękkie rozproszone"
+   ],
+   "photos": [
+    "kid"
+   ],
+   "file": "P066_K.jpg",
+   "thumb": "mini/P066_K.webp"
+  },
+  "P066:T": {
+   "id": "ex_mupf6cp2rhic8",
+   "presetId": "P066",
+   "mode": "T",
+   "model": "gemini-3.1-flash-image",
+   "modelName": "Nano Banana 2",
+   "created": "2026-10-01T10:57:05.222Z",
+   "w": 1264,
+   "h": 848,
+   "samples": [
+    "Kolor tła: kremowy",
+    "Charakter światła: miękkie rozproszone"
+   ],
+   "photos": [],
+   "file": "P066_T.jpg",
+   "thumb": "mini/P066_T.webp"
+  },
+  "P067:K": {
+   "id": "ex_mupf6jwzbq8el",
+   "presetId": "P067",
+   "mode": "K",
+   "model": "gemini-3.1-flash-image",
+   "modelName": "Nano Banana 2",
+   "created": "2026-10-01T10:57:14.579Z",
+   "w": 1264,
+   "h": 848,
+   "samples": [
+    "Plener: łąka",
+    "Kierunek światła: zza osób (kontra)"
+   ],
+   "photos": [
+    "kid"
+   ],
+   "file": "P067_K.jpg",
+   "thumb": "mini/P067_K.webp"
+  },
+  "P067:T": {
+   "id": "ex_mupf6rjdqnypo",
+   "presetId": "P067",
+   "mode": "T",
+   "model": "gemini-3.1-flash-image",
+   "modelName": "Nano Banana 2",
+   "created": "2026-10-01T10:57:24.457Z",
+   "w": 1264,
+   "h": 848,
+   "samples": [
+    "Plener: łąka",
+    "Kierunek światła: zza osób (kontra)"
+   ],
+   "photos": [],
+   "file": "P067_T.jpg",
+   "thumb": "mini/P067_T.webp"
+  },
+  "P068:K": {
+   "id": "ex_mupf6zfod46bg",
+   "presetId": "P068",
+   "mode": "K",
+   "model": "gemini-3.1-flash-image",
+   "modelName": "Nano Banana 2",
+   "created": "2026-10-01T10:57:34.692Z",
+   "w": 1264,
+   "h": 848,
+   "samples": [
+    "Kontrast: miękki",
+    "Tło: jasne studio"
+   ],
+   "photos": [
+    "kid"
+   ],
+   "file": "P068_K.jpg",
+   "thumb": "mini/P068_K.webp"
+  },
+  "P068:T": {
+   "id": "ex_mupf77djyd3wz",
+   "presetId": "P068",
+   "mode": "T",
+   "model": "gemini-3.1-flash-image",
+   "modelName": "Nano Banana 2",
+   "created": "2026-10-01T10:57:44.983Z",
+   "w": 1264,
+   "h": 848,
+   "samples": [
+    "Kontrast: miękki",
+    "Tło: jasne studio"
+   ],
+   "photos": [],
+   "file": "P068_T.jpg",
+   "thumb": "mini/P068_T.webp"
+  },
+  "P069:K": {
+   "id": "ex_mupf7ex276q51",
+   "presetId": "P069",
+   "mode": "K",
+   "model": "gemini-3.1-flash-image",
+   "modelName": "Nano Banana 2",
+   "created": "2026-10-01T10:57:54.758Z",
+   "w": 1264,
+   "h": 848,
+   "samples": [
+    "Kwiaty: polne kwiaty",
+    "Kolor tła: kremowy"
+   ],
+   "photos": [
+    "kid"
+   ],
+   "file": "P069_K.jpg",
+   "thumb": "mini/P069_K.webp"
+  },
+  "P069:T": {
+   "id": "ex_mupf7n4kw5lyl",
+   "presetId": "P069",
+   "mode": "T",
+   "model": "gemini-3.1-flash-image",
+   "modelName": "Nano Banana 2",
+   "created": "2026-10-01T10:58:05.396Z",
+   "w": 1264,
+   "h": 848,
+   "samples": [
+    "Kwiaty: polne kwiaty",
+    "Kolor tła: kremowy"
+   ],
+   "photos": [],
+   "file": "P069_T.jpg",
+   "thumb": "mini/P069_T.webp"
+  },
+  "P070:K": {
+   "id": "ex_mupf7v7txxkym",
+   "presetId": "P070",
+   "mode": "K",
+   "model": "gemini-3.1-flash-image",
+   "modelName": "Nano Banana 2",
+   "created": "2026-10-01T10:58:15.881Z",
+   "w": 1264,
+   "h": 848,
+   "samples": [
+    "Ulica: brukowana uliczka",
+    "Kolory świateł: ciepłe złote",
+    "Nastrój: spokojny"
+   ],
+   "photos": [
+    "kid"
+   ],
+   "file": "P070_K.jpg",
+   "thumb": "mini/P070_K.webp"
+  },
+  "P070:T": {
+   "id": "ex_mupf83igiat3k",
+   "presetId": "P070",
+   "mode": "T",
+   "model": "gemini-3.1-flash-image",
+   "modelName": "Nano Banana 2",
+   "created": "2026-10-01T10:58:26.632Z",
+   "w": 1264,
+   "h": 848,
+   "samples": [
+    "Ulica: brukowana uliczka",
+    "Kolory świateł: ciepłe złote",
+    "Nastrój: spokojny"
+   ],
+   "photos": [],
+   "file": "P070_T.jpg",
+   "thumb": "mini/P070_T.webp"
+  },
+  "P071:K": {
+   "id": "ex_mupf8bfdkudqj",
+   "presetId": "P071",
+   "mode": "K",
+   "model": "gemini-3.1-flash-image",
+   "modelName": "Nano Banana 2",
+   "created": "2026-10-01T10:58:36.889Z",
+   "w": 1264,
+   "h": 848,
+   "samples": [
+    "Ciepło kolorów: ciepłe",
+    "Ziarno: delikatne"
+   ],
+   "photos": [
+    "kid"
+   ],
+   "file": "P071_K.jpg",
+   "thumb": "mini/P071_K.webp"
+  },
+  "P071:T": {
+   "id": "ex_mupf8j71y0sxi",
+   "presetId": "P071",
+   "mode": "T",
+   "model": "gemini-3.1-flash-image",
+   "modelName": "Nano Banana 2",
+   "created": "2026-10-01T10:58:46.957Z",
+   "w": 1264,
+   "h": 848,
+   "samples": [
+    "Ciepło kolorów: ciepłe",
+    "Ziarno: delikatne"
+   ],
+   "photos": [],
+   "file": "P071_T.jpg",
+   "thumb": "mini/P071_T.webp"
+  },
+  "P072:K": {
+   "id": "ex_mupf8ryqtaztu",
+   "presetId": "P072",
+   "mode": "K",
+   "model": "gemini-3.1-flash-image",
+   "modelName": "Nano Banana 2",
+   "created": "2026-10-01T10:58:58.322Z",
+   "w": 1264,
+   "h": 848,
+   "samples": [
+    "Barwa lnu: naturalny len",
+    "Rodzaj okna: duże okno"
+   ],
+   "photos": [
+    "kid"
+   ],
+   "file": "P072_K.jpg",
+   "thumb": "mini/P072_K.webp"
+  },
+  "P072:T": {
+   "id": "ex_mupf8yubq4j67",
+   "presetId": "P072",
+   "mode": "T",
+   "model": "gemini-3.1-flash-image",
+   "modelName": "Nano Banana 2",
+   "created": "2026-10-01T10:59:07.235Z",
+   "w": 1264,
+   "h": 848,
+   "samples": [
+    "Barwa lnu: naturalny len",
+    "Rodzaj okna: duże okno"
+   ],
+   "photos": [],
+   "file": "P072_T.jpg",
+   "thumb": "mini/P072_T.webp"
+  },
+  "P073:K": {
+   "id": "ex_mupf9571dxt05",
+   "presetId": "P073",
+   "mode": "K",
+   "model": "gemini-3.1-flash-image",
+   "modelName": "Nano Banana 2",
+   "created": "2026-10-01T10:59:15.470Z",
+   "w": 1264,
+   "h": 848,
+   "samples": [
+    "Otoczenie: park",
+    "Pora dnia: świt",
+    "Paleta filmowa: ciepła pomarańcz i turkus"
+   ],
+   "photos": [
+    "kid"
+   ],
+   "file": "P073_K.jpg",
+   "thumb": "mini/P073_K.webp"
+  },
+  "P073:T": {
+   "id": "ex_mupf9dw7lmp19",
+   "presetId": "P073",
+   "mode": "T",
+   "model": "gemini-3.1-flash-image",
+   "modelName": "Nano Banana 2",
+   "created": "2026-10-01T10:59:26.743Z",
+   "w": 1264,
+   "h": 848,
+   "samples": [
+    "Otoczenie: park",
+    "Pora dnia: świt",
+    "Paleta filmowa: ciepła pomarańcz i turkus"
+   ],
+   "photos": [],
+   "file": "P073_T.jpg",
+   "thumb": "mini/P073_T.webp"
+  },
+  "P074:K": {
+   "id": "ex_mupf9l0efc8mt",
+   "presetId": "P074",
+   "mode": "K",
+   "model": "gemini-3.1-flash-image",
+   "modelName": "Nano Banana 2",
+   "created": "2026-10-01T10:59:35.966Z",
+   "w": 1264,
+   "h": 848,
+   "samples": [
+    "Tło: jasne studio",
+    "Kolor akcentu: terakota"
+   ],
+   "photos": [
+    "kid"
+   ],
+   "file": "P074_K.jpg",
+   "thumb": "mini/P074_K.webp"
+  },
+  "P074:T": {
+   "id": "ex_mupf9tduq7w7f",
+   "presetId": "P074",
+   "mode": "T",
+   "model": "gemini-3.1-flash-image",
+   "modelName": "Nano Banana 2",
+   "created": "2026-10-01T10:59:46.818Z",
+   "w": 1264,
+   "h": 848,
+   "samples": [
+    "Tło: jasne studio",
+    "Kolor akcentu: terakota"
+   ],
+   "photos": [],
+   "file": "P074_T.jpg",
+   "thumb": "mini/P074_T.webp"
+  },
+  "P075:K": {
+   "id": "ex_mupfa2heyq12m",
+   "presetId": "P075",
+   "mode": "K",
+   "model": "gemini-3.1-flash-image",
+   "modelName": "Nano Banana 2",
+   "created": "2026-10-01T10:59:58.610Z",
+   "w": 1264,
+   "h": 848,
+   "samples": [
+    "Kolor dominujący: butelkowa zieleń",
+    "Materiał tła: aksamit"
+   ],
+   "photos": [
+    "kid"
+   ],
+   "file": "P075_K.jpg",
+   "thumb": "mini/P075_K.webp"
+  },
+  "P075:T": {
+   "id": "ex_mupfaaa2p7ipo",
+   "presetId": "P075",
+   "mode": "T",
+   "model": "gemini-3.1-flash-image",
+   "modelName": "Nano Banana 2",
+   "created": "2026-10-01T11:00:08.714Z",
+   "w": 1264,
+   "h": 848,
+   "samples": [
+    "Kolor dominujący: butelkowa zieleń",
+    "Materiał tła: aksamit"
+   ],
+   "photos": [],
+   "file": "P075_T.jpg",
+   "thumb": "mini/P075_T.webp"
+  },
+  "P086:K": {
+   "id": "ex_mupfaid1w1qcp",
+   "presetId": "P086",
+   "mode": "K",
+   "model": "gemini-3.1-flash-image",
+   "modelName": "Nano Banana 2",
+   "created": "2026-10-01T11:00:19.189Z",
+   "w": 1264,
+   "h": 848,
+   "samples": [],
+   "photos": [
+    "kid"
+   ],
+   "file": "P086_K.jpg",
+   "thumb": "mini/P086_K.webp"
+  },
+  "P086:T": {
+   "id": "ex_mupfapodbm8bg",
+   "presetId": "P086",
+   "mode": "T",
+   "model": "gemini-3.1-flash-image",
+   "modelName": "Nano Banana 2",
+   "created": "2026-10-01T11:00:28.669Z",
+   "w": 1264,
+   "h": 848,
+   "samples": [],
+   "photos": [],
+   "file": "P086_T.jpg",
+   "thumb": "mini/P086_T.webp"
+  },
+  "P087:K": {
+   "id": "ex_mupfaxpwt12t0",
+   "presetId": "P087",
+   "mode": "K",
+   "model": "gemini-3.1-flash-image",
+   "modelName": "Nano Banana 2",
+   "created": "2026-10-01T11:00:39.092Z",
+   "w": 1264,
+   "h": 848,
+   "samples": [
+    "Motyw botaniczny: polne kwiaty"
+   ],
+   "photos": [
+    "kid"
+   ],
+   "file": "P087_K.jpg",
+   "thumb": "mini/P087_K.webp"
+  },
+  "P087:T": {
+   "id": "ex_mupfb66kkffys",
+   "presetId": "P087",
+   "mode": "T",
+   "model": "gemini-3.1-flash-image",
+   "modelName": "Nano Banana 2",
+   "created": "2026-10-01T11:00:50.060Z",
+   "w": 1264,
+   "h": 848,
+   "samples": [
+    "Motyw botaniczny: polne kwiaty"
+   ],
+   "photos": [],
+   "file": "P087_T.jpg",
+   "thumb": "mini/P087_T.webp"
+  },
+  "P088:K": {
+   "id": "ex_mupfbcsll57ag",
+   "presetId": "P088",
+   "mode": "K",
+   "model": "gemini-3.1-flash-image",
+   "modelName": "Nano Banana 2",
+   "created": "2026-10-01T11:00:58.629Z",
+   "w": 1264,
+   "h": 848,
+   "samples": [
+    "Krajobraz: góry"
+   ],
+   "photos": [
+    "kid"
+   ],
+   "file": "P088_K.jpg",
+   "thumb": "mini/P088_K.webp"
+  },
+  "P088:T": {
+   "id": "ex_mupfbmgqvuojm",
+   "presetId": "P088",
+   "mode": "T",
+   "model": "gemini-3.1-flash-image",
+   "modelName": "Nano Banana 2",
+   "created": "2026-10-01T11:01:11.162Z",
+   "w": 1264,
+   "h": 848,
+   "samples": [
+    "Krajobraz: góry"
+   ],
+   "photos": [],
+   "file": "P088_T.jpg",
+   "thumb": "mini/P088_T.webp"
+  },
+  "P089:K": {
+   "id": "ex_mupfbtnb7aanw",
+   "presetId": "P089",
+   "mode": "K",
+   "model": "gemini-3.1-flash-image",
+   "modelName": "Nano Banana 2",
+   "created": "2026-10-01T11:01:20.472Z",
+   "w": 1264,
+   "h": 848,
+   "samples": [],
+   "photos": [
+    "kid"
+   ],
+   "file": "P089_K.jpg",
+   "thumb": "mini/P089_K.webp"
+  },
+  "P089:T": {
+   "id": "ex_mupfc1n9ri6eh",
+   "presetId": "P089",
+   "mode": "T",
+   "model": "gemini-3.1-flash-image",
+   "modelName": "Nano Banana 2",
+   "created": "2026-10-01T11:01:30.838Z",
+   "w": 1264,
+   "h": 848,
+   "samples": [],
+   "photos": [],
+   "file": "P089_T.jpg",
+   "thumb": "mini/P089_T.webp"
+  },
+  "P090:K": {
+   "id": "ex_mupfcbpm0hoql",
+   "presetId": "P090",
+   "mode": "K",
+   "model": "gemini-3.1-flash-image",
+   "modelName": "Nano Banana 2",
+   "created": "2026-10-01T11:01:43.882Z",
+   "w": 1264,
+   "h": 848,
+   "samples": [],
+   "photos": [
+    "kid"
+   ],
+   "file": "P090_K.jpg",
+   "thumb": "mini/P090_K.webp"
+  },
+  "P090:T": {
+   "id": "ex_mupfcjugtw9ul",
+   "presetId": "P090",
+   "mode": "T",
+   "model": "gemini-3.1-flash-image",
+   "modelName": "Nano Banana 2",
+   "created": "2026-10-01T11:01:54.424Z",
+   "w": 1264,
+   "h": 848,
+   "samples": [],
+   "photos": [],
+   "file": "P090_T.jpg",
+   "thumb": "mini/P090_T.webp"
+  },
+  "P091:K": {
+   "id": "ex_mupfcsa7gv5kl",
+   "presetId": "P091",
+   "mode": "K",
+   "model": "gemini-3.1-flash-image",
+   "modelName": "Nano Banana 2",
+   "created": "2026-10-01T11:02:05.359Z",
+   "w": 1264,
+   "h": 848,
+   "samples": [
+    "Motyw otoczenia: zimowy las",
+    "Materiał podstawki: drewno"
+   ],
+   "photos": [
+    "kid"
+   ],
+   "file": "P091_K.jpg",
+   "thumb": "mini/P091_K.webp"
+  },
+  "P091:T": {
+   "id": "ex_mupfd0dcsvcvx",
+   "presetId": "P091",
+   "mode": "T",
+   "model": "gemini-3.1-flash-image",
+   "modelName": "Nano Banana 2",
+   "created": "2026-10-01T11:02:15.840Z",
+   "w": 1264,
+   "h": 848,
+   "samples": [
+    "Motyw otoczenia: zimowy las",
+    "Materiał podstawki: drewno"
+   ],
+   "photos": [],
+   "file": "P091_T.jpg",
+   "thumb": "mini/P091_T.webp"
+  },
+  "P092:K": {
+   "id": "ex_mupfd80x83ovx",
+   "presetId": "P092",
+   "mode": "K",
+   "model": "gemini-3.1-flash-image",
+   "modelName": "Nano Banana 2",
+   "created": "2026-10-01T11:02:25.761Z",
+   "w": 1264,
+   "h": 848,
+   "samples": [
+    "Temat krajobrazu: góry i lasy"
+   ],
+   "photos": [
+    "kid"
+   ],
+   "file": "P092_K.jpg",
+   "thumb": "mini/P092_K.webp"
+  },
+  "P092:T": {
+   "id": "ex_mupfdgaknndhd",
+   "presetId": "P092",
+   "mode": "T",
+   "model": "gemini-3.1-flash-image",
+   "modelName": "Nano Banana 2",
+   "created": "2026-10-01T11:02:36.476Z",
+   "w": 1264,
+   "h": 848,
+   "samples": [
+    "Temat krajobrazu: góry i lasy"
+   ],
+   "photos": [],
+   "file": "P092_T.jpg",
+   "thumb": "mini/P092_T.webp"
+  },
+  "P093:K": {
+   "id": "ex_mupfdoe69n5fv",
+   "presetId": "P093",
+   "mode": "K",
+   "model": "gemini-3.1-flash-image",
+   "modelName": "Nano Banana 2",
+   "created": "2026-10-01T11:02:46.974Z",
+   "w": 1264,
+   "h": 848,
+   "samples": [
+    "Elementy miniatury: domki"
+   ],
+   "photos": [
+    "kid"
+   ],
+   "file": "P093_K.jpg",
+   "thumb": "mini/P093_K.webp"
+  },
+  "P093:T": {
+   "id": "ex_mupfdwgc644ku",
+   "presetId": "P093",
+   "mode": "T",
+   "model": "gemini-3.1-flash-image",
+   "modelName": "Nano Banana 2",
+   "created": "2026-10-01T11:02:57.420Z",
+   "w": 1264,
+   "h": 848,
+   "samples": [
+    "Elementy miniatury: domki"
+   ],
+   "photos": [],
+   "file": "P093_T.jpg",
+   "thumb": "mini/P093_T.webp"
+  },
+  "P094:K": {
+   "id": "ex_mupfe2y28avvt",
+   "presetId": "P094",
+   "mode": "K",
+   "model": "gemini-3.1-flash-image",
+   "modelName": "Nano Banana 2",
+   "created": "2026-10-01T11:03:05.834Z",
+   "w": 1264,
+   "h": 848,
+   "samples": [
+    "Okazja: urodziny",
+    "Pamiątki: bilety"
+   ],
+   "photos": [
+    "kid"
+   ],
+   "file": "P094_K.jpg",
+   "thumb": "mini/P094_K.webp"
+  },
+  "P094:T": {
+   "id": "ex_mupfebhch9bqe",
+   "presetId": "P094",
+   "mode": "T",
+   "model": "gemini-3.1-flash-image",
+   "modelName": "Nano Banana 2",
+   "created": "2026-10-01T11:03:16.897Z",
+   "w": 1264,
+   "h": 848,
+   "samples": [
+    "Okazja: urodziny",
+    "Pamiątki: bilety"
+   ],
+   "photos": [],
+   "file": "P094_T.jpg",
+   "thumb": "mini/P094_T.webp"
+  },
+  "P095:T": {
+   "id": "ex_mupfeqmkg6gmv",
+   "presetId": "P095",
+   "mode": "T",
+   "model": "gemini-3.1-flash-image",
+   "modelName": "Nano Banana 2",
+   "created": "2026-10-01T11:03:36.524Z",
+   "w": 1264,
+   "h": 848,
+   "samples": [
+    "Motyw 1: las",
+    "Motyw 2: las"
+   ],
+   "photos": [],
+   "file": "P095_T.jpg",
+   "thumb": "mini/P095_T.webp"
+  },
+  "P161:K": {
+   "id": "ex_mupff0x0wk7ds",
+   "presetId": "P161",
+   "mode": "K",
+   "model": "gemini-3.1-flash-image",
+   "modelName": "Nano Banana 2",
+   "created": "2026-10-01T11:03:49.860Z",
+   "w": 1264,
+   "h": 848,
+   "samples": [],
+   "photos": [
+    "duo",
+    "obj_P161"
+   ],
+   "file": "P161_K.jpg",
+   "thumb": "mini/P161_K.webp"
+  },
+  "P161:T": {
+   "id": "ex_mupff9qqv3u0i",
+   "presetId": "P161",
+   "mode": "T",
+   "model": "gemini-3.1-flash-image",
+   "modelName": "Nano Banana 2",
+   "created": "2026-10-01T11:04:01.298Z",
+   "w": 1264,
+   "h": 848,
+   "samples": [],
+   "photos": [],
+   "file": "P161_T.jpg",
+   "thumb": "mini/P161_T.webp"
+  },
+  "P162:K": {
+   "id": "ex_mupffnsd70we8",
+   "presetId": "P162",
+   "mode": "K",
+   "model": "gemini-3.1-flash-image",
+   "modelName": "Nano Banana 2",
+   "created": "2026-10-01T11:04:19.501Z",
+   "w": 1264,
+   "h": 848,
+   "samples": [],
+   "photos": [
+    "duo",
+    "obj_P162"
+   ],
+   "file": "P162_K.jpg",
+   "thumb": "mini/P162_K.webp"
+  },
+  "P162:T": {
+   "id": "ex_mupffvqna767v",
+   "presetId": "P162",
+   "mode": "T",
+   "model": "gemini-3.1-flash-image",
+   "modelName": "Nano Banana 2",
+   "created": "2026-10-01T11:04:29.807Z",
+   "w": 1264,
+   "h": 848,
+   "samples": [],
+   "photos": [],
+   "file": "P162_T.jpg",
+   "thumb": "mini/P162_T.webp"
+  },
+  "P163:K": {
+   "id": "ex_mupfg6nuulxf7",
+   "presetId": "P163",
+   "mode": "K",
+   "model": "gemini-3.1-flash-image",
+   "modelName": "Nano Banana 2",
+   "created": "2026-10-01T11:04:43.962Z",
+   "w": 1264,
+   "h": 848,
+   "samples": [],
+   "photos": [
+    "duo"
+   ],
+   "file": "P163_K.jpg",
+   "thumb": "mini/P163_K.webp"
+  },
+  "P163:T": {
+   "id": "ex_mupfgdzo92f3r",
+   "presetId": "P163",
+   "mode": "T",
+   "model": "gemini-3.1-flash-image",
+   "modelName": "Nano Banana 2",
+   "created": "2026-10-01T11:04:53.460Z",
+   "w": 1264,
+   "h": 848,
+   "samples": [],
+   "photos": [],
+   "file": "P163_T.jpg",
+   "thumb": "mini/P163_T.webp"
+  },
+  "P166:K": {
+   "id": "ex_mupfgl6vyby2a",
+   "presetId": "P166",
+   "mode": "K",
+   "model": "gemini-3.1-flash-image",
+   "modelName": "Nano Banana 2",
+   "created": "2026-10-01T11:05:02.791Z",
+   "w": 1264,
+   "h": 848,
+   "samples": [],
+   "photos": [
+    "kid"
+   ],
+   "file": "P166_K.jpg",
+   "thumb": "mini/P166_K.webp"
+  },
+  "P166:T": {
+   "id": "ex_mupfgsuimb7mb",
+   "presetId": "P166",
+   "mode": "T",
+   "model": "gemini-3.1-flash-image",
+   "modelName": "Nano Banana 2",
+   "created": "2026-10-01T11:05:12.714Z",
+   "w": 1264,
+   "h": 848,
+   "samples": [],
+   "photos": [],
+   "file": "P166_T.jpg",
+   "thumb": "mini/P166_T.webp"
+  },
+  "P167:K": {
+   "id": "ex_mupfgzy3zzdgw",
+   "presetId": "P167",
+   "mode": "K",
+   "model": "gemini-3.1-flash-image",
+   "modelName": "Nano Banana 2",
+   "created": "2026-10-01T11:05:21.915Z",
+   "w": 1264,
+   "h": 848,
+   "samples": [],
+   "photos": [
+    "kid"
+   ],
+   "file": "P167_K.jpg",
+   "thumb": "mini/P167_K.webp"
+  },
+  "P167:T": {
+   "id": "ex_mupfh6vy7tcdp",
+   "presetId": "P167",
+   "mode": "T",
+   "model": "gemini-3.1-flash-image",
+   "modelName": "Nano Banana 2",
+   "created": "2026-10-01T11:05:30.910Z",
+   "w": 1264,
+   "h": 848,
+   "samples": [],
+   "photos": [],
+   "file": "P167_T.jpg",
+   "thumb": "mini/P167_T.webp"
+  },
+  "P168:K": {
+   "id": "ex_mupfhdks8z58x",
+   "presetId": "P168",
+   "mode": "K",
+   "model": "gemini-3.1-flash-image",
+   "modelName": "Nano Banana 2",
+   "created": "2026-10-01T11:05:39.580Z",
+   "w": 1264,
+   "h": 848,
+   "samples": [],
+   "photos": [
+    "kid"
+   ],
+   "file": "P168_K.jpg",
+   "thumb": "mini/P168_K.webp"
+  },
+  "P168:T": {
+   "id": "ex_mupfhlkn8qzar",
+   "presetId": "P168",
+   "mode": "T",
+   "model": "gemini-3.1-flash-image",
+   "modelName": "Nano Banana 2",
+   "created": "2026-10-01T11:05:49.943Z",
+   "w": 1264,
+   "h": 848,
+   "samples": [],
+   "photos": [],
+   "file": "P168_T.jpg",
+   "thumb": "mini/P168_T.webp"
+  },
+  "P169:K": {
+   "id": "ex_mupfhtg04ljpq",
+   "presetId": "P169",
+   "mode": "K",
+   "model": "gemini-3.1-flash-image",
+   "modelName": "Nano Banana 2",
+   "created": "2026-10-01T11:06:00.144Z",
+   "w": 1264,
+   "h": 848,
+   "samples": [],
+   "photos": [
+    "kid"
+   ],
+   "file": "P169_K.jpg",
+   "thumb": "mini/P169_K.webp"
+  },
+  "P169:T": {
+   "id": "ex_mupfi1rq6jowb",
+   "presetId": "P169",
+   "mode": "T",
+   "model": "gemini-3.1-flash-image",
+   "modelName": "Nano Banana 2",
+   "created": "2026-10-01T11:06:10.934Z",
+   "w": 1264,
+   "h": 848,
+   "samples": [],
+   "photos": [],
+   "file": "P169_T.jpg",
+   "thumb": "mini/P169_T.webp"
+  },
+  "P170:K": {
+   "id": "ex_mupfi8ui9lngw",
+   "presetId": "P170",
+   "mode": "K",
+   "model": "gemini-3.1-flash-image",
+   "modelName": "Nano Banana 2",
+   "created": "2026-10-01T11:06:20.106Z",
+   "w": 1264,
+   "h": 848,
+   "samples": [],
+   "photos": [
+    "kid"
+   ],
+   "file": "P170_K.jpg",
+   "thumb": "mini/P170_K.webp"
+  },
+  "P170:T": {
+   "id": "ex_mupfigru60zit",
+   "presetId": "P170",
+   "mode": "T",
+   "model": "gemini-3.1-flash-image",
+   "modelName": "Nano Banana 2",
+   "created": "2026-10-01T11:06:30.378Z",
+   "w": 1264,
+   "h": 848,
+   "samples": [],
+   "photos": [],
+   "file": "P170_T.jpg",
+   "thumb": "mini/P170_T.webp"
+  },
+  "P176:T": {
+   "id": "ex_mupfioi5bhkqh",
+   "presetId": "P176",
+   "mode": "T",
+   "model": "gemini-3.1-flash-image",
+   "modelName": "Nano Banana 2",
+   "created": "2026-10-01T11:06:40.397Z",
+   "w": 1264,
+   "h": 848,
+   "samples": [],
+   "photos": [],
+   "file": "P176_T.jpg",
+   "thumb": "mini/P176_T.webp"
+  },
+  "P177:T": {
+   "id": "ex_mupfix49ccq34",
+   "presetId": "P177",
+   "mode": "T",
+   "model": "gemini-3.1-flash-image",
+   "modelName": "Nano Banana 2",
+   "created": "2026-10-01T11:06:51.561Z",
+   "w": 1264,
+   "h": 848,
+   "samples": [],
+   "photos": [],
+   "file": "P177_T.jpg",
+   "thumb": "mini/P177_T.webp"
+  },
+  "P178:T": {
+   "id": "ex_mupfj4pps41sl",
+   "presetId": "P178",
+   "mode": "T",
+   "model": "gemini-3.1-flash-image",
+   "modelName": "Nano Banana 2",
+   "created": "2026-10-01T11:07:01.405Z",
+   "w": 1264,
+   "h": 848,
+   "samples": [],
+   "photos": [],
+   "file": "P178_T.jpg",
+   "thumb": "mini/P178_T.webp"
+  },
+  "P179:T": {
+   "id": "ex_mupfjepuogors",
+   "presetId": "P179",
+   "mode": "T",
+   "model": "gemini-3.1-flash-image",
+   "modelName": "Nano Banana 2",
+   "created": "2026-10-01T11:07:14.370Z",
+   "w": 1264,
+   "h": 848,
+   "samples": [],
+   "photos": [],
+   "file": "P179_T.jpg",
+   "thumb": "mini/P179_T.webp"
+  },
+  "P180:T": {
+   "id": "ex_mupfjo30gansb",
+   "presetId": "P180",
+   "mode": "T",
+   "model": "gemini-3.1-flash-image",
+   "modelName": "Nano Banana 2",
+   "created": "2026-10-01T11:07:26.508Z",
+   "w": 1264,
+   "h": 848,
+   "samples": [],
+   "photos": [],
+   "file": "P180_T.jpg",
+   "thumb": "mini/P180_T.webp"
+  }
+ },
+ "photos": {
+  "kid": {
+   "id": "xp_mupcknz8w6x5t",
+   "model": "gemini-3.1-flash-image",
+   "modelName": "Nano Banana 2",
+   "created": "2026-10-01T09:44:14.180Z",
+   "w": 896,
+   "h": 1200,
+   "file": "zdjecia/kid.jpg"
+  },
+  "duo": {
+   "id": "xp_mupcmeqgoxumj",
+   "model": "gemini-3.1-flash-image",
+   "modelName": "Nano Banana 2",
+   "created": "2026-10-01T09:45:35.512Z",
+   "w": 1200,
+   "h": 896,
+   "file": "zdjecia/duo.jpg"
+  },
+  "baby": {
+   "id": "xp_mupcmnkneifip",
+   "model": "gemini-3.1-flash-image",
+   "modelName": "Nano Banana 2",
+   "created": "2026-10-01T09:45:46.967Z",
+   "w": 1200,
+   "h": 896,
+   "file": "zdjecia/baby.jpg"
+  },
+  "obj_P114": {
+   "id": "xp_mupcrhpzwn4kx",
+   "model": "gemini-3.1-flash-image",
+   "modelName": "Nano Banana 2",
+   "created": "2026-10-01T09:49:32.663Z",
+   "w": 1200,
+   "h": 896,
+   "file": "zdjecia/obj_P114.jpg"
+  },
+  "obj_P115": {
+   "id": "xp_mupcs2b2rplmh",
+   "model": "gemini-3.1-flash-image",
+   "modelName": "Nano Banana 2",
+   "created": "2026-10-01T09:49:59.342Z",
+   "w": 1200,
+   "h": 896,
+   "file": "zdjecia/obj_P115.jpg"
+  },
+  "obj_P138": {
+   "id": "xp_mupd2h77u8glk",
+   "model": "gemini-3.1-flash-image",
+   "modelName": "Nano Banana 2",
+   "created": "2026-10-01T09:58:05.203Z",
+   "w": 1200,
+   "h": 896,
+   "file": "zdjecia/obj_P138.jpg"
+  },
+  "obj_P145": {
+   "id": "xp_mupd5cit5k2rp",
+   "model": "gemini-3.1-flash-image",
+   "modelName": "Nano Banana 2",
+   "created": "2026-10-01T10:00:19.109Z",
+   "w": 1200,
+   "h": 896,
+   "file": "zdjecia/obj_P145.jpg"
+  },
+  "obj_P161": {
+   "id": "xp_mupdkw3uqfs6j",
+   "model": "gemini-3.1-flash-image",
+   "modelName": "Nano Banana 2",
+   "created": "2026-10-01T10:12:24.330Z",
+   "w": 1200,
+   "h": 896,
+   "file": "zdjecia/obj_P161.jpg"
+  },
+  "obj_P162": {
+   "id": "xp_mupdleki3oxi9",
+   "model": "gemini-3.1-flash-image",
+   "modelName": "Nano Banana 2",
+   "created": "2026-10-01T10:12:48.258Z",
+   "w": 1200,
+   "h": 896,
+   "file": "zdjecia/obj_P162.jpg"
+  },
+  "obj_P038": {
+   "id": "xp_mupem8gc9a568",
+   "model": "gemini-3.1-flash-image",
+   "modelName": "Nano Banana 2",
+   "created": "2026-10-01T10:41:26.604Z",
+   "w": 1200,
+   "h": 896,
+   "file": "zdjecia/obj_P038.jpg"
+  }
+ }
+}
