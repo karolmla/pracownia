@@ -1,0 +1,3023 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<title>Fotoksiążka Pixar – ramki Nano Banana 2</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600;9..144,700;9..144,800&amp;family=Inter:wght@400;500;600;700&amp;family=JetBrains+Mono:wght@500;600&amp;family=Nunito:wght@600;700;800;900&amp;display=swap" rel="stylesheet">
+<style>
+:root{
+  --bg:#edeee9; --paper:#ffffff; --ink:#10140f; --muted:#4f524c; --faint:#7b7e77;
+  --badge:#49534b; --dark:#1b211a; --edge:#434641; --line:#d3d6d0; --stripe-a:#e3e6df; --stripe-b:#eff0eb;
+  --accent:#a5492f; --accent-hover:#8f3d25; --accent-ink:#943d18; --accent-bg:#fff9f6; --peach:#f4e4dc; --err:#9c381a;
+  --ok:#407c5a; --ok-bg:#e3ede6;
+  --serif:'Fraunces','Source Serif 4',Georgia,'Times New Roman',serif;
+  --sans:'Inter','Segoe UI',system-ui,-apple-system,Roboto,'Helvetica Neue',Arial,sans-serif;
+  --mono:'JetBrains Mono','DM Mono',ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;
+  --shadow:0 6px 18px rgba(20,28,20,.08),0 1px 3px rgba(20,28,20,.07);
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html{-webkit-text-size-adjust:100%;scroll-behavior:smooth}
+body{background:var(--bg);color:var(--ink);font:400 16px/1.55 var(--sans);-webkit-font-smoothing:antialiased;min-height:100vh}
+button,input,select,textarea{font:inherit;color:inherit}
+img{max-width:100%}
+[hidden]{display:none!important}
+:focus-visible{outline:3px solid rgba(165,73,47,.45);outline-offset:2px}
+.shell{max-width:760px;margin:0 auto;padding:max(30px,env(safe-area-inset-top)) 22px 96px}
+
+/* ---- nagłówek ---- */
+.hero h1{font:700 clamp(36px,9.4vw,54px)/1.04 var(--serif);letter-spacing:-.015em}
+.lead{font:500 clamp(17px,4.7vw,20px)/1.42 var(--sans);margin-top:18px;max-width:34em}
+.sub{color:var(--muted);margin-top:14px;max-width:38em}
+.chip{display:inline-flex;align-items:center;gap:6px;margin-top:20px;padding:5px 13px;border-radius:999px;background:var(--paper);border:1.5px solid var(--edge);font:600 13px/1.4 var(--sans)}
+
+/* ---- sekcje ---- */
+.sec{margin-top:34px;padding-top:34px;border-top:1px solid var(--line)}
+.sec-h{display:flex;align-items:center;gap:12px;margin-bottom:20px}
+.num{font:500 13px/1 var(--mono);background:var(--badge);color:#fff;border-radius:6px;padding:8px 9px;letter-spacing:.02em}
+.sec-h h2{font:700 clamp(21px,5.8vw,27px)/1.15 var(--serif);letter-spacing:-.005em}
+.lede{color:var(--muted);margin:-6px 0 18px}
+.hint{font-size:13.5px;line-height:1.5;color:var(--muted);margin-top:8px}
+.field{margin-top:20px}
+.field>label:not(.drop),.field>.lbl{display:block;font:700 14px/1.3 var(--sans);margin-bottom:8px}
+.two{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px}
+@media(max-width:430px){.two{grid-template-columns:1fr}}
+
+/* ---- pola formularza ---- */
+select,input[type=text],input[type=password],input[type=number],textarea{width:100%;padding:12px 14px;border:1.5px solid var(--edge);border-radius:10px;background:var(--paper);font:500 15px/1.35 var(--sans)}
+select{appearance:none;-webkit-appearance:none;padding-right:38px;background:var(--paper) url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='14' height='9' viewBox='0 0 14 9'%3E%3Cpath d='M1 1.5l6 6 6-6' fill='none' stroke='%2310140f' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E") no-repeat right 14px center}
+select:disabled{opacity:.6}
+textarea{height:210px;font:500 11.5px/1.5 var(--mono);color:var(--muted);resize:vertical;background:#f7f7f4}
+.check{display:flex;align-items:flex-start;gap:10px;padding:7px 0;font-weight:500;cursor:pointer}
+input[type=checkbox]{width:20px;height:20px;flex:none;margin-top:2px;accent-color:var(--badge)}
+.range-row{display:flex;align-items:center;gap:14px}
+input[type=range]{flex:1;accent-color:var(--accent);height:28px}
+output{font:600 13px var(--mono);min-width:46px;text-align:right}
+#castBox{margin-top:10px;display:flex;flex-wrap:wrap;gap:8px;align-items:center}
+#castBox .lbl{width:100%;font:700 14px var(--sans)}
+#castBox .check{padding:8px 13px;background:var(--paper);border:1.5px solid var(--line);border-radius:999px}
+.fold{margin-top:18px;border-top:1px solid var(--line)}
+.fold>summary{cursor:pointer;padding:14px 0;font:700 14px var(--sans);list-style:none;display:flex;justify-content:space-between;align-items:center}
+.fold>summary::-webkit-details-marker{display:none}
+.fold>summary::after{content:'+';font:500 20px/1 var(--mono)}
+.fold[open]>summary::after{content:'–'}
+.logbox{background:var(--paper);border:1.5px solid var(--line);border-radius:10px;padding:10px 12px;font:500 11.5px/1.5 var(--mono);max-height:220px;overflow:auto;white-space:pre-wrap;margin:12px 0;color:var(--muted)}
+
+/* ---- przyciski ---- */
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:8px;padding:13px 20px;border:2px solid var(--dark);border-radius:10px;background:var(--dark);color:#fff;font:700 15px/1.2 var(--sans);cursor:pointer;text-align:center;transition:background .15s,transform .1s,border-color .15s}
+.btn:hover{background:#2c362b;border-color:#2c362b}
+.btn:active{transform:translateY(1px)}
+.btn[disabled]{opacity:.45;cursor:not-allowed;transform:none}
+.btn-ok{background:var(--accent);border-color:var(--accent)}
+.btn-ok:hover{background:var(--accent-hover);border-color:var(--accent-hover)}
+.btn-gray,.btn-soft{background:transparent;color:var(--ink);border-color:var(--edge)}
+.btn-gray:hover,.btn-soft:hover{background:var(--paper);border-color:var(--edge)}
+.btn-soft{border-color:var(--line);background:var(--paper)}
+.btn-sm{padding:8px 13px;font-size:13px;border-width:1.5px;border-radius:8px}
+.btn-big,.btn-block{display:flex;width:100%;padding:16px 22px;font-size:17px}
+
+/* ---- strefa wgrywania (kropkowana, jak na wzorze) ---- */
+.drop{position:relative;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:12px;text-align:center;min-height:210px;padding:28px 20px;background:var(--paper);border:2px dotted var(--edge);border-radius:18px;cursor:pointer;transition:border-color .15s,background .15s}
+.drop:hover,.drop.over{border-color:var(--accent);background:var(--accent-bg)}
+.drop.compact{min-height:132px;padding:18px 16px}
+.drop.busy{opacity:.55;pointer-events:none}
+.drop input{position:absolute;width:1px;height:1px;opacity:0;pointer-events:none}
+.drop svg{display:block}
+.drop b{font:700 16px/1.4 var(--sans);max-width:22em}
+.drop small{font:400 14px/1.45 var(--sans);color:var(--muted);max-width:26em}
+.drop.mini{min-height:0;flex-direction:row;gap:12px;padding:14px 16px;border-radius:12px;text-align:left;justify-content:flex-start}
+.drop.mini b{font-size:14.5px}
+#statusBox{margin-top:14px;font:500 14px/1.5 var(--sans);color:var(--muted)}
+#statusBox strong{color:var(--ink)}
+
+/* ---- karty wyboru (format, układ, tryb) – lekko „rzucone na stół” ---- */
+.fmt-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px;margin-top:16px}
+.fmt-grid.one{grid-template-columns:minmax(0,1fr)}
+.fmt{display:flex;align-items:center;gap:11px;padding:12px;background:var(--paper);border:2px solid transparent;border-radius:10px;box-shadow:var(--shadow);cursor:pointer;text-align:left;min-height:64px;transition:transform .12s,border-color .12s}
+.fmt:nth-child(3n+1){transform:rotate(-.45deg)}
+.fmt:nth-child(3n+2){transform:rotate(.35deg)}
+.fmt:nth-child(3n){transform:rotate(-.15deg)}
+.fmt:hover{border-color:#b9bcb4}
+.fmt.on{border-color:var(--accent);background:var(--accent-bg);transform:none}
+.fmt .thumb{flex:none;width:26px;height:37px;background:#fff;border:1px solid #dcded8;border-radius:2px;box-shadow:0 1px 3px rgba(0,0,0,.18)}
+.shell[data-ori="landscape"] .fmt .thumb{width:37px;height:26px}
+.fmt .tx{display:flex;flex-direction:column;gap:2px;line-height:1.25;min-width:0;overflow-wrap:anywhere}
+.fmt b{font:700 14px/1.25 var(--sans)}
+.fmt em{font:500 12px/1.3 var(--sans);font-style:normal;color:var(--muted)}
+.fmt .tag{font:700 11px/1.3 var(--sans);color:var(--accent-ink)}
+.fmt.row{align-items:flex-start;padding:14px 16px}
+.fmt.row .tx{gap:5px}
+.fmt.row b{font-size:15px}
+.fmt.row em{font-size:13.5px;line-height:1.45}
+.pill{display:inline-block;align-self:flex-start;padding:3px 11px;border-radius:999px;font:700 12.5px/1.4 var(--sans)}
+.pill.bad{background:var(--peach);color:var(--err)}
+.pill.ok{background:var(--ok-bg);color:var(--ok)}
+.seg-row{display:flex;align-items:center;gap:14px;flex-wrap:wrap}
+.seg-row>span{color:var(--muted);font-size:15px}
+.seg{display:inline-flex;border:2px solid var(--edge);border-radius:11px;overflow:hidden;background:var(--paper)}
+.seg button{border:0;background:transparent;padding:6px 18px;font:700 14px/1.4 var(--sans);color:var(--muted);cursor:pointer}
+.seg button.on{background:var(--dark);color:#fff}
+
+/* ---- lista zdjęć do sortowania ---- */
+.sort-wrap{display:grid;grid-template-columns:repeat(auto-fill,minmax(96px,1fr));gap:12px;margin-top:22px}
+.day-head{grid-column:1/-1;display:flex;align-items:baseline;gap:10px;margin-top:10px;font:700 20px/1.2 var(--serif)}
+.day-head small{font:500 12.5px var(--mono);color:var(--muted)}
+.sort-item{position:relative;display:flex;flex-direction:column;background:var(--paper);border-radius:10px;box-shadow:var(--shadow);overflow:hidden}
+.sort-item.error{outline:2px solid var(--accent)}
+.sort-img{display:block;width:100%;aspect-ratio:1;object-fit:cover;background:linear-gradient(135deg,var(--stripe-a),var(--stripe-b))}
+.sort-item .sort-input{position:absolute;left:6px;top:6px;width:42px;height:28px;padding:0;border:0;border-radius:6px;background:var(--dark);color:#fff;font:600 13px/1 var(--mono);text-align:center;-moz-appearance:textfield}
+.sort-input::-webkit-outer-spin-button,.sort-input::-webkit-inner-spin-button{-webkit-appearance:none;margin:0}
+.sort-del{position:absolute;right:6px;top:6px;width:28px;height:28px;border:0;border-radius:50%;background:rgba(16,20,15,.74);color:#fff;font-size:13px;cursor:pointer}
+.sort-warn{padding:8px;font:500 11.5px/1.35 var(--sans);color:var(--err);display:flex;flex-direction:column;gap:5px}
+.sort-warn select{padding:6px 24px 6px 8px;font-size:12.5px;border-width:1.5px;background-position:right 8px center}
+
+/* ---- wyniki: panele, ściana generowania, podgląd stron ---- */
+.workspace{margin-top:26px}
+.panel{background:var(--paper);border:1.5px solid var(--edge);border-radius:14px;padding:16px 18px;box-shadow:var(--shadow);margin-bottom:18px}
+.panel-title{font:700 19px/1.25 var(--serif)}
+.sticky-head{position:sticky;top:8px;z-index:20;display:flex;flex-direction:column;gap:12px}
+.wallhead .bar{margin-top:12px}
+.bar{height:8px;border-radius:99px;background:#dcdfd8;overflow:hidden}
+.bar>i{display:block;height:100%;width:0;background:var(--accent);border-radius:99px;transition:width .25s}
+.stats{display:flex;flex-wrap:wrap;gap:6px;margin-top:12px}
+.stat{background:var(--ok-bg);color:var(--ok);border-radius:999px;padding:3px 11px;font:700 12.5px/1.5 var(--sans)}
+.stat.err{background:var(--peach);color:var(--err)}
+.wall-day{display:flex;align-items:baseline;gap:10px;margin:22px 0 10px;font:700 19px/1.2 var(--serif)}
+.wall{display:grid;grid-template-columns:repeat(auto-fill,minmax(82px,1fr));gap:9px}
+.tile{position:relative;aspect-ratio:1;border-radius:10px;overflow:hidden;border:2px solid transparent;background:repeating-linear-gradient(135deg,var(--stripe-a) 0 9px,var(--stripe-b) 9px 18px)}
+.tile img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;opacity:0;transition:opacity .2s}
+.tile.has img{opacity:1}
+.tile .ico{position:absolute;inset:0;display:grid;place-items:center;font-size:22px;opacity:.55}
+.tile.has .ico{display:none}
+.tile .kind{position:absolute;left:5px;top:5px;font-size:12px;background:rgba(255,255,255,.85);border-radius:5px;padding:0 4px;line-height:1.5}
+.tile .tag{position:absolute;left:4px;right:4px;bottom:4px;font:600 10.5px/1.5 var(--mono);background:rgba(16,20,15,.78);color:#fff;padding:1px 6px;border-radius:5px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.tile .tag:empty{display:none}
+.tile.run{border-color:var(--dark);animation:pulse 1.4s ease-in-out infinite}
+.tile.ok{border-color:var(--ok)}
+.tile.err{border-color:var(--accent)}
+@keyframes pulse{50%{box-shadow:0 0 0 4px rgba(27,33,26,.16)}}
+.page-card{margin:26px 0 34px}
+.page-wrapper{position:relative;background:#fff;aspect-ratio:1190/1684;box-shadow:0 14px 34px rgba(20,28,20,.16);border-radius:3px;overflow:hidden}
+.page-wrapper.land{aspect-ratio:1684/1190}
+.page-wrapper img{display:block;width:100%;height:100%}
+.page-wrapper .ph{position:absolute;inset:0;display:grid;place-items:center;font:500 13px var(--mono);color:var(--muted);background:repeating-linear-gradient(135deg,var(--stripe-a) 0 10px,var(--stripe-b) 10px 20px)}
+.page-tools{display:flex;flex-wrap:wrap;gap:8px;margin-top:12px}
+.badge{display:inline-block;margin-left:6px;padding:1px 8px;border-radius:999px;background:var(--ok-bg);color:var(--ok);font:700 11px/1.6 var(--sans)}
+.badge.local{background:var(--peach);color:var(--err)}
+
+/* ---- nakładka postępu i powiadomienia ---- */
+.loader{position:fixed;inset:0;z-index:100;display:none;flex-direction:column;align-items:center;justify-content:center;gap:12px;padding:24px;text-align:center;background:rgba(237,238,233,.94);backdrop-filter:blur(4px)}
+.loader h2{font:700 24px/1.2 var(--serif)}
+.loader p{font:500 13.5px/1.5 var(--mono);color:var(--muted);max-width:30em;white-space:pre-line}
+.loader .bar{width:min(420px,84vw)}
+.spinner{width:44px;height:44px;border-radius:50%;border:4px solid #d3d6d0;border-top-color:var(--accent);animation:spin .9s linear infinite}
+@keyframes spin{to{transform:rotate(360deg)}}
+#toasts{position:fixed;left:0;right:0;bottom:max(18px,env(safe-area-inset-bottom));z-index:120;display:flex;flex-direction:column;align-items:center;gap:8px;padding:0 16px;pointer-events:none}
+.toast{background:var(--dark);color:#fff;padding:12px 18px;border-radius:12px;max-width:min(94vw,560px);font:600 14px/1.45 var(--sans);box-shadow:0 10px 28px rgba(0,0,0,.28);pointer-events:auto}
+
+/* ---- komunikat o błędzie startowym (gdy skrypt padnie, np. po zmianach w Canvas) ---- */
+#bootErr{position:fixed;left:0;right:0;top:0;z-index:200;padding:14px 16px;background:#7a2412;color:#fff;font:600 14px/1.45 var(--sans)}
+#bootErr b{display:block;font:700 15px var(--sans);margin-bottom:4px}
+#bootErr code{display:block;margin-top:6px;font:500 12px/1.5 var(--mono);white-space:pre-wrap;word-break:break-word;opacity:.92;max-height:30vh;overflow:auto}
+#bootErr button{margin-top:10px;padding:7px 14px;border:1.5px solid #fff;border-radius:8px;background:transparent;color:#fff;font:700 13px var(--sans);cursor:pointer}
+
+.style-grid{display:grid;grid-template-columns:1fr 1fr;gap:14px;margin-top:10px}
+.style-grid .fmt{flex-direction:column;align-items:stretch;gap:10px;padding:12px;min-height:0;transform:none}
+.style-grid .mini{display:block;width:100%;height:auto;border-radius:8px;background:#fff;border:1px solid var(--line)}
+.style-grid .tx{gap:3px}
+@media(max-width:430px){.style-grid{grid-template-columns:1fr}}
+
+.ref-list{display:flex;flex-wrap:wrap;gap:8px;margin-top:10px}
+.ref-list figure{position:relative;width:74px}
+.ref-list img{width:74px;height:74px;object-fit:cover;border-radius:8px;border:1.5px solid var(--line);display:block}
+.ref-list button{position:absolute;right:-6px;top:-6px;width:22px;height:22px;border:0;border-radius:50%;background:var(--dark);color:#fff;font-size:12px;line-height:1;cursor:pointer}
+.ref-list figcaption{font:500 10.5px/1.3 var(--sans);color:var(--muted);margin-top:3px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+
+/* ---- plan pracy i próbki ---- */
+.plan{margin-bottom:14px;padding:13px 15px;background:var(--paper);border:1.5px solid var(--line);border-radius:12px}
+.plan>b{font:700 14px var(--sans)}
+.plan ul{list-style:none;margin-top:8px;display:grid;gap:5px}
+.plan li{display:flex;justify-content:space-between;gap:12px;font:500 13.5px/1.45 var(--sans);color:var(--muted)}
+.plan li b{font:600 13.5px var(--mono);color:var(--ink);white-space:nowrap}
+#sampleOut{margin-top:16px}
+#sampleOut .row{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;margin-top:10px}
+#sampleOut img{width:100%;border-radius:10px;box-shadow:var(--shadow);background:repeating-linear-gradient(135deg,var(--stripe-a) 0 8px,var(--stripe-b) 8px 16px)}
+
+/* ---- stopka ---- */
+.foot{margin-top:40px;padding-top:30px;border-top:1px solid var(--line);color:var(--muted);font-size:14.5px}
+.foot p+p{margin-top:12px}
+.foot .row{display:flex;flex-wrap:wrap;gap:8px;margin-top:14px}
+@media (prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important;scroll-behavior:auto!important}}
+</style>
+</head>
+<body>
+
+<div class="loader" id="loader" role="alertdialog" aria-live="polite">
+  <div class="spinner"></div>
+  <h2 id="loader-text">Przetwarzanie…</h2>
+  <p id="loader-subtext"></p>
+  <div class="bar"><i id="loaderBar"></i></div>
+  <button class="btn btn-gray btn-sm" id="loaderCancel" style="margin-top:8px">Anuluj</button>
+</div>
+<div id="toasts" aria-live="polite"></div>
+<div id="bootErr" hidden role="alert"></div>
+<script>
+// Uruchamiane PRZED główną częścią: jeśli cokolwiek zepsuje skrypt (także zmiany wprowadzone przez środowisko),
+// użytkownik zobaczy konkretny komunikat zamiast martwej strony.
+(function () {
+  var box = document.getElementById('bootErr'), shown = 0;
+  window.__bootError = function (what, msg, extra) {
+    if (shown++ > 2) return;
+    box.hidden = false;
+    box.innerHTML = '<b>' + what + '</b><span>Przewiń niżej — część aplikacji może działać. Prześlij mi ten komunikat, a poprawię plik.</span><code></code><button type="button">Ukryj</button>';
+    box.querySelector('code').textContent = String(msg || '') + (extra ? '\n' + extra : '');
+    box.querySelector('button').onclick = function () { box.hidden = true; };
+  };
+  window.addEventListener('error', function (e) {
+    if (e && e.target && e.target !== window && e.target.tagName) return;         // nieudane wczytanie czcionki itp. pomijamy
+    window.__bootError('Błąd w kodzie aplikacji', e && e.message, e && e.filename ? 'linia ' + e.lineno : '');
+  });
+  window.addEventListener('unhandledrejection', function (e) {
+    var r = e && e.reason;
+    window.__bootError('Błąd w trakcie działania', r && (r.message || r), '');
+  });
+})();
+</script>
+
+
+<div class="shell" data-ori="portrait">
+
+  <header class="hero">
+    <h1>Fotoksiążka Pixar</h1>
+    <p class="lead">Wgraj zdjęcia z wyjazdu — Nano Banana 2 otoczy każde z nich sceną w stylu Pixara, a Ty dostajesz PDF gotowy do druku.</p>
+    <p class="sub">Zdjęcia same układają się w dni według daty z EXIF, każdy dzień dostaje opowieść i ilustracje. Twoje zdjęcie zostaje w ramce w oryginalnej rozdzielczości, a PDF powstaje w najwyższym DPI, jakie uniesie urządzenie.</p>
+    <span class="chip" id="modelChip">🍌 Nano Banana 2</span>
+  </header>
+
+  <!-- 01 -->
+
+  <!-- 02 -->
+  <section class="sec" id="s1">
+    <div class="sec-h"><span class="num">01</span><h2>Wgraj zdjęcia</h2></div>
+    <div class="drop" id="dropZone" role="button" tabindex="0" aria-label="Wgraj zdjęcia">
+      <input type="file" id="fileInput" accept="image/*" multiple>
+      <svg width="62" height="16" viewBox="0 0 62 16" aria-hidden="true"><path d="M0 0h16L0 16z" fill="#434844"/><path d="M62 0v16H46z" fill="#49534b"/></svg>
+      <b id="dropTitle">Przeciągnij zdjęcia tutaj albo kliknij, aby wybrać</b>
+      <small id="dropSub">Możesz wybrać wiele naraz (do 1000) i dopisywać kolejne w każdej chwili. JPG lub PNG, najlepiej w oryginalnej rozdzielczości.</small>
+    </div>
+    <div id="statusBox">Brak zdjęć w pamięci.</div>
+    <div id="sortHost"></div>
+  </section>
+
+  <!-- 03 -->
+  <section class="sec" id="s2">
+    <div class="sec-h"><span class="num">02</span><h2>Wybierz format wydruku</h2></div>
+    <div class="seg-row">
+      <span>Orientacja:</span>
+      <div class="seg" id="oriSeg" role="group" aria-label="Orientacja strony">
+        <button type="button" data-v="portrait" class="on">Pionowo</button>
+        <button type="button" data-v="landscape">Poziomo</button>
+      </div>
+    </div>
+    <select id="pageOrientation" hidden>
+      <option value="portrait">Pion</option>
+      <option value="landscape">Poziom</option>
+    </select>
+
+    <div class="fmt-grid" id="fmtGrid" role="radiogroup" aria-label="Format PDF">
+      <button type="button" class="fmt" data-v="a2" role="radio"><span class="thumb"></span><span class="tx"><b>A2</b><em>42 × 59,4 cm</em><span class="tag">oryginalny, ogromny</span></span></button>
+      <button type="button" class="fmt" data-v="a4" role="radio"><span class="thumb"></span><span class="tx"><b>A4</b><em>21 × 29,7 cm</em><span class="tag">do druku domowego</span></span></button>
+      <button type="button" class="fmt" data-v="a4_holes_left" role="radio"><span class="thumb"></span><span class="tx"><b>A4 + dziurki z lewej</b><em>druk dwustronny</em></span></button>
+      <button type="button" class="fmt" data-v="a4_holes_top" role="radio"><span class="thumb"></span><span class="tx"><b>A4 + dziurki z góry</b><em>druk dwustronny</em></span></button>
+    </div>
+    <select id="pdfFormat" hidden>
+      <option value="a2">A2</option>
+      <option value="a4">A4</option>
+      <option value="a4_holes_left">A4 – miejsce na dziurki z lewej</option>
+      <option value="a4_holes_top">A4 – miejsce na dziurki z góry</option>
+    </select>
+
+    <div class="field">
+      <span class="lbl">Układ zdjęć na stronie</span>
+      <div class="fmt-grid one" id="layoutGrid" role="radiogroup" aria-label="Układ zdjęć">
+        <button type="button" class="fmt row" data-v="classic" role="radio"><span class="tx"><b>Klasyczny</b><em>dwa pionowe zdjęcia obok siebie, reszta pojedynczo</em></span></button>
+        <button type="button" class="fmt row" data-v="smart" role="radio"><span class="tx"><b>Oszczędny</b><em>dwa pasujące zdjęcia na jednej stronie</em></span></button>
+        <button type="button" class="fmt row" data-v="single" role="radio"><span class="tx"><b>Jedno zdjęcie na stronę</b><em>każde zdjęcie na osobnej, dużej stronie</em></span></button>
+      </div>
+      <select id="layoutMode" hidden>
+        <option value="classic">Klasyczny</option>
+        <option value="smart">Oszczędny</option>
+        <option value="single">Jedno zdjęcie na stronę</option>
+      </select>
+    </div>
+
+    <div class="field">
+      <label for="exportDpi">Jakość PDF (DPI)</label>
+      <select id="exportDpi">
+        <option value="0" selected>Maksymalna – do 600 DPI (zalecana)</option>
+        <option value="900">Ultra – 900 DPI (bardzo wolno)</option>
+        <option value="450">Wysoka – 450 DPI</option>
+        <option value="300">Standard – 300 DPI</option>
+        <option value="200">Dobra – 200 DPI</option>
+        <option value="150">Szkic – 150 DPI (szybko)</option>
+      </select>
+      <div class="two" style="margin-top:14px">
+        <div>
+          <label for="bleedMm">Spad (dla drukarni)</label>
+          <select id="bleedMm">
+            <option value="0" selected>bez spadu (druk domowy)</option>
+            <option value="2">2 mm</option>
+            <option value="3">3 mm</option>
+            <option value="5">5 mm</option>
+          </select>
+        </div>
+        <div>
+          <span class="lbl">Znaczniki cięcia</span>
+          <label class="check"><input type="checkbox" id="cropMarks"> Dodaj krzyżyki cięcia</label>
+        </div>
+      </div>
+      <p class="hint">Spad powiększa stronę i wypuszcza obraz poza linię cięcia, żeby po przycięciu nie zostały białe paski. Znaczniki cięcia dokładają margines z krzyżykami. Do druku w domu zostaw oba wyłączone.</p>
+      <p class="hint">„Maksymalna” bierze najwyższe DPI, które urządzenie zmieści (do 600 DPI). Strony są składane paskami, a gdyby zabrakło pamięci, aplikacja sama obniży DPI i powie o tym.</p>
+    </div>
+  </section>
+
+  <!-- 04 -->
+  <section class="sec" id="s3">
+    <div class="sec-h"><span class="num">03</span><h2>Opowieść dnia</h2></div>
+    <label class="check"><input type="checkbox" id="doStory" checked> Pisz opowieści i rysuj okładki dni</label>
+    <div class="field">
+      <label for="storyTitle">Tytuł / główny wątek (opcjonalnie)</label>
+      <input type="text" id="storyTitle" placeholder="np. Wycieczka do ZOO Wrocław">
+    </div>
+    <div class="field">
+      <label for="storyCharacters">Bohaterowie / imiona (opcjonalnie)</label>
+      <input type="text" id="storyCharacters" placeholder="np. Artur - kuzyn, Burek - pies">
+      <div id="castBox"><span class="lbl">Stała obsada — zaznacz, kto jest na zdjęciach:</span></div>
+    </div>
+    <div class="field">
+      <span class="lbl">Zdjęcie referencyjne do okładek (opcjonalnie)</span>
+      <div class="drop mini" id="refDrop" role="button" tabindex="0"><input type="file" id="refImageInput" accept="image/*" multiple><svg width="38" height="12" viewBox="0 0 62 16" aria-hidden="true"><path d="M0 0h16L0 16z" fill="#434844"/><path d="M62 0v16H46z" fill="#49534b"/></svg><b>Wgraj referencję</b></div>
+      <p class="hint">Możesz wgrać kilka zdjęć naraz — np. osobne zdjęcie każdej osoby, podpisane imieniem. Twarze zostaną odwzorowane 1:1, ubrania dopasują się do historii.</p>
+      <div class="ref-list" id="refList"></div>
+      <div class="hint" id="refImageStatus" style="color:var(--ok);display:none"></div>
+    </div>
+    <div class="two">
+      <div class="field">
+        <label for="storyStyle">Styl opowieści</label>
+        <select id="storyStyle">
+          <option value="ciepła, rodzinna bajka przygodowa">✨ Magiczna bajka</option>
+          <option value="realistyczny pamiętnik z podróży, pisany w pierwszej osobie">📔 Realistyczny pamiętnik</option>
+          <option value="zabawna przygoda, pełna humoru i anegdot">😄 Zabawna przygoda</option>
+          <option value="poetycka opowieść, melancholijna i spokojna">🌙 Poetycka opowieść</option>
+        </select>
+      </div>
+      <div class="field">
+        <label for="storyPages">Stron opowieści na dzień</label>
+        <select id="storyPages">
+          <option value="1">do 1</option><option value="2">do 2</option><option value="3">do 3</option><option value="4" selected>do 4</option>
+        </select>
+      </div>
+    </div>
+  </section>
+
+  <!-- 05 -->
+  <section class="sec" id="s4">
+    <div class="sec-h"><span class="num">04</span><h2>AI rysuje ramki</h2></div>
+    <span class="lbl" style="display:block;font:700 14px var(--sans)">Wariant ramki</span>
+    <div class="fmt-grid style-grid" id="styleGrid" role="radiogroup" aria-label="Wariant ramki">
+      <button type="button" class="fmt" data-v="classic" role="radio"><svg class="mini" viewBox="0 0 120 84" aria-hidden="true"><rect width="120" height="84" fill="#fff"/><rect x="8" y="6" width="104" height="72" fill="#f4f4f1"/><rect x="20" y="16" width="36" height="52" rx="2" fill="#fff" stroke="#49534b" stroke-width="3"/><rect x="64" y="16" width="36" height="52" rx="2" fill="#fff" stroke="#49534b" stroke-width="3"/><circle cx="20" cy="16" r="5" fill="#a5492f"/><circle cx="100" cy="68" r="5" fill="#a5492f"/></svg><span class="tx"><b>Dotychczasowe ramki</b><em>Każde zdjęcie dostaje własną ramkę-scenę. Układ stron bez zmian.</em></span></button>
+      <button type="button" class="fmt" data-v="page" role="radio"><svg class="mini" viewBox="0 0 120 84" aria-hidden="true"><rect width="120" height="84" fill="#fff"/><rect x="4" y="4" width="112" height="76" fill="#a5492f" opacity=".18"/><rect x="4" y="4" width="112" height="76" fill="none" stroke="#a5492f" stroke-width="7"/><rect x="22" y="20" width="34" height="44" fill="#fff"/><rect x="64" y="20" width="34" height="44" fill="#fff"/><circle cx="13" cy="13" r="5" fill="#49534b"/><circle cx="107" cy="71" r="5" fill="#49534b"/><rect x="30" y="70" width="60" height="6" rx="3" fill="#8b5cf6" opacity=".5"/></svg><span class="tx"><b>Ramka na całą stronę</b><em>Jedna kompozycja na całej kartce, z jednym lub dwoma dużymi zdjęciami.</em></span></button>
+    </div>
+    <select id="frameStyle" hidden>
+      <option value="classic" selected>Dotychczasowe ramki</option>
+      <option value="page">Ramka na całą stronę</option>
+    </select>
+    <p class="hint">W nowym wariancie dekoracja powstaje raz na stronę i wypełnia całą kartkę, a zdjęcia są wklejane na wierzchu — w całości, bez przycinania. Margines pod dziurkacz dostaje delikatny wzór.</p>
+
+    <div id="modeField">
+    <span class="lbl" style="display:block;font:700 14px var(--sans);margin-top:18px">Tryb ramki</span>
+    <div class="fmt-grid one" id="modeGrid" role="radiogroup" aria-label="Tryb ramki" style="margin-top:10px">
+      <button type="button" class="fmt row" data-v="safe" role="radio"><span class="tx"><b>Bezpieczny <span class="pill ok">twarze bez zmian</span></b><em>AI rysuje tylko otoczenie wokół pustego okna. Twoje zdjęcie wklejam sam, w oryginalnej rozdzielczości.</em></span></button>
+      <button type="button" class="fmt row" data-v="full" role="radio"><span class="tx"><b>Pełne AI <span class="pill bad">może zmienić twarze</span></b><em>Model dostaje zdjęcie i sam je wkomponowuje. Efekt bywa bardziej filmowy, ale kadr i twarze mogą się zmienić.</em></span></button>
+    </div>
+    <select id="frameMode" hidden>
+      <option value="safe">Bezpieczny 1:1</option>
+      <option value="full">Pełne AI</option>
+    </select>
+    <p class="hint" id="frameModeHint" hidden></p>
+    </div>
+
+    <div class="field" id="windowField">
+      <label for="windowPct">Jaką część ramki zajmuje zdjęcie</label>
+      <div class="range-row"><input type="range" id="windowPct" min="50" max="90" step="1" value="78"><output id="windowPctVal">78%</output></div>
+      <p class="hint">To udział <b>powierzchni</b> kadru: przy 78% zdjęcie zajmuje ponad trzy czwarte ramki, a dekoracja wąski pas wokół niego. Mniej % = więcej miejsca na postać.</p>
+    </div>
+
+    <div class="two">
+      <div class="field">
+        <label for="imageModel">Model obrazu</label>
+        <select id="imageModel">
+          <option value="gemini-3-pro-image">🍌 Nano Banana Pro (najlepszy)</option>
+          <option value="gemini-3.1-flash-image">🍌 Nano Banana 2 (szybszy)</option>
+          <option value="gemini-3.1-flash-lite-image">🍌 Nano Banana 2 Lite (najtańszy, 1K)</option>
+          <option value="gemini-2.5-flash-image">🍌 Nano Banana (starszy)</option>
+        </select>
+        <p class="hint">Aplikacja sama wybiera najlepszy model, jaki udostępnia Twoje konto — także nowszy, niż znała w dniu powstania. Wybierz coś sam tylko wtedy, gdy wolisz szybciej lub taniej.</p>
+      </div>
+      <div class="field">
+        <label for="imageSize">Rozdzielczość ramek</label>
+        <select id="imageSize"></select>
+      </div>
+    </div>
+
+    <select id="category" hidden>
+      <option value="custom" selected>WŁASNY MOTYW</option>
+    </select>
+    <div class="field" id="customThemeGroup">
+      <label for="customThemeInput">Motyw sceny — wpisz własny</label>
+      <input type="text" id="customThemeInput" placeholder="np. ZOO Wrocław, Karpacz ferie, wakacje nad morzem">
+      <p class="hint">Możesz podać motyw dla dni: „Karpacz, dzień 2 - basen, dzień 3 - Śnieżka”.</p>
+    </div>
+    <div class="field">
+      <label for="animal">Główna postać / obiekt (trzymający)</label>
+      <select id="animal"></select>
+    </div>
+    <div class="field">
+      <label for="pose">Pozycja postaci / obiektu</label>
+      <select id="pose"></select>
+    </div>
+    <div class="two">
+      <div class="field">
+        <label for="stampEvery">Znacznik godziny</label>
+        <select id="stampEvery">
+          <option value="0">wyłączony</option><option value="2">co 2. zdjęcie</option><option value="3" selected>co 3. zdjęcie</option><option value="4">co 4. zdjęcie</option><option value="5">co 5. zdjęcie</option>
+        </select>
+      </div>
+      <div class="field">
+        <label for="concurrency">Równoległe zapytania</label>
+        <select id="concurrency"><option value="1">1</option><option value="2" selected>2</option><option value="3">3</option><option value="4">4</option></select>
+      </div>
+    </div>
+    <details class="fold">
+      <summary>Prompt ramki (podgląd)</summary>
+      <textarea id="promptText" readonly></textarea>
+    </details>
+    <details class="fold">
+      <summary>Zaawansowane i dziennik</summary>
+      <label class="check"><input type="checkbox" id="autoFallback" checked> Gdy model jest niedostępny, użyj następnego</label>
+      <label class="check"><input type="checkbox" id="autoRepair" checked> Automatycznie ponawiaj nieudane ramki i ilustracje (do 3 rund)</label>
+      <label class="check"><input type="checkbox" id="thinkingHigh"> Dokładniejsza kompozycja (wolniej i drożej)</label>
+      <div class="field">
+        <span class="lbl">Pamięć urządzenia</span>
+        <p class="hint" id="cacheInfo">Sprawdzam…</p>
+        <div style="display:flex;gap:8px;flex-wrap:wrap;margin-top:8px">
+          <button class="btn btn-soft btn-sm" id="cacheClearBtn" type="button">Wyczyść zapamiętane ramki</button>
+          <button class="btn btn-soft btn-sm" id="prefsForgetBtn" type="button">Zapomnij ustawienia</button>
+        </div>
+      </div>
+      <pre class="logbox" id="logBox">Dziennik jest pusty.</pre>
+      <button class="btn btn-gray btn-sm" id="saveLogBtn" type="button">Zapisz dziennik (TXT)</button>
+    </details>
+  </section>
+
+  <!-- 06 -->
+  <section class="sec" id="s5">
+    <div class="sec-h"><span class="num">05</span><h2>Generuj i pobierz</h2></div>
+    <p class="lede" id="genLede">Aplikacja sama wyśle każde zdjęcie do wybranego modelu, ponowi nieudane próby i złoży strony. W każdej chwili możesz ją zatrzymać.</p>
+    <div id="genPlan" class="plan" hidden></div>
+    <button class="btn btn-ok btn-block" id="genBtn" type="button" disabled>Generuj fotoksiążkę</button>
+    <button class="btn btn-soft btn-block" id="sampleBtn" type="button" disabled style="margin-top:10px">Najpierw 3 próbne ramki</button>
+    <p class="hint" id="genHint">Najpierw wgraj zdjęcia w kroku 01.</p>
+    <div id="sampleOut"></div>
+    <div class="workspace" id="workspace"></div>
+    <button class="btn btn-block" id="downloadBtn" type="button" style="display:none;margin-top:8px">Pobierz gotowy PDF</button>
+  </section>
+
+  <footer class="foot">
+    <p>Zdjęcia są przetwarzane lokalnie w Twojej przeglądarce. Do Gemini trafiają: puste szablony ramek, pomniejszone kopie zdjęć do napisania opowieści dnia (jeśli ją włączysz) oraz zdjęcie referencyjne (jeśli je wgrasz). W trybie „Pełne AI” także pomniejszone zdjęcia do ramek. Wszystko idzie przez Twoje konto w Gemini Canvas.</p>
+    <p>PDF składa się paskami, w maksymalnym DPI, jakie uniesie urządzenie (do 600, opcjonalnie 900). Zdjęcie w ramce zachowuje natywną rozdzielczość.</p>
+    <p>Narzędzie niezależne, niezwiązane z Google ani Gemini.</p>
+    <div class="row">
+      <button class="btn btn-soft btn-sm" id="saveAppBtnHtml" type="button">Zapisz kopię aplikacji (HTML)</button>
+      <button class="btn btn-soft btn-sm" id="saveAppBtnTxt" type="button">Zapisz kopię aplikacji (TXT)</button>
+    </div>
+  </footer>
+</div>
+
+<script>
+(function () {
+'use strict';
+/* =====================================================================
+   Fotoksiążka Pixar – silnik ramek Nano Banana (Gemini Canvas)
+   Sekcje: 1 Dane · 2 Narzędzia · 3 EXIF i import · 4 API · 5 Prompty
+           6 Ramki · 7 Opowieści · 8 Układ i rysowanie stron · 9 PDF · 10 Interfejs
+   ===================================================================== */
+
+// Zapamiętujemy czysty kod aplikacji (bez wstrzykniętych skryptów Canvas) na potrzeby „Zapisz kopię”.
+const PRISTINE_HTML = '<!DOCTYPE html>\n' + document.documentElement.outerHTML;
+
+/* ===================== 1. DANE ===================== */
+const ANIMALS_DATA = {
+    "1. ZOO": ["Lew", "Tygrys", "Panda", "Żyrafa", "Słoń", "Zebra", "Flaming", "Hipopotam", "Małpa", "Nosorożec", "Krokodyl", "Kangur", "Papuga"],
+    "2. WAKACJE NAD MORZEM": ["Pingwin", "Żółw morski", "Krab", "Delfin", "Mewa", "Foka", "Ośmiornica"],
+    "3. WAKACJE LATEM W GÓRACH": ["Niedźwiedź brunatny", "Orzeł", "Kozica górska", "Świstak", "Sowa", "Wilk"],
+    "4. WYCIECZKA DO MIASTA": ["Pies miejski", "Kot dachowiec", "Gołąb", "Wiewiórka parkowa", "Szop pracz"],
+    "5. WYCIECZKA DO LASU": ["Lis", "Niedźwiedź", "Sowa leśna", "Jeleń", "Dzik", "Zając", "Borsuk", "Jeż"],
+    "6. WYCIECZKA NAD JEZIOREM": ["Bóbr", "Kaczka krzyżówka", "Łabędź", "Wydra", "Żaba", "Czapla"],
+    "7. WYCIECZKA NA PUNKT WIDOKOWY / WIEŻĘ": ["Sokół wędrowny", "Orzeł przedni", "Jaskółka", "Kruk", "Ryś"],
+    "custom": ["Pies", "Kot", "Lis", "Niedźwiedź", "Małpa", "Kameleon", "Papuga", "Koala"] 
+};
+
+const IMMERSIVE_DATA = {
+    "1. ZOO": [],
+    "2. WAKACJE NAD MORZEM": ["muszla z perłami", "wielki koralowiec", "fala morska", "wydma z trawą", "drewniany pomost plażowy", "molo z deskami", "okno w latarni morskiej", "budka plażowa", "burta żaglówki", "koło ratunkowe", "iluminator statku", "wodna grota", "skalny klif z otworem na ocean"],
+    "3. WAKACJE LATEM W GÓRACH": ["okno wykute w skale z widokiem na szczyty", "przełęcz górska", "tunel skalny", "punkt widokowy z barierką", "taras na zboczu góry", "kładka nad górskim strumieniem", "wejście do górskiego schroniska", "wagon kolejki linowej", "gondola", "fragment kamienistego szlaku", "okno schroniska", "kwitnąca alpejska łąka"],
+    "4. WYCIECZKA DO MIASTA": ["okno starej kamienicy", "gotyckie okno katedralne", "łuk kamienny miejski", "brama miejska", "portal nad drzwiami", "ozdobne drzwi wejściowe", "kuty balkon", "arkada", "kolumnada", "fasada kamienicy z otworem", "okno tramwaju", "kamienna rzeźba trzymająca fotografię", "posąg z otworem w cokole", "fontanna miejska", "ławka z dużym oparciem", "tablica informacyjna miejska"],
+    "5. WYCIECZKA DO LASU": ["pień wielkiego dębu", "dziupla starego drzewa", "korzenie tworzące naturalny otwór", "splątane gałęzie drzew", "ogromny zielony liść", "zarośnięta jaskinia", "krzew / żywopłot", "winorośl oplatająca kadr", "drzewo wyrastające wokół zdjęcia", "ogromny kamienny portal pośrodku lasu"],
+    "6. WYCIECZKA NAD JEZIOREM": ["kępa wysokich trzcin", "drewniany pomost nad jeziorem", "burta starej łódki", "kamienny most nad strumieniem", "wodospad rozchodzący się wokół zdjęcia", "okno drewnianej chatki nad wodą", "taras z widokiem na jezioro"],
+    "7. WYCIECZKA NA PUNKT WIDOKOWY / WIEŻĘ": ["okno na szczycie wieży widokowej", "balustrada punktu widokowego", "kamienny łuk wysoko w chmurach", "przednia szyba kabiny", "taras widokowy z lunetą", "monumentalne dłonie podtrzymujące zdjęcie"],
+    "custom": ["okno zamku", "gotyckie okno", "łuk kamienny", "portal", "balkon", "kolumnada", "pergola", "altana", "most kamienny", "wejście do pałacu", "kamienna rzeźba", "posąg", "monumentalne dłonie", "rzeźbiony portal", "fontanna", "pień drzewa", "korzenie", "skała z prześwitem", "wejście do jaskini", "skalny łuk", "zaczarowana brama", "wielka kryształowa skała", "ogród z żywą roślinną ramą", "śnieżny tunel", "lodowy pałac", "bryła lodu", "wielki kwiat"]
+};
+
+const ALL_POSES = [
+    "trzyma zdjęcie obiema rękami / obejmuje ze wszystkich stron", "wychyla się zza zdjęcia / wyrasta wokół zdjęcia", "obejmuje zdjęcie / naturalnie okala krawędzie",
+    "siedzi za zdjęciem / stanowi tło z otworem", "stoi za zdjęciem / podtrzymuje z tyłu", "wystawia głowę nad zdjęciem / zwisa z góry nad zdjęciem",
+    "jedną ręką trzyma zdjęcie / częściowo podtrzymuje z jednej strony", "wygląda zza zdjęcia / stanowi portal przez który widać zdjęcie", "opiera się o zdjęcie / wkomponowuje się w podstawę zdjęcia"
+];
+
+const API_BASE = 'https://generativelanguage.googleapis.com/v1beta';
+const MAX_PHOTOS = 1000;
+const FONT = "'Nunito','Segoe UI',system-ui,sans-serif";
+const PAGE = { portrait: { w: 1190, h: 1684 }, landscape: { w: 1684, h: 1190 } };
+
+// Stała obsada – edytuj tę listę, aby zmienić osoby w panelu.
+const CAST = [
+  { id: 'charIwona', value: 'Iwona - Mama', label: 'Iwona (Mama)' },
+  { id: 'charKarol', value: 'Karol - Tata', label: 'Karol (Tata)' },
+  { id: 'charMaja', value: 'Maja - Starsza córka', label: 'Maja (Starsza córka)' },
+  { id: 'charNela', value: 'Nela - Młodsza córka', label: 'Nela (Młodsza córka)' }
+];
+
+// Modele obrazu (nazwy z dokumentacji Gemini API, wrzesień 2026).
+const IMAGE_MODELS = {
+  'gemini-3.1-flash-image': { name: 'Nano Banana 2', short: 'NB2', sizes: ['1K', '2K', '4K'], size: true },
+  'gemini-3-pro-image': { name: 'Nano Banana Pro', short: 'NB Pro', sizes: ['1K', '2K', '4K'], size: true },
+  'gemini-3.1-flash-lite-image': { name: 'Nano Banana 2 Lite', short: 'NB2 Lite', sizes: ['1K'], size: true },
+  'gemini-2.5-flash-image': { name: 'Nano Banana (starszy)', short: 'NB', sizes: [], size: false },
+  'gemini-3.1-flash-image-preview': { name: 'Nano Banana 2 (preview)', short: 'NB2p', sizes: ['1K', '2K', '4K'], size: true, hidden: true },
+  'gemini-3-pro-image-preview-11-2025': { name: 'Nano Banana Pro (preview)', short: 'NB Pro p', sizes: ['1K', '2K', '4K'], size: true, hidden: true },
+  'gemini-2.5-flash-image-preview': { name: 'Nano Banana (preview)', short: 'NBp', sizes: [], size: false, hidden: true }
+};
+let IMAGE_ORDER = ['gemini-3-pro-image', 'gemini-3.1-flash-image', 'gemini-3.1-flash-lite-image', 'gemini-2.5-flash-image', 'gemini-2.5-flash-image-preview'];
+// „Najnowszy i najlepszy”: najpierw generacja modelu (3 < 3.1 < 4…), potem klasa (Pro > Flash > Lite),
+// na końcu wersja pomocnicza i to, czy nazwa jest zapowiedzią (preview). Dzięki temu aplikacja sama sięgnie
+// po model, który pojawi się w przyszłości — bez zmian w kodzie.
+function imageRank(id) {
+  const m = /^gemini-(\d+)(?:\.(\d+))?-(pro|flash)(-lite)?-image/.exec(id);
+  if (!m) return -1;
+  return (+m[1]) * 10000 + (m[4] ? 1 : m[3] === 'pro' ? 3 : 2) * 1000 + (+(m[2] || 0)) * 10 + (/preview/.test(id) ? 0 : 1);
+}
+function textRank(id) {
+  const m = /^gemini-(\d+)(?:\.(\d+))?-(pro|flash)(-lite)?\b/.exec(id);
+  if (!m || /image|tts|audio|embedding|live/.test(id)) return -1;
+  return (+m[1]) * 10000 + (m[4] ? 1 : m[3] === 'flash' ? 3 : 2) * 1000 + (+(m[2] || 0)) * 10 + (/preview/.test(id) ? 0 : 1);
+}
+// Opis modelu, którego jeszcze nie znamy z nazwy — żeby nowy model Google działał od pierwszego dnia.
+function inferImageModel(id) {
+  const m = /^gemini-(\d+(?:\.\d+)?)-(pro|flash)(-lite)?-image/.exec(id);
+  if (!m) return null;
+  const pro = m[2] === 'pro', lite = !!m[3];
+  return { name: `Gemini ${m[1]} ${pro ? 'Pro' : 'Flash'}${lite ? ' Lite' : ''} Image`, short: `G${m[1]}${pro ? 'P' : lite ? 'FL' : 'F'}`,
+    sizes: lite ? ['1K'] : ['1K', '2K', '4K'], size: true, discovered: true };
+}
+// Modele tekstowe do opowieści: od najnowszego do zapasowego.
+let TEXT_MODELS = ['gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-2.5-flash'];
+// Proporcje, które faktycznie wykorzystujemy w ramkach.
+const RATIOS = [['1:1', 1], ['2:3', 2 / 3], ['3:2', 3 / 2], ['3:4', 3 / 4], ['4:3', 4 / 3], ['4:5', 4 / 5], ['5:4', 5 / 4], ['9:16', 9 / 16], ['16:9', 16 / 9]];
+const THEME_META = {
+  '1. ZOO': { c: '#f59e0b', e: '🦁' }, '2. WAKACJE NAD MORZEM': { c: '#0ea5e9', e: '🌊' },
+  '3. WAKACJE LATEM W GÓRACH': { c: '#64748b', e: '⛰️' }, '4. WYCIECZKA DO MIASTA': { c: '#a855f7', e: '🏙️' },
+  '5. WYCIECZKA DO LASU': { c: '#16a34a', e: '🌲' }, '6. WYCIECZKA NAD JEZIOREM': { c: '#0891b2', e: '🦆' },
+  '7. WYCIECZKA NA PUNKT WIDOKOWY / WIEŻĘ': { c: '#e11d48', e: '🗼' }, custom: { c: '#8b5cf6', e: '✨' }
+};
+
+/* ===================== 2. NARZĘDZIA ===================== */
+const $ = (s, r = document) => r.querySelector(s);
+const $$ = (s, r = document) => Array.from(r.querySelectorAll(s));
+const sleep = ms => new Promise(r => setTimeout(r, ms));
+const clamp = (v, a, b) => Math.min(b, Math.max(a, v));
+const esc = s => String(s).replace(/[&<>"']/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
+
+function el(tag, attrs, ...kids) {
+  const e = document.createElement(tag);
+  for (const [k, v] of Object.entries(attrs || {})) {
+    if (k === 'class') e.className = v;
+    else if (k === 'style') e.style.cssText = v;
+    else if (k.startsWith('on')) e.addEventListener(k.slice(2), v);
+    else if (v === true) e.setAttribute(k, '');
+    else if (v !== false && v != null) e.setAttribute(k, v);
+  }
+  for (const kid of kids.flat()) {
+    if (kid == null || kid === false) continue;
+    e.append(kid.nodeType ? kid : document.createTextNode(kid));
+  }
+  return e;
+}
+function abortErr() { const e = new Error('Przerwano'); e.name = 'AbortError'; return e; }
+function sleepAbortable(ms, signal) {
+  return new Promise((res, rej) => {
+    if (signal && signal.aborted) return rej(abortErr());
+    const ab = () => { clearTimeout(t); rej(abortErr()); };
+    const t = setTimeout(() => { if (signal) signal.removeEventListener('abort', ab); res(); }, ms);
+    if (signal) signal.addEventListener('abort', ab, { once: true });
+  });
+}
+const canvasOf = (w, h) => { const c = document.createElement('canvas'); c.width = Math.max(1, Math.round(w)); c.height = Math.max(1, Math.round(h)); return c; };
+const toBlob = (c, type = 'image/jpeg', q = 0.92) => new Promise((res, rej) => c.toBlob(b => b ? res(b) : rej(new Error('Nie można zapisać obrazu (zbyt duży dla przeglądarki?)')), type, q));
+const b64ToBlob = (b64, mime = 'image/png') => { const bin = atob(b64), u = new Uint8Array(bin.length); for (let i = 0; i < bin.length; i++) u[i] = bin.charCodeAt(i); return new Blob([u], { type: mime }); };
+const blobToB64 = blob => new Promise((res, rej) => { const r = new FileReader(); r.onload = () => res(String(r.result).split(',')[1]); r.onerror = () => rej(new Error('Błąd odczytu pliku')); r.readAsDataURL(blob); });
+const ratioVal = r => { const [a, b] = r.split(':').map(Number); return a / b; };
+function pickRatio(aspect) {
+  let best = RATIOS[0][0], bd = 1e9;
+  for (const [r, v] of RATIOS) { const d = Math.abs(Math.log(v / aspect)); if (d < bd) { bd = d; best = r; } }
+  return best;
+}
+// Wpasowanie obrazu w prostokąt (contain = całość widoczna, cover = wypełnienie z przycięciem).
+function fitInto(sw, sh, rx, ry, rw, rh, mode = 'contain') {
+  const s = mode === 'cover' ? Math.max(rw / sw, rh / sh) : Math.min(rw / sw, rh / sh);
+  const w = sw * s, h = sh * s;
+  return { x: rx + (rw - w) / 2, y: ry + (rh - h) / 2, w, h };
+}
+const plural = (n, a, b, c) => n === 1 ? a : (n % 10 >= 2 && n % 10 <= 4 && (n % 100 < 12 || n % 100 > 14)) ? b : c;
+const fmtDate = key => { const m = /^(\d{4})\.(\d{2})\.(\d{2})/.exec(key); return m ? `${m[3]}.${m[2]}.${m[1]}` : key; };
+function fmtDur(ms) {
+  const s = Math.max(0, Math.round(ms / 1000));
+  if (s >= 3600) return `${Math.floor(s / 3600)} h ${Math.floor(s % 3600 / 60)} min`;
+  if (s >= 60) return `${Math.floor(s / 60)} min ${s % 60} s`;
+  return `${s} s`;
+}
+// Niełamliwe spacje po jednoliterowych spójnikach (a, i, o, u, w, z).
+const formatPolishText = t => t.replace(/(^|[\s(„"])([aiouwzAIOUWZ])\s+/g, '$1$2\u00A0');
+function toast(msg, ms = 4200) { const t = el('div', { class: 'toast', role: 'status' }, msg); (document.getElementById('toasts') || document.body).append(t); setTimeout(() => t.remove(), ms); }
+function saveBlob(blob, name) {
+  const a = document.createElement('a');
+  a.href = URL.createObjectURL(blob); a.download = name; document.body.appendChild(a); a.click();
+  setTimeout(() => { URL.revokeObjectURL(a.href); a.remove(); }, 90000);   // duże pliki: przeglądarka potrzebuje czasu na start pobierania
+}
+const shuffle = a => { for (let i = a.length - 1; i > 0; i--) { const j = Math.floor(Math.random() * (i + 1)); [a[i], a[j]] = [a[j], a[i]]; } return a; };
+// Talia losowań bez powtórek (jak „Bez powtórek” w oryginale).
+class Deck { constructor(fn) { this.fn = fn; this.cards = []; } draw() { if (!this.cards.length) this.cards = shuffle(this.fn()); return this.cards.pop(); } }
+
+/* ---------- stan aplikacji ---------- */
+let photos = [];          // baza zdjęć (kolejność = kolejność w albumie)
+let days = [];            // dni po zatwierdzeniu układu
+let pages = [];           // strony do podglądu i eksportu
+let layoutState = null;   // ustawienia zamrożone w chwili generowania
+let refImages = [];       // zdjęcia referencyjne do okładek (twarze odwzorowywane 1:1)
+let runCtl = null;        // AbortController bieżącego generowania
+let running = false;
+let pdfBlob = null;
+let uid = 0;
+let API_KEY = '';
+const levelMemo = {};     // który wariant żądania działa dla danego modelu
+let cooldownUntil = 0;    // globalna przerwa po błędzie 429
+const bmpCache = new Map();
+const LOG = [];
+
+function log(msg, lvl = 'info') {
+  LOG.push(`[${new Date().toLocaleTimeString('pl-PL')}] ${lvl.toUpperCase()} ${msg}`);
+  if (LOG.length > 3000) LOG.shift();
+  const box = $('#logBox');
+  if (box) { box.textContent = LOG.slice(-70).join('\n'); box.scrollTop = box.scrollHeight; }
+  if (lvl === 'error') console.error(msg);
+}
+const setStatus = html => { const b = $('#statusBox'); if (b) b.innerHTML = html; };
+
+/* ===================== 3. EXIF I IMPORT ===================== */
+// Minimalny parser EXIF (DateTimeOriginal) – bez zewnętrznych bibliotek.
+async function readExifDate(file) {
+  try {
+    if (!(file.type === 'image/jpeg' || /\.jpe?g$/i.test(file.name))) return null;
+    const v = new DataView(await file.slice(0, 262144).arrayBuffer());
+    if (v.getUint16(0) !== 0xFFD8) return null;
+    let off = 2;
+    while (off + 4 < v.byteLength) {
+      const marker = v.getUint16(off); off += 2;
+      if (marker === 0xFFDA || (marker & 0xFF00) !== 0xFF00) break;
+      const len = v.getUint16(off);
+      if (marker === 0xFFE1 && v.getUint32(off + 2) === 0x45786966) return parseTiffDate(v, off + 8);
+      off += len;
+    }
+  } catch (e) { /* brak EXIF */ }
+  return null;
+}
+function parseTiffDate(v, tiff) {
+  const little = v.getUint16(tiff) === 0x4949;
+  const u16 = o => v.getUint16(o, little), u32 = o => v.getUint32(o, little);
+  if (u16(tiff + 2) !== 42) return null;
+  const readStr = (o, n) => { let s = ''; for (let i = 0; i < n - 1; i++) { const c = v.getUint8(o + i); if (!c) break; s += String.fromCharCode(c); } return s; };
+  const readIFD = (ifdOff, wanted) => {
+    const out = {}, n = u16(tiff + ifdOff);
+    for (let i = 0; i < n; i++) {
+      const e = tiff + ifdOff + 2 + i * 12, tag = u16(e), type = u16(e + 2), cnt = u32(e + 4);
+      if (!wanted.includes(tag)) continue;
+      if (type === 2) out[tag] = readStr(cnt > 4 ? tiff + u32(e + 8) : e + 8, cnt);
+      else if (type === 4) out[tag] = u32(e + 8);
+      else if (type === 3) out[tag] = u16(e + 8);
+    }
+    return out;
+  };
+  const ifd0 = readIFD(u32(tiff + 4), [0x0132, 0x8769]);
+  const exif = ifd0[0x8769] ? readIFD(ifd0[0x8769], [0x9003, 0x9004]) : {};
+  return exif[0x9003] || exif[0x9004] || ifd0[0x0132] || null;
+}
+async function decodeBitmap(file) {
+  try { return await createImageBitmap(file, { imageOrientation: 'from-image' }); }
+  catch (e1) {
+    try { return await createImageBitmap(file); }
+    catch (e2) { throw new Error('nieobsługiwany format pliku'); }
+  }
+}
+// Oddaje sterowanie przeglądarce (rysowanie + zdarzenia), żeby długie operacje nie zamrażały aplikacji.
+// requestAnimationFrame daje pewność odświeżenia ekranu, a zegar 60 ms pilnuje, by nic nie utknęło w tle.
+/* ---------- pamięć pracy: gotowe ramki przeżywają odświeżenie strony ---------- */
+// Ramki trzymamy w IndexedDB pod odciskiem zdjęcia (nazwa+rozmiar+data) i ustawień (model, tryb, proporcje).
+// Dzięki temu po przeładowaniu — albo po ponownym wgraniu tych samych plików — nie płacisz drugi raz za to samo.
+const DB_NAME = 'fotoksiazka', DB_STORE = 'ramki';
+let dbP = null;
+function db() {
+  if (dbP) return dbP;
+  dbP = new Promise((res, rej) => {
+    let rq; try { rq = indexedDB.open(DB_NAME, 1); } catch (e) { return rej(e); }
+    rq.onupgradeneeded = () => { const d = rq.result; if (!d.objectStoreNames.contains(DB_STORE)) d.createObjectStore(DB_STORE, { keyPath: 'id' }); };
+    rq.onsuccess = () => res(rq.result);
+    rq.onerror = () => rej(rq.error || new Error('IndexedDB niedostępne'));
+  }).catch(e => { dbP = null; throw e; });
+  return dbP;
+}
+const tx = async (mode, fn) => { const d = await db(); return new Promise((res, rej) => { const t = d.transaction(DB_STORE, mode), r = fn(t.objectStore(DB_STORE)); t.onerror = () => rej(t.error); t.oncomplete = () => res(r && r.result); }); };
+const photoKey = f => `${f.name}|${f.size}|${f.lastModified}`;
+// Klucz zawiera układ okien (obrót i ich proporcje), więc dekoracja z innego układu nigdy nie wróci z pamięci.
+const winSig = page => (page.wins || []).map(r => (r.w / r.h).toFixed(2)).join('x');
+const cacheKeyPage = (page, S) => `strona|v2|${page.photos.map(p => photoKey(p.file)).join('+')}|${page.layout}`
+  + `|rot${page.winRot ? 1 : 0}|${winSig(page)}|${S.imageModel}|${S.imageSize}|${layoutState.orientation}|${S.pdfFormat}`;
+const cacheKey = (photo, S) => `${photoKey(photo.file)}|${S.frameMode}|${S.imageModel}|${S.imageSize}|${Math.round(S.windowPct * 100)}|${photo.ratio}`;
+async function cacheGet(key) { try { return await tx('readonly', st => st.get(key)); } catch (e) { return null; } }
+async function cachePut(key, rec) { try { await tx('readwrite', st => st.put(Object.assign({ id: key, at: Date.now() }, rec))); return true; } catch (e) { return false; } }
+async function cacheStats() {
+  try { const n = await tx('readonly', st => st.count()); return { n }; } catch (e) { return { n: 0, err: e.message }; }
+}
+async function cacheClear() { try { await tx('readwrite', st => st.clear()); return true; } catch (e) { return false; } }
+
+/* ---------- pamięć ustawień formularza ---------- */
+const PREF_KEY = 'fotoksiazka.ustawienia';
+const PREF_VER = 2;                 // 2: suwak „część ramki” liczy powierzchnię, nie szerokość
+const PREF_IDS = ['pageOrientation', 'pdfFormat', 'layoutMode', 'exportDpi', 'doStory', 'storyStyle', 'storyPages',
+  'imageModel', 'imageSize', 'frameStyle', 'frameMode', 'windowPct', 'category', 'customThemeInput', 'animal', 'pose',
+  'stampEvery', 'concurrency', 'bleedMm', 'cropMarks', 'autoFallback', 'autoRepair', 'thinkingHigh'];
+function savePrefs() {
+  const o = {};
+  PREF_IDS.forEach(id => { const e = document.getElementById(id); if (e) o[id] = e.type === 'checkbox' ? e.checked : e.value; });
+  o.__v = PREF_VER;
+  try { localStorage.setItem(PREF_KEY, JSON.stringify(o)); return true; } catch (e) { return false; }
+}
+function loadPrefs() {
+  let o; try { o = JSON.parse(localStorage.getItem(PREF_KEY) || 'null'); } catch (e) { return null; }
+  if (!o) return null;
+  if (o.__v !== PREF_VER) delete o.windowPct;             // stara wartość znaczyła co innego – bierzemy nową domyślną
+  PREF_IDS.forEach(id => {
+    const e = document.getElementById(id); if (!e || o[id] === undefined) return;
+    if (e.type === 'checkbox') e.checked = !!o[id];
+    else if (e.tagName !== 'SELECT' || Array.from(e.options).some(x => x.value === o[id])) e.value = o[id];
+  });
+  return o;
+}
+function forgetPrefs() { try { localStorage.removeItem(PREF_KEY); return true; } catch (e) { return false; } }
+
+const yieldUi = () => new Promise(res => { let d = false; const f = () => { if (!d) { d = true; res(); } }; requestAnimationFrame(f); setTimeout(f, 60); });
+// Flaga obrotu (EXIF 0x0112) z segmentu APP1. Telefony zapisują zdjęcia pionowe jako poziome z tą flagą.
+function exifOrientation(v, off, end) {
+  try {
+    if (v.getUint32(off) !== 0x45786966) return 0;                    // 'Exif'
+    const t = off + 6, le = v.getUint16(t) === 0x4949;
+    if (v.getUint16(t + 2, le) !== 42) return 0;
+    const ifd = t + v.getUint32(t + 4, le), n = v.getUint16(ifd, le);
+    for (let i = 0; i < n && ifd + 2 + i * 12 + 12 <= end; i++) {
+      const e = ifd + 2 + i * 12;
+      if (v.getUint16(e, le) === 0x0112) return v.getUint16(e + 8, le);
+    }
+  } catch (e) { /* nietypowy EXIF */ }
+  return 0;
+}
+// Wymiary JPEG z nagłówka (bez dekodowania), już PO uwzględnieniu obrotu – null, gdy to nie JPEG.
+async function jpegSize(blob) {
+  try {
+    const v = new DataView(await blob.slice(0, 131072).arrayBuffer());
+    if (v.getUint16(0) !== 0xFFD8) return null;
+    let o = 2, ori = 0;
+    while (o + 9 < v.byteLength) {
+      if (v.getUint8(o) !== 0xFF) { o++; continue; }
+      const m = v.getUint8(o + 1);
+      if (m === 0xD8 || m === 0x01 || (m >= 0xD0 && m <= 0xD7)) { o += 2; continue; }
+      const len = v.getUint16(o + 2);
+      if (m === 0xE1 && !ori) ori = exifOrientation(v, o + 4, Math.min(v.byteLength, o + 2 + len));
+      if (m >= 0xC0 && m <= 0xCF && m !== 0xC4 && m !== 0xC8 && m !== 0xCC) {
+        const h = v.getUint16(o + 5), w = v.getUint16(o + 7);
+        return ori >= 5 && ori <= 8 ? { w: h, h: w, ori } : { w, h, ori };    // 5-8: obrót o 90°, boki zamienione
+      }
+      o += 2 + len;
+    }
+  } catch (e) { /* nie JPEG */ }
+  return null;
+}
+// Dekoduje obraz od razu w zmniejszonej szerokości (maxW) – dużo mniej pamięci niż pełna bitmapa.
+// Podajemy wyłącznie szerokość: wysokość przeglądarka wylicza sama, już po obróceniu zdjęcia według flagi EXIF.
+async function decodeScaled(blob, maxW) {
+  if (maxW) {
+    const dim = await jpegSize(blob);
+    if (dim && dim.w > maxW * 1.15) {
+      try { return await createImageBitmap(blob, { resizeWidth: Math.round(maxW), resizeQuality: 'high' }); }
+      catch (e) { /* zapasowo: pełne dekodowanie */ }
+    }
+  }
+  return createImageBitmap(blob);
+}
+const IMG_EXT = /\.(jpe?g|png|webp|gif|bmp|avif|heic|heif)$/i;
+const isImageFile = f => (f.type && f.type.startsWith('image/')) || IMG_EXT.test(f.name || '');
+async function fileToJpegB64(file, maxDim = 1024, q = 0.85) {
+  const bmp = await decodeBitmap(file);
+  const sc = Math.min(1, maxDim / Math.max(bmp.width, bmp.height));
+  const c = canvasOf(bmp.width * sc, bmp.height * sc), g = c.getContext('2d');
+  g.imageSmoothingQuality = 'high'; g.drawImage(bmp, 0, 0, c.width, c.height);
+  if (bmp.close) bmp.close();
+  return blobToB64(await toBlob(c, 'image/jpeg', q));
+}
+
+async function importFiles(fileList) {
+  const all = Array.from(fileList || []);
+  const files = all.filter(isImageFile);
+  if (all.length > files.length) toast(`Pominięto ${all.length - files.length} plik(ów), które nie są zdjęciami.`);
+  if (!files.length) return;
+  const slots = MAX_PHOTOS - photos.length;
+  if (slots <= 0) { setStatus(`<strong style="color:#ef4444">Osiągnięto limit bazy: ${MAX_PHOTOS} zdjęć.</strong>`); return; }
+  const take = files.slice(0, slots);
+  let bad = 0; const added = [];
+  for (let i = 0; i < take.length; i++) {
+    const f = take[i];
+    setStatus(`<strong>Wczytuję ${i + 1} z ${take.length}</strong> · ${esc(f.name)}`);
+    try {
+      const bmp = await decodeBitmap(f);
+      const w0 = bmp.width, h0 = bmp.height, sc = Math.min(1, 360 / Math.max(w0, h0));
+      const c = canvasOf(w0 * sc, h0 * sc);
+      c.getContext('2d').drawImage(bmp, 0, 0, c.width, c.height);
+      if (bmp.close) bmp.close();
+      const thumbUrl = URL.createObjectURL(await toBlob(c, 'image/jpeg', 0.8));
+
+      let dateStr = null, timeStr = null, ts = f.lastModified || Date.now(), exifError = false;
+      const raw = await readExifDate(f);
+      const m = raw && /^(\d{4})[:\-](\d{2})[:\-](\d{2})[ T](\d{2}):(\d{2})(?::(\d{2}))?/.exec(raw);
+      if (m && +m[1] > 1990) {
+        dateStr = `${m[1]}.${m[2]}.${m[3]}`; timeStr = `${m[4]}:${m[5]}`;
+        ts = new Date(+m[1], +m[2] - 1, +m[3], +m[4], +m[5], +(m[6] || 0)).getTime();
+      } else {
+        const d = new Date(ts);
+        dateStr = `${d.getFullYear()}.${String(d.getMonth() + 1).padStart(2, '0')}.${String(d.getDate()).padStart(2, '0')}`;
+        timeStr = null;                                   // bez EXIF nie znamy godziny – nie wymyślamy jej
+        exifError = true;
+      }
+      added.push({
+        id: ++uid, file: f, name: f.name, thumbUrl, w: w0, h: h0, aspect: w0 / h0,
+        orientation: w0 > h0 ? 'landscape' : 'portrait', dateStr, timeStr, timestamp: ts, exifError,
+        frame: null, stamp: null, plan: null, slot: null
+      });
+    } catch (err) {
+      bad++; log(`Pominięto ${f.name}: ${err.message}`, 'warn');
+    }
+    await yieldUi();
+  }
+  // Nowe zdjęcia wchodzą chronologicznie, ale nie ruszają Twojej ręcznej kolejności.
+  added.sort((a, b) => a.timestamp - b.timestamp);
+  for (const p of added) {
+    let idx = photos.length;
+    while (idx > 0 && photos[idx - 1].timestamp > p.timestamp) idx--;
+    photos.splice(idx, 0, p);
+  }
+  if (bad) toast(`Nie udało się wczytać ${bad} plik(ów) – szczegóły w dzienniku.`);
+  if (files.length > take.length) toast(`Wczytano tyle, ile mieści limit ${MAX_PHOTOS} zdjęć.`);
+}
+
+
+/* ===================== 4. API GEMINI ===================== */
+class ApiError extends Error { constructor(msg, status) { super(msg); this.status = status; } }
+const fatal = msg => { const e = new Error(msg); e.fatal = true; return e; };
+
+// Limit czasu odpowiedzi: zawieszone zapytanie nie może zablokować generowania (potem jest ponawiane).
+const REQ_TIMEOUT_MS = { image: 300000, text: 150000 };
+async function rawPost(model, body, signal) {
+  const wait = cooldownUntil - Date.now();
+  if (wait > 0) await sleepAbortable(wait, signal);
+  // W Canvas adres MUSI być bez klucza: przechwytywanie działa tylko dla zapytań bez parametru „key”.
+  // Adres z PUSTYM parametrem „key” — dokładnie tak, jak w działającej wersji aplikacji.
+  // Canvas rozpoznaje po nim zapytanie i wykonuje je na koncie użytkownika; bez tego parametru wraca 401.
+  const url = `${API_BASE}/models/${model}:generateContent?key=${API_KEY}`;
+  const isImg = !!IMAGE_MODELS[model], ms = isImg ? REQ_TIMEOUT_MS.image : REQ_TIMEOUT_MS.text;
+  noteRequest(isImg ? 'image' : 'text');
+  const ctl = new AbortController(); let timedOut = false;
+  const onAbort = () => ctl.abort();
+  if (signal) { if (signal.aborted) throw abortErr(); signal.addEventListener('abort', onAbort, { once: true }); }
+  const timer = setTimeout(() => { timedOut = true; ctl.abort(); }, ms);
+  try {
+    const r = await fetch(url, { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify(body), signal: ctl.signal });
+    const text = await r.text();
+    let json = null; try { json = JSON.parse(text); } catch (_) { /* nie-JSON */ }
+    const out = { ok: r.ok, status: r.status, json, text };
+    noteResult(out);
+    return out;
+  } catch (e) {
+    if (timedOut && !(signal && signal.aborted)) { const te = new Error(`przekroczono limit czasu odpowiedzi API (${Math.round(ms / 1000)} s)`); te.timeout = true; throw te; }
+    throw e;
+  } finally { clearTimeout(timer); if (signal) signal.removeEventListener('abort', onAbort); }
+}
+const errMsg = res => (res.json && res.json.error && res.json.error.message) || res.text.slice(0, 240) || ('HTTP ' + res.status);
+function retryDelayMs(res) { const m = /"retryDelay"\s*:\s*"(\d+(?:\.\d+)?)s"/.exec(res.text) || /retry in (\d+(?:\.\d+)?)\s*s/i.exec(res.text); return m ? Math.ceil(parseFloat(m[1]) * 1000) + 500 : null; }
+const candidate = json => json && json.candidates && json.candidates[0];
+const partsOf = json => { const c = candidate(json); return (c && c.content && c.content.parts) || []; };
+function extractImage(json) {
+  let found = null;                                   // bierzemy ostatni obraz, który nie jest „myślą” modelu
+  for (const p of partsOf(json)) {
+    const d = p.inlineData || p.inline_data;
+    if (d && d.data && !p.thought) found = { data: d.data, mime: d.mimeType || d.mime_type || 'image/png' };
+  }
+  return found;
+}
+function extractText(json) {
+  const t = partsOf(json).filter(p => p.text && !p.thought).map(p => p.text).join('').trim();
+  return t || null;
+}
+function emptyReason(json) {
+  const c = candidate(json), fr = c && c.finishReason, br = json && json.promptFeedback && json.promptFeedback.blockReason;
+  const txt = partsOf(json).map(p => p.text).filter(Boolean).join(' ').slice(0, 160);
+  return `Brak wyniku w odpowiedzi${fr ? ` (finishReason: ${fr})` : ''}${br ? ` (blokada: ${br})` : ''}${txt ? ` – ${txt}` : ''}`;
+}
+const isBlocked = json => /SAFETY|PROHIBITED|BLOCK|RECITATION/i.test((((candidate(json) || {}).finishReason) || '') + (((json || {}).promptFeedback || {}).blockReason || ''));
+
+// Warianty treści żądania obrazu od najnowszego do najbardziej kompatybilnego.
+// Udokumentowany format to generationConfig.imageConfig (pole responseFormat.image.aspectRatio API odrzuca błędem 400).
+function imageBodies(model, parts, ratio, size, S) {
+  const info = IMAGE_MODELS[model] || {};
+  const sz = info.size ? (info.sizes.includes(size) ? size : info.sizes[0]) : null;
+  // Kształt żądania sprawdzony w Gemini Canvas: bez pola „role”, z dwiema modalnościami odpowiedzi.
+  const mk = extra => ({ contents: [{ parts }], generationConfig: Object.assign({ responseModalities: ['TEXT', 'IMAGE'] }, extra) });
+  const list = [];
+  if (sz) {
+    const cfg = { imageConfig: { aspectRatio: ratio, imageSize: sz } };
+    if (S.thinkingHigh && /^gemini-3/.test(model)) list.push(mk(Object.assign({ thinkingConfig: { thinkingLevel: 'High' } }, cfg)));
+    list.push(mk(cfg));
+  }
+  list.push(mk({ imageConfig: { aspectRatio: ratio } }));
+  list.push(mk({}));                                      // wariant z działającej wersji aplikacji
+  return list;
+}
+
+/* ===================== 4b. KLUCZ, LIMITY I ŚRODOWISKO ===================== */
+// Google NIE udostępnia w API odczytu pozostałego limitu po kluczu (limity są liczone na projekt i widać je tylko w AI Studio).
+// Dlatego aplikacja pokazuje to, co API faktycznie ujawnia: dokładny limit z odpowiedzi 429, liczniki zapytań i stan klucza.
+// Gemini Canvas wstrzykuje skrypt, który przechwytuje zapytania do Google i wykonuje je na koncie użytkownika.
+// Skrypt niesie listę nazw modeli, które Canvas potrafi obsłużyć — czytamy ją stąd.
+function readCanvasConfig() {
+  try {
+    for (const sc of document.querySelectorAll('script')) {
+      const t = sc.textContent || '', i = t.indexOf('{"textModelName"');
+      if (i < 0) continue;
+      let depth = 0;
+      for (let j = i; j < t.length; j++) {
+        if (t[j] === '{') depth++;
+        else if (t[j] === '}' && --depth === 0) return JSON.parse(t.slice(i, j + 1));
+      }
+    }
+  } catch (e) { /* konfiguracja w nieznanym kształcie */ }
+  return null;
+}
+const canvasCfg = window.__CANVAS_CFG || readCanvasConfig();
+const ENV = {
+  canvas: !!(window.__FORCE_CANVAS || canvasCfg || document.querySelector('script[data-bard-client-injected],script[ws-interception-config]')),
+  cfg: canvasCfg
+};
+// W Canvas używamy wyłącznie nazw, które przekazuje wstrzyknięta konfiguracja — inne nie są przepuszczane przez konto Gemini.
+function applyCanvasModels(cfg) {
+  if (!cfg) return null;
+  const uniq = a => a.filter((v, i) => v && a.indexOf(v) === i);
+  const img = uniq([cfg.imageEditModelName, cfg.imageTransformModelName].concat(cfg.deprecatedGenerateImageModelNames || [], cfg.deprecatedImageTransformModelNames || []))
+    .map(id => { if (!IMAGE_MODELS[id]) { const info = inferImageModel(id); if (info) IMAGE_MODELS[id] = info; } return id; })
+    .filter(m => IMAGE_MODELS[m]).sort((a, b) => imageRank(b) - imageRank(a));       // najlepszy dostępny na początek
+  const txt = uniq([cfg.textModelName].concat(cfg.deprecatedTextModelNames || [])).sort((a, b) => textRank(b) - textRank(a));
+  if (!img.includes('gemini-2.5-flash-image-preview')) img.push('gemini-2.5-flash-image-preview');   // sprawdzony w Canvas – ostatnia deska ratunku
+  if (img.length) IMAGE_ORDER = img;
+  if (txt.length) TEXT_MODELS = txt;
+  return { img, txt };
+}
+const USAGE = { req: 0, image: 0, text: 0, ok: 0, e429: 0, err: 0, tokens: 0, recent: [], lastQuota: null, lastErr: '' };
+const deadReason = {};                                    // model -> 'zero' | 'daily' (dlaczego go pomijamy)
+let concCap = 99;                                         // ile zapytań naraz wolno (zmniejszane po limicie chwilowym)
+const deadUntil = {};                                   // model -> do kiedy pomijamy (404/403/brak limitu)
+
+const isDead = m => (deadUntil[m] || 0) > Date.now();
+const markDead = (m, min = 15) => { deadUntil[m] = Date.now() + min * 60000; };
+function resetApiState() {                                // czysty start liczników i blokad „martwych” modeli
+  for (const k of Object.keys(deadUntil)) delete deadUntil[k];
+  for (const k of Object.keys(deadReason)) delete deadReason[k];
+  cooldownUntil = 0; concCap = 99;
+}
+function noteRequest(kind) {
+  USAGE.req++; USAGE[kind]++;
+  const n = Date.now(); USAGE.recent.push(n);
+  while (USAGE.recent.length && n - USAGE.recent[0] > 120000) USAGE.recent.shift();
+}
+function noteResult(res) {
+  if (res.ok) { USAGE.ok++; const u = res.json && res.json.usageMetadata; if (u && u.totalTokenCount) USAGE.tokens += u.totalTokenCount; }
+  else { if (res.status === 429) USAGE.e429++; else USAGE.err++; USAGE.lastErr = `HTTP ${res.status}: ${errMsg(res).slice(0, 600)}`; }
+  /* liczniki zużycia nie są pokazywane w interfejsie */
+}
+// Do północy czasu pacyficznego (wtedy odnawiają się dzienne limity API) – w minutach.
+function minutesToPacificMidnight() {
+  try {
+    const parts = new Intl.DateTimeFormat('en-US', { timeZone: 'America/Los_Angeles', hour12: false, hour: '2-digit', minute: '2-digit' }).formatToParts(new Date());
+    const h = (+parts.find(p => p.type === 'hour').value) % 24, m = +parts.find(p => p.type === 'minute').value;
+    return 24 * 60 - (h * 60 + m);
+  } catch (e) { return 360; }
+}
+// Wyciąga z odpowiedzi 429 dokładną nazwę i wartość przekroczonego limitu (QuotaFailure) oraz czas oczekiwania.
+function parseQuota(res, model) {
+  const err = (res.json && res.json.error) || {}, msg = String(err.message || res.text || '');
+  const q = { model: model || null, id: '', metric: '', value: null, retryMs: retryDelayMs(res), msg, at: Date.now(), status: res.status, violations: [] };
+  for (const d of err.details || []) {
+    if (/QuotaFailure/.test(d['@type'] || '')) for (const v of d.violations || []) {
+      q.violations.push({ id: v.quotaId || '', metric: v.quotaMetric || '', value: v.quotaValue != null ? String(v.quotaValue) : null, model: (v.quotaDimensions && v.quotaDimensions.model) || null });
+    }
+  }
+  const pick = q.violations.find(v => v.value === '0') || q.violations[0];
+  if (pick) { q.id = pick.id; q.metric = pick.metric; q.value = pick.value; q.model = pick.model || q.model; }
+  let m;
+  if (q.value == null && (m = /limit:\s*(\d+)/i.exec(msg))) q.value = m[1];
+  if (!q.metric && (m = /metric:\s*([\w./\-]+)/i.exec(msg))) q.metric = m[1];
+  if (!q.id && (m = /Quota ID:\s*([\w\-]+)/i.exec(msg))) q.id = m[1];
+  if (!q.model && (m = /model:\s*([\w.\-]+)/i.exec(msg))) q.model = m[1];
+  const blob = `${q.id} ${q.metric} ${msg}`;
+  q.zero = q.value === '0' || q.violations.some(v => v.value === '0') || /limit:\s*0\b/i.test(msg);
+  q.daily = /PerDay|per_day|per day/i.test(blob);
+  q.minute = /PerMinute|per_minute|per minute/i.test(blob);
+  q.free = /FreeTier|free_tier/i.test(blob);
+  q.spend = /spend/i.test(blob);
+  q.short = [q.model, q.id || q.metric || null, q.value != null ? `limit ${q.value}` : null].filter(Boolean).join(' · ') || 'API nie podało szczegółów';
+  return q;
+}
+// Po ludzku: co oznacza dany limit i co z nim zrobić.
+function explainQuota(q) {
+  const model = q.model ? ` (${q.model})` : '';
+  if (q.zero) return { level: 'bad', title: 'Limit 0 – brak przydziału, a nie wyczerpanie',
+    lines: [`Twoje konto Gemini nie ma w tej chwili przydziału na ten model${model}.`,
+      'Co zrobić: wybierz lżejszy model w kroku 04 (Nano Banana 2 zamiast Pro) albo spróbuj ponownie później.'], short: q.short };
+  if (q.daily) return { level: 'bad', title: 'Wyczerpany limit dzienny',
+    lines: [`Konto wyczerpało dzienny limit dla tego modelu${model}.`,
+      `Reset następuje o północy czasu pacyficznego — zostało około ${minutesToPacificMidnight()} min.`], short: q.short };
+  return { level: 'warn', title: 'Limit chwilowy',
+    lines: ['Za dużo zapytań naraz. Aplikacja sama zwalnia tempo i ponawia — zwykle wystarczy poczekać.',
+      'Możesz też zmniejszyć „Równoległe zapytania” w kroku 04.'], short: q.short };
+}
+function quotaFatal(chain) {
+  const isImg = chain.some(m => IMAGE_MODELS[m]), q = USAGE.lastQuota;
+  const zero = q && q.zero;
+  return fatal(isImg
+    ? (zero ? 'Twoje konto Gemini nie ma przydziału na modele obrazu. Wybierz lżejszy model w kroku 04 albo spróbuj później.'
+      : 'Modele obrazu odmówiły rysowania (limit). Aplikacja czekała i ponawiała — spróbuj ponownie za kilka minut.')
+    : 'Modele tekstowe odmówiły odpowiedzi (limit). Opowieści dni można wyłączyć w kroku 03.');
+}
+
+// Dowolny obraz z API -> JPEG (mniej pamięci niż PNG).
+async function callGemini({ chain, bodiesFor, extract, signal, tag }) {
+  let lastErr = new Error('Brak odpowiedzi z API');
+  let blocked = 0;
+  const noQuotaLeft = () => chain.every(m => isDead(m) && (deadReason[m] === 'zero' || deadReason[m] === 'daily'));
+  if (noQuotaLeft()) throw quotaFatal(chain);                 // nie ma sensu pytać ponownie – od razu jasny komunikat
+  const alive = chain.filter(m => !isDead(m));
+  for (const model of (alive.length ? alive : chain)) {
+    const bodies = bodiesFor(model);
+    let dead = false;
+    for (let li = Math.min(levelMemo[model] || 0, bodies.length - 1); li < bodies.length && !dead; li++) {
+      let nextLevel = false;
+      for (let attempt = 0; attempt < 5 && !nextLevel && !dead; attempt++) {
+        if (signal && signal.aborted) throw abortErr();
+        let res;
+        try { res = await rawPost(model, bodies[li], signal); }
+        catch (e) {
+          if (e.name === 'AbortError') throw e;
+          lastErr = new Error('Błąd sieci: ' + e.message); log(`${tag}: ${lastErr.message}`, 'warn');
+          if (e.timeout && attempt >= 1) { dead = true; continue; }          // dwa zawieszone zapytania: próbujemy następnego modelu
+          await sleepAbortable(1500 * (attempt + 1), signal); continue;
+        }
+        if (res.ok) {
+          const out = extract(res.json);
+          if (out) { levelMemo[model] = li; return { value: out, model }; }
+          lastErr = new Error(emptyReason(res.json));
+          if (isBlocked(res.json) && ++blocked >= 2) { lastErr.blocked = true; throw lastErr; }
+          log(`${tag}: ${lastErr.message} (${model}, próba ${attempt + 1})`, 'warn');
+          await sleepAbortable(800 * (attempt + 1), signal); continue;
+        }
+        const msg = errMsg(res);
+        lastErr = new ApiError(`${model}: ${msg}`, res.status);
+        if (res.status === 400) {
+          if (/API key not valid|API_KEY_INVALID|API key expired/i.test(res.text)) {
+            throw fatal('Gemini Canvas nie przekazał zapytania do Twojego konta. Odśwież stronę Canvas i spróbuj ponownie.');
+          }
+          log(`${tag}: wariant żądania ${li + 1}/${bodies.length} odrzucony (400, ${model}) – to nieszkodliwe, próbuję następnego. Powód: ${msg.slice(0, 200)}`, 'warn');
+          nextLevel = true; continue;
+        }
+        if (res.status === 401 || res.status === 403 || res.status === 404) {
+          log(`${tag}: model ${model} niedostępny w tym środowisku (${res.status}) – próbuję następnego. ${msg.slice(0, 140)}`, 'warn');
+          markDead(model, res.status === 401 ? 5 : 15); dead = true; continue;
+        }
+        if (res.status === 429) {
+          const q = parseQuota(res, model); USAGE.lastQuota = q;
+          if (q.zero || q.daily) {                             // przydział zerowy albo dzienny: czekanie nic nie da – następny model
+            deadReason[model] = q.zero ? 'zero' : 'daily';
+            markDead(model, q.zero ? 60 : Math.min(minutesToPacificMidnight(), 360));
+            log(`${tag}: ${q.zero ? 'brak przydziału (limit: 0)' : 'limit dzienny wyczerpany'} – ${q.short}. Pomijam ten model.`, 'warn');
+            dead = true; continue;
+          }
+          const wait = Math.min(90000, q.retryMs || 4000 * 2 ** attempt);   // limit chwilowy: czekamy, ile każe API, i zwalniamy tempo
+          cooldownUntil = Math.max(cooldownUntil, Date.now() + wait);
+          if (concCap > 1) { concCap = 1; log('Limit chwilowy: zmniejszam liczbę równoległych zapytań do 1.', 'warn'); }
+          log(`${tag}: limit chwilowy (${q.short}) – czekam ${Math.round(wait / 1000)} s`, 'warn');
+          await sleepAbortable(wait, signal); continue;
+        }
+        if (res.status >= 500) {
+          log(`${tag}: błąd serwera ${res.status}, ponawiam`, 'warn');
+          await sleepAbortable(2000 * 2 ** Math.min(attempt, 3), signal); continue;
+        }
+        dead = true;
+      }
+      if (!nextLevel) dead = true;                    // wyczerpano próby dla tego modelu
+    }
+  }
+  if (noQuotaLeft()) throw quotaFatal(chain);
+  if (lastErr.status === 401) throw fatal('Żaden model nie odpowiedział — Canvas nie przekazał zapytań do Twojego konta (401). Odśwież stronę Canvas i uruchom aplikację ponownie.');
+  throw lastErr;
+}
+
+async function genImage({ parts, ratio, size, S, signal, tag }) {
+  const chain = S.autoFallback ? [S.imageModel, ...IMAGE_ORDER.filter(m => m !== S.imageModel)] : [S.imageModel];
+  const r = await callGemini({ chain, signal, tag, bodiesFor: m => imageBodies(m, parts, ratio, size, S), extract: extractImage });
+  return { b64: r.value.data, mime: r.value.mime, model: r.model };
+}
+async function genText({ parts, signal, tag }) {
+  const r = await callGemini({ chain: TEXT_MODELS, signal, tag, bodiesFor: () => [{ contents: [{ role: 'user', parts }] }], extract: extractText });
+  return r.value;
+}
+// Dowolny obraz z API -> JPEG (mniej pamięci niż PNG).
+async function normalizeToJpeg(b64, mime, q = 0.92) {
+  const bmp = await createImageBitmap(b64ToBlob(b64, mime));
+  const c = canvasOf(bmp.width, bmp.height); c.getContext('2d').drawImage(bmp, 0, 0);
+  if (bmp.close) bmp.close();
+  return toBlob(c, 'image/jpeg', q);
+}
+
+/* ===================== 5. MOTYWY I PROMPTY ===================== */
+// Motyw dla danego dnia: „Karpacz, dzień 2 - basen” -> osobny klimat dla dnia 2.
+function themeForDay(S, dayIdx) {
+  if (S.category !== 'custom') return S.category;
+  const raw = S.customTheme;
+  if (!raw) return 'Dowolny kreatywny motyw w stylu Pixar';
+  let specific = null; const general = [];
+  for (const part of raw.split(',').map(p => p.trim()).filter(Boolean)) {
+    const m = part.match(/dzie[ńn]\s*(\d+)/i);
+    if (m) { if (parseInt(m[1], 10) === dayIdx) specific = part.replace(/[-:]?\s*dzie[ńn]\s*\d+\s*[-:]?/i, '').trim(); }
+    else general.push(part);
+  }
+  if (specific) return specific;
+  return general.length ? general.join(', ') : raw;
+}
+function subjectPool(S) {
+  const cat = S.category;
+  if (cat === '1. ZOO') return [...ANIMALS_DATA['1. ZOO']];
+  return [...(IMMERSIVE_DATA[cat] || IMMERSIVE_DATA.custom), ...(ANIMALS_DATA[cat] || ANIMALS_DATA.custom)];
+}
+function interactionRule(theme, subject) {
+  if (theme === '1. ZOO') return 'SCENA ZOO (100% Zwierzęta): Głównym interaktywnym bohaterem trzymającym zdjęcie jest wybrane zwierzę.';
+  if (String(subject).includes('INTERNET')) return 'INTERNET SEARCH RULE: Przeanalizuj podany motyw. Użyj wiedzy o świecie by wyszukać charakterystyczne obiekty, budowle (np. Śnieżka dla Karpacza), rzeźby lub lokalną faunę. Ten wyszukany element MUSI FIZYCZNIE TRZYMAĆ, OBEJMOWAĆ LUB TWORZYĆ RAMKĘ DLA ZDJĘCIA.';
+  return 'OBOWIĄZKOWA ZASADA DLA OBIEKTÓW ARCHITEKTONICZNYCH/NATURY: Zwracaj bezwzględną uwagę na logikę pory roku, klimatu i otoczenia narzuconą przez główny motyw. Wylosowany poniżej obiekt MUSI FIZYCZNIE TRZYMAĆ, OBEJMOWAĆ LUB TWORZYĆ RAMKĘ DLA ZDJĘCIA.';
+}
+const CUSTOM_FRAME_RULE = 'ZASADA DLA RAMKI DOWOLNEJ: Zamiast zwykłej prostokątnej ramki, stwórz RAMKĘ JAKO CZĘŚĆ PRAWDZIWEJ SCENY. BARDZO WAŻNE: Wylosowany obiekt ma być JEDNOCZEŚNIE elementem trzymającym.';
+
+
+// Wariant „ramka na całą stronę": model dostaje szablon całej kartki z jednym lub dwoma oknami.
+function promptPageFrame(o) {
+  const okna = o.count === 2
+    ? 'DWA prostokąty w kolorze magenta #FF00FF. Oba są oknami na zdjęcia, które zostaną wstawione osobno, już po wygenerowaniu obrazu.'
+    : 'JEDEN prostokąt w kolorze magenta #FF00FF. To okno na zdjęcie, które zostanie wstawione osobno, już po wygenerowaniu obrazu.';
+  const pas = o.punch
+    ? `\n5. Jasnoszary pas przy ${o.punch === 'left' ? 'LEWEJ' : 'GÓRNEJ'} krawędzi to margines pod dziurkacz. Zastąp szarość delikatną, subtelną dekoracją w tym samym stylu i palecie, ale wyraźnie spokojniejszą i o niskim kontraście — drobne, powtarzalne motywy pasujące do tematu. Nie umieszczaj tam postaci, dużych obiektów, napisów ani niczego ważnego.`
+    : '';
+  return `SZABLON CAŁEJ KARTKI (dołączony obraz): biała kartka, a na niej ${okna}
+
+ZADANIE: potraktuj całą kartkę jako jedną spójną kompozycję i wypełnij ją bogatą, kolorową dekoracją 3D otaczającą okno/okna — od krawędzi do krawędzi, bez białych pustek.
+
+ZASADY NIENARUSZALNE (OKNA):
+1. Każdy prostokąt magenta zostaje dokładnie w tym samym miejscu, w tym samym rozmiarze i w tych samych proporcjach. Nie przesuwaj ich, nie skaluj, nie obracaj, nie zaokrąglaj rogów, nie zmieniaj ich liczby.
+2. Wnętrze każdego prostokąta pozostaje w 100% jednolitym, płaskim kolorem #FF00FF: bez cieni, gradientów, odblasków i jakichkolwiek elementów. Nic (łapa, liść, ramię, ogon, cień, napis) nie wchodzi na okno. Elementy sceny mogą je tylko otaczać i dotykać krawędzi z zewnątrz.
+3. Kolor magenta / fuksja / neonowy róż nie występuje nigdzie indziej na obrazie.
+4. Pas u dołu kartki pod oknami zostaw spokojny — tam trafi numer strony.${pas}
+
+KOMPOZYCJA:
+- Okna są fizyczną częścią sceny: wspólna ozdobna rama, obramowanie z przedmiotów, portal lub kadr trzymany przez bohaterów.${o.count === 2 ? ' Oba okna łączy JEDNA wspólna rama — nie rysuj dwóch osobnych, niezwiązanych ramek.' : ''}
+- Kartka jest ${o.ori === 'landscape' ? 'POZIOMA (szersza niż wysoka)' : 'PIONOWA'}.
+- Wolne miejsce na dekorację (w procentach kartki): lewy pas ${o.pas.lewy}%, prawy ${o.pas.prawy}%, górny ${o.pas.gorny}%, dolny ${o.pas.dolny}%. Tam, gdzie pas jest szeroki, buduj scenę rozbudowaną i wielowarstwową; gdzie wąski — gęstą, drobną obwódkę przy samej krawędzi okna.
+- Narożniki to miejsce na największe elementy: tam scena może się rozrastać i piętrzyć.
+- Bohater / obiekt prowadzący scenę: ${o.subject}
+- Pozycja względem okien: ${o.pose}
+- ${o.interaction}
+- Dekoracje mogą się nakładać, piętrzyć i wychodzić poza ramę ku krawędziom kartki — mają wypełnić całą powierzchnię.
+
+STYL OBOWIĄZKOWY: Pixar 3D, film animowany, najwyższa jakość, ultra realistyczne materiały, fotorealistyczne tekstury, miękkie światło, global illumination, bogate nasycone kolory.
+KLIMAT / MOTYW SCENY: ${o.theme}
+BEZ napisów, logo, znaków wodnych i ramek ze zdjęć. Efekt gotowy do profesjonalnego druku.`;
+}
+
+// Tryb bezpieczny: model dostaje szablon z magentowym oknem i dorysowuje tylko otoczenie.
+function promptSafe(o) {
+  return `SZABLON UKŁADU (dołączony obraz): biała płachta z jednym prostokątem w kolorze magenta #FF00FF. Prostokąt to okno na zdjęcie, które zostanie wstawione osobno, już po wygenerowaniu obrazu.
+
+ZADANIE: zachowaj szablon i dorysuj wokół okna kompletną, efektowną ramkę-scenę zgodną z motywem poniżej.
+
+ZASADY NIENARUSZALNE (OKNO):
+1. Prostokąt magenta zostaje dokładnie w tym samym miejscu, w tym samym rozmiarze i w tych samych proporcjach. Nie przesuwaj go, nie skaluj, nie obracaj, nie zaokrąglaj rogów.
+2. Wnętrze prostokąta pozostaje w 100% jednolitym, płaskim kolorem #FF00FF: bez cieni, gradientów, odblasków, tekstur i jakichkolwiek elementów. Nic (łapa, liść, ramię, cień, napis) nie wchodzi na okno. Elementy sceny mogą je tylko otaczać i dotykać jego krawędzi z zewnątrz.
+3. Kolor magenta / fuksja / neonowy róż nie występuje nigdzie indziej na obrazie.
+
+KOMPOZYCJA:
+- Okno jest fizyczną częścią sceny (otwór w ramie, portal, okno, kadr trzymany lub obejmowany przez obiekt).
+- Obiekt trzymający lub tworzący ramkę: ${o.subject}
+- Pozycja obiektu względem okna: ${o.pose}
+- ${o.interaction}
+- ${o.frameRule}
+- Wykorzystaj całą wolną przestrzeń wokół okna. Obiekt ma być duży, wyraźny i sięgać krawędzi okna.
+- Okno zajmuje większość kadru — na scenę zostaje tylko wąski pas wokół niego i narożniki. Tak ma być: zdjęcie jest najważniejsze. Zmieść obiekt w tym pasie tak, jakby wychylał się zza okna lub je obejmował (widoczne np. głowa, łapy, ogon, fragment tułowia). NIE zmniejszaj okna i NIE dodawaj pustego białego marginesu, żeby zrobić sobie więcej miejsca.
+
+STYL OBOWIĄZKOWY: Pixar 3D, film animowany, najwyższa jakość, ultra realistyczne materiały, fotorealistyczne tekstury, miękkie światło, global illumination.
+KLIMAT / MOTYW SCENY: ${o.theme}
+POZA SCENĄ: czyste białe tło (#FFFFFF). Brak napisów, logo i znaków wodnych. Efekt gotowy do profesjonalnego druku.`;
+}
+// Tryb pełne AI: prompt z działającej wersji (model dostaje zdjęcie i sam je wkomponowuje).
+function promptFull(o) {
+  return `GŁÓWNA ZASADA (NIE ZMIENIAJ)
+Wczytane zdjęcie jest NAJWAŻNIEJSZYM elementem kompozycji.
+Nigdy nie zmieniaj twarzy. Nigdy nie zmieniaj sylwetki. Nigdy nie zmieniaj wieku. Nigdy nie zmieniaj proporcji ciała.
+Nigdy nie kadruj zdjęcia. Nigdy nie ucinaj głowy. Nigdy nie ucinaj nóg. Nigdy nie zasłaniaj twarzy.
+Zdjęcie musi być widoczne w 100%. Całe zdjęcie pozostaje ostre.
+AI tworzy jedynie otoczenie. Elementy grafiki mogą przechodzić przed zdjęciem i za zdjęciem tworząc efekt 3D.
+
+NOWA ZASADA OBOWIĄZKOWA (PRZEZROCZYSTOŚĆ):
+Jeśli jakikolwiek wygenerowany element graficzny (np. łapa, liść, cień) nachodzi bezpośrednio na powierzchnię wgranego zdjęcia, uczyń ten fragment półprzezroczystym (efekt przezroczystego szkła, opacity), tak aby oryginalne zdjęcie pod spodem było całkowicie czytelne i wyraźne przez tę grafikę.
+
+STYL OBOWIĄZKOWY
+Pixar 3D, Film animowany, Najwyższa jakość, Ultra realistic materials, Photorealistic textures, Soft Lighting, Global Illumination.
+
+WYBRANA KATEGORIA / KLIMAT SCENY: ${o.theme}
+${o.interaction}
+
+GŁÓWNA POSTAĆ / OBIEKT TRZYMAJĄCY: ${o.subject}
+POZYCJA OBIEKTU WZGLĘDEM ZDJĘCIA: ${o.pose}
+
+${o.frameRule}
+Białe tło. Brak napisów. Brak logo. Brak znaków wodnych. Efekt gotowy do profesjonalnego wydruku 600 DPI.`;
+}
+function buildFramePrompt(S, theme, subject, pose) {
+  const custom = S.category === 'custom';
+  const frameRule = custom ? CUSTOM_FRAME_RULE
+    : (S.frameMode === 'safe' ? 'Okno otacza cienka, biała, drewniana ramka z białym matem, trzymana lub obejmowana przez obiekt.' : 'Umieść zdjęcie w białej drewnianej ramce. Ramka ma być cienka, biały mat.');
+  const o = { theme, subject, pose, interaction: interactionRule(theme, subject), frameRule };
+  return S.frameMode === 'safe' ? promptSafe(o) : promptFull(o);
+}
+// Podgląd promptu w panelu (z symbolami zastępczymi tam, gdzie losujemy).
+function promptPreview(S) {
+  const theme = S.category === 'custom' ? (S.customTheme || '[WPISZ WŁASNY MOTYW]') : S.category;
+  const subject = S.animal === 'random' ? '[AI LOSUJE POSTAĆ/OBIEKT BEZ POWTÓREK]'
+    : S.animal === 'internet' ? '[INTERNET: AI WYSZUKUJE ZGODNIE Z WŁASNYM MOTYWEM]' : $('#animal').selectedOptions[0]?.text || S.animal;
+  const pose = S.pose === 'random' ? '[AI LOSUJE POZYCJĘ BEZ POWTÓREK]' : $('#pose').selectedOptions[0]?.text || S.pose;
+  return buildFramePrompt(S, theme, subject, pose);
+}
+
+/* ---------- opowieści, okładki, znaczniki godzin ---------- */
+function storyPrompt(day, S, sample) {
+  const title = S.storyTitle
+    ? `Tytuł/Główny wątek narzucony przez użytkownika: "${S.storyTitle}". Bezwzględnie uwzględnij ten motyw w opowieści i zbuduj wokół niego historię. ZASADA JĘZYKA POLSKIEGO: Odmieniaj tytuł i nazwy przez przypadki, aby zachować poprawną stylistykę i gramatykę w całym opowiadaniu.`
+    : 'Brak narzuconego tytułu (opieraj się wyłącznie na zdjęciach i wybranym stylu).';
+  const themeName = String(day.theme || '').replace(/^\d+\.\s*/, '');
+  const theme = themeName && themeName !== 'Dowolny kreatywny motyw w stylu Pixar'
+    ? `\nKlimat, miejsce i motyw na TEN KONKRETNY DZIEŃ: "${themeName}". Bezwzględnie wpleć ten klimat, porę roku, lokację i porę dnia do wydarzeń w historii, odróżniając ten dzień od innych!` : '';
+  const times = sample.map((p, i) => p.timeStr ? `Zdjęcie ${i + 1}: ${p.timeStr}` : '').filter(Boolean).join(', ');
+  const timesText = times ? `Oto zarejestrowane godziny dla niektórych zdjęć: ${times}. Użyj ich naturalnie w historii (np. "o 14:30 udaliśmy się...").` : '';
+  return `Przeanalizuj dołączone fotografie z jednego dnia i stwórz piękną, krótką opowieść.
+Dzień: ${fmtDate(day.key)} (Dzień ${day.index})
+Bohaterowie: ${S.heroes}
+ZASADA DLA BOHATERÓW: Używaj myślnika '-' jako detektywistycznej podpowiedzi kogo szukać na zdjęciach. Wszystko za myślnikiem to określenie wyglądu/roli. AI ma obowiązek przeanalizować twarze i ubiór osób ze zdjęć pasujących do opisu by rozpoznać kto jest kim. W samej ostatecznej napisanej opowieści UŻYWAJ JEDYNIE IMION (sprzed myślnika), z pełną odmianą przez przypadki (np. "Poszliśmy z Arturem").
+Styl opowieści: ${S.storyStyle}
+${title}${theme}
+${timesText}
+
+WYTYCZNE:
+Zwróć uwagę na miejsca, zwierzęta, aktywność, pogodę widoczną na zdjęciach. Ułóż to w spójną historię zgodnie z chronologią wydarzeń. NIE zmyślaj bardzo konkretnych faktów, których nie można rozsądnie wywnioskować. Zakończ całą historię tego dnia w 3-4 zwięzłych akapitach, tworząc logiczną całość, tak by nigdy nie była nienaturalnie urwana. Cała opowieść ma mieć najwyżej ok. ${S.storyPages * 520} znaków. Pamiętaj o doskonałej stylistyce i ortografii języka polskiego.
+Od razu przejdź do treści historii, bez żadnych nagłówków.`;
+}
+function coverPrompt(chunk, S, ratio, refCount) {
+  const wiele = refCount > 1;
+  const ref = refCount ? `
+BARDZO WAŻNE DOTYCZĄCE ${wiele ? `${refCount} ZDJĘĆ REFERENCYJNYCH` : 'ZDJĘCIA REFERENCYJNEGO'} I POSTACI:
+0. ${wiele ? `Dołączono ${refCount} zdjęć referencyjnych. Każde pokazuje twarz (lub twarze) innej osoby — potraktuj je razem jako jeden zestaw wzorców wyglądu. Nie łącz cech różnych osób i nie mieszaj ich twarzy.`
+    : 'Dołączono jedno zdjęcie referencyjne.'}
+1. Na ${wiele ? 'zdjęciach referencyjnych' : 'dołączonym zdjęciu referencyjnym'} znajdują się twarze postaci podpisane imionami (albo nazwa pliku wskazuje osobę). ODCZYTAJ te imiona.
+2. Z podanej ogólnej puli bohaterów [${S.heroes}] na wygenerowanym obrazku umieść TYLKO I WYŁĄCZNIE te postaci, które faktycznie WYSTĘPUJĄ W PONIŻSZEJ HISTORII z tego dnia. Jeśli historia opowiada np. tylko o 2 osobach, wygeneruj tylko je, ignorując resztę osób z puli.
+3. TWARZE SĄ NIETYKALNE: Wygeneruj twarz każdej zidentyfikowanej postaci w proporcji 1:1 w stosunku do ${wiele ? 'jej własnego zdjęcia referencyjnego' : 'zdjęcia referencyjnego'}. Twarze mają być w 100% takie same jak na zdjęciu (stałe twarze), dodaj im jedynie uśmiech.
+4. DODAJESZ TYLKO TUŁÓW I UBRANIE: Do stałych twarzy dodajesz tylko tułów z ubraniem. Każdego dnia postaci MUSZĄ MIEĆ INNE UBRANIA dopasowane idealnie do opisu wydarzeń danego dnia, zachowując spójny styl grafiki.
+5. POSTACI DODATKOWE (W TYM ZWIERZĘTA): Jeśli na liście bohaterów znajdują się dodatkowe postacie/zwierzęta, wygeneruj je w tej scenie ściśle według ich opisu, utrzymując piękno kompozycji.`
+    : `
+BARDZO WAŻNE DOTYCZĄCE POSTACI: Z podanej ogólnej puli bohaterów [${S.heroes}] na wygenerowanym obrazku umieść TYLKO te postaci, które faktycznie występują w poniższej historii z danego dnia. Ściśle trzymaj się ich opisów i zachowaj spójny styl grafiki.`;
+  const orient = ratioVal(ratio) >= 1 ? 'poziomą' : 'pionową';
+  return `Na podstawie poniższej krótkiej historii, wygeneruj JEDNĄ przepiękną, ${orient} ilustrację w proporcjach ${ratio}, która najlepiej podsumowuje wydarzenia i klimat tego dnia.
+STYL OBRAZU: Pixar 3D, Film animowany, Najwyższa jakość, Ultra realistic, Cinematic Composition. Klimat dopasowany do: ${S.storyStyle}.
+${ref}
+HISTORIA DO ZILUSTROWANIA:
+${chunk}
+Wymagania: Brak tekstu na obrazku. Skup się na pięknym krajobrazie i głównym wydarzeniu. Białe tło nie jest wymagane, obraz ma wypełniać cały kadr.`;
+}
+function stampPrompt(timeStr, theme) {
+  return `Wygeneruj uroczy, mały element dekoracyjny w stylu Pixar 3D (ZAKAZ ZEGARA ZE WSKAZÓWKAMI).
+Wymagania:
+1. Obiekt lub postać pasująca do motywu: ${theme} (np. mały zwierzak, kamień, muszla).
+2. Ten uroczy obiekt/postać musi OBU RĘKAMI TRZYMAĆ LUB PREZENTOWAĆ płaską, drewnianą lub kamienną TABLICZKĘ (szyld).
+3. Na tej tabliczce wyryty jest bardzo wyraźny, duży tekst z godziną: "${timeStr}".
+4. ZAKAZ RYSOWANIA TRADYCYJNYCH TARCZ ZEGARA. To ma być po prostu postać trzymająca ładny napis z godziną.
+5. Białe tło. Styl: Pixar 3D, urocze, pastelowe, najwyższa jakość.`;
+}
+
+
+/* ===================== 6. RAMKI ===================== */
+function rrectPath(g, x, y, w, h, r) {
+  r = Math.max(0, Math.min(r, w / 2, h / 2));
+  g.beginPath(); g.moveTo(x + r, y);
+  g.arcTo(x + w, y, x + w, y + h, r); g.arcTo(x + w, y + h, x, y + h, r);
+  g.arcTo(x, y + h, x, y, r); g.arcTo(x, y, x + w, y, r); g.closePath();
+}
+// Geometria „okna” w kadrze: proporcje zdjęcia, zadany udział POWIERZCHNI ramki,
+// margines dzielony 62/38 w pionie (więcej u góry – tam wychodzi głowa postaci).
+const WIN_MARGIN = 0.022;           // minimalny pas dekoracji przy krawędzi (ułamek krótszego boku)
+function templateGeom(ratio, photoAspect, pct, LONG) {
+  const R = ratioVal(ratio);
+  const W = R >= 1 ? LONG : Math.round(LONG * R), H = R >= 1 ? Math.round(LONG / R) : LONG;
+  const m = Math.min(W, H) * WIN_MARGIN;
+  let ww = Math.sqrt(clamp(pct, 0.2, 0.97) * W * H * photoAspect), wh = ww / photoAspect;
+  const s = Math.min(1, (W - 2 * m) / ww, (H - 2 * m) / wh);               // nie wychodzimy poza margines
+  ww *= s; wh *= s;
+  return { W, H, x: (W - ww) / 2, y: (H - wh) * 0.62, w: ww, h: wh };
+}
+// Szablon wysyłany do modelu: biała płachta + magentowe okno. Twoje zdjęcie NIE opuszcza urządzenia.
+function makeTemplate(ratio, photoAspect, pct) {
+  const t = templateGeom(ratio, photoAspect, pct, 1024);
+  const c = canvasOf(t.W, t.H), g = c.getContext('2d');
+  g.fillStyle = '#ffffff'; g.fillRect(0, 0, t.W, t.H);
+  g.fillStyle = '#ff00ff'; g.fillRect(Math.round(t.x), Math.round(t.y), Math.round(t.w), Math.round(t.h));
+  return c.toDataURL('image/png').split(',')[1];
+}
+
+// Znajduje magentowe okno w obrazie z AI i buduje maskę (bez obwódki na krawędziach).
+function detectWindow(img, photoAspect) {
+  const iw = img.width, ih = img.height, sc = Math.min(1, 640 / Math.max(iw, ih));
+  const w = Math.max(16, Math.round(iw * sc)), h = Math.max(16, Math.round(ih * sc)), N = w * h;
+  const c = canvasOf(w, h), g = c.getContext('2d', { willReadFrequently: true });
+  g.drawImage(img, 0, 0, w, h);
+  const d = g.getImageData(0, 0, w, h).data;
+  const key = new Uint8Array(N), loose = new Uint8Array(N);
+  for (let p = 0, i = 0; p < N; p++, i += 4) {
+    const r = d[i], gg = d[i + 1], b = d[i + 2];
+    if (r > 165 && b > 165 && gg < 120 && r - gg > 85 && b - gg > 85) key[p] = 1;                 // czysta magenta
+    if (r - gg > 40 && b - gg > 40 && Math.abs(r - b) < 110) loose[p] = 1;                        // jej cieniowane odcienie
+  }
+  const lab = new Int32Array(N), st = new Int32Array(N);
+  let bestArea = 0, bestId = 0, id = 0;
+  for (let s = 0; s < N; s++) {                                                                  // największa spójna plama
+    if (!key[s] || lab[s]) continue;
+    id++; let sp = 0, area = 0; st[sp++] = s; lab[s] = id;
+    while (sp) {
+      const p = st[--sp]; area++; const x = p % w;
+      if (x > 0 && key[p - 1] && !lab[p - 1]) { lab[p - 1] = id; st[sp++] = p - 1; }
+      if (x < w - 1 && key[p + 1] && !lab[p + 1]) { lab[p + 1] = id; st[sp++] = p + 1; }
+      if (p >= w && key[p - w] && !lab[p - w]) { lab[p - w] = id; st[sp++] = p - w; }
+      if (p < N - w && key[p + w] && !lab[p + w]) { lab[p + w] = id; st[sp++] = p + w; }
+    }
+    if (area > bestArea) { bestArea = area; bestId = id; }
+  }
+  if (!bestId || bestArea < N * 0.03) return { ok: false, why: 'nie znaleziono okna magenta' };
+  let x0 = w, y0 = h, x1 = -1, y1 = -1;
+  for (let p = 0; p < N; p++) if (lab[p] === bestId) { const x = p % w, y = (p / w) | 0; if (x < x0) x0 = x; if (x > x1) x1 = x; if (y < y0) y0 = y; if (y > y1) y1 = y; }
+  const bw = x1 - x0 + 1, bh = y1 - y0 + 1, fill = bestArea / (bw * bh);
+  if (fill < 0.7) return { ok: false, why: `okno ma nieregularny kształt (${Math.round(fill * 100)}%)` };
+  if (Math.abs(Math.log((bw / bh) / photoAspect)) > 0.3) return { ok: false, why: 'okno zmieniło proporcje' };
+  const M = new Uint8Array(N);
+  for (let y = y0; y <= y1; y++) for (let x = x0; x <= x1; x++) { const p = y * w + x; if (lab[p] === bestId || loose[p]) M[p] = 1; }
+  const R = 2, tmp = new Uint8Array(N), out = new Uint8Array(N);                                 // poszerzenie maski o 2 px
+  for (let y = 0; y < h; y++) for (let x = 0; x < w; x++) { let v = 0; for (let k = Math.max(0, x - R); k <= Math.min(w - 1, x + R); k++) if (M[y * w + k]) { v = 1; break; } tmp[y * w + x] = v; }
+  for (let x = 0; x < w; x++) for (let y = 0; y < h; y++) { let v = 0; for (let k = Math.max(0, y - R); k <= Math.min(h - 1, y + R); k++) if (tmp[k * w + x]) { v = 1; break; } out[y * w + x] = v; }
+  const mc = canvasOf(w, h), mg = mc.getContext('2d'), md = mg.createImageData(w, h);
+  for (let p = 0; p < N; p++) md.data[p * 4 + 3] = out[p] ? 255 : 0;
+  mg.putImageData(md, 0, 0);
+  const sx = iw / w, sy = ih / h;
+  return { ok: true, mask: mc, dil: R, sx, sy, fill, bbox: { x: x0 * sx, y: y0 * sy, w: bw * sx, h: bh * sy } };
+}
+
+// Limity pamięci przy składaniu ramki (dłuższy bok / liczba pikseli). Słabsze urządzenia dostają niższy sufit.
+const COMPOSE_MAX_LONG = 8192;
+const composeMaxArea = () => (navigator.deviceMemory && navigator.deviceMemory < 6) ? 20e6 : 32e6;
+const downSize = sz => ({ '4K': '2K', '2K': '1K' }[sz] || sz);
+// Składanie ramek jedna po drugiej: duże płótna nie kumulują się w pamięci nawet przy kilku zapytaniach naraz.
+let composeChain = Promise.resolve();
+const oneAtATime = fn => { const run = composeChain.then(fn, fn); composeChain = run.catch(() => { }); return run; };
+// Mała miniatura (kafelki „ściany”, lista) – żeby przeglądarka nie dekodowała wielomegapikselowych obrazów dla ikonki.
+async function canvasThumbBlob(src, max = 360, q = 0.8) {
+  const sc = Math.min(1, max / Math.max(src.width, src.height));
+  const c = canvasOf(src.width * sc, src.height * sc), g = c.getContext('2d');
+  g.imageSmoothingQuality = 'high'; g.drawImage(src, 0, 0, c.width, c.height);
+  const b = await toBlob(c, 'image/jpeg', q); c.width = c.height = 1; return b;
+}
+async function thumbOfBlob(blob, max = 360) {
+  const bmp = await decodeScaled(blob, max);
+  try { return await canvasThumbBlob(bmp, max); } finally { if (bmp.close) bmp.close(); }
+}
+
+// Wstawia ORYGINALNE zdjęcie w okno. Twarze pozostają 1:1, a zdjęcie zachowuje NATYWNĄ rozdzielczość:
+// ramkę z AI powiększamy tak, by okno pomieściło wszystkie piksele zdjęcia (w granicach pamięci urządzenia).
+async function composeSafe(photo, raw, det) {
+  const W = raw.width, H = raw.height, bb = det.bbox;
+  const ph = await decodeBitmap(photo.file);
+  let out = null, layer = null;
+  try {
+    const sMin = Math.max(W, H) >= 1800 ? 1 : 2;
+    const sNative = Math.max(ph.width / bb.w, ph.height / bb.h);
+    const sCap = Math.max(1, Math.min(COMPOSE_MAX_LONG / Math.max(W, H), Math.sqrt(composeMaxArea() / (W * H))));
+    const S = Math.min(Math.max(sMin, sNative), sCap), OW = Math.round(W * S), OH = Math.round(H * S);
+    out = canvasOf(OW, OH); const o = out.getContext('2d');
+    o.imageSmoothingQuality = 'high'; o.drawImage(raw, 0, 0, OW, OH);
+    const pad = Math.ceil(det.dil * Math.max(det.sx, det.sy) * S) + 1;
+    const x0 = Math.max(0, Math.floor(bb.x * S - pad)), y0 = Math.max(0, Math.floor(bb.y * S - pad));
+    const x1 = Math.min(OW, Math.ceil((bb.x + bb.w) * S + pad)), y1 = Math.min(OH, Math.ceil((bb.y + bb.h) * S + pad));
+    const bw = x1 - x0, bh = y1 - y0;
+    layer = canvasOf(bw, bh); const l = layer.getContext('2d');           // warstwa tylko w obrębie okna (mniej pamięci)
+    l.imageSmoothingQuality = 'high';
+    l.fillStyle = '#ffffff'; l.fillRect(0, 0, bw, bh);
+    const mode = Math.abs(Math.log((ph.width / ph.height) / (bw / bh))) < 0.045 ? 'cover' : 'contain';
+    const r = fitInto(ph.width, ph.height, 0, 0, bw, bh, mode);
+    l.drawImage(ph, r.x, r.y, r.w, r.h);
+    if (det.fill < 0.985) {                                               // okno nieprostokątne: zachowujemy elementy sceny nachodzące na okno
+      const mw = det.mask.width, mh = det.mask.height;
+      l.globalCompositeOperation = 'destination-in';
+      l.drawImage(det.mask, x0 / OW * mw, y0 / OH * mh, bw / OW * mw, bh / OH * mh, 0, 0, bw, bh);
+    }
+    o.drawImage(layer, x0, y0);
+    const blob = await toBlob(out, 'image/jpeg', 0.93), thumb = await canvasThumbBlob(out);
+    return { blob, thumb, w: OW, h: OH };
+  } finally {
+    if (ph.close) ph.close();
+    if (out) out.width = out.height = 1;
+    if (layer) layer.width = layer.height = 1;
+  }
+}
+async function packFull(raw) {
+  const c = canvasOf(raw.width, raw.height); c.getContext('2d').drawImage(raw, 0, 0);
+  try { return { blob: await toBlob(c, 'image/jpeg', 0.94), thumb: await canvasThumbBlob(c), w: raw.width, h: raw.height }; }
+  finally { c.width = c.height = 1; }
+}
+// Ramka lokalna (bez AI): zapas, gdy generowanie się nie uda – strona nigdy nie zostaje pusta.
+async function makeLocalFrame(photo, S) {
+  let LONG = 2048; const t0 = templateGeom(photo.ratio, photo.aspect, S.windowPct, LONG);
+  LONG = clamp(Math.round(LONG * Math.max(photo.w / t0.w, photo.h / t0.h)), 2048, COMPOSE_MAX_LONG);
+  let t = templateGeom(photo.ratio, photo.aspect, S.windowPct, LONG);
+  while (t.W * t.H > composeMaxArea() && LONG > 2048) { LONG = Math.round(LONG * 0.92); t = templateGeom(photo.ratio, photo.aspect, S.windowPct, LONG); }
+  const c = canvasOf(t.W, t.H), g = c.getContext('2d'), u = t.W / 2048;      // u: skala względem układu 2048 px
+  g.fillStyle = '#ffffff'; g.fillRect(0, 0, t.W, t.H);
+  const meta = THEME_META[S.category] || THEME_META.custom;
+  const marg = Math.min(t.x, t.y, t.W - t.x - t.w, t.H - t.y - t.h);       // ile naprawdę zostało na dekorację
+  const pad = Math.max(2, Math.round(Math.min(Math.min(t.W, t.H) * 0.035, marg / 1.8)));
+  g.save(); g.shadowColor = 'rgba(0,0,0,.28)'; g.shadowBlur = t.W * 0.02; g.shadowOffsetY = t.W * 0.008;
+  g.fillStyle = meta.c; rrectPath(g, t.x - pad * 1.7, t.y - pad * 1.7, t.w + pad * 3.4, t.h + pad * 3.4, pad * 1.2); g.fill(); g.restore();
+  g.fillStyle = '#ffffff'; rrectPath(g, t.x - pad * 0.7, t.y - pad * 0.7, t.w + pad * 1.4, t.h + pad * 1.4, pad * 0.5); g.fill();
+  const ph = await decodeBitmap(photo.file);
+  g.imageSmoothingQuality = 'high'; g.drawImage(ph, t.x, t.y, t.w, t.h);
+  if (ph.close) ph.close();
+  g.font = `${Math.round(pad * 2.6)}px ${FONT}`; g.textAlign = 'center'; g.textBaseline = 'middle';
+  g.fillText(meta.e, t.x - pad * 1.2, t.y - pad * 1.2); g.fillText(meta.e, t.x + t.w + pad * 1.2, t.y + t.h + pad * 1.2);
+  try { setFrame(photo, { blob: await toBlob(c, 'image/jpeg', 0.92), thumb: await canvasThumbBlob(c), w: t.W, h: t.H, kind: 'local', model: 'lokalna' }); }
+  finally { c.width = c.height = 1; }
+}
+
+function dropBmp(key) {                                   // usuwa wszystkie warianty rozmiaru danego klucza
+  for (const k of Array.from(bmpCache.keys())) if (k === key || k.startsWith(key + '@')) { const b = bmpCache.get(k); if (b && b.close) b.close(); bmpCache.delete(k); }
+}
+async function cachedBitmap(key, blob, maxW) {
+  const ck = key + '@' + (maxW || 0);
+  if (bmpCache.has(ck)) { const v = bmpCache.get(ck); bmpCache.delete(ck); bmpCache.set(ck, v); return v; }
+  const bmp = await decodeScaled(blob, maxW);                // podgląd nie potrzebuje pełnej rozdzielczości
+  bmpCache.set(ck, bmp);
+  while (bmpCache.size > 16) { const k0 = bmpCache.keys().next().value, b = bmpCache.get(k0); if (b && b.close) b.close(); bmpCache.delete(k0); }
+  return bmp;
+}
+function setFrame(photo, f) {
+  if (photo.frame) { if (photo.frame.url) URL.revokeObjectURL(photo.frame.url); if (photo.frame.thumbUrl) URL.revokeObjectURL(photo.frame.thumbUrl); }
+  dropBmp('f' + photo.id);
+  photo.frame = Object.assign({}, f, { url: URL.createObjectURL(f.blob), thumbUrl: f.thumb ? URL.createObjectURL(f.thumb) : null });
+}
+
+async function genFrameImage(photo, S, signal) {
+  const p = photo.plan;
+  const prompt = buildFramePrompt(S, p.theme, p.subject, p.pose);
+  const inline = S.frameMode === 'safe'
+    ? { mimeType: 'image/png', data: makeTemplate(photo.ratio, photo.aspect, S.windowPct) }
+    : { mimeType: 'image/jpeg', data: await fileToJpegB64(photo.file, 1024, 0.85) };
+  return genImage({ parts: [{ text: prompt }, { inlineData: inline }], ratio: photo.ratio, size: S.imageSize, S, signal, tag: `Ramka ${photo.n}` });
+}
+
+
+/* ===================== RAMKA NA CAŁĄ STRONĘ (wariant opcjonalny) ===================== */
+// Cała kartka to jedna kompozycja: dekoracja generowana osobno, zdjęcia wklejane programowo NAD nią.
+// Dotychczasowy wariant ramek pozostaje nietknięty — ta ścieżka jest całkowicie równoległa.
+const PAGE_TARGET = 0.90;           // cel: zdjęcia zajmują 90% kartki, reszta to grafika
+const PAGE_BAND_MAX = 0.075;        // najszerszy pas dekoracji przy krawędzi
+const PAGE_BAND_MIN = 0.015;        // najwęższy (~3 mm na A4) – gdy trzeba dociągnąć do celu
+const PAGE_FOOT_U = 62;             // pas u dołu na numer strony w jednostkach strony (pastylka 54 + odstęp)
+const PAGE_GAP = 0.022;             // odstęp między dwoma zdjęciami
+function punchInfo(S, ori) {
+  const base = S.pdfFormat.startsWith('a4') ? [210, 297] : [420, 594];
+  const mm = ori === 'landscape' ? { w: base[1], h: base[0] } : { w: base[0], h: base[1] };
+  const side = S.pdfFormat === 'a4_holes_left' ? 'left' : S.pdfFormat === 'a4_holes_top' ? 'top' : null;
+  return { side, mm: 20, page: mm };
+}
+// Proporcje okien: pojedyncze zdjęcie można położyć na boku. Kadr zostaje nietknięty, zmienia się tylko ułożenie.
+const winAspects = (page, rot) => page.photos.map(x => rot ? 1 / x.aspect : x.aspect);
+// Okna wpisane w zadany prostokąt roboczy, z zachowaniem proporcji zdjęć.
+function windowsIn(page, x0, y0, bw, bh, gap, rot) {
+  const A = winAspects(page, rot);
+  if (bw <= 0 || bh <= 0) return A.map(() => ({ x: x0, y: y0, w: 1, h: 1 }));
+  if (A.length === 1) return [fitInto(A[0], 1, x0, y0, bw, bh, 'contain')];
+  if (page.layout === 'col') {                                  // dwa zdjęcia jedno pod drugim
+    const hFit = (bh - gap) / 2, w = Math.min(bw, hFit * Math.min(A[0], A[1]));
+    const hs = A.map(a => w / a), th = hs[0] + hs[1] + gap, sc = Math.min(1, bh / th);
+    const ww = w * sc, h2 = A.map(a => ww / a), tot = h2[0] + h2[1] + gap;
+    let y = y0 + (bh - tot) / 2; const x = x0 + (bw - ww) / 2;
+    return A.map((a, i) => { const r = { x, y, w: ww, h: h2[i] }; y += h2[i] + gap; return r; });
+  }
+  const wFit = (bw - gap) / 2, h = Math.min(bh, wFit / Math.max(A[0], A[1]));   // dwa zdjęcia obok siebie
+  const ws = A.map(a => h * a), tw = ws[0] + ws[1] + gap, sc = Math.min(1, bw / tw);
+  const hh = h * sc, w2 = A.map(a => hh * a), tot = w2[0] + w2[1] + gap;
+  let x = x0 + (bw - tot) / 2; const y = y0 + (bh - hh) / 2;
+  return A.map((a, i) => { const r = { x, y, w: w2[i], h: hh }; x += w2[i] + gap; return r; });
+}
+// Okna na zdjęcia w jednostkach strony. Pasy dekoracji zwężają się tylko tam, gdzie naprawdę ograniczają
+// wielkość zdjęć — po drugiej stronie zostaje szeroki margines na ozdoby.
+function pageWindows(page, S, ori) {
+  const P = PAGE[ori], pi = punchInfo(S, ori), upm = P.w / pi.page.w;
+  const punch = pi.side ? Math.round(pi.mm * upm) : 0;
+  const gap = Math.round(Math.min(P.w, P.h) * PAGE_GAP);
+  const build = (bx, by, rot) => {
+    const px = Math.round(P.w * bx), py = Math.round(P.h * by);
+    const x0 = px + (pi.side === 'left' ? punch : 0), y0 = py + (pi.side === 'top' ? punch : 0);
+    return windowsIn(page, x0, y0, P.w - px - x0, P.h - py - PAGE_FOOT_U - y0, gap, rot);
+  };
+  const area = w => w.reduce((a, r) => a + r.w * r.h, 0) / (P.w * P.h);
+  // Kładziemy kadr na boku TYLKO wtedy, gdy realnie zyskuje powierzchnię. Kwadrat nic nie zyskuje, więc zostaje prosto.
+  const rot = page.photos.length === 1
+    && area(build(PAGE_BAND_MIN, PAGE_BAND_MIN, true)) > area(build(PAGE_BAND_MIN, PAGE_BAND_MIN, false)) * 1.02;
+  page.winRot = rot;
+  const steps = [];
+  for (let b = PAGE_BAND_MAX; b >= PAGE_BAND_MIN - 1e-9; b -= 0.002) steps.push(b);
+  const celny = steps.find(b => area(build(b, b, rot)) >= PAGE_TARGET);
+  if (celny) return build(celny, celny, rot);                      // cel osiągnięty – zostawiamy jak najszerszą dekorację
+  const aMin = area(build(PAGE_BAND_MIN, PAGE_BAND_MIN, rot));     // proporcje nie pozwalają na 90%: zdjęcia tak duże, jak się da,
+  const bx = steps.find(b => area(build(b, PAGE_BAND_MIN, rot)) >= aMin * 0.999) || PAGE_BAND_MIN;  // a wolne miejsce zostaje na grafikę
+  const aBx = area(build(bx, PAGE_BAND_MIN, rot));
+  const by = steps.find(b => area(build(bx, b, rot)) >= aBx * 0.999) || PAGE_BAND_MIN;
+  return build(bx, by, rot);
+}
+// Szablon całej kartki: biała płachta, magentowe okna i jasny pas zaznaczający margines pod dziurkacz.
+function makePageTemplate(wins, S, ori) {
+  const P = PAGE[ori], ratio = pickRatio(P.w / P.h), rv = ratioVal(ratio), LONG = 1024;
+  const W = rv >= 1 ? LONG : Math.round(LONG * rv), H = rv >= 1 ? Math.round(LONG / rv) : LONG;
+  const sx = P.w / W, sy = P.h / H;
+  const c = canvasOf(W, H), g = c.getContext('2d');
+  g.fillStyle = '#ffffff'; g.fillRect(0, 0, W, H);
+  const pi = punchInfo(S, ori), upm = P.w / pi.page.w;
+  if (pi.side) {
+    g.fillStyle = '#ededed';
+    if (pi.side === 'left') g.fillRect(0, 0, Math.round(pi.mm * upm / sx), H);
+    else g.fillRect(0, 0, W, Math.round(pi.mm * upm / sy));
+  }
+  g.fillStyle = '#ff00ff';
+  wins.forEach(r => g.fillRect(Math.round(r.x / sx), Math.round(r.y / sy), Math.round(r.w / sx), Math.round(r.h / sy)));
+  try { return { b64: c.toDataURL('image/png').split(',')[1], ratio }; } finally { c.width = c.height = 1; }
+}
+// Jak detectWindow, ale szuka kilku okien naraz i zwraca ich położenie w ułamkach obrazu.
+function detectWindows(img, want, aspects) {
+  const iw = img.width, ih = img.height, sc = Math.min(1, 720 / Math.max(iw, ih));
+  const w = Math.max(16, Math.round(iw * sc)), h = Math.max(16, Math.round(ih * sc)), N = w * h;
+  const c = canvasOf(w, h), g = c.getContext('2d', { willReadFrequently: true });
+  g.drawImage(img, 0, 0, w, h);
+  const d = g.getImageData(0, 0, w, h).data;
+  c.width = c.height = 1;
+  const key = new Uint8Array(N);
+  for (let p = 0, i = 0; p < N; p++, i += 4) {
+    const r = d[i], gg = d[i + 1], b = d[i + 2];
+    if (r > 165 && b > 165 && gg < 120 && r - gg > 85 && b - gg > 85) key[p] = 1;
+  }
+  const lab = new Int32Array(N), st = new Int32Array(N), blobs = [];
+  let id = 0;
+  for (let s0 = 0; s0 < N; s0++) {
+    if (!key[s0] || lab[s0]) continue;
+    id++; let sp = 0, area = 0, x0 = w, y0 = h, x1 = -1, y1 = -1;
+    st[sp++] = s0; lab[s0] = id;
+    while (sp) {
+      const q = st[--sp]; area++;
+      const x = q % w, y = (q / w) | 0;
+      if (x < x0) x0 = x; if (x > x1) x1 = x; if (y < y0) y0 = y; if (y > y1) y1 = y;
+      if (x > 0 && key[q - 1] && !lab[q - 1]) { lab[q - 1] = id; st[sp++] = q - 1; }
+      if (x < w - 1 && key[q + 1] && !lab[q + 1]) { lab[q + 1] = id; st[sp++] = q + 1; }
+      if (q >= w && key[q - w] && !lab[q - w]) { lab[q - w] = id; st[sp++] = q - w; }
+      if (q < N - w && key[q + w] && !lab[q + w]) { lab[q + w] = id; st[sp++] = q + w; }
+    }
+    const bw = x1 - x0 + 1, bh = y1 - y0 + 1;
+    if (area >= N * 0.02 && area / (bw * bh) >= 0.72) blobs.push({ area, x: x0, y: y0, w: bw, h: bh });
+  }
+  if (blobs.length < want) return { ok: false, why: `znaleziono ${blobs.length} z ${want} okien` };
+  blobs.sort((a, b) => b.area - a.area);
+  const picked = blobs.slice(0, want);
+  const spreadX = Math.max(...picked.map(b => b.x)) - Math.min(...picked.map(b => b.x));
+  const spreadY = Math.max(...picked.map(b => b.y)) - Math.min(...picked.map(b => b.y));
+  picked.sort((a, b) => spreadX >= spreadY ? a.x - b.x : a.y - b.y);        // kolejność zgodna z układem
+  for (let i = 0; i < want; i++) {
+    const got = picked[i].w / picked[i].h;
+    if (Math.abs(Math.log(got / aspects[i])) > 0.33) return { ok: false, why: `okno ${i + 1} zmieniło proporcje` };
+  }
+  return { ok: true, wins: picked.map(b => ({ x: b.x / w, y: b.y / h, w: b.w / w, h: b.h / h })) };
+}
+// Dekoracja do zapisania: magentowe okna zamalowane na biało, żeby żaden ich piksel nie trafił na wydruk.
+async function packPageDeco(raw, wins) {
+  const LONG = 4096, sc = Math.min(1, LONG / Math.max(raw.width, raw.height));
+  const W = Math.round(raw.width * sc), H = Math.round(raw.height * sc);
+  const c = canvasOf(W, H), g = c.getContext('2d');
+  g.imageSmoothingQuality = 'high'; g.drawImage(raw, 0, 0, W, H);
+  g.fillStyle = '#ffffff';
+  wins.forEach(r => g.fillRect(Math.floor(r.x * W) - 1, Math.floor(r.y * H) - 1, Math.ceil(r.w * W) + 2, Math.ceil(r.h * H) + 2));
+  try { return { blob: await toBlob(c, 'image/jpeg', 0.94), thumb: await canvasThumbBlob(c), w: W, h: H }; }
+  finally { c.width = c.height = 1; }
+}
+function setDeco(page, f) {
+  if (page.deco) { if (page.deco.url) URL.revokeObjectURL(page.deco.url); if (page.deco.thumbUrl) URL.revokeObjectURL(page.deco.thumbUrl); }
+  dropBmp('d' + page.id);
+  page.deco = Object.assign({}, f, { url: URL.createObjectURL(f.blob), thumbUrl: f.thumb ? URL.createObjectURL(f.thumb) : null });
+}
+// Zapas bez AI: spokojna ramka w kolorze motywu, zdjęcia nadal w pełni widoczne.
+async function makeLocalPageDeco(page, S) {
+  const ori = layoutState.orientation, P = PAGE[ori], sc = 2.2;
+  const c = canvasOf(Math.round(P.w * sc), Math.round(P.h * sc)), g = c.getContext('2d');
+  const meta = THEME_META[S.category] || THEME_META.custom;
+  g.fillStyle = '#ffffff'; g.fillRect(0, 0, c.width, c.height);
+  const band = Math.min(c.width, c.height) * PAGE_BAND_MAX;
+  g.strokeStyle = meta.c; g.lineWidth = band * 0.42;
+  rrectPath(g, band * 0.45, band * 0.45, c.width - band * 0.9, c.height - band * 0.9, band * 0.5); g.stroke();
+  g.globalAlpha = 0.5; g.font = `${Math.round(band * 0.8)}px ${FONT}`; g.textAlign = 'center'; g.textBaseline = 'middle';
+  [[band * 0.5, band * 0.5], [c.width - band * 0.5, band * 0.5], [band * 0.5, c.height - band * 0.5], [c.width - band * 0.5, c.height - band * 0.5]]
+    .forEach(([x, y]) => g.fillText(meta.e, x, y));
+  g.globalAlpha = 1;
+  try { setDeco(page, { blob: await toBlob(c, 'image/jpeg', 0.92), thumb: await canvasThumbBlob(c), w: c.width, h: c.height, kind: 'local', model: 'lokalna', wins: page.wins.map(r => ({ x: r.x / P.w, y: r.y / P.h, w: r.w / P.w, h: r.h / P.h })) }); }
+  finally { c.width = c.height = 1; }
+}
+async function genPageDeco(page, S, signal) {
+  const tpl = makePageTemplate(page.wins, S, layoutState.orientation);
+  const ori = layoutState.orientation, P = PAGE[ori], w = page.wins;
+  const pas = {                                               // wolne pasy w procentach kartki – model wie, gdzie ma miejsce
+    lewy: Math.round(Math.min(...w.map(r => r.x)) / P.w * 100),
+    prawy: Math.round((1 - Math.max(...w.map(r => r.x + r.w)) / P.w) * 100),
+    gorny: Math.round(Math.min(...w.map(r => r.y)) / P.h * 100),
+    dolny: Math.round((1 - Math.max(...w.map(r => r.y + r.h)) / P.h) * 100)
+  };
+  const prompt = promptPageFrame({
+    theme: page.day.theme, subject: page.plan.subject, pose: page.plan.pose,
+    interaction: interactionRule(page.day.theme, page.plan.subject),
+    count: page.photos.length, punch: punchInfo(S, ori).side, ori, pas
+  });
+  return genImage({ parts: [{ text: prompt }, { inlineData: { mimeType: 'image/png', data: tpl.b64 } }], ratio: tpl.ratio, size: S.imageSize, S, signal, tag: `Strona ${page.tag}` });
+}
+// Czy zapamiętane okna odpowiadają obecnemu układowi? Chroni przed dekoracją z wcześniejszej wersji aplikacji.
+function winsMatch(wins, page) {
+  if (!Array.isArray(wins) || wins.length !== page.photos.length) return false;
+  const P = PAGE[layoutState.orientation], k = P.w / P.h;        // okna zapisane są w ułamkach obrazu – przeliczamy na proporcje strony
+  const chce = winAspects(page, page.winRot);
+  return wins.every((r, i) => r && r.h > 0 && Math.abs(Math.log((r.w / r.h * k) / chce[i])) < 0.33);
+}
+async function pageFrameTask(page, S, signal, tile) {
+  tile.set('run');
+  const aspects = winAspects(page, page.winRot);
+  let done = null, lastErr = null;
+  for (let a = 1; a <= 3 && !done; a++) {
+    try {
+      if (a === 1 && S.useCache !== false) {
+        const hit = await cacheGet(cacheKeyPage(page, S));
+        if (hit && hit.blob && !winsMatch(hit.wins, page)) log(`Strona ${page.tag}: zapamiętana dekoracja ma inny układ okien – generuję nową`, 'warn');
+        else if (hit && hit.blob) {
+          setDeco(page, { blob: hit.blob, thumb: hit.thumb, w: hit.w, h: hit.h, kind: 'ai', model: hit.model, wins: hit.wins });
+          tile.set('ok', { url: page.deco.thumbUrl || page.deco.url, tag: 'z pamięci' });
+          log(`Strona ${page.tag}: dekoracja z pamięci urządzenia (bez zapytania)`);
+          return;
+        }
+      }
+      const Sa = a === 3 ? Object.assign({}, S, { imageSize: downSize(S.imageSize) }) : S;
+      const gen = await genPageDeco(page, Sa, signal);
+      const raw = await createImageBitmap(b64ToBlob(gen.b64, gen.mime));
+      try {
+        const det = detectWindows(raw, page.photos.length, aspects);
+        if (!det.ok) { lastErr = new Error(det.why); log(`Strona ${page.tag}: ${det.why} (próba ${a}/3)`, 'warn'); continue; }
+        done = await oneAtATime(() => packPageDeco(raw, det.wins));
+        done.wins = det.wins; done.model = gen.model;
+      } finally { if (raw.close) raw.close(); }
+    } catch (e) {
+      if (e.name === 'AbortError') throw e;
+      lastErr = e; log(`Strona ${page.tag}: ${e.message}`, 'error');
+      if (e.fatal || e.blocked) break;
+    }
+  }
+  if (done) {
+    setDeco(page, Object.assign({ kind: 'ai' }, done));
+    cachePut(cacheKeyPage(page, S), { blob: done.blob, thumb: done.thumb, w: done.w, h: done.h, model: done.model, wins: done.wins });
+    tile.set('ok', { url: page.deco.thumbUrl || page.deco.url, tag: (IMAGE_MODELS[done.model] || {}).short || done.model, model: done.model });
+  } else {
+    await makeLocalPageDeco(page, S);
+    tile.set('err', { url: page.deco.thumbUrl || page.deco.url, tag: 'lokalna', msg: lastErr ? lastErr.message : 'błąd' });
+    if (lastErr && lastErr.fatal) throw lastErr;
+  }
+}
+
+async function frameTask(photo, S, signal, tile) {
+  tile.set('run');
+  let done = null, lastErr = null;
+  const tries = S.frameMode === 'safe' ? 3 : 2;
+  for (let a = 1; a <= tries && !done; a++) {
+    try {
+      if (a === 1 && S.useCache !== false) {                    // gotowa ramka z wcześniejszej sesji: zero zapytań
+        const hit = await cacheGet(cacheKey(photo, S));
+        if (hit && hit.blob) {
+          setFrame(photo, { blob: hit.blob, thumb: hit.thumb, w: hit.w, h: hit.h, kind: 'ai', model: hit.model });
+          tile.set('ok', { url: photo.frame.thumbUrl || photo.frame.url, tag: 'z pamięci' });
+          log(`Ramka ${photo.n}: wzięta z pamięci urządzenia (bez zapytania)`);
+          return;
+        }
+      }
+      const Sa = (a > 1 && a === tries) ? Object.assign({}, S, { imageSize: downSize(S.imageSize) }) : S;   // ostatnia próba: niższa rozdzielczość
+      if (Sa !== S && Sa.imageSize !== S.imageSize) log(`Ramka ${photo.n}: ostatnia próba w ${Sa.imageSize}`, 'warn');
+      const gen = await genFrameImage(photo, Sa, signal);
+      const raw = await createImageBitmap(b64ToBlob(gen.b64, gen.mime));
+      try {
+        if (S.frameMode === 'safe') {
+          const det = detectWindow(raw, photo.aspect);
+          if (!det.ok) { lastErr = new Error(det.why); log(`Ramka ${photo.n}: ${det.why} (próba ${a}/${tries})`, 'warn'); continue; }
+          const chce = templateGeom(photo.ratio, photo.aspect, Sa.windowPct, 1024);   // czy model nie zmniejszył okna?
+          const oczek = chce.w * chce.h / (chce.W * chce.H), mamy = det.bbox.w * det.bbox.h / (raw.width * raw.height);
+          if (mamy < oczek * 0.8) log(`Ramka ${photo.n}: model zmniejszył okno — zdjęcie zajmie ${Math.round(mamy * 100)}% kadru zamiast ${Math.round(oczek * 100)}%. Możesz powtórzyć tę ramkę przyciskiem ⟳.`, 'warn');
+          done = await oneAtATime(() => composeSafe(photo, raw, det));
+        } else done = await oneAtATime(() => packFull(raw));
+        done.model = gen.model;
+      } finally { if (raw.close) raw.close(); }
+    } catch (e) {
+      if (e.name === 'AbortError') throw e;
+      lastErr = e; log(`Ramka ${photo.n}: ${e.message}`, 'error');
+      if (e.fatal || e.blocked) break;
+    }
+  }
+  if (done) {
+    setFrame(photo, { blob: done.blob, thumb: done.thumb, w: done.w, h: done.h, kind: 'ai', model: done.model });
+    cachePut(cacheKey(photo, S), { blob: done.blob, thumb: done.thumb, w: done.w, h: done.h, model: done.model });   // zapis w tle
+    tile.set('ok', { url: photo.frame.thumbUrl || photo.frame.url, tag: (IMAGE_MODELS[done.model] || {}).short || done.model, model: done.model });
+  } else {
+    await makeLocalFrame(photo, S);
+    tile.set('err', { url: photo.frame.thumbUrl || photo.frame.url, tag: 'lokalna', msg: lastErr ? lastErr.message : 'błąd' });
+    if (lastErr && lastErr.fatal) throw lastErr;
+  }
+}
+
+async function stampTask(photo, day, S, signal, tile) {
+  tile.set('run');
+  const theme = String(day.theme).replace(/^\d+\.\s*/, '');
+  const img = await genImage({ parts: [{ text: stampPrompt(photo.timeStr, theme) }], ratio: '1:1', size: '1K', S, signal, tag: `Znacznik ${photo.timeStr}` });
+  const blob = await normalizeToJpeg(img.b64, img.mime, 0.9);
+  if (photo.stamp && photo.stamp.url) URL.revokeObjectURL(photo.stamp.url);
+  dropBmp('s' + photo.id);
+  photo.stamp = { blob, url: URL.createObjectURL(blob), rot: Math.random() > 0.5 ? -4 : 4 };
+  tile.set('ok', { url: photo.stamp.url, tag: photo.timeStr });
+}
+
+/* ===================== 7. OPOWIEŚCI I OKŁADKI ===================== */
+const STORY_FALLBACK = 'Nie udało się wygenerować opowieści tego dnia. Użyj przycisku „Ponów opowieść dnia” pod tą stroną albo spróbuj za chwilę.';
+
+function sampleEvenly(arr, n) {
+  if (arr.length <= n) return arr.slice();
+  const out = [];
+  for (let i = 0; i < n; i++) out.push(arr[Math.round(i * (arr.length - 1) / (n - 1))]);
+  return out;
+}
+// Do opowieści wysyłamy najwyżej 24 zdjęcia z dnia w małym rozmiarze (limit rozmiaru żądania API).
+async function genStory(day, S, signal) {
+  const sample = sampleEvenly(day.photos, 24);
+  const parts = [{ text: storyPrompt(day, S, sample) }];
+  for (const p of sample) parts.push({ inlineData: { mimeType: 'image/jpeg', data: await fileToJpegB64(p.file, 640, 0.75) } });
+  return genText({ parts, signal, tag: `Opowieść dnia ${day.index}` });
+}
+// Dzieli opowieść na strony po zdaniach; nic nie ginie (nadmiar trafia na ostatnią stronę).
+function chunkStory(text, maxPages) {
+  const sentences = text.match(/[^.!?]+[.!?]+["”»)]*\s*/g) || [text];
+  const used = sentences.join('').length;
+  if (used < text.length) sentences.push(text.slice(used));
+  const maxChars = Math.max(550, Math.ceil(text.length / maxPages) + 80);
+  const chunks = []; let cur = '';
+  for (const s of sentences) {
+    if (cur.length + s.length > maxChars && cur.trim()) { chunks.push(cur.trim()); cur = s; } else cur += s;
+  }
+  if (cur.trim()) chunks.push(cur.trim());
+  while (chunks.length > maxPages) { const last = chunks.pop(); chunks[chunks.length - 1] += '\n' + last; }
+  return chunks.length ? chunks : [text.trim()];
+}
+function setCovers(day, texts) {
+  (day.covers || []).forEach(c => { if (c.url) URL.revokeObjectURL(c.url); if (c.thumbUrl) URL.revokeObjectURL(c.thumbUrl); });
+  day.chunks = texts;
+  day.covers = texts.map(t => ({ text: t, blob: null, url: null, model: null }));
+}
+async function storyTask(day, S, signal, tile) {
+  tile.set('run');
+  try {
+    const raw = await genStory(day, S, signal);
+    day.storyText = formatPolishText(raw);
+    day.storyFailed = false;
+    setCovers(day, chunkStory(day.storyText, S.storyPages));
+    tile.set('ok', { tag: 'opowieść' });
+  } catch (e) {
+    if (e.name === 'AbortError') throw e;
+    day.storyText = ''; day.storyFailed = true;
+    setCovers(day, [STORY_FALLBACK]);
+    tile.set('err', { msg: e.message });
+    throw e;
+  }
+}
+async function coverTask(day, cv, S, signal, tile) {
+  tile.set('run');
+  const ratio = layoutState.orientation === 'portrait' ? '4:3' : '3:4';
+  const parts = [{ text: coverPrompt(cv.text, S, ratio, refImages.length) }];
+  refImages.forEach(r => parts.push({ inlineData: { mimeType: 'image/jpeg', data: r.b64 } }));
+  const img = await genImage({ parts, ratio, size: S.imageSize, S, signal, tag: `Okładka dnia ${day.index}` });
+  const blob = await normalizeToJpeg(img.b64, img.mime, 0.9);
+  if (cv.url) URL.revokeObjectURL(cv.url);
+  if (cv.thumbUrl) URL.revokeObjectURL(cv.thumbUrl);
+  dropBmp('c' + cv.url);
+  cv.blob = blob; cv.url = URL.createObjectURL(blob); cv.model = img.model;
+  cv.thumbUrl = URL.createObjectURL(await thumbOfBlob(blob));
+  tile.set('ok', { url: cv.thumbUrl, tag: (IMAGE_MODELS[img.model] || {}).short || img.model, model: img.model });
+}
+
+
+/* ===================== 8. UKŁAD I RYSOWANIE STRON ===================== */
+// Miejsce zdjęcia na stronie (jednostki bazowe 1190×1684 / 1684×1190, jak w oryginale).
+// mw/mh = wymiary modułu przed obrotem; rotate = zdjęcie o innej orientacji niż strona obracamy o 90°.
+function slotGeom(pageOri, layout, idx, photo) {
+  const P = PAGE[pageOri], portrait = pageOri === 'portrait';
+  if (layout === 'row') {
+    return portrait ? { x: 35 + idx * 570, y: 32, w: 550, h: 1620, rotate: false, mw: 550, mh: 1620 }
+      : { x: 32 + idx * 820, y: 35, w: 800, h: 1120, rotate: false, mw: 800, mh: 1120 };
+  }
+  if (layout === 'col') {
+    return portrait ? { x: 35, y: 32 + idx * 820, w: 1120, h: 800, rotate: false, mw: 1120, mh: 800 }
+      : { x: 32, y: 35 + idx * 585, w: 1620, h: 550, rotate: false, mw: 1620, mh: 550 };
+  }
+  const vw = portrait ? 1120 : 1620, vh = portrait ? 1620 : 1120;
+  const rotate = photo.orientation !== pageOri;
+  return { x: (P.w - vw) / 2, y: (P.h - vh) / 2, w: vw, h: vh, rotate, mw: rotate ? vh : vw, mh: rotate ? vw : vh };
+}
+
+function resetResults() {
+  photos.forEach(p => {
+    if (p.frame && p.frame.url) URL.revokeObjectURL(p.frame.url);
+    if (p.frame && p.frame.thumbUrl) URL.revokeObjectURL(p.frame.thumbUrl);
+    if (p.stamp && p.stamp.url) URL.revokeObjectURL(p.stamp.url);
+    dropBmp('f' + p.id); dropBmp('s' + p.id); p.frame = null; p.stamp = null;
+  });
+  days.forEach(d => (d.matrix || []).forEach(pg => {
+    if (pg.deco) { if (pg.deco.url) URL.revokeObjectURL(pg.deco.url); if (pg.deco.thumbUrl) URL.revokeObjectURL(pg.deco.thumbUrl); }
+    dropBmp('d' + pg.id); pg.deco = null;
+  }));
+  photos.forEach(p => dropBmp('p' + p.id));
+  days.forEach(d => (d.covers || []).forEach(c => { if (c.url) { URL.revokeObjectURL(c.url); dropBmp('c' + c.url); } if (c.thumbUrl) URL.revokeObjectURL(c.thumbUrl); }));
+  pdfBlob = null;
+}
+
+// Dzieli zdjęcia na dni, układa strony i losuje postać/pozę dla każdego zdjęcia (bez powtórek).
+function planLayout(S) {
+  resetResults();
+  layoutState = { orientation: S.orientation, layoutMode: S.layoutMode, frameStyle: S.frameStyle, punch: punchInfo(S, S.orientation) };
+  const map = new Map();
+  photos.forEach(p => { if (!map.has(p.dateStr)) map.set(p.dateStr, []); map.get(p.dateStr).push(p); });
+  const subjects = new Deck(() => subjectPool(S)), poses = new Deck(() => [...ALL_POSES]);
+  days = []; let di = 1, n = 0;
+  for (const [key, list] of map) {
+    const day = { index: di, key, photos: list, theme: themeForDay(S, di), matrix: [], covers: [], chunks: [], storyText: '', storyFailed: false };
+    let i = 0;
+    while (i < list.length) {
+      const a = list[i], b = list[i + 1];
+      let layout = 'single';
+      if (b && S.layoutMode === 'classic' && a.orientation === 'portrait' && b.orientation === 'portrait') layout = 'row';
+      else if (b && S.layoutMode === 'smart') {
+        if (S.orientation === 'portrait' && a.orientation === 'landscape' && b.orientation === 'landscape') layout = 'col';
+        else if (S.orientation === 'landscape' && a.orientation === 'portrait' && b.orientation === 'portrait') layout = 'row';
+      }
+      const arr = layout === 'single' ? [a] : [a, b];
+      const pg = { type: 'matrix', day, photos: arr, layout, style: S.frameStyle === 'page' ? 'page' : 'classic' };
+      day.matrix.push(pg);
+      arr.forEach((p, idx) => { p.slot = slotGeom(S.orientation, layout, idx, p); p.ratio = pickRatio(p.slot.mw / p.slot.mh); });
+      if (pg.style === 'page') {                                  // kompozycja obejmująca całą kartkę
+        pg.id = `${di}-${day.matrix.length}`;
+        pg.tag = `${di}.${day.matrix.length}`;
+        pg.wins = pageWindows(pg, S, S.orientation);
+      }
+      i += arr.length;
+    }
+    list.forEach((p, k) => {
+      p.n = ++n; p.dayIdx = di; p.idxInDay = k;
+      const subject = S.animal === 'random' ? subjects.draw()
+        : S.animal === 'internet' ? 'INTERNET: Wyszukaj obiekt pasujący do: ' + day.theme : S.animal;
+      p.plan = { theme: day.theme, subject, pose: S.pose === 'random' ? poses.draw() : S.pose };
+    });
+    day.matrix.forEach(pg => { if (pg.style === 'page') pg.plan = pg.photos[0].plan; });
+    days.push(day); di++;
+  }
+}
+function replanPhoto(photo, S) {
+  const day = days.find(d => d.index === photo.dayIdx);
+  let subject = S.animal;
+  if (S.animal === 'random') subject = shuffle(subjectPool(S)).find(x => x !== photo.plan.subject) || photo.plan.subject;
+  else if (S.animal === 'internet') subject = 'INTERNET: Wyszukaj obiekt pasujący do: ' + day.theme;
+  const pose = S.pose === 'random' ? (shuffle([...ALL_POSES]).find(x => x !== photo.plan.pose) || photo.plan.pose) : S.pose;
+  photo.plan = { theme: day.theme, subject, pose };
+}
+const wantsStamp = (p, S) => S.stampEvery > 0 && !!p.timeStr && p.idxInDay % S.stampEvery === 0;
+
+function buildPages(S) {
+  pages = [];
+  days.forEach(day => {
+    if (S.doStory) day.covers.forEach((cv, ci) => pages.push({ type: 'cover', day, cover: cv, chunkIdx: ci }));
+    day.matrix.forEach(pg => pages.push(pg));
+  });
+  pages.forEach((p, i) => { p.no = i + 1; p.total = pages.length; });
+}
+
+/* ---------- rysowanie (Canvas 2D; wszystko w jednostkach bazowych, skala k) ---------- */
+// Cień w canvasie nie skaluje się z transformacją, więc mnożymy go przez k ręcznie.
+function shadowOn(g, k, blur, dy, alpha) { g.shadowColor = `rgba(0,0,0,${alpha})`; g.shadowBlur = blur * k; g.shadowOffsetX = 0; g.shadowOffsetY = dy * k; }
+function shadowOff(g) { g.shadowColor = 'transparent'; g.shadowBlur = 0; g.shadowOffsetY = 0; }
+
+// Zawijanie tekstu; null = odstęp między akapitami. Nie łamie po niełamliwej spacji.
+function wrapLines(g, text, maxW) {
+  const lines = [], paras = text.split(/\n+/);
+  paras.forEach((para, pi) => {
+    let cur = '';
+    for (const word of para.split(' ')) {
+      const test = cur ? cur + ' ' + word : word;
+      if (cur && g.measureText(test).width > maxW) { lines.push(cur); cur = word; } else cur = test;
+    }
+    lines.push(cur);
+    if (pi < paras.length - 1) lines.push(null);
+  });
+  return lines;
+}
+// Zmniejsza czcionkę tak, aby tekst zawsze mieścił się w ramce (oryginał ucinał końcówki).
+function fitText(g, text, maxW, maxH, startPx, minPx, lh) {
+  for (let px = startPx; px >= minPx; px--) {
+    g.font = `600 ${px}px ${FONT}`;
+    const lines = wrapLines(g, text, maxW);
+    if (lines.reduce((s, l) => s + (l === null ? 0.45 : 1), 0) * px * lh <= maxH) return { px, lines };
+  }
+  g.font = `600 ${minPx}px ${FONT}`;
+  return { px: minPx, lines: wrapLines(g, text, maxW) };
+}
+function drawTextCard(g, k, text, x, y, w, h, startPx, minPx) {
+  g.save();
+  shadowOn(g, k, 30, 10, 0.07); rrectPath(g, x, y, w, h, 20); g.fillStyle = '#ffffff'; g.fill(); shadowOff(g);
+  const pad = 40, lh = 1.8, fit = fitText(g, text, w - 2 * pad, h - 2 * pad, startPx, minPx, lh);
+  g.font = `600 ${fit.px}px ${FONT}`; g.fillStyle = '#1f2937'; g.textAlign = 'left'; g.textBaseline = 'top';
+  let ty = y + pad;
+  for (const line of fit.lines) { if (line === null) { ty += fit.px * lh * 0.45; continue; } g.fillText(line, x + pad, ty); ty += fit.px * lh; }
+  g.restore();
+}
+async function drawIllustration(g, k, cv, x, y, w, h, getBmp) {
+  g.save();
+  shadowOn(g, k, 40, 20, 0.16); rrectPath(g, x, y, w, h, 20); g.fillStyle = '#ffffff'; g.fill(); shadowOff(g);
+  g.lineWidth = 5; g.strokeStyle = '#e5e7eb'; rrectPath(g, x + 2.5, y + 2.5, w - 5, h - 5, 18); g.stroke();
+  rrectPath(g, x + 5, y + 5, w - 10, h - 10, 16); g.clip();
+  const bmp = cv.blob ? await getBmp('c' + cv.url, cv.blob, Math.ceil(w * k)) : null;
+  if (bmp) { const r = fitInto(bmp.width, bmp.height, x + 5, y + 5, w - 10, h - 10, 'contain'); g.drawImage(bmp, r.x, r.y, r.w, r.h); }
+  else { g.fillStyle = '#a4b0be'; g.font = `700 24px ${FONT}`; g.textAlign = 'center'; g.textBaseline = 'middle'; g.fillText('Brak ilustracji', x + w / 2, y + h / 2); }
+  g.restore();
+}
+async function drawCover(g, page, k, ori, getBmp) {
+  const P = PAGE[ori], day = page.day, cv = page.cover;
+  const dateLabel = fmtDate(day.key) + (page.chunkIdx > 0 ? ' (ciąg dalszy)' : '');
+  g.textBaseline = 'top';
+  if (ori === 'portrait') {
+    g.textAlign = 'center';
+    g.fillStyle = '#8b5cf6'; g.font = `800 70px ${FONT}`; g.fillText(`DZIEŃ ${day.index}`, P.w / 2, 80);
+    g.fillStyle = '#6b7280'; g.font = `700 35px ${FONT}`; g.fillText(dateLabel, P.w / 2, 190);
+    await drawIllustration(g, k, cv, 95, 250, 1000, 750, getBmp);
+    drawTextCard(g, k, cv.text, 95, 1050, 1000, 500, 30, 20);
+  } else {
+    g.textAlign = 'left';
+    g.fillStyle = '#8b5cf6'; g.font = `800 80px ${FONT}`; g.fillText(`DZIEŃ ${day.index}`, 80, 80);
+    g.fillStyle = '#6b7280'; g.font = `700 40px ${FONT}`; g.fillText(dateLabel, 80, 190);
+    drawTextCard(g, k, cv.text, 80, 275, 750, 815, 28, 19);
+    await drawIllustration(g, k, cv, 854, 80, 750, 980, getBmp);
+  }
+}
+async function drawStamp(g, k, photo, r, getBmp) {                     // znacznik godziny: karta w prawym górnym rogu ramki
+  const bmp = await getBmp('s' + photo.id, photo.stamp.blob, Math.ceil(150 * k));
+  g.save();
+  g.translate(r.x + r.w - 40, r.y + 110); g.rotate((photo.stamp.rot || 4) * Math.PI / 180);
+  shadowOn(g, k, 35, 15, 0.25); rrectPath(g, -80, -80, 160, 160, 12); g.fillStyle = '#ffffff'; g.fill(); shadowOff(g);
+  g.lineWidth = 2; g.strokeStyle = '#e5e7eb'; g.stroke();
+  rrectPath(g, -72, -72, 144, 144, 8); g.clip();
+  const c = fitInto(bmp.width, bmp.height, -72, -72, 144, 144, 'cover'); g.drawImage(bmp, c.x, c.y, c.w, c.h);
+  g.restore();
+}
+
+// Rysowanie kompozycji całostronicowej: dekoracja pod spodem, oryginalne zdjęcia nad nią.
+// Przy druku z dziurkami parzyste strony dostają dekorację odbitą w poziomie (albo w pionie),
+// żeby spokojny margines wypadł po właściwej stronie — zdjęcia i teksty nigdy nie są odbijane.
+async function drawPageFrame(g, page, k, ori, getBmp) {
+  const P = PAGE[ori], deco = page.deco;
+  const side = (layoutState.punch || {}).side;
+  const flipX = side === 'left' && page.no % 2 === 0, flipY = side === 'top' && page.no % 2 === 0;
+  const wins = (deco && deco.wins && deco.wins.length === page.photos.length)
+    ? deco.wins.map(r => ({ x: r.x * P.w, y: r.y * P.h, w: r.w * P.w, h: r.h * P.h }))
+    : page.wins;
+  const rects = wins.map(r => flipX ? { x: P.w - r.x - r.w, y: r.y, w: r.w, h: r.h }
+    : flipY ? { x: r.x, y: P.h - r.y - r.h, w: r.w, h: r.h } : r);
+  if (rects.length > 1) {                                     // odbicie zamienia okna miejscami wzdłuż jednej osi
+    const dx = Math.abs(wins[0].x - wins[1].x), dy = Math.abs(wins[0].y - wins[1].y);
+    const poziomo = dx >= dy;                                 // czy okna stoją obok siebie, czy jedno pod drugim
+    if ((flipX && poziomo) || (flipY && !poziomo)) rects.reverse();   // kolejność czytania zostaje bez zmian
+  }
+  if (deco && deco.blob) {
+    const bmp = await getBmp('d' + page.id, deco.blob, Math.ceil(P.w * k));
+    g.save();
+    if (flipX) { g.translate(P.w, 0); g.scale(-1, 1); }
+    if (flipY) { g.translate(0, P.h); g.scale(1, -1); }
+    g.drawImage(bmp, 0, 0, P.w, P.h);
+    g.restore();
+  } else { g.fillStyle = '#ffffff'; g.fillRect(0, 0, P.w, P.h); }
+  for (let i = 0; i < page.photos.length; i++) {
+    const photo = page.photos[i], box = rects[i];
+    g.save();                                               // cień pod kadrem – zdjęcie czytelnie na pierwszym planie
+    shadowOn(g, k, 26, 10, 0.32);
+    g.fillStyle = '#ffffff'; g.fillRect(box.x - 1, box.y - 1, box.w + 2, box.h + 2);
+    g.restore();
+    const bmp = await getBmp('p' + photo.id, photo.file, Math.ceil(Math.max(box.w, box.h) * k));
+    g.save();
+    if (page.winRot) { g.translate(box.x + box.w / 2, box.y + box.h / 2); g.rotate(-Math.PI / 2); }   // kadr położony na boku
+    const pole = page.winRot ? { x: -box.h / 2, y: -box.w / 2, w: box.h, h: box.w } : box;
+    const r = fitInto(bmp.width, bmp.height, pole.x, pole.y, pole.w, pole.h, 'contain');   // całe zdjęcie widoczne
+    g.drawImage(bmp, r.x, r.y, r.w, r.h);
+    if (photo.stamp && photo.stamp.blob) await drawStamp(g, k, photo, r, getBmp);
+    g.restore();
+  }
+}
+
+async function drawMatrix(g, page, k, ori, getBmp) {
+  for (const photo of page.photos) {
+    const sl = photo.slot;
+    g.save();
+    g.translate(sl.x + sl.w / 2, sl.y + sl.h / 2);
+    if (sl.rotate) g.rotate(-Math.PI / 2);
+    let r = { x: -sl.mw / 2, y: -sl.mh / 2, w: sl.mw, h: sl.mh };
+    const bmp = photo.frame && photo.frame.blob ? await getBmp('f' + photo.id, photo.frame.blob, Math.ceil(sl.mw * k)) : null;
+    if (bmp) { r = fitInto(bmp.width, bmp.height, r.x, r.y, r.w, r.h, 'contain'); g.drawImage(bmp, r.x, r.y, r.w, r.h); }
+    else { g.fillStyle = '#f3f4f6'; g.fillRect(r.x, r.y, r.w, r.h); g.fillStyle = '#a4b0be'; g.font = `800 34px ${FONT}`; g.textAlign = 'center'; g.textBaseline = 'middle'; g.fillText('Brak ramki', 0, 0); }
+    if (photo.stamp && photo.stamp.blob) await drawStamp(g, k, photo, r, getBmp);
+    g.restore();
+  }
+}
+function drawPill(g, k, P, text, compact) {
+  g.save();
+  g.font = `800 ${compact ? 19 : 24}px ${FONT}`; g.textAlign = 'center'; g.textBaseline = 'middle';
+  const w = g.measureText(text).width + (compact ? 34 : 50), h = compact ? 40 : 54;
+  const x = (P.w - w) / 2, y = P.h - (compact ? 14 : 30) - h;
+  shadowOn(g, k, 20, 10, 0.3); rrectPath(g, x, y, w, h, 20); g.fillStyle = '#8b5cf6'; g.fill(); shadowOff(g);
+  g.lineWidth = 3; g.strokeStyle = '#ffffff'; g.stroke();
+  g.fillStyle = '#ffffff'; g.fillText(text, P.w / 2, y + h / 2 + 1);
+  g.restore();
+}
+let fontsReady = null;
+function ensureFonts() {
+  if (!fontsReady) fontsReady = (document.fonts && document.fonts.load
+    ? Promise.all(['800 70px Nunito', '700 35px Nunito', '600 30px Nunito'].map(f => document.fonts.load(f, 'ĄĆĘŁŃÓŚŹŻ')))
+    : Promise.resolve()).catch(() => { });
+  return fontsReady;
+}
+// strip = { y0, h } (w pikselach rastra): rysuje tylko wycinek strony. Cała reszta układu jest liczona identycznie,
+// więc sąsiednie paski łączą się bez szwu, a pamięć zależy od wysokości paska, nie od rozmiaru strony.
+async function renderPage(page, canvas, pxW, getBmp, strip, bleedFrac) {
+  await ensureFonts();
+  const ori = layoutState.orientation, P = PAGE[ori];
+  const bf = bleedFrac || 0, k = pxW * (1 - 2 * bf) / P.w, off = pxW * bf;   // bf: ułamek szerokości zajęty przez spad
+  const fullH = Math.round(P.h * k + 2 * off), y0 = strip ? strip.y0 : 0, h = strip ? strip.h : fullH;
+  canvas.width = Math.round(pxW); canvas.height = h;
+  const g = canvas.getContext('2d');
+  if (!g) throw new Error('przeglądarka odmówiła utworzenia płótna');
+  g.fillStyle = '#ffffff'; g.fillRect(0, 0, canvas.width, canvas.height);
+  g.setTransform(k, 0, 0, k, off, off - y0); g.imageSmoothingEnabled = true; g.imageSmoothingQuality = 'high';
+  if (page.type === 'cover') await drawCover(g, page, k, ori, getBmp);
+  else if (page.style === 'page') await drawPageFrame(g, page, k, ori, getBmp);
+  else await drawMatrix(g, page, k, ori, getBmp);
+  drawPill(g, k, P, `Strona ${page.no} z ${page.total}`, page.style === 'page');
+}
+// Podgląd na ekranie: jedna strona naraz (kolejka), wynik jako mały JPEG.
+let renderChain = Promise.resolve();
+function renderPreview(page, img) {
+  renderChain = renderChain.then(async () => {
+    try {
+      const c = canvasOf(2, 2);
+      await renderPage(page, c, layoutState.orientation === 'portrait' ? 1000 : 1400, (key, blob, maxW) => cachedBitmap(key, blob, maxW));
+      const blob = await toBlob(c, 'image/jpeg', 0.86);
+      c.width = c.height = 1;
+      if (img.dataset.url) URL.revokeObjectURL(img.dataset.url);
+      img.dataset.url = URL.createObjectURL(blob); img.src = img.dataset.url;
+      const ph = img.parentElement.querySelector('.ph'); if (ph) ph.remove();
+    } catch (e) { log(`Podgląd strony ${page.no}: ${e.message}`, 'error'); }
+  });
+  return renderChain;
+}
+
+/* ===================== 9. PDF (własny zapis, bez bibliotek) ===================== */
+const pf = n => (Math.round(n * 1000) / 1000).toString();
+// items: [{ strips:[{jpeg:Blob, iw, ih, y0, y1}], fullH, pw, ph, x, y, w, h }] – wymiary w punktach (pt), x/y od lewego górnego rogu.
+// Strona może składać się z kilku pasków-obrazów ułożonych jeden pod drugim (dzięki temu nie ma limitu wielkości płótna).
+function buildPdf(items) {
+  const enc = new TextEncoder(), parts = [], offs = [];
+  let pos = 0;
+  const push = x => { const b = typeof x === 'string' ? enc.encode(x) : x; parts.push(b); pos += (b.size !== undefined ? b.size : b.length); };
+  push(new Uint8Array([0x25, 0x50, 0x44, 0x46, 0x2D, 0x31, 0x2E, 0x34, 0x0A, 0x25, 0xE2, 0xE3, 0xCF, 0xD3, 0x0A]));
+  let next = 3;
+  items.forEach(it => { it.no = next++; it.ct = next++; it.im = it.strips.map(() => next++); });
+  const obj = (n, body) => { offs[n] = pos; push(`${n} 0 obj\n${body}\nendobj\n`); };
+  obj(1, '<< /Type /Catalog /Pages 2 0 R >>');
+  obj(2, `<< /Type /Pages /Kids [${items.map(it => `${it.no} 0 R`).join(' ')}] /Count ${items.length} >>`);
+  items.forEach(it => {
+    obj(it.no, `<< /Type /Page /Parent 2 0 R /MediaBox [0 0 ${pf(it.pw)} ${pf(it.ph)}] /Resources << /XObject << ${it.strips.map((_, j) => `/Im${j} ${it.im[j]} 0 R`).join(' ')} >> >> /Contents ${it.ct} 0 R >>`);
+    let cs = '';
+    it.strips.forEach((st, j) => {                        // pasek zajmuje wiersze [y0, y1) rastra; pozycje liczone z jednej skali, bez kumulacji błędu
+      const top = it.y + st.y0 / it.fullH * it.h, bot = it.y + st.y1 / it.fullH * it.h;
+      cs += `q ${pf(it.w)} 0 0 ${pf(bot - top)} ${pf(it.x)} ${pf(it.ph - bot)} cm /Im${j} Do Q\n`;
+    });
+    if (it.marks) cs += it.marks;                        // krzyżyki cięcia rysujemy wektorowo, nad obrazem
+    obj(it.ct, `<< /Length ${cs.length} >>\nstream\n${cs}endstream`);
+    it.strips.forEach((st, j) => {
+      offs[it.im[j]] = pos;
+      push(`${it.im[j]} 0 obj\n<< /Type /XObject /Subtype /Image /Width ${st.iw} /Height ${st.ih} /ColorSpace /DeviceRGB /BitsPerComponent 8 /Filter /DCTDecode /Length ${st.jpeg.size} >>\nstream\n`);
+      push(st.jpeg); push('\nendstream\nendobj\n');
+    });
+  });
+  const total = next, xref = pos;
+  let x = `xref\n0 ${total}\n0000000000 65535 f \n`;
+  for (let n = 1; n < total; n++) x += String(offs[n]).padStart(10, '0') + ' 00000 n \n';
+  push(x + `trailer\n<< /Size ${total} /Root 1 0 R >>\nstartxref\n${xref}\n%%EOF\n`);
+  return new Blob(parts, { type: 'application/pdf' });   // Blob z części: przeglądarka trzyma dane na dysku, nie w jednej wielkiej tablicy
+}
+
+/* ---------- eksport w maksymalnej jakości bez zawieszania ---------- */
+const PDF_MAX_DPI = 600;                  // sufit trybu „Maksymalna” (tyle wystarcza do druku fotograficznego)
+const STRIP_AREA = 8e6;                   // piksele w jednym pasku strony (~32 MB pamięci na pasek)
+const STRIP_OVERLAP_PT = 1.5;             // paski zachodzą na siebie o 1,5 pt (liczone w pikselach wg DPI) – przeglądarki PDF nie pokazują szwu
+const JPEG_Q = 0.95;
+const BYTES_PER_PX = 0.22;                // zachowawcze oszacowanie rozmiaru JPEG do budżetu pliku
+const sizeBudget = () => clamp((navigator.deviceMemory || 4) * 150e6, 300e6, 1200e6);
+let canvasCaps = null;
+// Największa szerokość płótna, jaką przeglądarka faktycznie obsłuży (cienkie płótna – test nic nie kosztuje).
+function probeCanvasWidth() {
+  if (canvasCaps) return canvasCaps;
+  let maxW = 4096;
+  for (const w of [32767, 16384, 8192, 4096]) {
+    try {
+      const c = document.createElement('canvas'); c.width = w; c.height = 2;
+      const g = c.getContext('2d'); if (!g) continue;
+      g.fillStyle = '#ff0000'; g.fillRect(w - 2, 0, 2, 2);
+      const ok = g.getImageData(w - 1, 1, 1, 1).data[0] === 255;
+      c.width = c.height = 1;
+      if (ok) { maxW = w; break; }
+    } catch (e) { /* za szerokie */ }
+  }
+  return (canvasCaps = { maxW });
+}
+function stripPlan(pxW, pxH) {
+  const area = window.__STRIP_AREA || STRIP_AREA;        // window.__STRIP_AREA: haczyk testowy
+  const maxH = Math.max(256, Math.floor(area / pxW)), n = Math.max(1, Math.ceil(pxH / maxH));
+  return { n, each: Math.ceil(pxH / n) };
+}
+async function renderStripJpeg(page, pxW, y0, h, getBmp, bleedFrac) {
+  const canvas = document.createElement('canvas');
+  try {
+    await renderPage(page, canvas, pxW, getBmp, { y0, h }, bleedFrac);
+    return await toBlob(canvas, 'image/jpeg', JPEG_Q);
+  } catch (e) {
+    if (e.name === 'AbortError') throw e;
+    const oom = new Error(`nie udało się wyrenderować paska strony (${e.message})`); oom.oom = true; throw oom;
+  } finally { canvas.width = canvas.height = 1; }       // zwalnia pamięć od razu, bez czekania na GC
+}
+let exportCancelled = false, lastExport = null;
+// Krzyżyki cięcia: cztery narożniki, rysowane poza obszarem spadu, w punktach PDF.
+function cropMarkStream(pw, ph, x, y, w, h, bleedPt) {
+  const len = 14, gap = Math.max(2, bleedPt), lw = 0.4;
+  const xs = [x, x + w], ys = [y, y + h];                 // y liczone od dołu strony
+  let cs = `q 0 0 0 RG ${lw} w\n`;
+  for (const cx of xs) for (const cy of ys) {
+    const dx = cx === x ? -1 : 1, dy = cy === y ? -1 : 1;
+    cs += `${pf(cx + dx * gap)} ${pf(cy)} m ${pf(cx + dx * (gap + len))} ${pf(cy)} l S\n`;
+    cs += `${pf(cx)} ${pf(cy + dy * gap)} m ${pf(cx)} ${pf(cy + dy * (gap + len))} l S\n`;
+  }
+  return cs + 'Q\n';
+}
+async function buildAlbumPdf(S, dpi, mmW, mmH) {
+  const ori = layoutState.orientation, P = PAGE[ori];
+  const bleed = Math.max(0, Math.min(5, S.bleedMm || 0)), markMm = S.cropMarks ? 8 : 0;
+  // Spad: raster robimy większy o spad z każdej strony, w tej samej rozdzielczości na milimetr.
+  const mmFullW = mmW + 2 * bleed, mmFullH = mmH + 2 * bleed;
+  const pxW = Math.round(mmFullW / 25.4 * dpi), pxH = Math.round(pxW * (mmFullH / mmFullW));
+  const { n: nStr, each } = stripPlan(pxW, pxH), totalStrips = pages.length * nStr, overlap = Math.max(2, Math.ceil(dpi * STRIP_OVERLAP_PT / 72));
+  const mm2pt = 72 / 25.4;
+  const items = [], pw = (mmFullW + 2 * markMm) * mm2pt, ph = (mmFullH + 2 * markMm) * mm2pt, punch = 20, t0 = Date.now();
+  let done = 0;
+  for (let i = 0; i < pages.length; i++) {
+    const cache = new Map();                              // obrazy strony dekodujemy raz i dzielimy między paski
+    const getBmp = async (key, blob, maxW) => { const ck = key + '@' + (maxW || 0); if (!cache.has(ck)) cache.set(ck, await decodeScaled(blob, maxW)); return cache.get(ck); };
+    const strips = [];
+    try {
+      for (let j = 0; j < nStr; j++) {
+        if (exportCancelled) throw abortErr();
+        const y0 = j * each, y1 = Math.min(pxH, (j + 1) * each), ys = Math.max(0, y0 - overlap);
+        const eta = done ? ` · zostało ok. ${fmtDur((Date.now() - t0) / done * (totalStrips - done))}` : '';
+        setLoader(`Strona ${i + 1} z ${pages.length}${nStr > 1 ? ` · pasek ${j + 1}/${nStr}` : ''}\n${dpi} DPI · ${pxW} × ${pxH} px${eta}`, done / totalStrips * 100);
+        strips.push({ jpeg: await renderStripJpeg(pages[i], pxW, ys, y1 - ys, getBmp, bleed / mmFullW), iw: pxW, ih: y1 - ys, y0: ys, y1 });
+        done++;
+        await yieldUi();                                  // ekran i przycisk „Anuluj” pozostają responsywne
+      }
+    } finally { cache.forEach(b => b.close && b.close()); cache.clear(); }
+    const bw = mmFullW * mm2pt, bh = mmFullH * mm2pt, m0 = markMm * mm2pt;
+    const it = { strips, fullH: pxH, pw, ph, x: m0, y: m0, w: bw, h: bh };
+    if (S.cropMarks) it.marks = cropMarkStream(pw, ph, m0 + bleed * mm2pt, m0 + bleed * mm2pt, mmW * mm2pt, mmH * mm2pt, bleed * mm2pt);
+    if (S.pdfFormat.includes('holes') && layoutState.frameStyle !== 'page') {                  // miejsce na dziurki: na przemian z lewej/prawej (albo z góry/dołu)
+      const m = punch * mm2pt, odd = (i + 1) % 2 === 1;
+      const availW = (S.pdfFormat === 'a4_holes_left' ? pw - m : pw), availH = (S.pdfFormat === 'a4_holes_top' ? ph - m : ph);
+      const fit = Math.min(availW / bw, availH / bh); it.w = bw * fit; it.h = bh * fit;
+      const ox = (availW - it.w) / 2, oy = (availH - it.h) / 2;
+      if (S.pdfFormat === 'a4_holes_left') { it.x = odd ? m + ox : ox; it.y = oy; } else { it.y = odd ? m + oy : oy; it.x = ox; }
+      it.marks = null;                                    // przy dziurkach znaczniki cięcia nie mają sensu
+    }
+    items.push(it);
+  }
+  setLoader('Zapisuję plik…', 100);
+  await yieldUi();
+  return { blob: buildPdf(items), dpi, pxW, pxH, strips: nStr };
+}
+async function exportPdf() {
+  if (!pages.length || running) return;
+  const S = readSettings(), ori = layoutState.orientation;
+  const base = S.pdfFormat.startsWith('a4') ? 'a4' : 'a2';
+  let mmW = base === 'a4' ? 210 : 420, mmH = base === 'a4' ? 297 : 594;
+  if (ori === 'landscape') [mmW, mmH] = [mmH, mmW];
+  const inW = mmW / 25.4, inH = mmH / 25.4;
+  let dpi = S.dpi || PDF_MAX_DPI;                         // „Maksymalna” = najwyższe DPI, które urządzenie zmieści
+  const byWidth = Math.floor(probeCanvasWidth().maxW / inW);
+  if (dpi > byWidth) { dpi = byWidth; toast(`Przeglądarka obsługuje płótna do ${probeCanvasWidth().maxW} px szerokości – ustawiono ${dpi} DPI.`, 6000); }
+  if (!S.dpi) {                                           // budżet rozmiaru pliku dotyczy tylko trybu automatycznego
+    const byBudget = Math.floor(Math.sqrt(sizeBudget() / (pages.length * inW * inH * BYTES_PER_PX)));
+    if (dpi > byBudget) { dpi = Math.max(150, byBudget); toast(`Przy ${pages.length} stronach w tym formacie plik miałby ponad ${Math.round(sizeBudget() / 1e6)} MB – ustawiono ${dpi} DPI. Wybierz DPI ręcznie, jeśli chcesz więcej.`, 8000); }
+  }
+  exportCancelled = false;
+  showLoader('Składam PDF…', `Format ${S.pdfFormat.toUpperCase()}, ${dpi} DPI.\nStrony powstają paskami, więc aplikacja się nie zawiesi.`, () => { exportCancelled = true; });
+  await sleep(60);
+  try {
+    let res = null;
+    for (let tryNo = 0; !res; tryNo++) {
+      try { res = await buildAlbumPdf(S, dpi, mmW, mmH); }
+      catch (e) {
+        if (e.name === 'AbortError' || !e.oom || tryNo >= 3 || dpi <= 150) throw e;
+        dpi = Math.max(150, Math.floor(dpi * 0.75));
+        log(`Eksport PDF: ${e.message} – ponawiam w ${dpi} DPI`, 'warn');
+        toast(`Urządzeniu zabrakło pamięci – obniżam jakość do ${dpi} DPI i zaczynam od nowa.`, 7000);
+        await yieldUi();
+      }
+    }
+    pdfBlob = res.blob; lastExport = res;
+    log(`PDF gotowy: ${pages.length} stron, ${res.dpi} DPI, ${res.pxW}×${res.pxH} px na stronę, pasków na stronę: ${res.strips}`
+      + (S.bleedMm ? `, spad ${S.bleedMm} mm` : '') + (S.cropMarks ? ', znaczniki cięcia' : '') + `, ${(pdfBlob.size / 1048576).toFixed(1)} MB`);
+    onPdfReady();
+  } catch (e) {
+    if (e.name === 'AbortError') toast('Eksport PDF anulowany.');
+    else { log(`Eksport PDF: ${e.message}`, 'error'); toast('Błąd eksportu PDF: ' + e.message + ' Spróbuj niższej jakości (DPI).', 7000); }
+  } finally { hideLoader(); }
+}
+
+
+/* ===================== 10. INTERFEJS ===================== */
+const workspace = $('#workspace'), sortHost = $('#sortHost'), dropZone = $('#dropZone'), shell = $('.shell');
+const EMPTY_PX = 'data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7';
+const NO_TILE = { set() { } };
+let fatalMsg = '';
+
+/* ---------- ustawienia z formularza ---------- */
+function heroesText() {
+  const list = [], manual = $('#storyCharacters').value.trim();
+  if (manual) list.push(manual);
+  CAST.forEach(m => { const c = document.getElementById(m.id); if (c && c.checked) list.push(m.value); });
+  return list.length ? list.join(', ') : 'Brak przypisanych imion (używaj określeń neutralnych)';
+}
+function readSettings() {
+  const v = id => { const e = document.getElementById(id); return e ? e.value : ''; };
+  const c = id => { const e = document.getElementById(id); return !!(e && e.checked); };
+  return {
+    orientation: v('pageOrientation'), pdfFormat: v('pdfFormat'), layoutMode: v('layoutMode'), dpi: +v('exportDpi') || 0,
+    doStory: c('doStory'), storyTitle: v('storyTitle').trim(), storyStyle: v('storyStyle'), storyPages: +v('storyPages') || 4, heroes: heroesText(),
+    imageModel: v('imageModel'), imageSize: v('imageSize'), frameMode: v('frameMode'), windowPct: (+v('windowPct') || 78) / 100,
+    category: v('category'), customTheme: v('customThemeInput').trim(), animal: v('animal'), pose: v('pose'),
+    frameStyle: v('frameStyle') === 'page' ? 'page' : 'classic',
+    stampEvery: +v('stampEvery') || 0, concurrency: +v('concurrency') || 3,
+    bleedMm: +v('bleedMm') || 0, cropMarks: c('cropMarks'),
+    autoFallback: c('autoFallback'), thinkingHigh: c('thinkingHigh'), autoRepair: c('autoRepair')
+  };
+}
+function updatePrompt() { $('#promptText').value = promptPreview(readSettings()); }
+function updateAnimalList() {
+  const cat = $('#category').value, sel = $('#animal');
+  $('#customThemeGroup').style.display = cat === 'custom' ? 'block' : 'none';
+  sel.innerHTML = '';
+  if (cat === 'custom') sel.append(el('option', { value: 'internet' }, '🌐 INTERNET (AI wyszukuje lokalne obiekty powiązane z motywem)'));
+  sel.append(el('option', { value: 'random' }, '🌟 Losowo z grupy niżej (bez powtórek)'));
+  const list = cat === '1. ZOO' ? ANIMALS_DATA['1. ZOO'] : [...(IMMERSIVE_DATA[cat] || IMMERSIVE_DATA.custom), ...(ANIMALS_DATA[cat] || ANIMALS_DATA.custom)];
+  list.forEach(x => sel.append(el('option', { value: x }, x)));
+  updatePrompt();
+}
+function updateChip() {
+  const info = IMAGE_MODELS[$('#imageModel').value], sz = $('#imageSize').value;
+  $('#modelChip').textContent = `🍌 ${info.name}${sz ? ' · ' + sz : ''}`;
+}
+// Lista modeli obrazu w formularzu — w Canvas tylko te, które przepuszcza konto Gemini.
+let modelPicked = false;                                  // czy użytkownik sam wybrał model (wtedy nie nadpisujemy wyboru)
+function fillModelList() {
+  const sel = $('#imageModel'), prev = sel.value;
+  sel.innerHTML = '';
+  IMAGE_ORDER.forEach((id, i) => { const m = IMAGE_MODELS[id]; if (m) sel.append(el('option', { value: id }, `🍌 ${m.name}${i === 0 ? ' — najlepszy dostępny' : ''}`)); });
+  if (!sel.options.length) IMAGE_ORDER.forEach(id => sel.append(el('option', { value: id }, id)));
+  sel.value = (modelPicked && IMAGE_ORDER.includes(prev)) ? prev : IMAGE_ORDER[0];     // domyślnie zawsze najlepszy
+}
+function updateModelUi() {
+  const info = IMAGE_MODELS[$('#imageModel').value] || { sizes: [], size: false }, sel = $('#imageSize'), prev = sel.value;
+  sel.innerHTML = '';
+  if (!info.size) { sel.append(el('option', { value: '' }, 'stała (~1K)')); sel.disabled = true; }
+  else {
+    const label = { '1K': '1K (szybko)', '2K': '2K (dobra jakość)', '4K': '4K (najwyższa jakość, wolniej)' };
+    info.sizes.forEach(s => sel.append(el('option', { value: s }, label[s] || s)));
+    sel.disabled = info.sizes.length < 2;
+    sel.value = info.sizes.includes(prev) ? prev : info.sizes[info.sizes.length - 1];      // domyślnie najwyższa dostępna
+  }
+  updateChip();
+}
+// W wariancie całostronicowej ramki ustawienie „ile miejsca zajmuje zdjęcie" nie ma zastosowania.
+function updateStyleHint() {
+  const page = $('#frameStyle').value === 'page';
+  // W kompozycji na całą stronę model nigdy nie dostaje zdjęć, więc wybór trybu ramki nie ma zastosowania.
+  $('#modeField').style.display = page ? 'none' : 'block';
+  $('#windowField').style.display = (!page && $('#frameMode').value === 'safe') ? 'block' : 'none';
+  if (pages.length) markStale();
+}
+function updateModeHint() { updateStyleHint(); }
+
+// Karty i przełączniki ([data-v]) sterują ukrytymi <select> – reszta aplikacji czyta je jak dotąd.
+function bindChoice(group, select) {
+  const sync = () => group.querySelectorAll('[data-v]').forEach(b => { const on = b.dataset.v === select.value; b.classList.toggle('on', on); b.setAttribute('aria-checked', String(on)); });
+  group.addEventListener('click', e => {
+    const b = e.target.closest('[data-v]'); if (!b || !group.contains(b)) return;
+    if (select.value !== b.dataset.v) { select.value = b.dataset.v; select.dispatchEvent(new Event('change', { bubbles: true })); }
+    sync();
+  });
+  select.addEventListener('change', sync);
+  sync(); return sync;
+}
+const hasFiles = e => !!(e.dataTransfer && Array.from(e.dataTransfer.types || []).includes('Files'));
+let importing = false;
+async function addPhotos(files) {                       // wspólne wejście: wybór z dysku i przeciąganie (multiupload)
+  if (!files || !files.length) return;
+  if (importing) return toast('Trwa wczytywanie zdjęć – poczekaj chwilę.');
+  if (running) return toast('Trwa generowanie – dopisywanie zdjęć jest na ten czas zablokowane.');
+  importing = true; dropZone.classList.add('busy'); updateGenUi();
+  try { await importFiles(files); }
+  catch (e) { log('Import: ' + e.message, 'error'); toast('Nie udało się wczytać zdjęć: ' + e.message); }
+  finally { importing = false; dropZone.classList.remove('busy'); }
+  renderSortUI();
+}
+const MAX_REF = 8;
+// Lista wgranych referencji: miniatura, nazwa pliku (często zawiera imię) i przycisk usunięcia.
+function renderRefList() {
+  const box = $('#refList'), st = $('#refImageStatus');
+  box.innerHTML = '';
+  refImages.forEach((r, i) => {
+    box.append(el('figure', {},
+      el('img', { src: r.url, alt: r.name }),
+      el('button', { type: 'button', title: 'Usuń to zdjęcie referencyjne', 'aria-label': 'Usuń ' + r.name,
+        onclick: () => { URL.revokeObjectURL(r.url); refImages.splice(i, 1); renderRefList(); } }, '✕'),
+      el('figcaption', { title: r.name }, r.name.replace(/\.[^.]+$/, ''))));
+  });
+  st.style.display = refImages.length ? 'block' : 'none';
+  st.textContent = refImages.length
+    ? `✅ ${refImages.length} ${plural(refImages.length, 'zdjęcie referencyjne', 'zdjęcia referencyjne', 'zdjęć referencyjnych')} — twarze zostaną odwzorowane 1:1.`
+    : '';
+}
+function initForm() {
+  const box = $('#castBox');
+  CAST.forEach(m => box.append(el('label', { class: 'check' }, el('input', { type: 'checkbox', id: m.id, value: m.value }), m.label)));
+  const pose = $('#pose');
+  pose.append(el('option', { value: 'random' }, '🌟 Losowo z tej grupy (bez powtórek)'));
+  ALL_POSES.forEach(p => pose.append(el('option', { value: p }, p)));
+  const syncStyle = bindChoice($('#styleGrid'), $('#frameStyle'));
+  const syncFormat = bindChoice($('#fmtGrid'), $('#pdfFormat')), syncLayout = bindChoice($('#layoutGrid'), $('#layoutMode')),
+    syncMode = bindChoice($('#modeGrid'), $('#frameMode')), syncOri = bindChoice($('#oriSeg'), $('#pageOrientation'));
+  shell.addEventListener('input', e => { if (e.target.id === 'windowPct') $('#windowPctVal').textContent = e.target.value + '%'; updatePrompt(); });
+  shell.addEventListener('change', e => {
+    if (e.target.id === 'category') updateAnimalList();
+    if (e.target.id === 'imageModel') { modelPicked = true; updateModelUi(); }
+    if (e.target.id === 'imageSize') updateChip();
+    if (e.target.id === 'frameMode') updateModeHint();
+    if (e.target.id === 'frameStyle') updateStyleHint();
+    if (e.target.id === 'pageOrientation') {
+      shell.dataset.ori = e.target.value;
+      if (pages.length) toast('Zmieniono układ strony – wygeneruj projekt ponownie, aby ramki dopasowały się do nowych proporcji.', 6500);
+    }
+    updatePrompt();
+    savePrefs();
+    if (photos.length) { try { renderPlan(); } catch (err) { /* plan policzymy przy starcie */ } }
+  });
+  $('#fileInput').addEventListener('change', e => { const files = Array.from(e.target.files); e.target.value = ''; addPhotos(files); });
+  // Okno wyboru plików otwieramy sami: w osadzonych widokach (np. Canvas) kliknięcie etykiety bywa ignorowane.
+  const pick = input => e => { if (e.target !== input) { e.preventDefault(); input.click(); } };
+  const keyPick = input => e => { if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); input.click(); } };
+  dropZone.addEventListener('click', pick($('#fileInput')));
+  dropZone.addEventListener('keydown', keyPick($('#fileInput')));
+  const refDrop = $('#refDrop');
+  if (refDrop) { refDrop.addEventListener('click', pick($('#refImageInput'))); refDrop.addEventListener('keydown', keyPick($('#refImageInput'))); }
+  let depth = 0;                                          // przeciąganie plików na strefę (licznik, bo dragleave strzela przy każdym elemencie potomnym)
+  dropZone.addEventListener('dragenter', e => { if (hasFiles(e)) { e.preventDefault(); depth++; dropZone.classList.add('over'); } });
+  dropZone.addEventListener('dragover', e => { if (hasFiles(e)) e.preventDefault(); });
+  dropZone.addEventListener('dragleave', () => { if (--depth <= 0) { depth = 0; dropZone.classList.remove('over'); } });
+  dropZone.addEventListener('drop', e => { if (!hasFiles(e)) return; e.preventDefault(); depth = 0; dropZone.classList.remove('over'); addPhotos(Array.from(e.dataTransfer.files)); });
+  window.addEventListener('dragover', e => { if (hasFiles(e)) e.preventDefault(); });      // upuszczenie obok strefy nie otwiera zdjęcia w karcie
+  window.addEventListener('drop', e => { if (hasFiles(e) && !dropZone.contains(e.target)) e.preventDefault(); });
+  $('#refImageInput').addEventListener('change', async e => {
+    const files = Array.from(e.target.files || []).filter(isImageFile); e.target.value = '';
+    if (!files.length) return;
+    let dodane = 0;
+    for (const f of files) {
+      if (refImages.length >= MAX_REF) { toast(`Maksymalnie ${MAX_REF} zdjęć referencyjnych — resztę pominąłem.`, 6000); break; }
+      try { refImages.push({ b64: await fileToJpegB64(f, 800, 0.85), name: f.name, url: URL.createObjectURL(f) }); dodane++; }
+      catch (err) { toast(`Nie można odczytać „${f.name}": ${err.message}`, 6000); }
+    }
+    if (dodane) renderRefList();
+  });
+  $('#genBtn').addEventListener('click', startGeneration);
+  $('#sampleBtn').addEventListener('click', runSample);
+  $('#downloadBtn').addEventListener('click', downloadPdf);
+  $('#saveLogBtn').addEventListener('click', () => saveBlob(new Blob([LOG.join('\n') || 'Dziennik jest pusty.'], { type: 'text/plain;charset=utf-8' }), 'Dziennik_Fotoksiazka.txt'));
+  $('#saveAppBtnHtml').addEventListener('click', () => saveBlob(new Blob([pristineSource()], { type: 'text/html;charset=utf-8' }), 'Fotoksiazka_Pixar_NanoBanana.html'));
+  $('#saveAppBtnTxt').addEventListener('click', () => saveBlob(new Blob([pristineSource()], { type: 'text/plain;charset=utf-8' }), 'Fotoksiazka_Pixar_NanoBanana.txt'));
+  $('#loaderCancel').addEventListener('click', () => { if (loaderCancel) loaderCancel(); });
+  $('#cacheClearBtn').addEventListener('click', async () => {
+    const ok = await cacheClear(); await showCacheInfo();
+    toast(ok ? 'Zapamiętane ramki usunięte.' : 'Nie udało się wyczyścić pamięci.');
+  });
+  $('#prefsForgetBtn').addEventListener('click', () => { forgetPrefs(); toast('Ustawienia zapomniane. Po odświeżeniu wrócą domyślne.'); });
+  shell.dataset.ori = $('#pageOrientation').value;
+}
+async function showCacheInfo() {
+  const st = await cacheStats(), box = $('#cacheInfo');
+  box.textContent = st.err ? `Ta przeglądarka nie pozwala zapamiętywać ramek (${st.err}) — po odświeżeniu trzeba je wygenerować od nowa.`
+    : st.n ? `Zapamiętanych ramek: ${st.n}. Po odświeżeniu wgraj te same zdjęcia — ramki wrócą bez nowych zapytań.`
+      : 'Pusto. Gotowe ramki zapiszą się tutaj i przetrwają odświeżenie strony.';
+}
+// Kopia aplikacji bez skryptów wstrzykniętych przez Canvas i bez wyników pracy.
+function pristineSource() {
+  const doc = new DOMParser().parseFromString(PRISTINE_HTML, 'text/html');
+  doc.querySelectorAll('script[data-bard-client-injected],script[ws-interception-config]').forEach(n => n.remove());
+  return '<!DOCTYPE html>\n' + doc.documentElement.outerHTML;
+}
+
+/* ---------- nakładka (eksport PDF) ---------- */
+let loaderCancel = null;
+function showLoader(title, sub, onCancel) {
+  $('#loader-text').textContent = title; $('#loader-subtext').textContent = sub || ''; $('#loaderBar').style.width = '0%';
+  loaderCancel = onCancel || null; $('#loaderCancel').style.display = onCancel ? '' : 'none'; $('#loader').style.display = 'flex';
+}
+function setLoader(sub, pct) { if (sub != null) $('#loader-subtext').textContent = sub; if (pct != null) $('#loaderBar').style.width = pct + '%'; }
+function hideLoader() { $('#loader').style.display = 'none'; loaderCancel = null; }
+
+/* ---------- wgrane zdjęcia: sortowanie ---------- */
+function renderEmpty() { sortHost.innerHTML = ''; dropZone.classList.remove('compact'); updateGenUi(); }
+// Ile zapytań pochłonie album i ile to potrwa — liczone z ustawień, zanim cokolwiek ruszy.
+const SEC_PER_IMAGE = { '4K': 26, '2K': 16, '1K': 9 };
+function genPlan() {
+  const S = readSettings(), nd = new Set(photos.map(p => p.dateStr)).size;
+  const stories = S.doStory ? nd : 0, covers = S.doStory ? nd * Math.min(S.storyPages, 4) : 0;
+  const stamps = S.stampEvery ? Math.floor(photos.length / S.stampEvery) : 0;
+  const stronyZdjec = () => {                                   // ta sama zasada parowania co w układzie stron
+    let n = 0;
+    const byDay = new Map();
+    photos.forEach(p => { if (!byDay.has(p.dateStr)) byDay.set(p.dateStr, []); byDay.get(p.dateStr).push(p); });
+    for (const list of byDay.values()) {
+      let i = 0;
+      while (i < list.length) {
+        const a = list[i], b = list[i + 1];
+        let para = false;
+        if (b && S.layoutMode === 'classic') para = a.orientation === 'portrait' && b.orientation === 'portrait';
+        else if (b && S.layoutMode === 'smart') para = (S.orientation === 'portrait' && a.orientation === 'landscape' && b.orientation === 'landscape')
+          || (S.orientation === 'landscape' && a.orientation === 'portrait' && b.orientation === 'portrait');
+        i += para ? 2 : 1; n++;
+      }
+    }
+    return n;
+  };
+  const strony = S.frameStyle === 'page' ? stronyZdjec() : 0;
+  const gotowe = S.frameStyle === 'page'
+    ? days.flatMap(d => d.matrix || []).filter(pg => pg.deco && pg.deco.kind === 'ai').length
+    : photos.filter(p => p.frame && p.frame.kind === 'ai').length;
+  const ramek = S.frameStyle === 'page' ? Math.max(0, strony - gotowe) : Math.max(0, photos.length - gotowe);
+  const images = ramek + covers + stamps;
+  const perImg = (SEC_PER_IMAGE[S.imageSize] || 14) * (/pro/.test(S.imageModel) ? 1.6 : 1);
+  const sec = (images * perImg + stories * 12) / Math.max(1, Math.min(S.concurrency, 4));
+  return { dni: nd, zdjecia: photos.length, gotowe, stories, covers, stamps, images, ramek, styl: S.frameStyle, zapytania: images + stories, sec };
+}
+function renderPlan() {
+  const box = $('#genPlan');
+  if (!photos.length) { box.hidden = true; return; }
+  const p = genPlan(), S = readSettings(), m = IMAGE_MODELS[S.imageModel] || {};
+  box.hidden = false; box.innerHTML = '';
+  box.append(el('b', {}, 'Co się wydarzy po kliknięciu'), el('ul', {},
+    el('li', {}, `${p.styl === 'page' ? 'Ramki stron' : 'Ramki AI'} (${m.name || S.imageModel}${S.imageSize ? ', ' + S.imageSize : ''})`,
+      el('b', {}, p.gotowe ? `${p.ramek} (${p.gotowe} gotowych)` : String(p.ramek))),
+    p.stories ? el('li', {}, 'Opowieści dni', el('b', {}, String(p.stories))) : null,
+    p.covers ? el('li', {}, 'Ilustracje do opowieści', el('b', {}, String(p.covers))) : null,
+    p.stamps ? el('li', {}, 'Znaczniki godziny', el('b', {}, String(p.stamps))) : null,
+    el('li', {}, 'Zapytań do Google łącznie', el('b', {}, String(p.zapytania))),
+    el('li', {}, 'Szacowany czas', el('b', {}, '~' + fmtDur(p.sec * 1000)))));
+}
+// Przycisk „Generuj” i jego podpowiedź zależą od tego, ile zdjęć czeka i czy coś się już liczy.
+function updateGenUi() {
+  const n = photos.length, nd = new Set(photos.map(p => p.dateStr)).size;
+  $('#genBtn').disabled = !n || running || importing;
+  $('#sampleBtn').disabled = !n || running || importing;
+  try { renderPlan(); } catch (e) { log('Plan: ' + e.message, 'warn'); }
+  $('#genHint').textContent = running ? 'Trwa generowanie – postęp widać poniżej.'
+    : importing ? 'Wczytuję zdjęcia…'
+      : n ? `Do przetworzenia: ${n} ${plural(n, 'zdjęcie', 'zdjęcia', 'zdjęć')} w ${nd} ${plural(nd, 'dniu', 'dniach', 'dniach')}. Każde dostanie własną ramkę z AI.`
+        : 'Najpierw wgraj zdjęcia w kroku 01.';
+}
+// Po zmianie listy zdjęć stary podgląd przestaje być aktualny – mówimy o tym wprost.
+function markStale() {
+  if (!pages.length || running || $('#staleNote')) return;
+  workspace.prepend(el('div', { class: 'panel', id: 'staleNote' }, el('div', { class: 'hint', style: 'margin:0' }, 'Lista zdjęć się zmieniła. Kliknij „Generuj fotoksiążkę”, aby zbudować projekt od nowa – widoczny podgląd dotyczy poprzedniej wersji.')));
+}
+// Przypisuje zdjęciu dzień: istniejący (z listy) albo zupełnie nowy (wpisany ręcznie), i wstawia je w odpowiednie miejsce.
+function setPhotoDay(photo, dateStr) {
+  if (!dateStr) return;
+  photo.dateStr = dateStr; photo.exifError = false;
+  photos.splice(photos.indexOf(photo), 1);
+  let last = -1;
+  for (let j = photos.length - 1; j >= 0; j--) if (photos[j].dateStr === dateStr) { last = j; break; }
+  if (last !== -1) photos.splice(last + 1, 0, photo);         // dzień już istnieje: na jego koniec
+  else {
+    const first = photos.findIndex(x => x.dateStr > dateStr); // nowy dzień: chronologicznie między pozostałymi
+    if (first === -1) photos.push(photo); else photos.splice(first, 0, photo);
+  }
+  renderSortUI();
+}
+function renderSortUI() {
+  updateGenUi();
+  if (!photos.length) { renderEmpty(); setStatus('Brak zdjęć w pamięci.'); $('#dropTitle').textContent = 'Przeciągnij zdjęcia tutaj albo kliknij, aby wybrać'; return; }
+  dropZone.classList.add('compact');
+  $('#dropTitle').textContent = 'Dopisz kolejne zdjęcia — przeciągnij je tutaj albo kliknij';
+  sortHost.innerHTML = '';
+  const wrap = el('div', { class: 'sort-wrap' });
+  let cur = null, dayNo = 0;
+  photos.forEach((p, i) => {
+    if (p.dateStr !== cur) {
+      cur = p.dateStr; dayNo++;
+      wrap.append(el('div', { class: 'day-head' }, `Dzień ${dayNo}`, el('small', {}, fmtDate(cur))));
+    }
+    const item = el('div', { class: 'sort-item' + (p.exifError ? ' error' : '') });
+    const input = el('input', { type: 'number', class: 'sort-input', value: i + 1, min: 1, max: photos.length, 'aria-label': 'Numer zdjęcia w albumie' });
+    input.addEventListener('change', ev => {
+      let nv = parseInt(ev.target.value, 10) - 1;
+      if (isNaN(nv)) return renderSortUI();
+      nv = clamp(nv, 0, photos.length - 1);
+      const [moved] = photos.splice(i, 1); photos.splice(nv, 0, moved); renderSortUI();
+    });
+    const del = el('button', { class: 'sort-del', title: 'Usuń zdjęcie z albumu', 'aria-label': 'Usuń zdjęcie', onclick: () => { URL.revokeObjectURL(p.thumbUrl); photos.splice(photos.indexOf(p), 1); renderSortUI(); } }, '✕');
+    item.append(el('img', { class: 'sort-img', src: p.thumbUrl, alt: p.name, loading: 'lazy' }), input, del);
+    if (p.exifError) {
+      const sel = el('select', { 'aria-label': 'Wybierz dzień dla zdjęcia bez daty' }, el('option', { value: '', disabled: true, selected: true }, 'Wybierz…'));
+      [...new Set(photos.map(x => x.dateStr))].forEach(d => sel.append(el('option', { value: d }, fmtDate(d))));
+      sel.addEventListener('change', ev => setPhotoDay(p, ev.target.value));
+      // Druga droga: wpisanie dowolnej daty, gdy żaden z istniejących dni nie pasuje (albo gdy żadne zdjęcie nie ma daty).
+      const dat = el('input', { type: 'date', 'aria-label': 'Wpisz własną datę zdjęcia' });
+      dat.addEventListener('change', ev => {
+        const v = ev.target.value;                            // YYYY-MM-DD z pola daty -> klucz dnia YYYY.MM.DD
+        if (!/^\d{4}-\d{2}-\d{2}$/.test(v)) return;
+        setPhotoDay(p, v.replace(/-/g, '.'));
+      });
+      item.append(el('div', { class: 'sort-warn' }, el('span', {}, 'Brak daty – wybierz dzień:'), sel,
+        el('span', { style: 'color:var(--muted)' }, 'albo wpisz własną:'), dat));
+    }
+    wrap.append(item);
+  });
+  sortHost.append(wrap);
+  setStatus(`<strong>Wgrano ${photos.length} z ${MAX_PHOTOS} ${plural(photos.length, 'zdjęcia', 'zdjęć', 'zdjęć')} · ${dayNo} ${plural(dayNo, 'dzień', 'dni', 'dni')}.</strong> Ułóż kolejność numerami albo dopisz kolejne pliki.`);
+  markStale();
+}
+
+/* ---------- ściana generowania (kafelki na żywo) ---------- */
+let wall = null, taskReg = new Map();
+function makeTile(label, ico, thumb) {
+  const img = el('img', { alt: label, src: thumb || EMPTY_PX }), tag = el('span', { class: 'tag' });
+  const box = el('div', { class: 'tile wait' + (thumb ? ' has' : ''), title: label }, el('div', { class: 'ico' }, ico), img, el('span', { class: 'kind' }, ico), tag);
+  const t = {
+    el: box, state: 'wait',
+    set(state, info) {
+      info = info || {}; t.state = state;
+      const has = box.classList.contains('has') || !!info.url;
+      box.className = 'tile ' + state + (has ? ' has' : '');
+      if (info.url) img.src = info.url;
+      if (info.tag) tag.textContent = info.tag;
+      if (info.msg) box.title = label + ' – ' + info.msg;
+      if (info.model && wall) wall.model = (IMAGE_MODELS[info.model] || {}).name || info.model;
+      updateWall();
+    }
+  };
+  return t;
+}
+// Zadanie ma stały klucz: ponowienie (ręczne lub automatyczne) używa tego samego kafelka zamiast dokładać nowy.
+function makeTask(key, kind, label, ico, thumb, day, exec) {
+  let tile; const old = taskReg.get(key);
+  if (old) { tile = old.tile; tile.set('wait'); }
+  else { tile = makeTile(label, ico, thumb); if (day && day._grid) day._grid.append(tile.el); }
+  const t = { key, kind, label, tile, exec: () => exec(tile) };
+  taskReg.set(key, t);
+  return t;
+}
+function updateWall() {
+  if (!wall || !$('#wBar')) return;
+  const T = wall.tasks, isFin = t => t.tile.state === 'ok' || t.tile.state === 'err';
+  const fin = T.filter(isFin).length, errs = T.filter(t => t.tile.state === 'err').length;
+  $('#wBar').style.width = (T.length ? fin / T.length * 100 : 0) + '%';
+  const kinds = { story: '📖 opowieści', cover: '🖼️ ilustracje', frame: '🍌 ramki', stamp: '🕒 znaczniki' };
+  $('#wStats').innerHTML = Object.entries(kinds).map(([k, lbl]) => {
+    const a = T.filter(t => t.kind === k);
+    return a.length ? `<span class="stat">${lbl} ${a.filter(isFin).length}/${a.length}</span>` : '';
+  }).join('') + (errs ? `<span class="stat err">błędy: ${errs}</span>` : '');
+  const eta = fin ? (Date.now() - wall.t0) / fin * (T.length - fin) : null;
+  $('#wSub').textContent = `${wall.label} · ${fin}/${T.length}${eta != null && fin < T.length ? ' · zostało ok. ' + fmtDur(eta) : ''}${wall.model ? ' · ostatnio: ' + wall.model : ''}`;
+}
+function buildWall() {
+  taskReg = new Map();
+  workspace.innerHTML = `
+    <div class="panel wallhead">
+      <div style="display:flex;justify-content:space-between;align-items:center;gap:10px;flex-wrap:wrap">
+        <div><div class="panel-title">Generuję projekt…</div><div class="hint" id="wSub" style="margin-top:4px">Start…</div></div>
+        <button class="btn btn-gray btn-sm" id="wStop" type="button">Zatrzymaj</button>
+      </div>
+      <div class="bar"><i id="wBar"></i></div>
+      <div class="stats" id="wStats"></div>
+    </div>
+    <div id="wDays"></div>`;
+  $('#wStop').addEventListener('click', () => { if (runCtl) { runCtl.abort(); $('#wStop').disabled = true; $('#wStop').textContent = 'Zatrzymuję…'; } });
+  days.forEach(d => {
+    d._grid = el('div', { class: 'wall' });
+    $('#wDays').append(el('section', {}, el('div', { class: 'wall-day' }, `Dzień ${d.index}`, el('small', { class: 'hint', style: 'margin:0' }, `${fmtDate(d.key)} · ${d.photos.length} ${plural(d.photos.length, 'zdjęcie', 'zdjęcia', 'zdjęć')}`)), d._grid));
+  });
+}
+async function pool(items, n, signal, worker) {
+  n = Math.max(1, Math.min(n, concCap));                  // concCap spada do 1 po limicie chwilowym z API
+  let i = 0;
+  await Promise.all(Array.from({ length: Math.max(1, n) }, async () => {
+    while (i < items.length && !signal.aborted) { const it = items[i++]; await worker(it); }
+  }));
+}
+async function runStage(tasks, label, S) {
+  wall = { tasks, t0: Date.now(), label, model: '' };
+  updateWall();
+  await pool(tasks, S.concurrency, runCtl.signal, async t => {
+    try { await t.exec(); }
+    catch (e) {
+      if (e.name === 'AbortError') { t.tile.set('wait'); return; }
+      log(`${t.label}: ${e.message}`, 'error');
+      if (t.tile.state !== 'err') t.tile.set('err', { msg: e.message });
+      if (e.fatal) { fatalMsg = e.message; runCtl.abort(); }
+    }
+  });
+}
+
+
+// Budowniczowie zadań: te same funkcje służą pierwszemu przebiegowi i automatycznym rundom naprawczym.
+const T = {
+  story: (d, S, sig) => makeTask('story:' + d.index, 'story', `Dzień ${d.index} – opowieść`, '📖', null, d, tile => storyTask(d, S, sig, tile)),
+  cover: (d, ci, S, sig) => makeTask(`cover:${d.index}:${ci}`, 'cover', `Dzień ${d.index} – ilustracja ${ci + 1}`, '🖼️', null, d, tile => coverTask(d, d.covers[ci], S, sig, tile)),
+  frame: (p, S, sig) => makeTask('frame:' + p.id, 'frame', `Ramka ${p.n}`, '🍌', p.thumbUrl, days.find(d => d.index === p.dayIdx), tile => frameTask(p, S, sig, tile)),
+  pageFrame: (pg, S, sig) => makeTask('deco:' + pg.id, 'frame', `Strona ${pg.tag}`, '🖼️', pg.photos[0].thumbUrl, pg.day, tile => pageFrameTask(pg, S, sig, tile)),
+  stamp: (p, S, sig) => makeTask('stamp:' + p.id, 'stamp', `Znacznik ${p.timeStr}`, '🕒', null, days.find(d => d.index === p.dayIdx), tile => stampTask(p, days.find(d => d.index === p.dayIdx), S, sig, tile))
+};
+const AUTO_ROUNDS = 3;
+// Automatyczne rundy naprawcze: wszystko, co nie ma wyniku z AI, jest ponawiane bez klikania (z przerwą na limity API,
+// a w kolejnych rundach w niższej rozdzielczości), aż każde zdjęcie dostanie ramkę albo skończą się rundy.
+async function autoRepair(S) {
+  const sig = runCtl.signal;
+  for (let round = 1; round <= AUTO_ROUNDS; round++) {
+    if (sig.aborted || fatalMsg || !S.autoRepair) return;
+    const badStories = S.doStory ? days.filter(d => d.storyFailed) : [];
+    const badFrames = S.frameStyle === 'page'
+      ? days.flatMap(d => d.matrix).filter(pg => !pg.deco || pg.deco.kind !== 'ai')
+      : photos.filter(p => !p.frame || p.frame.kind !== 'ai');
+    const badCovers = []; if (S.doStory) days.forEach(d => { if (!d.storyFailed) d.covers.forEach((cv, ci) => { if (!cv.blob) badCovers.push([d, ci]); }); });
+    const badStamps = photos.filter(p => wantsStamp(p, S) && !(p.stamp && p.stamp.blob));
+    const total = badStories.length + badFrames.length + badCovers.length + badStamps.length;
+    if (!total) return;
+    log(`Naprawa automatyczna ${round}/${AUTO_ROUNDS}: brakuje ${total} elementów (opowieści ${badStories.length}, ramki ${badFrames.length}, ilustracje ${badCovers.length}, znaczniki ${badStamps.length})`, 'warn');
+    const until = Date.now() + Math.max(cooldownUntil - Date.now(), 0) + 8000 * round;      // przerwa: API odetchnie po limitach
+    while (Date.now() < until && !sig.aborted) {
+      const sub = $('#wSub'); if (sub) sub.textContent = `Naprawa automatyczna ${round}/${AUTO_ROUNDS}: ponawiam ${total} ${plural(total, 'element', 'elementy', 'elementów')} za ${Math.ceil((until - Date.now()) / 1000)} s…`;
+      try { await sleepAbortable(1000, sig); } catch (e) { return; }
+    }
+    const S2 = round >= 2 ? Object.assign({}, S, { imageSize: downSize(S.imageSize) }) : S;   // od drugiej rundy: niższa rozdzielczość = większa szansa
+    if (badStories.length) await runStage(badStories.map(d => T.story(d, S, sig)), `Naprawa ${round}/${AUTO_ROUNDS} · opowieści`, S);
+    if (sig.aborted || fatalMsg) return;
+    const tasks = [];
+    if (S.doStory) days.forEach(d => { if (!d.storyFailed) d.covers.forEach((cv, ci) => { if (!cv.blob) tasks.push(T.cover(d, ci, S2, sig)); }); });
+    if (S.frameStyle === 'page') days.flatMap(d => d.matrix).filter(pg => !pg.deco || pg.deco.kind !== 'ai').forEach(pg => tasks.push(T.pageFrame(pg, S2, sig)));
+    else photos.filter(p => !p.frame || p.frame.kind !== 'ai').forEach(p => tasks.push(T.frame(p, S2, sig)));
+    photos.filter(p => wantsStamp(p, S) && !(p.stamp && p.stamp.blob)).forEach(p => tasks.push(T.stamp(p, S2, sig)));
+    if (tasks.length) await runStage(tasks, `Naprawa ${round}/${AUTO_ROUNDS} · ilustracje i ramki`, S2);
+  }
+}
+
+// Trzy próbne ramki: styl i jakość widać przed puszczeniem całego albumu.
+async function runSample() {
+  if (running || importing || !photos.length) return;
+  const S = readSettings(); fatalMsg = '';
+  planLayout(S);
+  const pageStyle = S.frameStyle === 'page';
+  const all = pageStyle ? days.flatMap(d => d.matrix) : photos;
+  const step = Math.max(1, Math.floor(all.length / 3));
+  const list = [0, step, step * 2].map(i => all[Math.min(i, all.length - 1)]).filter((x, i, a) => a.indexOf(x) === i);
+  running = true; runCtl = new AbortController(); updateGenUi();
+  const out = $('#sampleOut');
+  out.innerHTML = '';
+  out.append(el('b', { style: 'font:700 14px var(--sans)' }, `Próbka: ${list.length} ${plural(list.length, 'ramka', 'ramki', 'ramek')}`));
+  const row = el('div', { class: 'row' }); out.append(row);
+  const imgs = list.map(() => { const i = el('img', { alt: 'Próbna ramka' }); row.append(i); return i; });
+  showLoader('Rysuję próbkę…', `${list.length} ${plural(list.length, 'ramka', 'ramki', 'ramek')} w ustawieniach z kroku 05.`, () => runCtl.abort());
+  let done = 0;
+  await pool(list, S.concurrency, runCtl.signal, async (p, i) => {
+    try {
+      if (pageStyle) { await pageFrameTask(p, S, runCtl.signal, NO_TILE); imgs[i].src = p.deco.thumbUrl || p.deco.url; }
+      else { await frameTask(p, S, runCtl.signal, NO_TILE); imgs[i].src = p.frame.thumbUrl || p.frame.url; }
+    }
+    catch (e) { if (e.name !== 'AbortError') { fatalMsg = e.message; if (e.fatal) runCtl.abort(); } }
+    setLoader(`${++done}/${list.length}`, done / list.length * 100);
+  });
+  running = false; hideLoader(); updateGenUi();
+  const ai = list.filter(x => (pageStyle ? x.deco : x.frame) && (pageStyle ? x.deco : x.frame).kind === 'ai').length;
+  out.append(el('p', { class: 'hint' }, ai === list.length
+    ? 'Podoba się? Kliknij „Generuj fotoksiążkę” — te ramki zostaną użyte, nie policzę ich drugi raz.'
+    : `Udało się ${ai} z ${list.length}. ${fatalMsg || 'Sprawdź ustawienia albo spróbuj ponownie za chwilę.'}`));
+  if (fatalMsg) toast(fatalMsg, 9000);
+  out.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+}
+
+async function startGeneration() {
+  if (running || importing || !photos.length) return;
+  const S = readSettings(); fatalMsg = '';
+  planLayout(S);
+  running = true; runCtl = new AbortController(); pdfBlob = null; updateGenUi();
+  $('#sampleOut').innerHTML = '';
+  $('#downloadBtn').style.display = 'none';
+  buildWall();
+  workspace.scrollIntoView({ behavior: 'smooth', block: 'start' });
+  log(`Start: ${photos.length} ${plural(photos.length, 'zdjęcie', 'zdjęcia', 'zdjęć')}, ${days.length} ${plural(days.length, 'dzień', 'dni', 'dni')}, model ${S.imageModel}, ${S.imageSize || '-'}, tryb ${S.frameMode}`);
+  const sig = runCtl.signal;
+  try {
+    if (S.doStory) await runStage(days.map(d => T.story(d, S, sig)), 'Etap 1/2 · opowieści dni', S);
+    if (!sig.aborted) {
+      const t2 = [];
+      days.forEach(d => {
+        if (S.doStory && !d.storyFailed) d.covers.forEach((cv, ci) => t2.push(T.cover(d, ci, S, sig)));
+        if (S.frameStyle === 'page') d.matrix.forEach(pg => { if (!(pg.deco && pg.deco.kind === 'ai')) t2.push(T.pageFrame(pg, S, sig)); });
+        else d.photos.forEach(p => { if (!(p.frame && p.frame.kind === 'ai')) t2.push(T.frame(p, S, sig)); });   // ramki z próbki zostają
+        d.photos.forEach(p => { if (wantsStamp(p, S)) t2.push(T.stamp(p, S, sig)); });
+      });
+      await runStage(t2, S.doStory ? 'Etap 2/2 · ilustracje i ramki' : 'Ramki i znaczniki', S);
+    }
+    await autoRepair(S);
+  } catch (e) { log('Generowanie: ' + e.message, 'error'); }
+  const stopped = runCtl.signal.aborted;
+  running = false; wall = null;
+  if (fatalMsg) toast(fatalMsg, 10000);
+  else if (stopped) toast('Zatrzymano. Brakujące ramki zastąpiono lokalnymi – możesz je ponowić w podglądzie.', 7000);
+  showLoader('Składanie stron…', 'Przygotowuję podgląd albumu.');
+  await sleep(30);
+  try {
+    if (S.frameStyle === 'page') { for (const d of days) for (const pg of d.matrix) if (!pg.deco) await makeLocalPageDeco(pg, S); }
+    else for (const p of photos) if (!p.frame) await makeLocalFrame(p, S);
+    days.forEach(d => { if (S.doStory && !d.covers.length) setCovers(d, [STORY_FALLBACK]); });
+    buildPages(S);
+  } finally { hideLoader(); }
+  renderPagesView(true);
+  updateGenUi();
+}
+
+/* ---------- podgląd stron ---------- */
+let pagesObserver = null, headEl = null;
+function frameBtnContent(p) {
+  const badge = p.frame && p.frame.kind === 'ai'
+    ? el('span', { class: 'badge' }, (IMAGE_MODELS[p.frame.model] || {}).short || 'AI')
+    : el('span', { class: 'badge local' }, 'lokalna');
+  return [`Ramka ${p.n}`, badge];
+}
+function updateFrameBtn(p) { if (p._btn) { p._btn.disabled = false; p._btn.replaceChildren(...frameBtnContent(p)); } }
+function pagesHeader() {
+  const pageStyle = layoutState.frameStyle === 'page';
+  const units = pageStyle ? pages.filter(pg => pg.type === 'matrix') : photos;
+  const local = pageStyle ? units.filter(pg => !pg.deco || pg.deco.kind === 'local').length : photos.filter(p => !p.frame || p.frame.kind === 'local').length;
+  const ai = units.length - local;
+  return el('div', { class: 'panel sticky-head' },
+    el('div', {},
+      el('div', { class: 'panel-title' }, `Gotowe: ${pages.length} ${plural(pages.length, 'strona', 'strony', 'stron')} · ramki AI ${ai}/${units.length}`),
+      el('div', { class: 'hint', style: 'margin-top:4px' }, local ? `${local} ${plural(local, 'ramka jest lokalna', 'ramki są lokalne', 'ramek jest lokalnych')} (bez AI). ${plural(local, 'Możesz ją', 'Możesz je', 'Możesz je')} ponowić jednym kliknięciem.` : 'Przejrzyj strony, a potem wygeneruj PDF.')),
+    el('div', { style: 'display:flex;gap:8px;flex-wrap:wrap' },
+      local ? el('button', { class: 'btn btn-soft btn-sm', onclick: retryLocal }, `Ponów nieudane (${local})`) : null,
+      el('button', { class: 'btn btn-ok btn-sm', onclick: exportPdf }, 'Generuj PDF'),
+      pdfBlob ? el('button', { class: 'btn btn-primary btn-sm', onclick: downloadPdf }, `Pobierz PDF (${(pdfBlob.size / 1048576).toFixed(1)} MB${lastExport ? ', ' + lastExport.dpi + ' DPI' : ''})`) : null));
+}
+function refreshHeader() { if (headEl && headEl.isConnected) { const n = pagesHeader(); headEl.replaceWith(n); headEl = n; } }
+function pageCard(pg) {
+  const land = layoutState.orientation === 'landscape';
+  const img = el('img', { alt: `Strona ${pg.no}` });
+  const wrap = el('div', { class: 'page-wrapper' + (land ? ' land' : '') }, img, el('div', { class: 'ph' }, `Strona ${pg.no}…`));
+  const tools = el('div', { class: 'page-tools' });
+  if (pg.type === 'matrix' && pg.style === 'page') tools.append(el('button', { class: 'btn btn-soft btn-sm', onclick: () => regenPageFrame(pg), title: 'Wygeneruj dekoracje tej strony ponownie' },
+    'Ponów ramkę strony', pg.deco && pg.deco.kind === 'ai' ? el('span', { class: 'badge' }, (IMAGE_MODELS[pg.deco.model] || {}).short || 'AI') : el('span', { class: 'badge local' }, 'lokalna')));
+  else if (pg.type === 'matrix') pg.photos.forEach(p => { p._btn = el('button', { class: 'btn btn-soft btn-sm', onclick: () => regenFrame(p), title: 'Wygeneruj tę ramkę ponownie (nowa postać i poza)' }, ...frameBtnContent(p)); tools.append(p._btn); });
+  else tools.append(el('button', { class: 'btn btn-soft btn-sm', onclick: () => regenDay(pg.day) }, 'Ponów opowieść dnia'));
+  pg._img = img; pg._done = false; wrap._page = pg;
+  pagesObserver.observe(wrap);
+  return el('div', { class: 'page-card' }, wrap, tools);
+}
+function renderPagesView(scrollTo) {
+  if (pagesObserver) pagesObserver.disconnect();
+  $$('.page-wrapper img', workspace).forEach(i => { if (i.dataset.url) URL.revokeObjectURL(i.dataset.url); });
+  pagesObserver = new IntersectionObserver(entries => entries.forEach(en => {
+    const pg = en.target._page;
+    if (en.isIntersecting && pg && !pg._done) { pg._done = true; renderPreview(pg, pg._img); }
+  }), { rootMargin: '1000px 0px' });
+  workspace.innerHTML = '';
+  headEl = pagesHeader(); workspace.append(headEl);
+  pages.forEach(pg => workspace.append(pageCard(pg)));
+  workspace.append(el('button', { class: 'btn btn-ok btn-big', style: 'margin:20px 0 10px', onclick: exportPdf }, 'Generuj PDF do druku'));
+  if (scrollTo) workspace.scrollIntoView({ behavior: 'smooth', block: 'start' });
+}
+function refreshPagesFor(photo) {
+  pages.filter(pg => pg.type === 'matrix' && pg.photos.includes(photo)).forEach(pg => { pg._done = true; renderPreview(pg, pg._img); });
+  updateFrameBtn(photo); refreshHeader();
+}
+
+/* ---------- ponawianie pojedynczych elementów ---------- */
+async function regenFrame(photo) {
+  if (running) return toast('Trwa inne generowanie – poczekaj chwilę.');
+  const S = readSettings();
+  running = true; runCtl = new AbortController(); fatalMsg = '';
+  replanPhoto(photo, S);
+  if (photo._btn) { photo._btn.disabled = true; photo._btn.replaceChildren('Ramka ' + photo.n + '…'); }
+  try { await frameTask(photo, S, runCtl.signal, NO_TILE); }
+  catch (e) { if (e.name !== 'AbortError') toast(e.message, 8000); }
+  finally { running = false; }
+  refreshPagesFor(photo);
+}
+async function regenPageFrame(page) {
+  if (running) return toast('Trwa inne generowanie – poczekaj chwilę.');
+  const S = readSettings(); fatalMsg = '';
+  running = true; runCtl = new AbortController();
+  showLoader(`Ponawiam ramkę strony ${page.no}…`, 'Rysuję dekorację całej kartki.', () => runCtl.abort());
+  page.plan = { theme: page.day.theme, subject: page.photos[0].plan.subject, pose: page.photos[0].plan.pose };
+  try { await pageFrameTask(page, Object.assign({}, S, { useCache: false }), runCtl.signal, NO_TILE); }
+  catch (e) { if (e.name !== 'AbortError') toast(e.message, 8000); }
+  running = false; hideLoader();
+  page._done = true; renderPreview(page, page._img);
+  refreshHeader();
+}
+async function retryLocal() {
+  if (running) return;
+  const S = readSettings(); fatalMsg = '';
+  const pageStyle = layoutState.frameStyle === 'page';
+  const list = pageStyle ? pages.filter(pg => pg.type === 'matrix' && (!pg.deco || pg.deco.kind === 'local'))
+    : photos.filter(p => !p.frame || p.frame.kind === 'local');
+  if (!list.length) return;
+  running = true; runCtl = new AbortController();
+  showLoader('Ponawiam ramki…', `0/${list.length}`, () => runCtl.abort());
+  let done = 0;
+  await pool(list, S.concurrency, runCtl.signal, async p => {
+    try { if (pageStyle) await pageFrameTask(p, Object.assign({}, S, { useCache: false }), runCtl.signal, NO_TILE); else await frameTask(p, S, runCtl.signal, NO_TILE); }
+    catch (e) { if (e.name !== 'AbortError') { fatalMsg = e.message; if (e.fatal) runCtl.abort(); } }
+    done++; setLoader(`${done}/${list.length}`, done / list.length * 100);
+  });
+  running = false; hideLoader();
+  if (fatalMsg) toast(fatalMsg, 9000);
+  if (pageStyle) list.forEach(pg => { pg._done = true; renderPreview(pg, pg._img); });
+  else list.forEach(p => { pages.filter(pg => pg.type === 'matrix' && pg.photos.includes(p)).forEach(pg => { pg._done = true; renderPreview(pg, pg._img); }); updateFrameBtn(p); });
+  refreshHeader();
+}
+async function regenDay(day) {
+  if (running) return toast('Trwa inne generowanie – poczekaj chwilę.');
+  const S = readSettings();
+  running = true; runCtl = new AbortController(); fatalMsg = '';
+  showLoader(`Ponawiam opowieść dnia ${day.index}…`, 'Pisanie tekstu i rysowanie ilustracji.', () => runCtl.abort());
+  try {
+    await storyTask(day, S, runCtl.signal, NO_TILE);
+    setLoader('Rysuję ilustracje…', 40);
+    if (!day.storyFailed) await pool(day.covers, S.concurrency, runCtl.signal, async cv => {
+      try { await coverTask(day, cv, S, runCtl.signal, NO_TILE); } catch (e) { if (e.name !== 'AbortError') log(`Ilustracja dnia ${day.index}: ${e.message}`, 'error'); }
+    });
+  } catch (e) { if (e.name !== 'AbortError') toast(e.message, 8000); }
+  running = false; hideLoader();
+  buildPages(S);                                   // liczba stron opowieści mogła się zmienić
+  const y = window.scrollY; renderPagesView(); window.scrollTo(0, y);
+}
+
+/* ---------- eksport ---------- */
+function onPdfReady() {
+  const mb = (pdfBlob.size / 1048576).toFixed(1), b = $('#downloadBtn'), dpi = lastExport ? lastExport.dpi : '';
+  b.style.display = 'flex'; b.textContent = `Pobierz gotowy PDF (${mb} MB${dpi ? ', ' + dpi + ' DPI' : ''})`;
+  refreshHeader();
+  toast(`PDF gotowy: ${dpi ? dpi + ' DPI, ' : ''}${mb} MB. Kliknij „Pobierz”.`, 7000);
+  b.scrollIntoView({ behavior: 'smooth', block: 'center' });
+}
+function downloadPdf() {
+  if (!pdfBlob) return;
+  saveBlob(pdfBlob, `Fotoksiazka_${$('#pdfFormat').value.toUpperCase()}.pdf`);
+}
+
+
+/* ---------- start ---------- */
+// Most do wnętrza aplikacji: diagnostyka w konsoli i testy automatyczne (bez zaśmiecania przestrzeni globalnej).
+const APP = {
+  get photos() { return photos; }, get pages() { return pages; }, get days() { return days; },
+  get pdfBlob() { return pdfBlob; }, get lastExport() { return lastExport; }, get running() { return running; },
+  get layoutState() { return layoutState; }, get keyState() { return keyState; }, get LOG() { return LOG; },
+  PAGE, USAGE, ENV, IMAGE_MODELS, get IMAGE_ORDER() { return IMAGE_ORDER; }, get TEXT_MODELS() { return TEXT_MODELS; }, applyCanvasModels, imageRank, textRank, jpegSize, decodeBitmap, genPlan, runSample, renderPlan, savePrefs, loadPrefs, cacheStats, cacheClear, readSettings, exportPdf, renderPage, renderPreview, stripPlan, decodeScaled,
+  cachedBitmap, planLayout, buildPages, frameTask, storyTask, coverTask, makeLocalFrame, retryLocal, regenFrame,
+  importFiles, get refImages() { return refImages; }, renderRefList, templateGeom, pageWindows, pageFrameTask, detectWindows, regenPageFrame, toast, log, version: 'v3 Canvas (2026-09-24)'
+};
+try { window.APP = APP; } catch (e) { /* środowisko blokuje zapis */ }
+if (window.__TEST) {                                        // testy używają nazw wprost; kolizje pomijamy
+  const d = Object.getOwnPropertyDescriptors(APP);
+  for (const k of Object.keys(d)) { try { Object.defineProperty(window, k, d[k]); } catch (e) { /* nazwa zajęta */ } }
+}
+
+// Każdy krok osobno: awaria jednego nie może unieruchomić całego interfejsu.
+if (ENV.canvas) { try { applyCanvasModels(ENV.cfg); } catch (e) { log('Konfiguracja Canvas: ' + e.message, 'warn'); } }
+[['ustawienia', () => { if (loadPrefs()) log('Wczytano ustawienia zapamiętane na tym urządzeniu.'); }], ['formularz', initForm], ['pamięć', showCacheInfo], ['lista postaci', updateAnimalList], ['modele', fillModelList], ['rozmiary', updateModelUi],
+ ['tryb ramki', updateModeHint], ['podgląd promptu', updatePrompt], ['lista zdjęć', renderEmpty]].forEach(([name, fn]) => {
+  try { fn(); }
+  catch (e) {
+    log(`Start (${name}): ${e.message}`, 'error');
+    if (window.__bootError) window.__bootError(`Nie udało się uruchomić: ${name}`, e.message, e.stack ? String(e.stack).split('\n')[1] : '');
+  }
+});
+const wybrany = IMAGE_MODELS[$('#imageModel').value] || {};
+log(`Aplikacja uruchomiona w ${ENV.canvas ? 'Gemini Canvas (zapytania przez Twoje konto)' : 'przeglądarce'}. Model obrazu: ${wybrany.name || $('#imageModel').value}`
+  + ` — najlepszy z dostępnych (${IMAGE_ORDER.map(id => (IMAGE_MODELS[id] || {}).short || id).join(' → ')}).`);
+
+})();
+
+</script>
+</body>
+</html>
